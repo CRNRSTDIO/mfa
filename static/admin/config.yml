@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: showcases
+    label: Showcases
+    label_singular: showcase
+    desciption: >
+      Descr
+    folder: src/pages/showcases
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - {label: Template, name: template, required: true, widget: hidden, default: showcase}
+  - name: pages
+    label: Pages
+    label_singular: page
+    description: >
+      Descr
+    editor:
+      preview: false
+    files:
+      - file: src/pages/index.md
+        label: Homepage
+        name: index
+        fields:
+          - {label: Template, name: template, widget: hidden, required: true, value: homepage}
+      - file: src/pages/oferta.md
+        label: Oferta
+        name: oferta
+        fields:
+          - {label: Template, name: template, widget: hidden, required: true, value: offer}
+      - file: src/pages/projekty-indywidualne.md
+        label: "Projekty indywidualne"
+        name: projekty-indywidualne
+        fields:
+          - {label: Template, name: template, widget: hidden, required: true, value: projects}
+      - file: src/pages/standard.md
+        label: Standard
+        name: standard
+        fields:
+          - {label: Template, name: template, widget: hidden, required: true, value: standard}
+      - file: src/pages/proces.md
+        label: Proces
+        name: proces
+        fields:
+          - {label: Template, name: template, widget: hidden, requied: true, value: process}
+      - file: src/page/o-mfa.md
+        label: "O MFA"
+        name: "o-mfa"
+        fields:
+          - {label: Template, name: template, widget: hidden, requied: true, value: about}
+      - file: src/pages/kontakt.md
+        label: Kontakt
+        name: kontakt
+        fields:
+          - {label: Template, name: template, widget: hidden, required: true, value: contact}
