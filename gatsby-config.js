@@ -14,20 +14,20 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `uploads`,
-        path: `${__dirname}/static/img`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `uploads`,
+    //     path: `${__dirname}/static/img`
+    //   }
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: `${__dirname}/src/images`
+    //   }
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -59,12 +59,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/index.js`
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `MFA`,
@@ -77,6 +71,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify'
   ]
 }
