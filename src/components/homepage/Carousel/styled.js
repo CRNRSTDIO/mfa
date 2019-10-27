@@ -138,12 +138,12 @@ export const CarouselDot = styled.button`
   :hover,
   :focus {
     ::after {
-      opacity: ${({ isCurrent }) => isCurrent ? '0' : '1'};
+      opacity: ${({ isCurrent }) => isCurrent ? '0' : '0.5'};
     }
   }
 
   ::after {
-    background-color: ${rgba(colors.dark, 0.5)};
+    background-color: ${colors.dark};
     content: '';
     height: 100%;
     opacity: 0;
