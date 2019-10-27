@@ -9,7 +9,7 @@ collections:
   - name: showcases
     label: Showcases
     label_singular: showcase
-    desciption: >
+    description: >
       Descr
     folder: src/pages/showcases
     create: true
@@ -31,6 +31,45 @@ collections:
         name: index
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: homepage}
+          - label: Slider
+            name: homepage_section_0
+            widget: object
+            fields:
+              - label: Slides
+                label_singular: Slide
+                name: slide
+                widget: list
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Heading, name: heading, widget: text}
+                  - {label: Subheading, name: subheading, widget: text}
+                  - label: Tags
+                    label_singular: Tag
+                    name: tags
+                    widget: list
+                    fields:
+                      - {label: Tag, label_singular: Tag, name: tag, widget: string}
+          # - label: Section
+          #   name: homepage_section_1
+          #   widget: object
+          #   fields:
+          #     - {label: Label, name: label, widget: string}
+          #     - {label: Heading, name: heading, widget: text}
+          #     - {label: Text, name: text, widget: text}
+          #     - {label: Side text, name: side-text, widget: text}
+          - label: Section
+            name: homepage_section_2
+            widget: object
+            fields:
+              - label: Slides
+                label_singular: Slide
+                name: slide
+                widget: list
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Image, name: image, widget: image}
+                  - {label: Heading, name: heading, widget: text}
+                  - {label: Subheading, name: subheading, widget: text}
       - file: src/pages/oferta.md
         label: Oferta
         name: oferta

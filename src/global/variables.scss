@@ -1,0 +1,19 @@
+$white-color: #FFFFFF;
+$red-color: #EF4058;
+$grey-color: #AFB0B0;
+$grey1-color: #F3F3F3;
+$grey2-color: #D8D8D8;
+$grey3-color: #4E4E4E;
+$dark-color: #252525;
+$dark1-color: #111111;
+
+:export {
+  white: $white-color;
+  red: $red-color;
+  grey: $grey-color;
+  grey1: $grey1-color;
+  grey2: $grey2-color;
+  grey3: $grey3-color;
+  dark: $dark-color;
+  dark1: $dark1-color;
+}
