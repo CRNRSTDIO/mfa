@@ -50,37 +50,48 @@ collections:
                     widget: list
                     fields:
                       - {label: Tag, label_singular: Tag, name: tag, widget: string}
-          # - label: Section
-          #   name: homepage_section_1
-          #   widget: object
-          #   fields:
-          #     - {label: Label, name: label, widget: string}
-          #     - {label: Heading, name: heading, widget: text}
-          #     - {label: Text, name: text, widget: text}
-          #     - {label: Side text, name: side-text, widget: text}
-          - label: Section
+          - label: Section 'NOWY STANDARD'
+            name: homepage_section_1
+            widget: object
+            fields:
+              - {label: Label, name: label, widget: string}
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - {label: Aside, name: aside, widget: text, required: false}
+          - label: Section 'NASZ STANDARD'
             name: homepage_section_2
             widget: object
             fields:
-              - label: Slides
-                label_singular: Slide
-                name: slide
-                widget: list
-                fields:
-                  - {label: Label, name: label, widget: string}
-                  - {label: Image, name: image, widget: image}
-                  - {label: Heading, name: heading, widget: text}
-                  - {label: Subheading, name: subheading, widget: text}
+              - {label: Label, name: label, widget: string}
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
       - file: src/pages/oferta.md
         label: Oferta
         name: oferta
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: offer}
+          - label: Landing
+            name: offer_section_0
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
       - file: src/pages/projekty-indywidualne.md
         label: "Projekty indywidualne"
         name: projekty-indywidualne
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: projects}
+          - label: Landing
+            name: projects_section_0
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Image, name: image, widget: image}
+          - label: Section
+            name: projects_section_1
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
       - file: src/pages/standard.md
         label: Standard
         name: standard
@@ -91,6 +102,23 @@ collections:
         name: proces
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: process}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: Homepage slider
+                name: homepage_slider
+                widget: object
+                fields:
+                  - label: Slides
+                    label_singular: Slide
+                    name: slides
+                    widget: list
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Heading, name: heading, widget: text}
+                      - {label: Text, name: text, widget: text}
+                      - {label: Image, name: image, widget: image}
       - file: src/page/o-mfa.md
         label: "O MFA"
         name: "o-mfa"

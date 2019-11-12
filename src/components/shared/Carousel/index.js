@@ -3,103 +3,93 @@ import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import Media from 'react-media'
 import { Carousel as CarouselPlugin } from 'react-responsive-carousel'
+import Button from '../Button'
+
+import settings from './settings'
 import * as styled from './styled'
 
-const Carousel = ({ selectedItem, onChange, prev, next, goTo }) => (
+const Carousel = ({
+  slide,
+  selectedItem, onChange, prev, next, goTo
+}) => (
   <styled.Carousel>
     <styled.CarouselTabs>
       <Media
         query='(max-width: 768px)'
         render={() => (
           <CarouselPlugin
-            infiniteLoop
             centerMode
             centerSlidePercentage={50}
-            showThumbs={false}
-            showArrows={false}
-            showStatus={false}
-            showIndicators={false}
             selectedItem={selectedItem}
             onChange={onChange}
+            {...settings}
           >
-            <styled.CarouselTab onClick={() => goTo(0)} isCurrent={selectedItem === 0}>Konstrukcja</styled.CarouselTab>
-            <styled.CarouselTab onClick={() => goTo(1)} isCurrent={selectedItem === 1}>Wizja</styled.CarouselTab>
-            <styled.CarouselTab onClick={() => goTo(2)} isCurrent={selectedItem === 2}>Proces</styled.CarouselTab>
+            {slide.map(({ label }, index) => (
+              <styled.CarouselTab
+                key={label}
+                onClick={() => goTo(index)}
+                isCurrent={selectedItem === index}
+              >
+                {label}
+              </styled.CarouselTab>
+            ))}
           </CarouselPlugin>
         )}
       />
       <Media
         query='(min-width: 768px)'
         render={() => (
-          <>
-            <styled.CarouselTab onClick={() => goTo(0)} isCurrent={selectedItem === 0}>Konstrukcja</styled.CarouselTab>
-            <styled.CarouselTab onClick={() => goTo(0)} isCurrent={selectedItem === 1}>Wizja</styled.CarouselTab>
-            <styled.CarouselTab onClick={() => goTo(0)} isCurrent={selectedItem === 2}>Proces</styled.CarouselTab>
-          </>
+          <div className='container'>
+            <div className='grid'>
+              <div className='col grid' data-push-left='off-1'>
+                {slide.map(({ label }, index) => (
+                  <div key={label} className='col-1' data-push-left='off-1'>
+                    <styled.CarouselTab
+                      onClick={() => goTo(index)}
+                      isCurrent={selectedItem === index}
+                    >
+                      {label}
+                    </styled.CarouselTab>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         )}
       />
     </styled.CarouselTabs>
     <styled.CarouselItems>
       <CarouselPlugin
-        infiniteLoop
-        showThumbs={false}
-        showArrows={false}
-        showStatus={false}
-        showIndicators={false}
         selectedItem={selectedItem}
         onChange={onChange}
+        {...settings}
       >
-        <styled.CarouselItem>
-          <styled.CarouselItemImage>
-            {}
-          </styled.CarouselItemImage>
-          <styled.CarouselItemText>
-            <styled.CarouselControls>
-              <styled.CarouselArrowLeft onClick={prev} />
-              <styled.CarouselArrowRight onClick={next} />
-            </styled.CarouselControls>
-            <styled.CarouselItemHeading>
-              Idealna harmonia pomiędzy rodziną, a jej domem i otaczającym go środowiskiem 1
-            </styled.CarouselItemHeading>
-            <styled.CarouselItemSubheading>
-              Throughout the design process, we collaborate with each client to gain an understanding of their unique needs – defining the success of each building.
-            </styled.CarouselItemSubheading>
-          </styled.CarouselItemText>
-        </styled.CarouselItem>
-        <styled.CarouselItem>
-          <styled.CarouselItemImage>
-            {}
-          </styled.CarouselItemImage>
-          <styled.CarouselItemText>
-            <styled.CarouselControls>
-              <styled.CarouselArrowLeft onClick={prev} />
-              <styled.CarouselArrowRight onClick={next} />
-            </styled.CarouselControls>
-            <styled.CarouselItemHeading>
-              Idealna harmonia pomiędzy rodziną, a jej domem i otaczającym go środowiskiem 2
-            </styled.CarouselItemHeading>
-            <styled.CarouselItemSubheading>
-              Throughout the design process, we collaborate with each client to gain an understanding of their unique needs – defining the success of each building.
-            </styled.CarouselItemSubheading>
-          </styled.CarouselItemText>
-        </styled.CarouselItem>
-        <styled.CarouselItem>
-          <styled.CarouselItemImage>
-            {}
-          </styled.CarouselItemImage>
-          <styled.CarouselItemText>
-            <styled.CarouselControls>
-              <styled.CarouselArrowLeft onClick={prev} />
-              <styled.CarouselArrowRight onClick={next} />
-            </styled.CarouselControls>
-            <styled.CarouselItemHeading>
-              Idealna harmonia pomiędzy rodziną, a jej domem i otaczającym go środowiskiem 3
-            </styled.CarouselItemHeading>
-            <styled.CarouselItemSubheading>
-              Throughout the design process, we collaborate with each client to gain an understanding of their unique needs – defining the success of each building.
-            </styled.CarouselItemSubheading>
-          </styled.CarouselItemText>
-        </styled.CarouselItem>
+        {slide.map(({ image, heading, subheading }, index) => (
+          <styled.CarouselItem key={index}>
+            <styled.CarouselItemImage>
+              <Img fluid={image.childImageSharp.fluid} />
+            </styled.CarouselItemImage>
+            <div className='container'>
+              <div className='grid'>
+                <div className='col-6_xs-12' data-push-left='off-6_xs-0'>
+                  <styled.CarouselItemText>
+                    <styled.CarouselControls>
+                      <styled.CarouselArrowLeft onClick={prev} />
+                      <styled.CarouselArrowRight onClick={next} />
+                    </styled.CarouselControls>
+                    <styled.CarouselItemHeading>
+                      {heading}
+                    </styled.CarouselItemHeading>
+                    <styled.CarouselItemSubheading>
+                      {subheading}
+                    </styled.CarouselItemSubheading>
+                    <Button>Więcej</Button>
+                  </styled.CarouselItemText>
+                </div>
+              </div>
+            </div>
+          </styled.CarouselItem>
+        ))}
       </CarouselPlugin>
     </styled.CarouselItems>
   </styled.Carousel>

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { rgba } from 'polished'
 import * as colors from '../../../global/variables.scss'
 
 export const Carousel = styled.div`
