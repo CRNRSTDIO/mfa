@@ -16,9 +16,143 @@ collections:
     editor:
       preview: false
     slug: "{{slug}}"
+    identifier_field: showcase_title
     fields:
       - {label: Template, name: template, required: true, widget: hidden, default: showcase}
-      - {label: Title, name: title, widget: string}
+      - {label: Label, name: showcase_label, widget: string}
+      - {label: Title, name: showcase_title, widget: text}
+      - label: Tags
+        label_singular: Tag
+        name: showcase_tags
+        widget: list
+        fields:
+          - {label: Text, name: tag, widget: string}
+      - {label: Sold, name: showcase_isSold, widget: boolean, default: false}
+      - {label: Year, name: showcase_year, widget: string}
+      - label: Main image
+        name: showcase_main_image
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Gallery
+        name: showcase_gallery_top
+        widget: object
+        fields:
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Opis inwestycji' section"
+        name: showcase_section_descr
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+      - label: Image section
+        name: showcase_section_image
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Rzut terenu' section"
+        name: showcase_section_landscape
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: Legend items
+            label_singular: Legend item
+            name: legend_items
+            widget: list
+            fields:
+              - {label: Text, name: item, widget: string}
+      - label: "'Rzut budynku' section"
+        name: showcase_section_building
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - label: Blueprints
+            label_singular: Blueprint
+            name: blueprints
+            widget: list
+            fields:
+              - label: Blueprint
+                name: blueprint
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Legend, name: legend, widget: text}
+      - label: "'Użyte materiały' section"
+        name: showcase_section_materials_used
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - label: Logos
+            label_singular: Logo
+            name: logos
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Image section
+        name: showcase_section_image_2
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Zastosowane technologie' section"
+        name: showcase_section_tech_used
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Gallery
+        name: showcase_gallery_bottom
+        widget: object
+        fields:
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Kontakt' section"
+        name: showcase_section_contact
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Price, name: price, widget: string}
+          - {label: New price, name: price_new, widget: string}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - label: Contact details
+                label_singular: Contact detail
+                name: details
+                widget: list
+                fields:
+                  - {label: Heading, name: heading, widget: string}
+                  - {label: Data, name: data, widget: string}
   - name: pages
     label: Pages
     label_singular: page
@@ -41,16 +175,17 @@ collections:
                 name: slide
                 widget: list
                 fields:
-                  - {label: Image, name: image, widget: image}
                   - {label: Heading, name: heading, widget: text}
                   - {label: Subheading, name: subheading, widget: text}
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
                   - label: Tags
                     label_singular: Tag
                     name: tags
                     widget: list
                     fields:
                       - {label: Tag, label_singular: Tag, name: tag, widget: string}
-          - label: Section 'NOWY STANDARD'
+          - label: "'Nowy standard' section"
             name: homepage_section_1
             widget: object
             fields:
@@ -58,13 +193,20 @@ collections:
               - {label: Heading, name: heading, widget: text}
               - {label: Text, name: text, widget: text}
               - {label: Aside, name: aside, widget: text, required: false}
-          - label: Section 'NASZ STANDARD'
+          - label: "'NASZ STANDARD' section"
             name: homepage_section_2
             widget: object
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Heading, name: heading, widget: text}
               - {label: Text, name: text, widget: text}
+          - label: "'Twoja idealna przestrzeń' section"
+            name: homepage_section_3
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
       - file: src/pages/oferta.md
         label: Oferta
         name: oferta
@@ -91,35 +233,89 @@ collections:
             widget: object
             fields:
               - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: markdown}
+          - label: "'Nasze realizacje' section"
+            name: projects_section_2
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+          - label: "'Proces powstawania' section"
+            name: projects_section_3
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - label: Steps
+                label_singular: Step
+                name: steps
+                widget: list
+                fields:
+                  - {label: Step, name: step, widget: string}
               - {label: Text, name: text, widget: text}
+          - label: "'Nasz standard' section"
+            name: projects_section_4
+            widget: object
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - label: Logos
+                label_singular: Logo
+                name: logos
+                widget: list
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: "'Dołacz do grona' section"
+            name: projects_section_5
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - label: Contact details
+                label_singular: Contact detail
+                name: details
+                widget: list
+                fields:
+                  - {label: Heading, name: heading, widget: string}
+                  - {label: Data, name: data, widget: string}
+              - label: Opinions
+                label_singular: Opinion
+                name: opinions
+                widget: list
+                fields:
+                  - {label: Text, name: text, widget: text}
+                  - {label: Subtext, name: subtext, widget: string}
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Link, name: link, widget: text}
       - file: src/pages/standard.md
         label: Standard
         name: standard
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: standard}
+          - label: Landing
+            name: standard_section_0
+            widget: object
+            fields:
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: Sections
+            label_singular: Section
+            name: standard_sections
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
       - file: src/pages/proces.md
         label: Proces
         name: proces
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: process}
-          - label: Metadata
-            name: metadata
-            widget: object
-            fields:
-              - label: Homepage slider
-                name: homepage_slider
-                widget: object
-                fields:
-                  - label: Slides
-                    label_singular: Slide
-                    name: slides
-                    widget: list
-                    fields:
-                      - {label: Title, name: title, widget: string}
-                      - {label: Heading, name: heading, widget: text}
-                      - {label: Text, name: text, widget: text}
-                      - {label: Image, name: image, widget: image}
-      - file: src/page/o-mfa.md
+      - file: src/pages/o-mfa.md
         label: "O MFA"
         name: "o-mfa"
         fields:
