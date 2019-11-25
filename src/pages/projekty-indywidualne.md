@@ -1,5 +1,8 @@
 ---
 template: projects
+metadata:
+  metadata_offer:
+    title: BUDOWA DOMU pod klucz
 projects_section_0:
   heading: |-
     Zrealizujemy budowę

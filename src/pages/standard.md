@@ -1,5 +1,18 @@
 ---
 template: standard
+metadata:
+  metadata_standard:
+    alt: Opis zdjęcia
+    heading: |-
+      Zaopatrujemy i dostarczamy
+      odpowiednie materiały
+      we wszystkich fazach budowy
+    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    text: >-
+      Throughout the design process, we collaborate with each client to gain an
+      understanding of their unique needs – defining the success of each
+      building.
+    title: materiały
 standard_section_0:
   alt: Opis zdjęcia
   image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
