@@ -9,7 +9,7 @@ const Body = ({ children, note }) => (
       <div className='col-5_xs-12' data-push-left='off-2_xs-0'>
         {children}
       </div>
-      <div className='col-3_xs_12' data-push-left='off-1'>
+      <div className='col-3_xs-12' data-push-left='off-1_xs-0'>
         <styled.BodyNote>
           {note}
         </styled.BodyNote>

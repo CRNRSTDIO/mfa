@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BackgroundImg from 'gatsby-background-image'
 import * as colors from '../../../global/variables.scss'
 
 export const Carousel = styled.div`
@@ -13,7 +14,17 @@ export const CarouselItem = styled.div`
   height: 100vh;
   justify-content: flex-start;
   padding: 0 1.875rem;
+  position: relative;
   text-align: left;
+`
+
+export const CarouselItemBackgroundImage = styled(BackgroundImg)`
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 `
 
 export const CarouselControls = styled.div`
@@ -56,6 +67,8 @@ export const CarouselArrowLeft = styled(CarouselArrow)`
 `
 
 export const CarouselItemText = styled.div`
+  position: relative;
+  z-index: 0;
 `
 
 export const CarouselItemHeading = styled.h2`

@@ -4,13 +4,13 @@ import * as colors from '../../../global/variables.scss'
 export const Label = styled.span`
   color: ${colors.grey};
   display: block;
-  font-size: 10px;
-  letter-spacing: 10px;
+  font-size: .625rem;
+  letter-spacing: .625rem;
   text-transform: uppercase;
 `
 
 export const LabelText = styled.div`
-  padding: 20px 0 0;
+  padding: 1.25rem 0 0;
   position: relative;
 
   ::before {
@@ -21,6 +21,6 @@ export const LabelText = styled.div`
     left: 0;
     position: absolute;
     top: 0;
-    width: 14px;
+    width: .875rem;
   }
 `

@@ -212,6 +212,15 @@ collections:
         name: oferta
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: offer}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: "'Nasza oferta' section"
+                name: metadata_offer
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
           - label: Landing
             name: offer_section_0
             widget: object
@@ -222,6 +231,15 @@ collections:
         name: projekty-indywidualne
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: projects}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: "'Nasza oferta' section"
+                name: metadata_offer
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
           - label: Landing
             name: projects_section_0
             widget: object
@@ -294,6 +312,19 @@ collections:
         name: standard
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: standard}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: "'Nasz standard' section"
+                name: metadata_standard
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Heading, name: heading, widget: text}
+                  - {label: Text, name: text, widget: text}
           - label: Landing
             name: standard_section_0
             widget: object
@@ -312,14 +343,72 @@ collections:
               - {label: Image alternative text, name: alt, widget: string, required: false}
       - file: src/pages/proces.md
         label: Proces
-        name: proces
+        name: process
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: process}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: "'Nasz standard' section"
+                name: metadata_standard
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Heading, name: heading, widget: text}
+                  - {label: Text, name: text, widget: text}
+          - label: Landing
+            name: process_section_0
+            widget: object
+            fields:
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: Sections
+            label_singular: Section
+            name: process_sections
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
       - file: src/pages/o-mfa.md
         label: "O MFA"
         name: "o-mfa"
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: about}
+          - label: Metadata
+            name: metadata
+            widget: object
+            fields:
+              - label: "'Nasz standard' section"
+                name: metadata_standard
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Heading, name: heading, widget: text}
+                  - {label: Text, name: text, widget: text}
+          - label: Landing
+            name: o-mfa_section_0
+            widget: object
+            fields:
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: Sections
+            label_singular: Section
+            name: o-mfa_sections
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
       - file: src/pages/kontakt.md
         label: Kontakt
         name: kontakt

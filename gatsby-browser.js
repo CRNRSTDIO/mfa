@@ -9,3 +9,10 @@ import 'gridlex'
 import './src/fonts/index.css'
 
 export { default as wrapRootElement } from './src/state'
+
+export const onClientEntry = () => {
+  if (typeof window.IntersectionObserver === 'undefined') {
+    import('intersection-observer')
+    console.log('IntersectionObserver polyfill loaded')
+  }
+}

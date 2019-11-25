@@ -8,7 +8,7 @@ import settings from './settings'
 import * as styled from './styled'
 
 const Carousel = ({
-  slide,
+  edges: showcases,
   selectedItem, onChange, prev, next, goTo
 }) => (
   <styled.Carousel>
@@ -18,19 +18,19 @@ const Carousel = ({
         onChange={onChange}
         {...settings}
       >
-        {slide.map(({ image, heading, subheading }, index) => (
+        {[...showcases, ...showcases, ...showcases].map(({ node: { frontmatter: { showcase_main_image: { image: { childImageSharp: { fluid } } } } } }, index) => (
           <styled.CarouselItem key={index}>
             <div className='grid-noBottom'>
               <div className='grid-noBottom-middle col-12'>
                 <div className='col-7 xs-hidden'>
                   <styled.CarouselItemImageBig>
-                    <Img fluid={image.childImageSharp.fluid} />
+                    <Img fluid={fluid} />
                   </styled.CarouselItemImageBig>
                 </div>
                 <div className='col-4_xs-10' data-push-left='off-1'>
                   <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
                   <styled.CarouselItemImage>
-                    <Img fluid={image.childImageSharp.fluid} />
+                    <Img fluid={fluid} />
                   </styled.CarouselItemImage>
                   <styled.CarouselItemHeading>Segment Bliźniaka w Choszcznie</styled.CarouselItemHeading>
                   <styled.CarouselItemDate>2019</styled.CarouselItemDate>
@@ -50,7 +50,7 @@ const Carousel = ({
         ))}
       </CarouselPlugin>
       <styled.CarouselDots>
-        {slide.map((_, index) => (
+        {[...showcases, ...showcases, ...showcases].map((_, index) => (
           <styled.CarouselDot
             key={index}
             onClick={() => goTo(index)}

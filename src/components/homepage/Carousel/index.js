@@ -1,61 +1,55 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Carousel as CarouselPlugin } from 'react-responsive-carousel'
+
+import settings, { background } from './settings'
 import * as styled from './styled'
 
-const Carousel = ({ selectedItem, onChange, prev, next, goTo }) => (
+const Carousel = ({
+  slide,
+  selectedItem,
+  onChange,
+  prev,
+  next,
+  goTo
+}) => (
   <styled.Carousel>
     <CarouselPlugin
-      showThumbs={false}
-      showStatus={false}
-      showIndicators={false}
-      showArrows={false}
       onChange={onChange}
-      infiniteLoop
       selectedItem={selectedItem}
+      {...settings}
     >
-      <styled.CarouselItem>
-        <styled.CarouselItemText>
-          <styled.CarouselControls>
-            <styled.CarouselArrowLeft onClick={prev} />
-            <styled.CarouselArrowRight onClick={next} />
-          </styled.CarouselControls>
-          <styled.CarouselItemHeading>Nowoczesny Dom w Choszcznie 1</styled.CarouselItemHeading>
-          <styled.CarouselItemSubheading>Segmnet Bliźniaka</styled.CarouselItemSubheading>
-          <styled.CarouselItemTags>
-            <styled.CarouselItemTag>Metraż - 180 m2</styled.CarouselItemTag>
-            <styled.CarouselItemTag>Cena - 450 000 zł</styled.CarouselItemTag>
-          </styled.CarouselItemTags>
-        </styled.CarouselItemText>
-      </styled.CarouselItem>
-      <styled.CarouselItem>
-        <styled.CarouselItemText>
-          <styled.CarouselControls>
-            <styled.CarouselArrowLeft onClick={prev} />
-            <styled.CarouselArrowRight onClick={next} />
-          </styled.CarouselControls>
-          <styled.CarouselItemHeading>Nowoczesny Dom w Choszcznie 2</styled.CarouselItemHeading>
-          <styled.CarouselItemSubheading>Segmnet Bliźniaka</styled.CarouselItemSubheading>
-          <styled.CarouselItemTags>
-            <styled.CarouselItemTag>Metraż - 180 m2</styled.CarouselItemTag>
-            <styled.CarouselItemTag>Cena - 450 000 zł</styled.CarouselItemTag>
-          </styled.CarouselItemTags>
-        </styled.CarouselItemText>
-      </styled.CarouselItem>
-      <styled.CarouselItem>
-        <styled.CarouselItemText>
-          <styled.CarouselControls>
-            <styled.CarouselArrowLeft onClick={prev} />
-            <styled.CarouselArrowRight onClick={next} />
-          </styled.CarouselControls>
-          <styled.CarouselItemHeading>Nowoczesny Dom w Choszcznie 3</styled.CarouselItemHeading>
-          <styled.CarouselItemSubheading>Segmnet Bliźniaka</styled.CarouselItemSubheading>
-          <styled.CarouselItemTags>
-            <styled.CarouselItemTag>Metraż - 180 m2</styled.CarouselItemTag>
-            <styled.CarouselItemTag>Cena - 450 000 zł</styled.CarouselItemTag>
-          </styled.CarouselItemTags>
-        </styled.CarouselItemText>
-      </styled.CarouselItem>
+      {slide.map(({
+        heading,
+        subheading,
+        tags,
+        image: {
+          childImageSharp: {
+            fluid
+          }
+        },
+        alt
+      }, key) => (
+        <styled.CarouselItem key={key}>
+          <styled.CarouselItemBackgroundImage
+            fluid={fluid}
+            {...background}
+          />
+          <styled.CarouselItemText>
+            <styled.CarouselControls>
+              <styled.CarouselArrowLeft onClick={prev} />
+              <styled.CarouselArrowRight onClick={next} />
+            </styled.CarouselControls>
+            <styled.CarouselItemHeading>{heading}</styled.CarouselItemHeading>
+            <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
+            <styled.CarouselItemTags>
+              {tags.map(({ tag }, key) => (
+                <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
+              ))}
+            </styled.CarouselItemTags>
+          </styled.CarouselItemText>
+        </styled.CarouselItem>
+      ))}
     </CarouselPlugin>
     <styled.CarouselDots>
       <styled.CarouselDot onClick={() => goTo(0)} isCurrent={selectedItem === 0}>01</styled.CarouselDot>
@@ -66,6 +60,7 @@ const Carousel = ({ selectedItem, onChange, prev, next, goTo }) => (
 )
 
 Carousel.propTypes = {
+  slide: PropTypes.array.isRequired,
   selectedItem: PropTypes.number.isRequired,
   onChange: PropTypes.func.isRequired,
   prev: PropTypes.func.isRequired,

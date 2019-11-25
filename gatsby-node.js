@@ -37,7 +37,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => graphql(`
     createPage({
       path: slug,
       component: path.resolve(
-        `src/templates/${template}.js`
+        `src/queries/${template}/index.js`
       ),
       context: {
         id
