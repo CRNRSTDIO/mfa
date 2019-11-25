@@ -2,10 +2,12 @@
 template: standard
 metadata:
   metadata_standard:
+    alt: Opis zdjęcia
     heading: |-
       Idealna harmonia pomiędzy 
       rodziną, a jej domem
       i otaczającym go środowiskiem
+    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
     text: >-
       Throughout the design process, we collaborate with each client to gain an
       understanding of their unique needs – defining the success of each
