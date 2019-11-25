@@ -1,5 +1,16 @@
 ---
 template: standard
+metadata:
+  metadata_standard:
+    heading: |-
+      Idealna harmonia pomiędzy 
+      rodziną, a jej domem
+      i otaczającym go środowiskiem
+    text: >-
+      Throughout the design process, we collaborate with each client to gain an
+      understanding of their unique needs – defining the success of each
+      building.
+    title: materiały
 standard_section_0:
   alt: Opis zdjęcia
   image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
