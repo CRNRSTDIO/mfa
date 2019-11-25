@@ -4,9 +4,9 @@ metadata:
   metadata_standard:
     alt: Opis zdjęcia
     heading: |-
-      Idealna harmonia pomiędzy 
-      rodziną, a jej domem
-      i otaczającym go środowiskiem
+      Zaopatrujemy i dostarczamy
+      odpowiednie materiały
+      we wszystkich fazach budowy
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
     text: >-
       Throughout the design process, we collaborate with each client to gain an
