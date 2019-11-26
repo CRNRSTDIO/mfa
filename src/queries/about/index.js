@@ -10,7 +10,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            standard_section_0 {
+            "o-mfa_section_0" {
               alt
               image {
                 childImageSharp {
@@ -21,7 +21,7 @@ export const query = graphql`
               }
               text
             }
-            standard_sections {
+            "o-mfa_sections" {
               alt
               image {
                 childImageSharp {
