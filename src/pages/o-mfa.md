@@ -13,13 +13,13 @@ metadata:
       understanding of their unique needs – defining the success of each
       building.
     title: wizja
-o-mfa_section_0:
+mfa_section_0:
   alt: Opis zdjęcia
   image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
   text: |-
     Architektura dla
     lepszego komfortu życia
-o-mfa_sections:
+mfa_sections:
   - alt: Opis zdjęcia
     heading: Przestrzeń
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
