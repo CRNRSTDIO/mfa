@@ -2,6 +2,7 @@
 template: process
 metadata:
   metadata_listing:
+    alt: Opis zdjęcia
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
     title: Zobacz jak wygląda nasz proces realizacji
   metadata_standard:
