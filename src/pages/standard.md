@@ -1,6 +1,10 @@
 ---
 template: standard
 metadata:
+  metadata_listing:
+    alt: Opis zdjęcia
+    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    title: Poznaj standard używanych materiałów
   metadata_standard:
     alt: Opis zdjęcia
     heading: |-
