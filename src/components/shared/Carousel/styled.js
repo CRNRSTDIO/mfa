@@ -92,7 +92,6 @@ export const CarouselItems = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  padding: 0 1.875rem;
   position: relative;
 `
 

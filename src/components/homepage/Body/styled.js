@@ -4,6 +4,7 @@ import * as colors from '../../../global/variables.scss'
 export const Body = styled.div`
   color: ${colors.dark};
   font-size: .9375rem;
+  line-height: 2rem;
   margin: 0;
 `
 

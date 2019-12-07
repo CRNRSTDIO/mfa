@@ -1,2 +1,2 @@
-export { default as Carousel } from './Carousel'
-export { default as CarouselThumbs } from './CarouselThumbs'
+export { default as Select } from './Select'
+export { default as Listing } from './Listing'

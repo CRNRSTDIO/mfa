@@ -7,24 +7,24 @@ import settings from './settings'
 import * as styled from './styled'
 
 const Carousel = ({
-  slide,
+  edges: showcases,
   selectedItem, onChange, prev, next, goTo
 }) => (
   <div className='container'>
     <div className='grid'>
-      <div className='col-10_xs-12' data-push-left='off-1_xs-0'>
+      <div className='col-9_xs-12' data-push-left='off-2_xs-0'>
         <styled.Carousel>
           <CarouselPlugin
             selectedItem={selectedItem}
             onChange={onChange}
             {...settings}
           >
-            {slide.map(({ image }, index) => (
+            {[...showcases, ...showcases, ...showcases, ...showcases].map(({ node: { frontmatter: { showcase_title: title, showcase_year: year, showcase_main_image: { alt, image: { childImageSharp: { fluid } } } } } }, index) => (
               <styled.CarouselItem key={index}>
-                <Img fluid={image.childImageSharp.fluid} />
+                <Img fluid={fluid} alt={alt} />
                 <styled.CarouselItemText>
-                  <styled.CarouselItemHeading>Wolnostojący Dom w Węgorzynie</styled.CarouselItemHeading>
-                  <styled.CarouselItemDate>2017</styled.CarouselItemDate>
+                  <styled.CarouselItemHeading>{title}</styled.CarouselItemHeading>
+                  <styled.CarouselItemDate>{year}</styled.CarouselItemDate>
                 </styled.CarouselItemText>
               </styled.CarouselItem>
             ))}
@@ -32,7 +32,7 @@ const Carousel = ({
           <styled.CarouselControls>
             <styled.CarouselArrowLeft onClick={prev} />
             <styled.CarouselDots>
-              {slide.map((_, index) => (
+              {[...showcases, ...showcases, ...showcases, ...showcases].map((_, index) => (
                 <styled.CarouselDot
                   key={index}
                   onClick={() => goTo(index)}

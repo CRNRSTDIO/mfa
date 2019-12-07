@@ -9,8 +9,10 @@ body {
 }
 
 .container {
+  flex-basis: 100%;
   margin: 0 auto;
   max-width: 70.5rem;
+  padding: 0 1.875rem;
 }
 
 article,

@@ -6,13 +6,15 @@ export const Button = styled.button`
   border: 0;
   border-radius: 0;
   color: ${colors.red};
+  display: inline-block;
   font-family: inherit;
   font-size: .5625rem;
-  letter-spacing: 10px;
-  margin: 0;
+  letter-spacing: .625rem;
+  margin: 0 0 1rem;
   outline: 0;
-  padding: 12px 28px;
+  padding: .75rem 1.75rem;
   position: relative;
+  text-decoration: none;
   text-transform: uppercase;
 
   ::after {

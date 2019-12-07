@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import * as styled from './styled'
 
-const Button = ({ children }) => (
-  <styled.Button>
+const Button = ({ children, ...rest }) => (
+  <styled.Button {...rest}>
     {children}
   </styled.Button>
 )

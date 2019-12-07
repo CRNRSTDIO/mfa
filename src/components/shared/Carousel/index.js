@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Media from 'react-media'
 import { Carousel as CarouselPlugin } from 'react-responsive-carousel'
@@ -9,7 +10,7 @@ import settings from './settings'
 import * as styled from './styled'
 
 const Carousel = ({
-  slide,
+  edges: items,
   selectedItem, onChange, prev, next, goTo
 }) => (
   <styled.Carousel>
@@ -24,13 +25,13 @@ const Carousel = ({
             onChange={onChange}
             {...settings}
           >
-            {slide.map(({ label }, index) => (
+            {items.map(({ node: { frontmatter: { metadata: { metadata_standard: { title } } } } }, index) => (
               <styled.CarouselTab
-                key={label}
+                key={title}
                 onClick={() => goTo(index)}
                 isCurrent={selectedItem === index}
               >
-                {label}
+                {title}
               </styled.CarouselTab>
             ))}
           </CarouselPlugin>
@@ -40,15 +41,15 @@ const Carousel = ({
         query='(min-width: 768px)'
         render={() => (
           <div className='container'>
-            <div className='grid'>
-              <div className='col grid' data-push-left='off-1'>
-                {slide.map(({ label }, index) => (
-                  <div key={label} className='col-1' data-push-left='off-1'>
+            <div className='grid-noBottom'>
+              <div className='col grid-noBottom' data-push-left='off-1'>
+                {items.map(({ node: { frontmatter: { metadata: { metadata_standard: { title } } } } }, index) => (
+                  <div key={title} className='col-1' data-push-left='off-1'>
                     <styled.CarouselTab
                       onClick={() => goTo(index)}
                       isCurrent={selectedItem === index}
                     >
-                      {label}
+                      {title}
                     </styled.CarouselTab>
                   </div>
                 ))}
@@ -64,13 +65,13 @@ const Carousel = ({
         onChange={onChange}
         {...settings}
       >
-        {slide.map(({ image, heading, subheading }, index) => (
+        {items.map(({ node: { fields: { slug }, frontmatter: { metadata: { metadata_standard: { alt, heading, text, image: { childImageSharp: { fluid } } } } } } }, index) => (
           <styled.CarouselItem key={index}>
             <styled.CarouselItemImage>
-              <Img fluid={image.childImageSharp.fluid} />
+              <Img fluid={fluid} alt={alt} />
             </styled.CarouselItemImage>
             <div className='container'>
-              <div className='grid'>
+              <div className='grid-noBottom'>
                 <div className='col-6_xs-12' data-push-left='off-6_xs-0'>
                   <styled.CarouselItemText>
                     <styled.CarouselControls>
@@ -81,9 +82,9 @@ const Carousel = ({
                       {heading}
                     </styled.CarouselItemHeading>
                     <styled.CarouselItemSubheading>
-                      {subheading}
+                      {text}
                     </styled.CarouselItemSubheading>
-                    <Button>Więcej</Button>
+                    <Button as={Link} to={slug}>Więcej</Button>
                   </styled.CarouselItemText>
                 </div>
               </div>

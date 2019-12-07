@@ -12,6 +12,13 @@ export default () => (
               fields {
                 slug
               }
+              frontmatter {
+                metadata {
+                  metadata_offer {
+                    title
+                  }
+                }
+              }
             }
           }
         }

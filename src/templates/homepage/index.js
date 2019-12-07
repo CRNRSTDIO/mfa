@@ -1,20 +1,12 @@
 import React from 'react'
-import {
-  Carousel as HomepageCarousel
-} from '../../containers/homepage'
+import Img from 'gatsby-image'
+
+import { Carousel as HomepageCarousel } from '../../containers/homepage'
 import HomepageCarouselVert from '../../components/homepage/CarouselVert/query'
-import {
-  Carousel as SharedCarousel,
-  CarouselCenter as SharedCarouselCenter
-} from '../../containers/shared'
-import {
-  Carousel as OfferCarousel,
-  CarouselThumbs as OfferCarouselThumbs
-} from '../../containers/offer'
-import { Carousel as ConstrCarousel } from '../../containers/construction'
-import Explore from '../../components/shared/Explore/query'
-import { Body } from '../../components/homepage'
-import { Heading, Label } from '../../components/shared'
+import HomepageCarouselTabs from '../../components/homepage/CarouselTabs/query'
+import { Body, Heading as HomepageHeading } from '../../components/homepage'
+import { Heading, Label, Explore } from '../../components/shared'
+
 import * as styled from '../../styled/homepage'
 
 export default ({
@@ -34,21 +26,17 @@ export default ({
     </styled.HomepageSection01>
     <Explore />
     <HomepageCarouselVert />
-    {/* <div className='container'>
-      <Label>Label</Label>
-      <Heading>Heading</Heading>
-      <Body
-        note='asd'
-      >
-        asd
-      </Body>
-    </div>
-    <HomepageCarousel />
-    <SharedCarousel />
-    <OfferCarousel />
-    <SharedCarouselCenter />
-    <ConstrCarousel />
-    <OfferCarouselThumbs />
-    <HomepageCarouselVert /> */}
+    <styled.HomepageSection02>
+      <div className='container'>
+        <Label>{section02.label}</Label>
+        <Heading>{section02.heading}</Heading>
+        <Body>{section02.text}</Body>
+      </div>
+    </styled.HomepageSection02>
+    <HomepageCarouselTabs />
+    <styled.HomepageSection03>
+      <HomepageHeading>{section03.heading}</HomepageHeading>
+      <Img fluid={section03.image.childImageSharp.fluid} />
+    </styled.HomepageSection03>
   </>
 )

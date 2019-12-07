@@ -325,6 +325,13 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Heading, name: heading, widget: text}
                   - {label: Text, name: text, widget: text}
+              - label: 'Listing section'
+                name: metadata_listing
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
           - label: Landing
             name: standard_section_0
             widget: object
@@ -359,6 +366,13 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Heading, name: heading, widget: text}
                   - {label: Text, name: text, widget: text}
+              - label: 'Listing section'
+                name: metadata_listing
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
           - label: Landing
             name: process_section_0
             widget: object
@@ -393,6 +407,13 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Heading, name: heading, widget: text}
                   - {label: Text, name: text, widget: text}
+              - label: 'Listing section'
+                name: metadata_listing
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Title, name: title, widget: string}
           - label: Landing
             name: mfa_section_0
             widget: object

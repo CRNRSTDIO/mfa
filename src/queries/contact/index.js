@@ -10,29 +10,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            standard_section_0 {
-              alt
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              text
-            }
-            standard_sections {
-              alt
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 1200){
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              heading
-              text
-            }
+            title
           }
         }
       }

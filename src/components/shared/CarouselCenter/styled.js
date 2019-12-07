@@ -2,7 +2,12 @@ import styled from 'styled-components'
 import * as colors from '../../../global/variables.scss'
 
 export const Carousel = styled.div`
+  margin: 3.125rem 0 5rem;
   width: 100%;
+
+  @media (min-width: 48rem) {
+    margin: 5.25rem 0;
+  }
 
   > div:first-child {
     margin: 0 -.5rem;
