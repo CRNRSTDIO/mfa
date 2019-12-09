@@ -6,13 +6,9 @@ export default ({ data: { markdownRemark: { frontmatter } } }) => <Template {...
 
 export const query = graphql`
   {
-    allMarkdownRemark(filter: {frontmatter: {template: {eq: "standard"}}}) {
-      edges {
-        node {
-          frontmatter {
-            title
-          }
-        }
+    markdownRemark(frontmatter: {template: {eq: "standard"}}) {
+      frontmatter {
+        title
       }
     }
   }

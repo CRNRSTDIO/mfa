@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Template from '../../templates/showcase'
 
-export default ({ data: { markdownRemark: { frontmatter } } }) => <Template {...frontmatter} />
+export default ({ data: { allMarkdownRemark } }) => <Template {...allMarkdownRemark} />
 
 export const query = graphql`
   {
