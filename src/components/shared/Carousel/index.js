@@ -18,14 +18,14 @@ const Carousel = ({
       <Media
         query='(max-width: 768px)'
         render={() => (
-          <CarouselPlugin
-            centerMode
-            centerSlidePercentage={50}
-            selectedItem={selectedItem}
-            onChange={onChange}
-            {...settings}
-          >
-            {items.map(({ node: { frontmatter: { metadata: { metadata_standard: { title } } } } }, index) => (
+          // <CarouselPlugin
+          //   centerMode
+          //   centerSlidePercentage={50}
+          //   selectedItem={selectedItem}
+          //   onChange={onChange}
+          //   {...settings}
+          // >
+            items.map(({ node: { frontmatter: { metadata: { metadata_standard: { title } } } } }, index) => (
               <styled.CarouselTab
                 key={title}
                 onClick={() => goTo(index)}
@@ -33,8 +33,8 @@ const Carousel = ({
               >
                 {title}
               </styled.CarouselTab>
-            ))}
-          </CarouselPlugin>
+            ))
+          // </CarouselPlugin>
         )}
       />
       <Media
@@ -60,11 +60,11 @@ const Carousel = ({
       />
     </styled.CarouselTabs>
     <styled.CarouselItems>
-      <CarouselPlugin
+      {/* <CarouselPlugin
         selectedItem={selectedItem}
         onChange={onChange}
         {...settings}
-      >
+      > */}
         {items.map(({ node: { fields: { slug }, frontmatter: { metadata: { metadata_standard: { alt, heading, text, image: { childImageSharp: { fluid } } } } } } }, index) => (
           <styled.CarouselItem key={index}>
             <styled.CarouselItemImage>
@@ -91,7 +91,7 @@ const Carousel = ({
             </div>
           </styled.CarouselItem>
         ))}
-      </CarouselPlugin>
+      {/* </CarouselPlugin> */}
     </styled.CarouselItems>
   </styled.Carousel>
 )
