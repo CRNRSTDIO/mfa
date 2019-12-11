@@ -1,21 +1,27 @@
 import styled from 'styled-components'
 import BackgroundImg from 'gatsby-background-image'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
   color: ${colors.white};
   position: relative;
 `
 
+export const CarouselContainer = styled.div`
+  display: flex;
+`
+
 export const CarouselItem = styled.div`
   align-items: center;
   background-color: ${colors.dark};
   display: flex;
+  flex-shrink: 0;
   height: 100vh;
   justify-content: flex-start;
   padding: 0 1.875rem;
   position: relative;
   text-align: left;
+  width: 100vw;
 `
 
 export const CarouselItemBackgroundImage = styled(BackgroundImg)`

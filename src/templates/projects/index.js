@@ -3,6 +3,7 @@ import React from 'react'
 import { Heading } from '../../components/shared'
 import { Landing, Listing, Process, Standard } from '../../components/projects'
 import { Reviews } from '../../containers/projects'
+import Layout from '../../components/layout'
 
 export default ({
   projects_section_0: section0,
@@ -12,7 +13,7 @@ export default ({
   projects_section_4: section4,
   projects_section_5: section5
 }) => (
-  <>
+  <Layout>
     <Landing {...section0} contents={section1} />
     <div className='container'>
       <Heading>{section2.heading}</Heading>
@@ -21,5 +22,5 @@ export default ({
     <Process {...section3} />
     <Standard {...section4} />
     <Reviews {...section5} />
-  </>
+  </Layout>
 )

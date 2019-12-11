@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const TileTitleWrap = styled.div`
   margin: 1.25rem 0 .5rem;

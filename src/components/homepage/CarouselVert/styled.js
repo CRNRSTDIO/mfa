@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
   background-color: ${colors.grey1};
@@ -11,8 +11,15 @@ export const Carousel = styled.div`
   }
 `
 
+export const CarouselContainer = styled.div`
+  display: flex;
+`
+
 export const CarouselItem = styled.div`
   color: ${colors.dark};
+  flex-shrink: 0;
+  text-align: center;
+  width: 100vw;
 `
 
 export const CarouselItemImage = styled.div`

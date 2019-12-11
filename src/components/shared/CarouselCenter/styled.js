@@ -1,35 +1,33 @@
 import styled from 'styled-components'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
   margin: 3.125rem 0 5rem;
   width: 100%;
 
+  .wrap {
+    overflow: visible !important;
+  }
+
   @media (min-width: 48rem) {
     margin: 5.25rem 0;
   }
+`
 
-  > div:first-child {
-    margin: 0 -.5rem;
-    width: calc(100% + 1rem);
+export const CarouselContainer = styled.div`
+  display: flex;
+  margin: 0 -.5rem;
+  width: calc(100% + 1rem);
 
-    @media (min-width: 48rem) {
-      margin: 0 -3rem;
-      width: calc(100% + 6rem);
-    }
-  }
-
-  .carousel.carousel-slider {
-    overflow: visible;
-  }
-
-  .carousel .slider-wrapper {
-    overflow: visible;
+  @media (min-width: 48rem) {
+    margin: 0 -3rem;
+    width: calc(100% + 6rem);
   }
 `
 
 export const CarouselItem = styled.div`
   padding: 0 .5rem;
+  flex-shrink: 0;
   width: 100%;
 
   @media (min-width: 48rem) {

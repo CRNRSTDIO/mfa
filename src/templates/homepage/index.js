@@ -6,6 +6,7 @@ import HomepageCarouselVert from '../../components/homepage/CarouselVert/query'
 import HomepageCarouselTabs from '../../components/homepage/CarouselTabs/query'
 import { Body, Heading as HomepageHeading } from '../../components/homepage'
 import { Heading, Label, Explore } from '../../components/shared'
+import Layout from '../../components/layout'
 
 import * as styled from '../../styled/homepage'
 
@@ -15,7 +16,7 @@ export default ({
   homepage_section_2: section02,
   homepage_section_3: section03
 }) => (
-  <>
+  <Layout>
     <HomepageCarousel {...section00} />
     <styled.HomepageSection01>
       <div className='container'>
@@ -38,5 +39,5 @@ export default ({
       <HomepageHeading>{section03.heading}</HomepageHeading>
       <Img fluid={section03.image.childImageSharp.fluid} />
     </styled.HomepageSection03>
-  </>
+  </Layout>
 )

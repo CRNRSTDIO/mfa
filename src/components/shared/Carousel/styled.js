@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
   background-color: ${colors.white};
@@ -85,19 +85,19 @@ export const CarouselTab = styled.button`
 `
 
 export const CarouselItems = styled.div`
+`
 
-  .slide {
-    background: transparent;
-  }
+export const CarouselContainer = styled.div`
+  display: flex;
 `
 
 export const CarouselItem = styled.div`
+  flex-shrink: 0;
   position: relative;
+  width: 100vw;
 `
 
 export const CarouselItemImage = styled.div`
-  margin: 0 -1.875rem;
-  width: calc(100% + 3.75rem);
 
   @media (min-width: 48rem) {
     left: 0;

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import BackgroundImg from 'gatsby-background-image'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Listing = styled.section`
 

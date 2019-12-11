@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "CRNR STUDIO <crnr.studio@gmail.com>",
   "dependencies": {
+    "embla-carousel-react": "^1.2.7",
     "gatsby": "^2.16.1",
     "gatsby-background-image": "^0.9.6",
     "gatsby-image": "^2.2.29",

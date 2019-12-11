@@ -1,12 +1,17 @@
 import styled from 'styled-components'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
 
 `
 
+export const CarouselContainer = styled.div`
+  display: flex;
+`
+
 export const CarouselItem = styled.div`
-  width: 100%:
+  flex-shrink: 0;
+  width: 100vw;
 `
 
 export const CarouselItemText = styled.div`

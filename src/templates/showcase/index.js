@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Layout from '../../components/layout'
+
 export default ({
   showcase_isSold: isSold,
   showcase_label: label,
@@ -18,5 +20,5 @@ export default ({
   showcase_title: title,
   showcase_year: year
 }) => (
-  <>Showcase</>
+  <Layout>Showcase</Layout>
 )

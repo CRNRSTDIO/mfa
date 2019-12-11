@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Heading } from '../../shared/Heading/styled'
 import { Body } from '../../shared/Body/styled'
 import { Button } from '../../shared/Button/styled'
-import * as colors from '../../../global/variables.scss'
+import * as colors from '../../../global/variables.module.scss'
 
 export const Process = styled.section`
   background-color: ${colors.grey1};
