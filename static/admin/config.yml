@@ -435,3 +435,11 @@ collections:
         name: kontakt
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: contact}
+          - label: Contact details
+            name: contact_section_0
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - {label: Phone, name: phone, widget: string}
+              - {label: E-mail, name: email, widget: string}
+              - {label: Address, name: address, widget: text}

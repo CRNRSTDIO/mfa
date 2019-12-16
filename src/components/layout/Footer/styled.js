@@ -11,6 +11,16 @@ export const Footer = styled.footer`
   }
 `
 
+export const FooterLogo = styled.div`
+  color: ${colors.red};
+  transform: scale(2);
+  transform-origin: left;
+
+  svg {
+    fill: currentColor;
+  }
+`
+
 export const FooterCatchphrase = styled.span`
   display: block;
   font-size: .5625rem;

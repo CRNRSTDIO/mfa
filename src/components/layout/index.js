@@ -2,11 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
+import Header from './Header/query'
 import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
     <>
+      <Header />
       <main>{children}</main>
       <Footer />
     </>
