@@ -6,9 +6,14 @@ export default ({ data: { markdownRemark: { frontmatter } } }) => <Template {...
 
 export const query = graphql`
   {
-    markdownRemark(frontmatter: {template: {eq: "standard"}}) {
+    markdownRemark(frontmatter: {template: {eq: "contact"}}) {
       frontmatter {
-        title
+        contact_section_0 {
+          heading
+          phone
+          email
+          address
+        }
       }
     }
   }
