@@ -1,7 +1,7 @@
 ---
 template: showcase
 showcase_label: Dom na sprzedaż
-showcase_title: |-
+showcase_title: |
   Nowoczesny 
   Segment
   bliźniaka
