@@ -3,7 +3,7 @@ template: about
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/group-96.png
     title: MFA - Nowoczesny standard życia
   metadata_standard:
     alt: Opis zdjęcia
