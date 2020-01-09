@@ -3,7 +3,7 @@ template: standard
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-93.png
+    image: /img/group-95.png
     title: Poznaj standard używanych materiałów
   metadata_standard:
     alt: Opis zdjęcia
