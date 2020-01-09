@@ -48,7 +48,7 @@ standard_sections:
       expertise of an inspired and committed team.
   - alt: Opis zdjęcia
     heading: Media
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/rectangle-177.png
     text: >-
       archipelago: creating contextual and sustainable architecture to better
       live, care, work and learn – we bring life to your projects with a unique
