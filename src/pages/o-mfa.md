@@ -19,14 +19,14 @@ metadata:
     title: wizja
 mfa_section_0:
   alt: Opis zdjęcia
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/group-101.png
   text: |-
     Architektura dla
     lepszego komfortu życia
 mfa_sections:
   - alt: Opis zdjęcia
     heading: Przestrzeń
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/rectangle-177.png
     text: >-
       archipelago: creating contextual and sustainable architecture to better
       live, care, work and learn – we bring life to your projects with a unique
@@ -36,7 +36,7 @@ mfa_sections:
     heading: |-
       Dom skrojony 
       na Twoje potrzeby
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/apartment-architectural-design-architecture-323772.png
     text: >-
       archipelago: creating contextual and sustainable architecture to better
       live, care, work and learn – we bring life to your projects with a unique
@@ -44,7 +44,7 @@ mfa_sections:
       expertise of an inspired and committed team.
   - alt: Opis zdjęcia
     heading: Ognisko domowe
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/rustic-vegan-qzg3gtdjtam-unsplash.png
     text: >-
       archipelago: creating contextual and sustainable architecture to better
       live, care, work and learn – we bring life to your projects with a unique
