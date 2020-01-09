@@ -3,7 +3,7 @@ template: process
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/group-98.png
     title: Zobacz jak wygląda nasz proces realizacji
   metadata_standard:
     alt: Opis zdjęcia
@@ -11,7 +11,7 @@ metadata:
       Wspaniałe domy
       zaczynają się od 
       wspaniałych relacji
-    image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    image: /img/thomas-drouault-ibucu_9vxjc-unsplash.png
     text: >-
       Throughout the design process, we collaborate with each client to gain an
       understanding of their unique needs – defining the success of each
