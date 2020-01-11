@@ -1,6 +1,6 @@
-locale: 'pl'
+locale: 'en'
 
-display_url: https://your-site.com
+display_url: https://mfa.com.pl
 
 backend:
   name: git-gateway

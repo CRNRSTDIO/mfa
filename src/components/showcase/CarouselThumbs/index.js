@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import CarouselPlugin from 'embla-carousel-react'
@@ -28,10 +28,10 @@ const Carousel = ({
     thumbs.scrollNext()
   }
 
-  const goTo = useCallback(index => {
+  const goTo = index => {
     scrollTo(index)
     thumbsTo(index)
-  }, [scrollTo, thumbsTo])
+  }
 
   useEffect(() => {
     const onSelect = () => {
@@ -102,7 +102,7 @@ const Carousel = ({
 }
 
 Carousel.propTypes = {
-
+  slides: PropTypes.array
 }
 
 export default Carousel

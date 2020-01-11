@@ -1,8 +1,11 @@
+@import '../global/variables.module.scss';
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  color: $dark-color;
   margin: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;

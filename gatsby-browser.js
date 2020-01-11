@@ -7,7 +7,7 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import 'gridlex'
 import './src/fonts/index.css'
-import './src/components/layout.css'
+import './src/components/layout.scss'
 
 export { default as wrapRootElement } from './src/state'
 

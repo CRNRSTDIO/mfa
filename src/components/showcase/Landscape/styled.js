@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Body } from '../../shared/Body/styled'
-import * as colors from '../../../global/variables.module.scss'
 
 export const Landscape = styled.section`
   @media (min-width: 48rem) {
