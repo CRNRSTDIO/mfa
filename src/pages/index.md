@@ -6,7 +6,7 @@ homepage_section_0:
       heading: |-
         Nowoczesny Dom
         w Choszcznie
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/group-20.png
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -15,7 +15,7 @@ homepage_section_0:
       heading: |-
         Nowoczesny Dom
         w Węgorzynie
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/group-92.png
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -24,7 +24,7 @@ homepage_section_0:
       heading: |-
         Nowoczesny Dom
         w Koluszkach
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/group-91.png
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -57,6 +57,6 @@ homepage_section_3:
   heading: |-
     Twoja idealna
     przestrzeń
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/daria-nepriakhina-qem-3.png
 ---
 
