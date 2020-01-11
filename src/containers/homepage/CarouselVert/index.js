@@ -1,24 +1,11 @@
 import { connect } from 'react-redux'
 import { CarouselVert } from '../../../components/homepage'
-import {
-  setVertCarouselItem,
-  setVertCarouselPrev,
-  setVertCarouselNext,
-  setVertCarouselGoTo
-} from '../../../actions/homepage/CarouselVert'
+import { chunkEdges } from '../../../selectors/homepage/CarouselVert'
 
-const mapStateToProps = ({ vertCarousel: { selectedItem } }) => ({
-  selectedItem
-})
-
-const mapDispatchToProps = dispatch => ({
-  onChange: index => dispatch(setVertCarouselItem(index)),
-  prev: () => dispatch(setVertCarouselPrev()),
-  next: () => dispatch(setVertCarouselNext()),
-  goTo: index => dispatch(setVertCarouselGoTo(index))
+const mapStateToProps = (_, ownProps) => ({
+  chunkedEdges: chunkEdges(_, ownProps)
 })
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
+  mapStateToProps
 )(CarouselVert)

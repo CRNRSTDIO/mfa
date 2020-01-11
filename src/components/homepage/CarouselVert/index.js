@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
+import { Link } from 'gatsby'
+
 import CarouselPlugin from 'embla-carousel-react'
 import { Button } from '../../shared/'
 
 import * as styled from './styled'
 
 const Carousel = ({
-  edges: showcases
+  chunkedEdges = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -34,32 +36,32 @@ const Carousel = ({
     <styled.Carousel>
       <CarouselPlugin emblaRef={setCarousel}>
         <styled.CarouselContainer>
-          {[...showcases, ...showcases, ...showcases].map(({ node: { frontmatter: { showcase_main_image: { image: { childImageSharp: { fluid } } } } } }, index) => (
+          {chunkedEdges.map((edges, index) => (
             <styled.CarouselItem key={index}>
               <div className='container'>
                 <div className='grid-noBottom'>
                   <div className='grid-noBottom-middle col-12'>
                     <div className='col-7 xs-hidden'>
                       <styled.CarouselItemImageBig>
-                        <Img fluid={fluid} />
+                        <Img fluid={edges[0].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                       </styled.CarouselItemImageBig>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
                       <styled.CarouselItemImage>
-                        <Img fluid={fluid} />
+                        <Img fluid={edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                       </styled.CarouselItemImage>
-                      <styled.CarouselItemHeading>Segment Bliźniaka w Choszcznie</styled.CarouselItemHeading>
-                      <styled.CarouselItemDate>2019</styled.CarouselItemDate>
+                      <styled.CarouselItemHeading>{edges[1].node.frontmatter.showcase_title}</styled.CarouselItemHeading>
+                      <styled.CarouselItemDate>{edges[1].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
                   </div>
                   <div className='grid-noBottom col-12'>
                     <div className='col-7 xs-hidden'>
-                      <styled.CarouselItemHeadingBig>Wolnostojący Dom w Węgorzynie</styled.CarouselItemHeadingBig>
-                      <styled.CarouselItemDate>2019</styled.CarouselItemDate>
+                      <styled.CarouselItemHeadingBig>{edges[0].node.frontmatter.showcase_title}</styled.CarouselItemHeadingBig>
+                      <styled.CarouselItemDate>{edges[0].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
-                      <Button>Więcej</Button>
+                      <Button as={Link} to='/oferta'>Więcej</Button>
                     </div>
                   </div>
                 </div>
@@ -69,7 +71,7 @@ const Carousel = ({
         </styled.CarouselContainer>
       </CarouselPlugin>
       <styled.CarouselDots>
-        {[...showcases, ...showcases, ...showcases].map((_, index) => (
+        {chunkedEdges.map((_, index) => (
           <styled.CarouselDot
             key={index}
             onClick={() => scrollTo(index)}
@@ -82,7 +84,7 @@ const Carousel = ({
 }
 
 Carousel.propTypes = {
-  edges: PropTypes.array.isRequired
+  chunkedEdges: PropTypes.array.isRequired
 }
 
 export default Carousel

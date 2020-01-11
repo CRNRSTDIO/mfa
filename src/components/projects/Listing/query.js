@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Template from '../../../containers/shared/CarouselCenter'
+import Template from '../../shared/CarouselCenter'
 
 export default props => (
   <StaticQuery

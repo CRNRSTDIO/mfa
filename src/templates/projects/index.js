@@ -1,8 +1,7 @@
 import React from 'react'
 
 import { Heading } from '../../components/shared'
-import { Landing, Listing, Process, Standard } from '../../components/projects'
-import { Reviews } from '../../containers/projects'
+import { Landing, Listing, Process, Standard, Reviews } from '../../components/projects'
 import Layout from '../../components/layout'
 
 export default ({

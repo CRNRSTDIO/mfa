@@ -1,10 +1,13 @@
 import React from 'react'
 import Img from 'gatsby-image'
 
-import { Carousel as HomepageCarousel } from '../../containers/homepage'
 import HomepageCarouselVert from '../../components/homepage/CarouselVert/query'
 import HomepageCarouselTabs from '../../components/homepage/CarouselTabs/query'
-import { Body, Heading as HomepageHeading } from '../../components/homepage'
+import {
+  Body,
+  Heading as HomepageHeading,
+  Carousel as HomepageCarousel
+} from '../../components/homepage'
 import { Heading, Label, Explore } from '../../components/shared'
 import Layout from '../../components/layout'
 

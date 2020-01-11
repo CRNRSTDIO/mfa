@@ -1,6 +1,4 @@
 export { default as Landing } from './Landing'
-export { default as Carousel } from './Carousel'
-export { default as CarouselThumbs } from './CarouselThumbs'
 export { default as Listing } from './Listing/query'
 export { default as Process } from './Process/query'
 export { default as Standard } from './Standard/query'

@@ -52,28 +52,32 @@ const Carousel = ({
                 alt={alt}
                 {...background}
               />
-              <styled.CarouselItemText>
-                <styled.CarouselControls>
-                  <styled.CarouselArrowLeft onClick={scrollPrev} />
-                  <styled.CarouselArrowRight onClick={scrollNext} />
-                </styled.CarouselControls>
-                <styled.CarouselItemHeading>{heading}</styled.CarouselItemHeading>
-                <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
-                <styled.CarouselItemTags>
-                  {tags.map(({ tag }, key) => (
-                    <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
-                  ))}
-                </styled.CarouselItemTags>
-              </styled.CarouselItemText>
+              <div className='container'>
+                <styled.CarouselItemText>
+                  <styled.CarouselControls>
+                    <styled.CarouselArrowLeft onClick={scrollPrev} />
+                    <styled.CarouselArrowRight onClick={scrollNext} />
+                  </styled.CarouselControls>
+                  <styled.CarouselItemHeading>{heading}</styled.CarouselItemHeading>
+                  <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
+                  <styled.CarouselItemTags>
+                    {tags.map(({ tag }, key) => (
+                      <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
+                    ))}
+                  </styled.CarouselItemTags>
+                </styled.CarouselItemText>
+              </div>
             </styled.CarouselItem>
           ))}
         </styled.CarouselContainer>
       </CarouselPlugin>
-      <styled.CarouselDots>
-        <styled.CarouselDot onClick={() => scrollTo(0)} isCurrent={currIndex === 0}>01</styled.CarouselDot>
-        <styled.CarouselDot onClick={() => scrollTo(1)} isCurrent={currIndex === 1}>02</styled.CarouselDot>
-        <styled.CarouselDot onClick={() => scrollTo(2)} isCurrent={currIndex === 2}>03</styled.CarouselDot>
-      </styled.CarouselDots>
+      <div className='container'>
+        <styled.CarouselDots>
+          <styled.CarouselDot onClick={() => scrollTo(0)} isCurrent={currIndex === 0}>01</styled.CarouselDot>
+          <styled.CarouselDot onClick={() => scrollTo(1)} isCurrent={currIndex === 1}>02</styled.CarouselDot>
+          <styled.CarouselDot onClick={() => scrollTo(2)} isCurrent={currIndex === 2}>03</styled.CarouselDot>
+        </styled.CarouselDots>
+      </div>
     </styled.Carousel>
   )
 }

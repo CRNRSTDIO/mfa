@@ -38,7 +38,7 @@ const Carousel = ({
           <div className='col-9_xs-12' data-push-left='off-2_xs-0'>
             <CarouselPlugin emblaRef={setCarousel} className='wrap'>
               <styled.CarouselContainer>
-                {[...showcases, ...showcases, ...showcases, ...showcases].map(({ node: { frontmatter: { showcase_title: title, showcase_year: year, showcase_main_image: { alt, image: { childImageSharp: { fluid } } } } } }, index) => (
+                {showcases.map(({ node: { frontmatter: { showcase_title: title, showcase_year: year, showcase_main_image: { alt, image: { childImageSharp: { fluid } } } } } }, index) => (
                   <styled.CarouselItem key={index}>
                     <Img fluid={fluid} alt={alt} />
                     <styled.CarouselItemText>
@@ -58,7 +58,7 @@ const Carousel = ({
             <styled.CarouselControls>
               <styled.CarouselArrowLeft onClick={scrollPrev} />
               <styled.CarouselDots>
-                {[...showcases, ...showcases, ...showcases, ...showcases].map((_, index) => (
+                {showcases.map((_, index) => (
                   <styled.CarouselDot
                     key={index}
                     onClick={() => scrollTo(index)}

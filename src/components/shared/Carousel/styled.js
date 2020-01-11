@@ -64,9 +64,10 @@ export const CarouselTab = styled.button`
   padding: 0 1rem 1rem 1rem;
   position: relative;
   text-transform: uppercase;
+  white-space: nowrap;
 
   @media (min-width: 48rem) {
-    padding: 0 0 18px;
+    padding: 0 0 1.125rem;
     text-align: left;
     width: 100%;
   }
@@ -75,7 +76,7 @@ export const CarouselTab = styled.button`
     background-color: ${colors.red};
     bottom: 0;
     content: '';
-    height: 2px;
+    height: .125rem;
     left: 0;
     opacity: ${({ isCurrent }) => isCurrent ? '1' : '0'};;
     position: absolute;

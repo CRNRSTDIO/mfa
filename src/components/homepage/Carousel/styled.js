@@ -18,7 +18,6 @@ export const CarouselItem = styled.div`
   flex-shrink: 0;
   height: 100vh;
   justify-content: flex-start;
-  padding: 0 1.875rem;
   position: relative;
   text-align: left;
   width: 100vw;
@@ -128,7 +127,6 @@ export const CarouselItemTag = styled.span`
 export const CarouselDots = styled.div`
   bottom: 4.625rem;
   display: flex;
-  padding: 0 1.875rem;
   position: absolute;
 `
 
