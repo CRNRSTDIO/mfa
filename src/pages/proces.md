@@ -1,5 +1,7 @@
 ---
 template: process
+title: Proces
+order: 4
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
@@ -9,7 +11,7 @@ metadata:
     alt: Opis zdjęcia
     heading: |-
       Wspaniałe domy
-      zaczynają się od 
+      zaczynają się od
       wspaniałych relacji
     image: /img/thomas-drouault-ibucu_9vxjc-unsplash.png
     text: >-
@@ -51,4 +53,3 @@ process_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
-

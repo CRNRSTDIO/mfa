@@ -119,13 +119,13 @@ const Header = ({
                   slug
                 },
                 frontmatter: {
-                  template
+                  title
                 }
               }
             }) => (
               <styled.HeaderItem key={id} variants={item}>
                 <styled.HeaderLink to={slug}>
-                  {template}
+                  {title}
                 </styled.HeaderLink>
               </styled.HeaderItem>
             ))}

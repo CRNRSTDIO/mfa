@@ -1,5 +1,7 @@
 ---
 template: standard
+title: Standard
+order: 3
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
@@ -55,4 +57,3 @@ standard_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
-

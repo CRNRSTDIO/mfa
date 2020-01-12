@@ -1,5 +1,7 @@
 ---
 template: about
+title: O MFA
+order: 5
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
@@ -8,7 +10,7 @@ metadata:
   metadata_standard:
     alt: Opis zdjęcia
     heading: |-
-      Idealna harmonia pomiędzy 
+      Idealna harmonia pomiędzy
       rodziną, a jej domem
       i otaczającym go środowiskiem
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
@@ -34,7 +36,7 @@ mfa_sections:
       expertise of an inspired and committed team.
   - alt: Opis zdjęcia
     heading: |-
-      Dom skrojony 
+      Dom skrojony
       na Twoje potrzeby
     image: /img/apartment-architectural-design-architecture-323772.png
     text: >-
@@ -51,4 +53,3 @@ mfa_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
-

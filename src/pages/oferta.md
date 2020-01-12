@@ -1,5 +1,7 @@
 ---
 template: offer
+title: Oferta
+order: 1
 metadata:
   metadata_offer:
     title: DOMY NA SPRZEDAŻ
@@ -9,4 +11,3 @@ offer_section_0:
     Funkcjonalna Przestrzeń
     Wysoki standard
 ---
-

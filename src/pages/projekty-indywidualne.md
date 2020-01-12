@@ -1,5 +1,7 @@
 ---
 template: projects
+title: Projekty indywidualne
+order: 2
 metadata:
   metadata_offer:
     title: BUDOWA DOMU pod klucz
@@ -53,7 +55,7 @@ projects_section_3:
 projects_section_4:
   alt: Opis zdjęcia
   heading: |-
-    Nasz standard 
+    Nasz standard
     budowy domu pod klucz
   image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
   text: >-
@@ -68,7 +70,7 @@ projects_section_5:
     - data: michal@mfa.com.pl
       heading: Napisz
   heading: |-
-    Dołącz do grona 
+    Dołącz do grona
     naszych klientów
   opinions:
     - alt: Opis zdjęcia
@@ -76,19 +78,18 @@ projects_section_5:
       link: 'https://mfa.com.pl'
       subtext: Projekt Ani i Michała
       text: |
-        "Nie wierzyliśmy, 
-        że nasz dom powstanie 
+        "Nie wierzyliśmy,
+        że nasz dom powstanie
         w jeden sezon"
     - alt: Opis zdjęcia
       image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
       link: 'https://mfa.com.pl'
       subtext: Projekt Ani i Michała
       text: |
-        "Nie wierzyliśmy, 
-        że nasz dom powstanie 
+        "Nie wierzyliśmy,
+        że nasz dom powstanie
         w jeden sezon"
   text: |-
-    Zacznijmy wspólnie projekt 
+    Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
-

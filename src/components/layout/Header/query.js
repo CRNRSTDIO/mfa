@@ -6,7 +6,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       {
-        allMarkdownRemark(filter: {frontmatter: {template: {ne: "showcase"}}}, sort: {fields: id}) {
+        allMarkdownRemark(filter: {frontmatter: {template: {ne: "showcase"}}}, sort: {fields: frontmatter___order}) {
           edges {
             node {
               id
@@ -14,7 +14,7 @@ export default () => (
                 slug
               }
               frontmatter {
-                template
+                title
               }
             }
           }

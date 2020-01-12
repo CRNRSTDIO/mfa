@@ -1,5 +1,7 @@
 ---
 template: homepage
+title: Strona głowna
+order: 0
 homepage_section_0:
   slide:
     - alt: Opis zdjęcia
@@ -59,4 +61,3 @@ homepage_section_3:
     przestrzeń
   image: /img/daria-nepriakhina-qem-3.png
 ---
-
