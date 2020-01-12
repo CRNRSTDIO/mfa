@@ -20,7 +20,7 @@ export const Header = styled(motion.header)`
   }
 `
 
-export const HeaderLogo = styled(Link)`
+export const HeaderLogo = styled(motion.custom(Link))`
   color: ${colors.dark};
   color: ${({ isOpen }) => isOpen && colors.white};
   display: block;
@@ -48,7 +48,7 @@ export const HeaderWrap = styled.div`
   }
 `
 
-export const HeaderSpacer = styled.div`
+export const HeaderSpacer = styled(motion.div)`
   display: none;
 
   @media (min-width: 48rem) {
@@ -57,6 +57,7 @@ export const HeaderSpacer = styled.div`
     flex-basis: 21.25rem;
     flex-shrink: 1;
     justify-content: center;
+    transform-origin: left;
     z-index: 1;
 
     ::after {
