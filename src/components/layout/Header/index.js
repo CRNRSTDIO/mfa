@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { transform } from 'framer-motion'
 import useScroll from '@react-hook/window-scroll'
+import { useWindowWidth } from '@react-hook/window-size'
 
 import * as styled from './styled'
 
@@ -86,7 +87,9 @@ const Header = ({
 }) => {
   const [homepage, ...menu] = pages
 
-  const [isOpen, setIsOpen] = useState(true)
+  const width = useWindowWidth()
+
+  const [isOpen, setIsOpen] = useState(() => width >= 768)
 
   const onClick = useCallback(() => {
     setIsOpen(!isOpen)
@@ -97,8 +100,8 @@ const Header = ({
   const output = transform(scrollY, inputRange, outputRange)
 
   useEffect(() => {
-    setIsOpen(!output)
-  }, [output])
+    width >= 768 && setIsOpen(!output)
+  }, [output, width])
 
   return (
     <styled.Header

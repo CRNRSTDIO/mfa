@@ -77,10 +77,17 @@ export const CarouselItemText = styled.div`
 `
 
 export const CarouselItemHeading = styled.h2`
+  color: ${colors.white};
   font-size: 1.75rem;
   font-weight: 800;
   line-height: 2.625rem;
   margin: 0;
+  text-decoration: none;
+
+  :hover,
+  :focus {
+    text-decoration: underline;
+  }
 
   ::after {
     background-color: currentColor;
@@ -88,6 +95,7 @@ export const CarouselItemHeading = styled.h2`
     display: block;
     height: .125rem;
     margin: 1.25rem 0;
+    pointer-events: none;
     width: 1rem;
 
     @media (min-width: 48rem) {
