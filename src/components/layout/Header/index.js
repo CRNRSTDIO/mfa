@@ -36,7 +36,10 @@ const logo = {
     opacity: 1,
     pointerEvents: 'all',
     transition: {
-      y: { stiffness: 1000, velocity: -100 }
+      y: {
+        stiffness: 1000,
+        velocity: -100
+      }
     }
   },
   closed: {
@@ -44,7 +47,11 @@ const logo = {
     opacity: 0,
     pointerEvents: 'none',
     transition: {
-      y: { stiffness: 1000 }
+      delay: 0.35,
+      y: {
+        stiffness: 1000,
+        velocity: -100
+      }
     }
   }
 }
