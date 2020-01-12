@@ -150,7 +150,7 @@ export const HeaderList = styled(motion.ul)`
     display: inline-flex;
     height: auto;
     margin: 0;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     width: auto;
   }
