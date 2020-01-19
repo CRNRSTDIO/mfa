@@ -15,9 +15,8 @@ metadata:
       we wszystkich fazach budowy
     image: /img/kevin-xue-blwd5gaqmue-unsplash.png
     text: >-
-      Throughout the design process, we collaborate with each client to gain an
-      understanding of their unique needs – defining the success of each
-      building.
+      Zapewniając materiały o najwyższym standardzie dbamy, aby wykończenie
+      naszego projektu przebiegało tak, jak planowaliśmy.
     title: materiały
 standard_section_0:
   alt: Opis zdjęcia
@@ -57,3 +56,4 @@ standard_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
+
