@@ -15,9 +15,8 @@ metadata:
       i otaczającym go środowiskiem
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
     text: >-
-      Throughout the design process, we collaborate with each client to gain an
-      understanding of their unique needs – defining the success of each
-      building.
+      Twoje potrzeby, przestrzeń i Twój dom. Te trzy elementy zawsze powinny ze
+      sobą współgrać i oddziaływać na siebie, by dawać Ci spokój.
     title: wizja
 mfa_section_0:
   alt: Opis zdjęcia
@@ -53,3 +52,4 @@ mfa_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
+
