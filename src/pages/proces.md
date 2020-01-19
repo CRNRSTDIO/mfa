@@ -15,9 +15,8 @@ metadata:
       wspaniałych relacji
     image: /img/thomas-drouault-ibucu_9vxjc-unsplash.png
     text: >-
-      Throughout the design process, we collaborate with each client to gain an
-      understanding of their unique needs – defining the success of each
-      building.
+      Dobre relacje są gwarantem domowego ciepła. Nasz proces działania sprawi,
+      że będzie miało ono gdzie zagościć.
     title: Proces
 process_section_0:
   alt: Opis zdjęcia
@@ -53,3 +52,4 @@ process_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
+
