@@ -143,8 +143,8 @@ collections:
         widget: object
         fields:
           - {label: Heading, name: heading, widget: text}
-          - {label: Price, name: price, widget: string, requied: false}
-          - {label: New price, name: price_new, widget: string, requied: false}
+          - {label: Price, name: price, widget: string, required: false}
+          - {label: New price, name: price_new, widget: string, required: false}
           - label: Contact
             name: contact
             widget: object
