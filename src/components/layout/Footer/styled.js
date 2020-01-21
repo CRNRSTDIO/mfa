@@ -13,11 +13,11 @@ export const Footer = styled.footer`
 
 export const FooterLogo = styled.div`
   color: ${colors.red};
-  transform: scale(2);
-  transform-origin: left;
+  margin: 0 0 1rem;
 
   svg {
     fill: currentColor;
+    margin: 0;
   }
 `
 

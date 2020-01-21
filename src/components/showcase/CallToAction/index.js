@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import image from './image.svg'
 import * as styled from './styled'
 
 const CallToAction = ({
@@ -17,13 +18,14 @@ const CallToAction = ({
       <div className='grid-noBottom'>
         <div className='col-6_xs-12'>
           <styled.CallToActionBox className='grid-noBottom'>
+            <styled.CallToActionImage src={image} />
             <div className='col-6_xs-12' data-push-left='off-4_xs-0'>
-              <styled.CallToActionHeading>
-                {heading}
-              </styled.CallToActionHeading>
               {priceNew
                 ? (
                   <>
+                    <styled.CallToActionHeading>
+                      {heading}
+                    </styled.CallToActionHeading>
                     <styled.CallToActionPrice strikethrough>
                       {price}
                     </styled.CallToActionPrice>
@@ -35,11 +37,22 @@ const CallToAction = ({
                     </styled.CallToActionPriceNew>
                   </>
                 )
-                : (
-                  <styled.CallToActionPrice>
-                    {price}
-                  </styled.CallToActionPrice>
-                )}
+                : price
+                  ? (
+                    <>
+                      <styled.CallToActionHeading>
+                        {heading}
+                      </styled.CallToActionHeading>
+                      <styled.CallToActionPrice>
+                        {price}
+                      </styled.CallToActionPrice>
+                    </>
+                  )
+                  : (
+                    <styled.CallToActionHeading underline>
+                      {heading}
+                    </styled.CallToActionHeading>
+                  )}
             </div>
           </styled.CallToActionBox>
         </div>

@@ -39,15 +39,39 @@ export const CallToActionBox = styled.div`
   }
 `
 
+export const CallToActionImage = styled.img`
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%);
+
+  @media (min-width: 48rem) {
+    top: 50%;
+    transform: translate(50%, -50%) translateX(-.375rem);
+  }
+`
+
 export const CallToActionHeading = styled.h2`
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.25rem;
-  margin: 0 0 1.5rem;
+  padding: ${({ underline }) => underline ? '0 0 2rem' : '0 0 1.5rem'};
+  position: relative;
+
+  ::after {
+    background-color: ${colors.red};
+    content: '';
+    display: ${({ underline }) => underline ? 'block' : 'none'};
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
 
   @media (min-width: 48rem) {
     line-height: 3.125rem;
-    margin: 0 0 2rem;
+    padding: ${({ underline }) => underline ? '0 0 3.75rem' : '0 0 1.5rem'};
   }
 `
 

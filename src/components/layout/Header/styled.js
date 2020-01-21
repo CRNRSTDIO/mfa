@@ -43,6 +43,7 @@ export const HeaderLogo = styled(motion.custom(Link))`
 export const HeaderWrap = styled.div`
 
   @media (min-width: 48rem) {
+    align-items: center;
     display: flex;
     justify-content: flex-start;
   }

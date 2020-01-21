@@ -11,10 +11,15 @@ export const Landing = styled.section`
 `
 
 export const LandingHeaderWrap = styled.header`
+  background-color: ${colors.white};
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
+
+  @media (min-width: 48rem) {
+    background-color: transparent;
+  }
 `
 
 export const LandingHeaderBackground = styled.div`
@@ -38,12 +43,12 @@ export const LandingHeader = styled.h2`
 `
 
 export const LandingBackgroundWrap = styled.div`
-  height: 12.5rem;
+  height: calc(100vh - 7.25rem);
   margin: 0 0 4.25rem;
   position: relative;
 
   @media (min-width: 48rem) {
-    height: 36.125rem;
+    height: calc(100vh - 8.75rem - 11.625rem);
     margin: 0 0 8.75rem;
   }
 `
