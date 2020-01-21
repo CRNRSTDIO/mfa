@@ -10,7 +10,7 @@ import {
   CarouselThumbs,
   CallToAction
 } from '../../components/showcase'
-import { Explore } from '../../components/shared'
+import { Explore, CarouselCenter } from '../../components/shared'
 import Layout from '../../components/layout'
 
 export default ({
@@ -38,5 +38,6 @@ export default ({
     <CarouselThumbs {...galleryBottom} />
     <CallToAction {...sectionContact} />
     <Explore />
+    <CarouselCenter />
   </Layout>
 )
