@@ -33,27 +33,26 @@ homepage_section_0:
         - tag: Cena - 450 000 zł
 homepage_section_1:
   aside: >-
-    No matter the scope of a project, we obsess over every detail to create
-    beautiful spaces that reflect the ways our clients live and work.
-  heading: |-
-    Projektujemy rozwiązania, które w pełni utylizują
-    estetyczny potencjał przestrzeni, optymalizując
-    przy tym jak ta przestrzeń będzie wykorzystana
+    Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
+    nam zaplanować miejsce, w którym zawsze będziesz się dobrze czuł.
+  heading: >-
+    Projektujemy estetyczne, harmonijne i nowoczesne rozwiązania, które w pełni
+    wykorzystują potencjał każdej przestrzeni
   label: nowy STANDARD
-  text: >-
-    Each client searches for a unique solution catered to their personal style,
-    budget, and specific needs. The challenge and pleasure for us is finding a
-    way to marry the competing impulses between what is necessary and what is
-    desired.
+  text: >
+    Wychodzimy z założenia, że każde otoczenie to szansa na nowe, niespotykane
+    dotąd pomysły. Do wszystkich projektów podchodzimy z takim zaangażowaniem,
+    abyś przez kolejne lata mógł cieszyć się każdym doskonale zaplanowanym m2.
 homepage_section_2:
   heading: |-
     Wierzymy, że dobrze zaprojektowana
     przestrzeń jest w stanie znacznie
     poprawić standard życia
-  label: NASZ STANDARD
-  text: >-
-    Throughout the design process, we collaborate with each client to gain an
-    understanding of their unique needs – defining the success of each building.
+  label: NASZA FILOZOFIA
+  text: >
+    Ponieważ najbliższe otoczenie nieustannie wpływa na Twoje samopoczucie,
+    motywację i komfort. Zadbaj więc o jakość przestrzeni, która należy do
+    Ciebie.
 homepage_section_3:
   alt: Opis zdjęcia
   heading: |-
@@ -61,3 +60,4 @@ homepage_section_3:
     przestrzeń
   image: /img/daria-nepriakhina-qem-3.png
 ---
+

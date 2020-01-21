@@ -15,9 +15,8 @@ metadata:
       we wszystkich fazach budowy
     image: /img/kevin-xue-blwd5gaqmue-unsplash.png
     text: >-
-      Throughout the design process, we collaborate with each client to gain an
-      understanding of their unique needs – defining the success of each
-      building.
+      Zapewniając materiały o najwyższym standardzie dbamy, aby wykończenie
+      naszego projektu przebiegało tak, jak planowaliśmy.
     title: materiały
 standard_section_0:
   alt: Opis zdjęcia
@@ -28,26 +27,26 @@ standard_sections:
     heading: Konstrukcja
     image: /img/warstwa-1-kopia.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Dom w którym mieszkać, powinien dawać Ci poczucie pewności, stabilności i
+      spokoju na długie lata. Dlatego wszystkie projektowane przez nas
+      rozwiązania są zawsze zgodne z wszelkimi normami dotyczącymi
+      bezpieczeństwa.
   - alt: Opis zdjęcia
     heading: Izolacja
     image: /img/tło.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Nowoczesne materiały izolujące najwyższej jakości sprawią, że zapomnisz o
+      mrozach i niepogodzie panującej na zewnątrz, jednocześnie zachowując
+      właściwości oddychające. Wszystko po to, abyś czuł się w swoim domu jak
+      najlepiej.
   - alt: Opis zdjęcia
     heading: Stolarka
     image: /img/building-construction-industry-p7jdz7z.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Współpraca z najwyższej klasy specjalistami gwarantuje najwyższej jakości
+      usługi. Stolarze, z którymi łączymy siły, to niekwestionowani fachowcy.
+      Dbamy, aby każdy etap pracy nad Twoją przestrzenią był w najlepszych
+      rękach.
   - alt: Opis zdjęcia
     heading: Media
     image: /img/rectangle-177.png
@@ -57,3 +56,4 @@ standard_sections:
       and sensitive methodical approach, a touch of ingenuity and the collective
       expertise of an inspired and committed team.
 ---
+

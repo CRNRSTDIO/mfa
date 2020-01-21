@@ -15,9 +15,8 @@ metadata:
       i otaczającym go środowiskiem
     image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
     text: >-
-      Throughout the design process, we collaborate with each client to gain an
-      understanding of their unique needs – defining the success of each
-      building.
+      Twoje potrzeby, przestrzeń i Twój dom. Te trzy elementy zawsze powinny ze
+      sobą współgrać i oddziaływać na siebie, by dawać Ci spokój.
     title: wizja
 mfa_section_0:
   alt: Opis zdjęcia
@@ -30,26 +29,27 @@ mfa_sections:
     heading: Przestrzeń
     image: /img/rectangle-177.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Twoje otoczenie wpływa na to jak się czujesz. Dlatego tak ważne jest, abyś
+      zadbał o przestrzeń, w której spędzasz tak dużo czasu. Która jest Twoim
+      miejscem wypoczynku, radości i ciepła. Zapewnij sobie i bliskim otoczenie,
+      na które zasługujecie.
   - alt: Opis zdjęcia
     heading: |-
       Dom skrojony
       na Twoje potrzeby
     image: /img/apartment-architectural-design-architecture-323772.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Projektując Twoją przestrzeń, skupimy się nie tylko na wysokiej estetyce,
+      ale też na Twoich potrzebach i nawykach. Przygotowany projekt będzie
+      odwzorowywał Twój charakter i temperament. Po to, abyś zawsze
+      przekraczając próg domu czuł, że jesteś u siebie.
   - alt: Opis zdjęcia
     heading: Ognisko domowe
     image: /img/rustic-vegan-qzg3gtdjtam-unsplash.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Aby ognisko domowe mogło zaistnieć, potrzeba dwóch rzeczy: odpowiedniej
+      przestrzeni i dużo rodzinnego ciepła. Zaprojektujemy i zrealizujemy
+      miejsce, o którym zawsze marzyłeś i które będzie idealne, aby zaistniało w
+      nim prawdziwe, rodzinne ciepło.
 ---
+
