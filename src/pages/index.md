@@ -34,7 +34,7 @@ homepage_section_0:
 homepage_section_1:
   aside: >-
     Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
-    nam zaplanować miejsce, w którym zawsze będziesz się dobrze czuł.
+    nam zaplanować i stworzyć miejsce, w którym zawsze będziesz się dobrze czuł.
   heading: >-
     Projektujemy estetyczne, harmonijne i nowoczesne rozwiązania, które w pełni
     wykorzystują potencjał każdej przestrzeni
