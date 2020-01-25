@@ -7,9 +7,9 @@ showcase_title: |
   bliźniaka
   w Choszcznie
 showcase_tags:
-  - tag: Metraż - 168 m2
+  - tag: Metraż - 130 m2
   - tag: Cena - 432 000 zł
-showcase_isSold: false
+showcase_isSold: true
 showcase_year: '2019'
 showcase_main_image:
   alt: Opis zdjęcia
@@ -192,3 +192,4 @@ showcase_section_contact:
   price: 480 579 zł
   price_new: 460 799 zł
 ---
+
