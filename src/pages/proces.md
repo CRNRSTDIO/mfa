@@ -5,7 +5,7 @@ order: 4
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-98.png
+    image: /img/Warstwa 3 kopia.png
     title: Zobacz jak wygląda nasz proces realizacji
   metadata_standard:
     alt: Opis zdjęcia
