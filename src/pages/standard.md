@@ -5,7 +5,7 @@ order: 3
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-95.png
+    image: /img/arrangement-color-colors-159045.png
     title: Poznaj standard używanych materiałów
   metadata_standard:
     alt: Opis zdjęcia
