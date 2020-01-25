@@ -5,7 +5,7 @@ order: 5
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-96.png
+    image: /img/sergey-zolkin-m9qMoh-scfE-unsplash.png
     title: MFA - Nowoczesny standard życia
   metadata_standard:
     alt: Opis zdjęcia
