@@ -13,15 +13,15 @@ showcase_isSold: true
 showcase_year: '2019'
 showcase_main_image:
   alt: Opis zdjęcia
-  image: /img/wizualizacja 02.jpg
+  image: /img/Group 103.png
 showcase_gallery_top:
   slides:
     - alt: Opis zdjęcia
-      image: /img/Group 20.jpg
+      image: /img/Group 103.png
     - alt: Opis zdjęcia
-      image: /img/wizualizacja 03.jpg
+      image: /img/Group 104.png
     - alt: Opis zdjęcia
-      image: /img/wizualizacja 04.jpg
+      image: /img/Group 105.png
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
