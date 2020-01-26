@@ -8,7 +8,7 @@ homepage_section_0:
       heading: |-
         Nowoczesny Dom
         w Choszcznie
-      image: /img/wizualizacja 01.jpg
+      image: /img/Group 106.png
       link: >-
         https://www.mfa.com.pl/showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Segmnet Bliźniaka
