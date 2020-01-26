@@ -18,8 +18,8 @@ homepage_section_0:
     - alt: Opis zdjęcia
       heading: |-
         Nowoczesny Dom
-        w Węgorzynie
-      image: /img/group-92.png
+        we Wronkach
+      image: /img/Wronki - Header.jpg
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
