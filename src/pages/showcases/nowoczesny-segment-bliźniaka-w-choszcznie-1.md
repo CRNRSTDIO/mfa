@@ -152,7 +152,7 @@ showcase_section_materials_used:
     Ściany działowe, murowane wykonane z bloczków YTONG 12
 showcase_section_image_2:
   alt: Opis zdjęcia
-  image: /img/wizualizacja 04.jpg
+  image: /img/wizualizacja 03.png
 showcase_section_tech_used:
   heading: Zastosowane technologie
   slides:
@@ -188,12 +188,10 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - alt: Opis zdjęcia
-      image: /img/wizualizacja 08.jpg
-    - alt: Opis zdjęcia
-      image: /img/wizualizacja 03.jpg
-    - image: /img/wizualizacja 02.jpg
-    - image: /img/Group 20.jpg
+    - image: /img/wizualizacja 01.png
+    - image: /img/wizualizacja -2.png
+    - image: /img/wizualizacja 07.png
+    - image: /img/wizualizacja 08.png
 showcase_section_contact:
   contact:
     details:
