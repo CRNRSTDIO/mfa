@@ -53,7 +53,7 @@ projects_section_4:
   heading: |-
     Nasz standard
     budowy domu pod klucz
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/arrangement-color-colors-1.png
   text: >-
     Each client searches for a unique solution catered to their personal style,
     budget, and specific needs. The challenge and pleasure for us is finding a
