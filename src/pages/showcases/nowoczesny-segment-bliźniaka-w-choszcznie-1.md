@@ -49,7 +49,7 @@ showcase_section_descr:
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_image:
   alt: Opis zdjęcia
-  image: /img/wizualizacja 03.jpg
+  image: /img/wizualizacja 06.jpg
 showcase_section_landscape:
   alt: Opis zdjęcia
   heading: Rzut terenu
