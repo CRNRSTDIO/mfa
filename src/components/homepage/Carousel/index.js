@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import { Parallax } from 'react-scroll-parallax'
 import CarouselPlugin from 'embla-carousel-react'
 
 import { background } from './settings'
@@ -55,19 +56,21 @@ const Carousel = ({
                 {...background}
               />
               <div className='container'>
-                <styled.CarouselItemText>
-                  <styled.CarouselControls>
-                    <styled.CarouselArrowLeft onClick={scrollPrev} />
-                    <styled.CarouselArrowRight onClick={scrollNext} />
-                  </styled.CarouselControls>
-                  <styled.CarouselItemHeading as={link && Link} to={link}>{heading}</styled.CarouselItemHeading>
-                  <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
-                  <styled.CarouselItemTags>
-                    {tags.map(({ tag }, key) => (
-                      <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
-                    ))}
-                  </styled.CarouselItemTags>
-                </styled.CarouselItemText>
+                <Parallax y={[-20, 20]}>
+                  <styled.CarouselItemText>
+                    <styled.CarouselControls>
+                      <styled.CarouselArrowLeft onClick={scrollPrev} />
+                      <styled.CarouselArrowRight onClick={scrollNext} />
+                    </styled.CarouselControls>
+                    <styled.CarouselItemHeading as={link && Link} to={link}>{heading}</styled.CarouselItemHeading>
+                    <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
+                    <styled.CarouselItemTags>
+                      {tags.map(({ tag }, key) => (
+                        <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
+                      ))}
+                    </styled.CarouselItemTags>
+                  </styled.CarouselItemText>
+                </Parallax>
               </div>
             </styled.CarouselItem>
           ))}

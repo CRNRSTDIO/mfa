@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import { Parallax } from 'react-scroll-parallax'
 
 import HomepageCarouselVert from '../../components/homepage/CarouselVert/query'
 import HomepageCarouselTabs from '../../components/homepage/CarouselTabs/query'
@@ -23,7 +24,9 @@ export default ({
     <HomepageCarousel {...section00} />
     <styled.HomepageSection01>
       <div className='container'>
-        <Label>{section01.label}</Label>
+        <Parallax>
+          <Label>{section01.label}</Label>
+        </Parallax>
         <Heading>{section01.heading}</Heading>
         <Body note={section01.aside}>{section01.text}</Body>
       </div>
