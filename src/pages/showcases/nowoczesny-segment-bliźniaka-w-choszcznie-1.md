@@ -89,6 +89,7 @@ showcase_section_landscape:
 showcase_section_building:
   blueprints:
     - blueprint:
+        alt: Opis zdjęcia
         image: /img/Rzut0.jpg
         legend: |-
           ZESTAWIENIE POWIERZCHNI ( UŻYTKOWA)
@@ -188,10 +189,14 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - image: /img/wizualizacja 01.png
-    - image: /img/wizualizacja -2.png
-    - image: /img/wizualizacja 07.png
-    - image: /img/wizualizacja 08.png
+    - alt: Opis zdjęcia
+      image: /img/wizualizacja 01.png
+    - alt: Opis zdjęcia
+      image: /img/wizualizacja -2.png
+    - alt: Opis zdjęcia
+      image: /img/wizualizacja 07.png
+    - alt: Opis zdjęcia
+      image: /img/wizualizacja 08.png
 showcase_section_contact:
   contact:
     details:
