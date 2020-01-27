@@ -9,8 +9,7 @@ homepage_section_0:
         Nowoczesny Dom
         w Choszcznie
       image: /img/Group 107.jpg
-      link: >-
-        https://www.mfa.com.pl/showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
+      link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
