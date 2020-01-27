@@ -33,7 +33,7 @@ showcase_section_descr:
     dwulokalowych w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej.
     Droga osiedlowa połączona jest na obu końcach z utwardzonymi kostką i
     asfaltem drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita
-    każdego budynku –  219m2
+    każdego budynku –  **219m2**
 
 
     Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
@@ -95,7 +95,7 @@ showcase_section_building:
           ZESTAWIENIE POWIERZCHNI ( UŻYTKOWA)
 
           PARTER
-          A1/B1 WIATROŁAP – 6,99 M2
+          A1/B1|WIATROŁAP|6,99 M2
           A2/B2 POM. TECHNICZNE – 3,11 M2
           A3/B3 GARAŻ – 19,98 M2 ( GARAŻ NIE WLICZAMY W POWIERZCHNIĘ UŻYTKOWĄ)
           A4/B4 KORYTARZ – 1,92 M2
