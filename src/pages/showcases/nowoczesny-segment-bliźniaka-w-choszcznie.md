@@ -89,6 +89,7 @@ showcase_section_landscape:
 showcase_section_building:
   blueprints:
     - blueprint:
+        alt: Opis zdjęcia
         image: /img/Rzut0.jpg
         legend: ' '
   heading: Rzuty Parteru / Piętra
@@ -165,12 +166,18 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - image: /img/w1.jpg
-    - image: /img/W2.jpg
-    - image: /img/W3.jpg
-    - image: /img/W4.jpg
-    - image: /img/W9.jpg
-    - image: /img/W11.jpg
+    - alt: Opis zdjęcia
+      image: /img/w1.jpg
+    - alt: Opis zdjęcia
+      image: /img/W2.jpg
+    - alt: Opis zdjęcia
+      image: /img/W3.jpg
+    - alt: Opis zdjęcia
+      image: /img/W4.jpg
+    - alt: Opis zdjęcia
+      image: /img/W9.jpg
+    - alt: Opis zdjęcia
+      image: /img/W11.jpg
 showcase_section_contact:
   contact:
     details:
