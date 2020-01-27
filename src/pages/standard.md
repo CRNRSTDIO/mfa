@@ -5,7 +5,7 @@ order: 3
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-95.png
+    image: /img/arrangement-color-colors-159045.png
     title: Poznaj standard używanych materiałów
   metadata_standard:
     alt: Opis zdjęcia
@@ -51,9 +51,9 @@ standard_sections:
     heading: Media
     image: /img/rectangle-177.png
     text: >-
-      archipelago: creating contextual and sustainable architecture to better
-      live, care, work and learn – we bring life to your projects with a unique
-      and sensitive methodical approach, a touch of ingenuity and the collective
-      expertise of an inspired and committed team.
+      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
+      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
+      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
+      niezbędne media.
 ---
 

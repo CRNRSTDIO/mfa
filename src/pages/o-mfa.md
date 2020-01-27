@@ -5,7 +5,7 @@ order: 5
 metadata:
   metadata_listing:
     alt: Opis zdjęcia
-    image: /img/group-96.png
+    image: /img/sergey-zolkin-m9qMoh-scfE-unsplash.png
     title: MFA - Nowoczesny standard życia
   metadata_standard:
     alt: Opis zdjęcia
@@ -27,7 +27,7 @@ mfa_section_0:
 mfa_sections:
   - alt: Opis zdjęcia
     heading: Przestrzeń
-    image: /img/rectangle-177.png
+    image: /img/apartment-architectural-design-architecture-323772.png
     text: >-
       Twoje otoczenie wpływa na to jak się czujesz. Dlatego tak ważne jest, abyś
       zadbał o przestrzeń, w której spędzasz tak dużo czasu. Która jest Twoim
@@ -37,7 +37,7 @@ mfa_sections:
     heading: |-
       Dom skrojony
       na Twoje potrzeby
-    image: /img/apartment-architectural-design-architecture-323772.png
+    image: /img/rustic-vegan-qzg3gtdjtam-unsplash.png
     text: >-
       Projektując Twoją przestrzeń, skupimy się nie tylko na wysokiej estetyce,
       ale też na Twoich potrzebach i nawykach. Przygotowany projekt będzie
@@ -45,7 +45,7 @@ mfa_sections:
       przekraczając próg domu czuł, że jesteś u siebie.
   - alt: Opis zdjęcia
     heading: Ognisko domowe
-    image: /img/rustic-vegan-qzg3gtdjtam-unsplash.png
+    image: /img/rectangle-177.png
     text: >-
       Aby ognisko domowe mogło zaistnieć, potrzeba dwóch rzeczy: odpowiedniej
       przestrzeni i dużo rodzinnego ciepła. Zaprojektujemy i zrealizujemy

@@ -3,9 +3,9 @@ template: showcase
 showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesny 
-  Segment
+  segment
   bliźniaka
-  w Choszcznie
+  we Wronkach
 showcase_tags:
   - tag: Metraż - 168 m2
   - tag: Cena - 432 000 zł
@@ -13,15 +13,15 @@ showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
   alt: Opis zdjęcia
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/Wronki - Thumbnali.jpg
 showcase_gallery_top:
   slides:
     - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/Wronki Galeria 1.jpg
     - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/Wronki - Galeria 2.jpg
     - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/Wronki - Galeria 3.jpg
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
@@ -49,11 +49,11 @@ showcase_section_descr:
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_image:
   alt: Opis zdjęcia
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/Wronki - full 1.jpg
 showcase_section_landscape:
   alt: Opis zdjęcia
   heading: Rzut terenu
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/Rzut terenu0.jpg
   legend_items:
     - item: Jodły kaukaskie
     - item: Oświetlenie
@@ -89,15 +89,8 @@ showcase_section_landscape:
 showcase_section_building:
   blueprints:
     - blueprint:
-        alt: Opis zdjęcia
-        image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
-        legend: |-
-          Pomieszczenia | pow. użytkowa | pow. zabudowy
-          01 kuchnia | 35 m2 | 3m2
-          01 kuchnia | 35 m2 | 3m2
-          01 kuchnia | 35 m2 | 3m2
-          01 kuchnia | 35 m2 | 3m2
-          01 kuchnia | 35 m2 | 3m2
+        image: /img/Rzut0.jpg
+        legend: ' '
   heading: Rzuty Parteru / Piętra
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
@@ -136,7 +129,7 @@ showcase_section_materials_used:
     Ściany działowe, murowane wykonane z bloczków YTONG 12
 showcase_section_image_2:
   alt: Opis zdjęcia
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/Wronki - full 2.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie
   slides:
@@ -172,10 +165,12 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
-    - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    - image: /img/w1.jpg
+    - image: /img/W2.jpg
+    - image: /img/W3.jpg
+    - image: /img/W4.jpg
+    - image: /img/W9.jpg
+    - image: /img/W11.jpg
 showcase_section_contact:
   contact:
     details:

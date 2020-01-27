@@ -16,28 +16,24 @@ projects_section_1:
     która pozwoli Tobie zaoszczędzić
     czas, pieniądze … i nerwy
   text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z  8  budynków mieszkalnych
-    dwulokalowych w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej.
-    Droga osiedlowa połączona jest na obu końcach z utwardzonymi kostką i
-    asfaltem drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita
-    każdego budynku –  219m2
+    Wiele osób zwleka z realizacją swojego marzenia o budowie domu według
+    indywidualnego projektu. Powodów może być wiele - od braku pomysłu, po obawy
+    związane z dodatkowym obciążeniem czasowym, bieganiem po urzędach,
+    uzyskiwaniem pozwoleń.
 
 
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+    A co gdybyś mógł zlecić wszystkie obowiązki osobie, która zadba o Twój
+    projekt, przez wszystkie etapy jego realizacji? Rozumiejąc obawy klientów i
+    wychodząc im naprzeciw oferujemy usługę realizacji domu pod klucz. Dzięki
+    temu zyskasz przede wszystkim spokój. Będziesz wiedział, że nad projektem
+    czuwa specjalista, dzięki któremu powstały już dziesiątki domów. Doskonała
+    znajomość charakterystyki tej pracy nie tylko pozwoli Ci oszczędzić nerwy,
+    ale też znacznie usprawni przebieg całego procesu. Decydując się bowiem na
+    usługę domu pod klucz, zajmujemy się wszystkim - od pracy związanej z
+    dokumentacją, przez projekt i budowę, po wykończenie i doprowadzenie mediów.
+    To oznacza, że Twoje marzenie będzie realizowane, lecz nie obciąży Cię to w
+    żaden sposób żadnymi dodatkowymi obowiązkami. Tobie zostanie już tylko
+    wprowadzić się i cieszyć wspólnymi chwilami w gronie najbliższych.
 projects_section_2:
   heading: Nasze realizacje
 projects_section_3:
@@ -57,7 +53,7 @@ projects_section_4:
   heading: |-
     Nasz standard
     budowy domu pod klucz
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/arrangement-color-colors-1.png
   text: >-
     Each client searches for a unique solution catered to their personal style,
     budget, and specific needs. The challenge and pleasure for us is finding a
@@ -93,3 +89,4 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
+

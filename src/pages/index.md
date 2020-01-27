@@ -8,7 +8,9 @@ homepage_section_0:
       heading: |-
         Nowoczesny Dom
         w Choszcznie
-      image: /img/group-20.png
+      image: /img/Group 107.jpg
+      link: >-
+        https://www.mfa.com.pl/showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -16,17 +18,8 @@ homepage_section_0:
     - alt: Opis zdjęcia
       heading: |-
         Nowoczesny Dom
-        w Węgorzynie
-      image: /img/group-92.png
-      subheading: Segmnet Bliźniaka
-      tags:
-        - tag: Metraż - 180 m2
-        - tag: Cena - 450 000 zł
-    - alt: Opis zdjęcia
-      heading: |-
-        Nowoczesny Dom
-        w Koluszkach
-      image: /img/group-91.png
+        we Wronkach
+      image: /img/Wronki - Header.jpg
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -34,7 +27,7 @@ homepage_section_0:
 homepage_section_1:
   aside: >-
     Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
-    nam zaplanować miejsce, w którym zawsze będziesz się dobrze czuł.
+    nam zaplanować i stworzyć miejsce, w którym zawsze będziesz się dobrze czuł.
   heading: >-
     Projektujemy estetyczne, harmonijne i nowoczesne rozwiązania, które w pełni
     wykorzystują potencjał każdej przestrzeni
