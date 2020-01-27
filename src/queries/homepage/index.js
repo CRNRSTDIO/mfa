@@ -19,7 +19,7 @@ export const query = graphql`
                 }
               }
             }
-            # link
+            link
             alt
             tags {
               tag

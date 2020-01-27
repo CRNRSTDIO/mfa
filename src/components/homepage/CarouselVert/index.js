@@ -43,12 +43,22 @@ const Carousel = ({
                   <div className='grid-noBottom-middle col-12'>
                     <div className='col-7 xs-hidden'>
                       <styled.CarouselItemImageBig>
+                        {edges[0].node.frontmatter.showcase_isSold && (
+                          <styled.CarouselItemSoldTag>
+                            Sprzedane
+                          </styled.CarouselItemSoldTag>
+                        )}
                         <Img fluid={edges[0].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                       </styled.CarouselItemImageBig>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
                       <styled.CarouselItemImage>
+                        {edges[1].node.frontmatter.showcase_isSold && (
+                          <styled.CarouselItemSoldTag>
+                            Sprzedane
+                          </styled.CarouselItemSoldTag>
+                        )}
                         <Img fluid={edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                       </styled.CarouselItemImage>
                       <styled.CarouselItemHeading>{edges[1].node.frontmatter.showcase_title}</styled.CarouselItemHeading>

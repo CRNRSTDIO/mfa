@@ -31,7 +31,7 @@ const Blueprints = ({
               legend
             }
           }, index) => (
-            <div className='col-6_xs-12' key={index}>
+            <div className={`col-${blueprints.length > 1 ? 6 : 12}_xs-12`} key={index}>
               <Img fluid={fluid} alt={alt} />
               <styled.Legend>
                 {legend.split('\n').map((row, index) => (

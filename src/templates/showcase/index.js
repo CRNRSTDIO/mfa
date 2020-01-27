@@ -10,7 +10,7 @@ import {
   CarouselThumbs,
   CallToAction
 } from '../../components/showcase'
-import { Explore, CarouselCenter } from '../../components/shared'
+import { Description, Explore, CarouselCenter } from '../../components/shared'
 import Layout from '../../components/layout'
 
 export default ({
@@ -30,6 +30,7 @@ export default ({
     <Landing {...data}>
       <Carousel {...galleryTop} />
     </Landing>
+    <Description {...sectionDescr} />
     <Img fluid={sectionImage0.image.childImageSharp.fluid} />
     <Landscape {...sectionLandscape} />
     <Blueprints {...sectionBuilding} />

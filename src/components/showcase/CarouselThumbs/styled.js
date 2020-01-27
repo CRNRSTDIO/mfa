@@ -12,6 +12,7 @@ export const Carousel = styled.div`
 `
 
 export const CarouselItems = styled.div`
+  margin: 4.5rem 0 0;
   position: relative;
 
   ::before,
@@ -27,6 +28,10 @@ export const CarouselItems = styled.div`
 
   ::after {
     left: 100%;
+  }
+
+  @media (min-width: 48rem) {
+    margin: 8.75rem 0 0;
   }
 `
 

@@ -84,7 +84,7 @@ const Carousel = ({
               onClick={() => scrollTo(index)}
               isCurrent={currIndex === index}
             >
-              {`0${index}`}
+              {`0${index + 1}`}
             </styled.CarouselDot>
           ))}
         </styled.CarouselDots>

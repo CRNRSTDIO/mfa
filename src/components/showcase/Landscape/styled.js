@@ -2,9 +2,13 @@ import styled from 'styled-components'
 import { Body } from '../../shared/Body/styled'
 
 export const Landscape = styled.section`
+  margin: 6rem 0 4.5rem;
+
   @media (min-width: 48rem) {
+    margin: 8.25rem 0 7rem;
+
     ${Body} {
-      margin-bottom: 56px;
+      margin-bottom: 3.5rem;
     }
   }
 `

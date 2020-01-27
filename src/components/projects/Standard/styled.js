@@ -61,7 +61,7 @@ export const StandardHeading = styled.h3`
 export const StandardText = styled.p`
   color: ${colors.dark};
   font-size: .9375rem;
-  line-height: 1;
+  line-height: 2;
   margin: 0;
   white-space: pre-line;
 `

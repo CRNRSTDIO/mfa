@@ -30,6 +30,32 @@ export const CarouselItemImage = styled.div`
 
 export const CarouselItemImageBig = styled.div`
   margin: 0 0 3.625rem;
+  position: relative;
+`
+
+export const CarouselItemSoldTag = styled.div`
+  align-items: center;
+  background-color: ${colors.red};
+  border-radius: 50%;
+  color: ${colors.white};
+  display: flex;
+  font-size: .4375rem;
+  font-weight: 500;
+  height: 4.625rem;
+  justify-content: center;
+  left: -1rem;
+  letter-spacing: .1875rem;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1rem;
+  width: 4.625rem;
+  z-index: 1;
+
+  @media (min-width: 48rem) {
+    font-size: .5625rem;
+    height: 6.625rem;
+    width: 6.625rem;
+  }
 `
 
 export const CarouselItemLabel = styled.span`
