@@ -1,5 +1,8 @@
 ---
 template: process
+seo:
+  title: Proces
+  descr: ''
 title: Proces
 order: 4
 metadata:
@@ -52,4 +55,3 @@ process_sections:
       projekt, wystarczy, że poczekasz, a my zajmiemy się całą resztą. Tobie
       pozostanie już tylko się wprowadzić.
 ---
-

@@ -23,6 +23,12 @@ collections:
     identifier_field: showcase_title
     fields:
       - {label: Template, name: template, required: true, widget: hidden, default: showcase}
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: descr, widget: text}
       - {label: Label, name: showcase_label, widget: string}
       - {label: Title, name: showcase_title, widget: text}
       - label: Tags
@@ -170,6 +176,12 @@ collections:
         name: index
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: homepage}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: "Strona głowna"}
           - {label: Order, name: order, widget: hidden, value: 0}
           - label: Slider
@@ -219,6 +231,12 @@ collections:
         name: oferta
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: offer}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: Oferta}
           - {label: Order, name: order, widget: hidden, value: 1}
           - label: Metadata
@@ -240,6 +258,12 @@ collections:
         name: projekty-indywidualne
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: projects}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: Projekty indywidualne}
           - {label: Order, name: order, widget: hidden, value: 2}
           - label: Metadata
@@ -323,6 +347,12 @@ collections:
         name: standard
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: standard}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: Standard}
           - {label: Order, name: order, widget: hidden, value: 3}
           - label: Metadata
@@ -366,6 +396,12 @@ collections:
         name: process
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: process}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: Proces}
           - {label: Order, name: order, widget: hidden, value: 4}
           - label: Metadata
@@ -409,6 +445,12 @@ collections:
         name: "o-mfa"
         fields:
           - {label: Template, name: template, widget: hidden, requied: true, value: about}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: "O MFA"}
           - {label: Order, name: order, widget: hidden, value: 5}
           - label: Metadata
@@ -452,6 +494,12 @@ collections:
         name: kontakt
         fields:
           - {label: Template, name: template, widget: hidden, required: true, value: contact}
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: descr, widget: text}
           - {label: Title, name: title, widget: hidden, value: Kontakt}
           - {label: Order, name: order, widget: hidden, value: 6}
           - label: Contact details

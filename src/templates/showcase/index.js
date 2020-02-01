@@ -12,8 +12,10 @@ import {
 } from '../../components/showcase'
 import { Description, Explore, CarouselCenter } from '../../components/shared'
 import Layout from '../../components/layout'
+import SEO from '../../components/SEO'
 
 export default ({
+  seo,
   showcase_gallery_top: galleryTop,
   showcase_gallery_bottom: galleryBottom,
   showcase_section_building: sectionBuilding,
@@ -27,6 +29,7 @@ export default ({
   ...data
 }) => (
   <Layout>
+    <SEO {...seo} />
     <Landing {...data}>
       <Carousel {...galleryTop} />
     </Landing>

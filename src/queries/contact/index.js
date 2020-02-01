@@ -8,6 +8,10 @@ export const query = graphql`
   {
     markdownRemark(frontmatter: {template: {eq: "contact"}}) {
       frontmatter {
+        seo {
+          title,
+          descr
+        }
         contact_section_0 {
           heading
           phone

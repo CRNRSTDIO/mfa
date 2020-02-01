@@ -42,24 +42,52 @@ const Carousel = ({
                 <div className='grid-noBottom'>
                   <div className='grid-noBottom-middle col-12'>
                     <div className='col-7 xs-hidden'>
-                      <styled.CarouselItemImageBig>
+                      <styled.CarouselItemImageBig as={Link} to={edges[0].node.fields.slug}>
                         {edges[0].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
                             Sprzedane
                           </styled.CarouselItemSoldTag>
                         )}
                         <Img fluid={edges[0].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
+                        <styled.CarouselHoverState>
+                          {edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
+                            <styled.CarouselTagLine key={index}>
+                              {tag.split('-').map((tagPart, index) => (
+                                <styled.CarouselTagPart key={index}>
+                                  {tagPart.trim()}
+                                </styled.CarouselTagPart>
+                              ))}
+                            </styled.CarouselTagLine>
+                          ))}
+                          <styled.CarouselItemLink>
+                            Zobacz więcej
+                          </styled.CarouselItemLink>
+                        </styled.CarouselHoverState>
                       </styled.CarouselItemImageBig>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
-                      <styled.CarouselItemImage>
+                      <styled.CarouselItemImage as={Link} to={edges[0].node.fields.slug}>
                         {edges[1].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
                             Sprzedane
                           </styled.CarouselItemSoldTag>
                         )}
                         <Img fluid={edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
+                        <styled.CarouselHoverState>
+                          {edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
+                            <styled.CarouselTagLine key={index}>
+                              {tag.split('-').map((tagPart, index) => (
+                                <styled.CarouselTagPart key={index}>
+                                  {tagPart.trim()}
+                                </styled.CarouselTagPart>
+                              ))}
+                            </styled.CarouselTagLine>
+                          ))}
+                          <styled.CarouselItemLink>
+                            Zobacz więcej
+                          </styled.CarouselItemLink>
+                        </styled.CarouselHoverState>
                       </styled.CarouselItemImage>
                       <styled.CarouselItemHeading>{edges[1].node.frontmatter.showcase_title}</styled.CarouselItemHeading>
                       <styled.CarouselItemDate>{edges[1].node.frontmatter.showcase_year}</styled.CarouselItemDate>

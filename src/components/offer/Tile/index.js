@@ -12,6 +12,7 @@ const Tile = ({
     showcase_title: title,
     showcase_isSold: isSold,
     showcase_year: year,
+    showcase_tags: tags,
     showcase_main_image: {
       alt,
       image: {
@@ -28,7 +29,23 @@ const Tile = ({
         Sprzedane
       </styled.TileSold>
     )}
-    <Img fluid={fluid} alt={alt} />
+    <styled.TileImageWrap>
+      <Img fluid={fluid} alt={alt} />
+      <styled.TileHoverState>
+        {tags.map(({ tag }, index) => (
+          <styled.TileTagLine key={index}>
+            {tag.split('-').map((tagPart, index) => (
+              <styled.TileTagPart key={index}>
+                {tagPart.trim()}
+              </styled.TileTagPart>
+            ))}
+          </styled.TileTagLine>
+        ))}
+        <styled.TileItemLink>
+          Zobacz więcej
+        </styled.TileItemLink>
+      </styled.TileHoverState>
+    </styled.TileImageWrap>
     <styled.TileTitleWrap>
       <styled.TileTitle>
         {title}

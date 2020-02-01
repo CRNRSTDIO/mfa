@@ -1,5 +1,8 @@
 ---
 template: showcase
+seo:
+  title: Choszczno
+  descr: ''
 showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesny
@@ -213,4 +216,3 @@ showcase_section_contact:
   price: 480 579 zł
   price_new: 460 799 zł
 ---
-

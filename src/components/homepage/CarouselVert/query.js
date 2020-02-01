@@ -23,6 +23,9 @@ export default () => (
                 showcase_isSold
                 showcase_title
                 showcase_year
+                showcase_tags {
+                  tag
+                }
               }
               fields {
                 slug

@@ -9,6 +9,10 @@ export const query = graphql`
     markdownRemark(frontmatter: {template: {eq: "standard"}}) {
       id
       frontmatter {
+        seo {
+          title,
+          descr
+        }
         standard_section_0 {
           alt
           image {

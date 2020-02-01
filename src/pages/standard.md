@@ -1,5 +1,8 @@
 ---
 template: standard
+seo:
+  title: Standard
+  descr: ''
 title: Standard
 order: 3
 metadata:
@@ -56,4 +59,3 @@ standard_sections:
       przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
       niezbędne media.
 ---
-

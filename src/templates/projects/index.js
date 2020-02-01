@@ -3,8 +3,10 @@ import React from 'react'
 import { Heading } from '../../components/shared'
 import { Landing, Listing, Process, Standard, Reviews } from '../../components/projects'
 import Layout from '../../components/layout'
+import SEO from '../../components/SEO'
 
 export default ({
+  seo,
   projects_section_0: section0,
   projects_section_1: section1,
   projects_section_2: section2,
@@ -13,6 +15,7 @@ export default ({
   projects_section_5: section5
 }) => (
   <Layout>
+    <SEO {...seo} />
     <Landing {...section0} contents={section1} />
     <div className='container'>
       <Heading>{section2.heading}</Heading>

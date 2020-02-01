@@ -11,16 +11,19 @@ import {
 } from '../../components/homepage'
 import { Heading, Label, Explore } from '../../components/shared'
 import Layout from '../../components/layout'
+import SEO from '../../components/SEO'
 
 import * as styled from '../../styled/homepage'
 
 export default ({
+  seo,
   homepage_section_0: section00,
   homepage_section_1: section01,
   homepage_section_2: section02,
   homepage_section_3: section03
 }) => (
   <Layout>
+    <SEO {...seo} />
     <HomepageCarousel {...section00} />
     <styled.HomepageSection01>
       <div className='container'>

@@ -8,6 +8,10 @@ export const query = graphql`
   query {
     markdownRemark(frontmatter: {template: {eq: "homepage"}}) {
       frontmatter {
+        seo {
+          title,
+          descr
+        }
         homepage_section_0 {
           slide {
             heading

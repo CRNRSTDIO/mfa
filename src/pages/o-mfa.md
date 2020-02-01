@@ -1,5 +1,8 @@
 ---
 template: about
+seo:
+  title: O MFA
+  descr: ''
 title: O MFA
 order: 5
 metadata:
@@ -52,4 +55,3 @@ mfa_sections:
       miejsce, o którym zawsze marzyłeś i które będzie idealne, aby zaistniało w
       nim prawdziwe, rodzinne ciepło.
 ---
-

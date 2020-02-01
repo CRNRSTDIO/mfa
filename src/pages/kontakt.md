@@ -1,5 +1,8 @@
 ---
 template: contact
+seo:
+  title: Kontakt
+  descr: ''
 title: Kontakt
 order: 6
 contact_section_0:

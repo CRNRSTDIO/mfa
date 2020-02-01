@@ -1,5 +1,8 @@
 ---
 template: projects
+seo:
+  title: Projekty indywidualne
+  descr: ''
 title: Projekty indywidualne
 order: 2
 metadata:
@@ -89,4 +92,3 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
-

@@ -8,6 +8,10 @@ export const query = graphql`
   query ShowcaseById($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        seo {
+          title,
+          descr
+        }
         showcase_isSold
         showcase_label
         showcase_gallery_bottom {

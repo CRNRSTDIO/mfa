@@ -1,5 +1,8 @@
 ---
 template: offer
+seo:
+  title: Oferta
+  descr: ''
 title: Oferta
 order: 1
 metadata:

@@ -17,6 +17,9 @@ export default props => (
                 showcase_title
                 showcase_isSold
                 showcase_year
+                showcase_tags {
+                  tag
+                }
                 showcase_main_image {
                   alt
                   image {

@@ -1,8 +1,11 @@
 ---
 template: showcase
+seo:
+  title: Wronki
+  descr: ''
 showcase_label: Dom na sprzedaż
 showcase_title: |
-  Nowoczesny 
+  Nowoczesny
   segment
   bliźniaka
   we Wronkach
@@ -190,8 +193,7 @@ showcase_section_contact:
       na temat tego domu
   heading: |-
     Segment bliźniaka
-    w specjalnej cenie 
+    w specjalnej cenie
   price: 480 579 zł
   price_new: 460 799 zł
 ---
-
