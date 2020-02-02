@@ -1,8 +1,8 @@
 ---
 template: showcase
 seo:
-  title: Wronki
-  descr: ''
+  descr: Zapoznaj się z ofertą nowoczesnego domu we Wronkach.
+  title: Nowoczesny Segment Bliźniaka we Wronkach
 showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesny
@@ -197,3 +197,4 @@ showcase_section_contact:
   price: 480 579 zł
   price_new: 460 799 zł
 ---
+
