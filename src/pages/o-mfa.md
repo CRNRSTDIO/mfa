@@ -1,8 +1,10 @@
 ---
 template: about
 seo:
-  title: O MFA
-  descr: ''
+  descr: >-
+    W naszym biurze architektonicznym, zależy nam przede wszystkim na tym, byś
+    czuł się dobrze w swoim nowym domu. Dowiedz się więcej o MFA Poznań.
+  title: 'Dowiedz się, kim jesteśmy - MFA Poznań'
 title: O MFA
 order: 5
 metadata:
@@ -55,3 +57,4 @@ mfa_sections:
       miejsce, o którym zawsze marzyłeś i które będzie idealne, aby zaistniało w
       nim prawdziwe, rodzinne ciepło.
 ---
+

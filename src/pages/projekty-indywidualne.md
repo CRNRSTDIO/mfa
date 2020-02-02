@@ -1,8 +1,10 @@
 ---
 template: projects
 seo:
-  title: Projekty indywidualne
-  descr: ''
+  descr: >-
+    MFA to biuro architektoniczne z Poznania. Realizujemy kompleksowe budowy
+    domów i mieszkań pod klucz. Od projektu do wykończenia.
+  title: Dom pod klucz - MFA Poznań
 title: Projekty indywidualne
 order: 2
 metadata:
@@ -12,7 +14,7 @@ projects_section_0:
   heading: |-
     Zrealizujemy budowę
     Twojego nowego domu
-  image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+  image: /img/Group 102.jpg
 projects_section_1:
   heading: |-
     Kompleksowa realizacja projektu,
@@ -73,7 +75,7 @@ projects_section_5:
     naszych klientów
   opinions:
     - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+      image: /img/modern-house-with-garden-swimming-pool-and-wooden-WKEPMZY.jpg
       link: 'https://mfa.com.pl'
       subtext: Projekt Ani i Michała
       text: |
@@ -92,3 +94,4 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
+

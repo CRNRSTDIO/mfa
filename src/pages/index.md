@@ -1,8 +1,10 @@
 ---
 template: homepage
 seo:
-  title: Strona główna
-  descr: ''
+  descr: >-
+    MFA to biuro architektoniczne z Poznania. Projektujemy nowoczesne
+    rozwiązania, które w pełni wykorzystują potencjał każdej przestrzeni.
+  title: MFA - biuro architektoniczne Poznań
 title: Strona główna
 order: 0
 homepage_section_0:
@@ -22,6 +24,8 @@ homepage_section_0:
         Nowoczesny Dom
         we Wronkach
       image: /img/Wronki - Header.jpg
+      link: >-
+        https://www.mfa.com.pl/showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie/
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
@@ -55,3 +59,4 @@ homepage_section_3:
     przestrzeń
   image: /img/daria-nepriakhina-qem-3.png
 ---
+

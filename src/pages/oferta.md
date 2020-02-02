@@ -1,8 +1,10 @@
 ---
 template: offer
 seo:
-  title: Oferta
-  descr: ''
+  descr: >
+    Poznaj ofertę biura architektonicznego MFA z Poznania. Projektujemy
+    nowoczesne i funkcjonalne domy i mieszkania o wysokim standardzie.
+  title: Oferta biura architektonicznego z Poznania MFA
 title: Oferta
 order: 1
 metadata:
@@ -14,3 +16,4 @@ offer_section_0:
     Funkcjonalna Przestrzeń
     Wysoki standard
 ---
+

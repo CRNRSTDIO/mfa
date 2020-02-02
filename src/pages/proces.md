@@ -1,8 +1,10 @@
 ---
 template: process
 seo:
-  title: Proces
-  descr: ''
+  descr: >-
+    Poznaj proces, według którego działamy projektując i budując Twój przyszły
+    dom.
+  title: Proces MFA Poznań
 title: Proces
 order: 4
 metadata:
@@ -55,3 +57,4 @@ process_sections:
       projekt, wystarczy, że poczekasz, a my zajmiemy się całą resztą. Tobie
       pozostanie już tylko się wprowadzić.
 ---
+
