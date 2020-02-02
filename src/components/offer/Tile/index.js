@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
 
 import * as styled from './styled'
 
@@ -30,7 +29,7 @@ const Tile = ({
       </styled.TileSold>
     )}
     <styled.TileImageWrap>
-      <Img fluid={fluid} alt={alt} />
+      <styled.TileImg fluid={fluid} alt={alt} />
       <styled.TileHoverState>
         {tags.map(({ tag }, index) => (
           <styled.TileTagLine key={index}>

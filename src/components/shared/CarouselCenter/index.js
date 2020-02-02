@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 import CarouselPlugin from 'embla-carousel-react'
 
 import * as styled from './styled'
 
 const Carousel = ({
-  edges: showcases
+  edges: showcases = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -38,9 +38,44 @@ const Carousel = ({
           <div className='col-9_xs-12' data-push-left='off-2_xs-0'>
             <CarouselPlugin emblaRef={setCarousel} className='wrap'>
               <styled.CarouselContainer>
-                {showcases.map(({ node: { frontmatter: { showcase_title: title, showcase_year: year, showcase_main_image: { alt, image: { childImageSharp: { fluid } } } } } }, index) => (
-                  <styled.CarouselItem key={index}>
-                    <Img fluid={fluid} alt={alt} />
+                {showcases.map(({
+                  node: {
+                    fields: {
+                      slug
+                    },
+                    frontmatter: {
+                      showcase_title: title,
+                      showcase_year: year,
+                      showcase_tags: tags,
+                      showcase_main_image: {
+                        alt,
+                        image: {
+                          childImageSharp: {
+                            fluid
+                          }
+                        }
+                      }
+                    }
+                  }
+                }, index) => (
+                  <styled.CarouselItem as={Link} to={slug} key={index}>
+                    <styled.CarouselItemWrap>
+                      <styled.CarouselImg fluid={fluid} alt={alt} />
+                      <styled.CarouselHoverState>
+                        {tags && tags.map(({ tag }, index) => (
+                          <styled.CarouselTagLine key={index}>
+                            {tag.split('-').map((tagPart, index) => (
+                              <styled.CarouselTagPart key={index}>
+                                {tagPart.trim()}
+                              </styled.CarouselTagPart>
+                            ))}
+                          </styled.CarouselTagLine>
+                        ))}
+                        <styled.CarouselItemLink>
+                          Zobacz więcej
+                        </styled.CarouselItemLink>
+                      </styled.CarouselHoverState>
+                    </styled.CarouselItemWrap>
                     <styled.CarouselItemText>
                       <styled.CarouselItemHeading>{title}</styled.CarouselItemHeading>
                       <styled.CarouselItemDate>{year}</styled.CarouselItemDate>

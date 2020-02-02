@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import BackgroundImg from 'gatsby-background-image'
+
 import * as colors from '../../../global/variables.module.scss'
 
 export const Carousel = styled.div`
@@ -25,14 +27,111 @@ export const CarouselContainer = styled.div`
   }
 `
 
+export const CarouselHoverState = styled.div`
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity .15s linear;
+
+  ::before {
+    background-color: ${colors.dark1};
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+`
+
 export const CarouselItem = styled.div`
+  display: block;
   padding: 0 .5rem;
   flex-shrink: 0;
+  text-decoration: none;
   width: 100%;
+
+  :hover,
+  :focus {
+    ${CarouselHoverState} {
+      opacity: 1;
+    }
+  }
 
   @media (min-width: 48rem) {
     padding: 0 3rem;
   }
+`
+
+export const CarouselImg = styled(BackgroundImg)`
+  height: 10rem;
+
+  @media (min-width: 48rem) {
+    height: 26.25rem;
+  }
+`
+
+export const CarouselItemWrap = styled.div`
+  position: relative;
+`
+
+export const CarouselTagLine = styled.div`
+  align-items: flex-start;
+  border-bottom: 1px solid ${colors.white};
+  color: ${colors.white};
+  display: flex;
+  font-size: .75rem;
+  height: 2.5rem;
+  margin: 0 auto;
+  position: relative;
+  width: 11.25rem;
+
+  ::after {
+    background-color: ${colors.white};
+    bottom: 0;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 50%;
+    width: 1px;
+  }
+
+  & + & {
+    align-items: center;
+    height: 3.125rem;
+  }
+`
+
+export const CarouselTagPart = styled.div`
+  flex-basis: 50%;
+  max-width: 50%;
+
+  :first-child {
+    text-align: left;
+  }
+
+  :last-child {
+    text-align: right;
+  }
+`
+
+export const CarouselItemLink = styled.p`
+  color: ${colors.white};
+  display: block;
+  font-size: .75rem;
+  margin: 0;
+  padding: 1.625rem 0 0;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
 `
 
 export const CarouselItemText = styled.div`

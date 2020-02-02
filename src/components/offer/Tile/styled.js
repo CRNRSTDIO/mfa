@@ -1,5 +1,7 @@
 import styled from 'styled-components'
+import BackgroundImg from 'gatsby-background-image'
 import { Link } from 'gatsby'
+
 import * as colors from '../../../global/variables.module.scss'
 
 export const TileTitleWrap = styled.div`
@@ -19,6 +21,14 @@ export const TileTitle = styled.p`
   @media (min-width: 48rem) {
     font-size: 1.1875rem;
     margin: 1.75rem 0 .75rem;
+  }
+`
+
+export const TileImg = styled(BackgroundImg)`
+  height: 18.75rem;
+
+  @media (min-width: 48rem) {
+    height: 26.875rem;
   }
 `
 
