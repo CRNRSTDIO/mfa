@@ -11,6 +11,7 @@ export const Landing = styled.section`
 
 export const LandingHeading = styled.h2`
   color: ${colors.grey};
+  display: block;
   font-size: 1.25rem;
   font-weight: 500;
   margin: 0 0 2.125rem;
@@ -22,11 +23,18 @@ export const LandingHeading = styled.h2`
   }
 `
 
-export const LandingHuge = styled.p`
+export const LandingHuge = styled.a`
   color: ${colors.red};
+  display: block;
   font-size: 1.75rem;
   font-weight: 500;
   margin: 0;
+  text-decoration: none;
+
+  :hover,
+  :focus {
+    text-decoration: underline;
+  }
 
   @media (min-width: 48rem) {
     font-size: 5.125rem;

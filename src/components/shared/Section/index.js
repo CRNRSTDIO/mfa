@@ -12,7 +12,8 @@ const Section = ({
     }
   },
   alt,
-  index
+  index,
+  isLast
 }) => (
   <styled.Section>
     <div className='container'>
@@ -38,9 +39,17 @@ const Section = ({
             {text}
           </styled.SectionBody>
         </div>
-        <div className='col-12'>
-          <styled.SectionImage fluid={fluid} alt={alt} />
-        </div>
+        {
+          isLast
+            ? (
+              <styled.SectionSpacer />
+            )
+            : (
+              <div className='col-12'>
+                <styled.SectionImage fluid={fluid} alt={alt} />
+              </div>
+            )
+        }
       </div>
     </div>
   </styled.Section>
@@ -51,7 +60,8 @@ Section.propTypes = {
   text: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
   alt: PropTypes.string,
-  index: PropTypes.number.isRequired
+  index: PropTypes.number.isRequired,
+  isLast: PropTypes.bool.isRequired
 }
 
 export default Section

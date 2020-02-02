@@ -5,7 +5,7 @@ import { Heading } from '../../components/offer/Heading/styled'
 export const OfferSection00 = styled.section`
   align-items: center;
   display: flex;
-  height: 100vh;
+  height: 90vh;
 
   @media (min-width: 48rem) {
     align-items: flex-end;

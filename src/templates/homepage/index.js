@@ -27,7 +27,7 @@ export default ({
     <HomepageCarousel {...section00} />
     <styled.HomepageSection01>
       <div className='container'>
-        <Parallax>
+        <Parallax y={[-100, 100]}>
           <Label>{section01.label}</Label>
         </Parallax>
         <Heading>{section01.heading}</Heading>
@@ -38,7 +38,9 @@ export default ({
     <HomepageCarouselVert />
     <styled.HomepageSection02>
       <div className='container'>
-        <Label>{section02.label}</Label>
+        <Parallax y={[-100, 100]}>
+          <Label>{section02.label}</Label>
+        </Parallax>
         <Heading>{section02.heading}</Heading>
         <Body>{section02.text}</Body>
       </div>

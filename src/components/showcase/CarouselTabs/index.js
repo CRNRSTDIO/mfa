@@ -36,9 +36,11 @@ const Carousel = ({
   return (
     <>
       <div className='container'>
-        <Heading>
-          {heading}
-        </Heading>
+        <styled.CarouselHeader>
+          <Heading>
+            {heading}
+          </Heading>
+        </styled.CarouselHeader>
       </div>
       <styled.Carousel>
         <styled.CarouselTabs>

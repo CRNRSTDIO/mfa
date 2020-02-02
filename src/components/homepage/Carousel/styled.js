@@ -43,6 +43,7 @@ const CarouselArrow = styled.button`
   background: transparent;
   border: 0;
   color: currentColor;
+  cursor: pointer;
   outline: 0;
   padding: 1.5rem;
 
@@ -144,6 +145,7 @@ export const CarouselDot = styled.button`
   border: 0;
   border-radius: 50%;
   color: currentColor;
+  cursor: pointer;
   display: flex;
   font-size: .625rem;
   height: 3.25rem;

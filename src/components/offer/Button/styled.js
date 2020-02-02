@@ -16,6 +16,7 @@ export const Button = styled.button`
   border: 0;
   border-radius: 0;
   color: ${colors.dark1};
+  cursor: pointer;
   font-size: .625rem;
   font-weight: 500;
   letter-spacing: .1875rem;

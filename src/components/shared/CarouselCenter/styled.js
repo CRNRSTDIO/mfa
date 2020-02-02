@@ -173,6 +173,7 @@ export const CarouselDot = styled.button`
   align-items: center;
   background-color: transparent;
   border: 0;
+  cursor: pointer;
   display: flex;
   height: 1.25rem;
   justify-content: center;
@@ -207,6 +208,7 @@ export const CarouselArrow = styled.button`
   background: transparent;
   border: 0;
   color: currentcolor;
+  cursor: pointer;
   height: 30px;
   margin: 0;
   outline: 0;

@@ -40,6 +40,16 @@ export const FooterDetails = styled.span`
   margin: 1.5rem 0;
   white-space: pre-wrap;
 
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    :hover,
+    :focus {
+      text-decoration: underline;
+    }
+  }
+
   @media (min-width: 48rem) {
     font-size: .9375rem;
     margin: 0 0 5.125rem;

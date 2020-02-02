@@ -20,10 +20,10 @@ const Landing = ({
         <div className='col-12'>
           <div className='grid-noBottom'>
             <div className='col-9_xs-12'>
-              <styled.LandingHuge>
+              <styled.LandingHuge href={`tel:${phone.substr(phone.lastIndexOf('+'))}`}>
                 {phone}
               </styled.LandingHuge>
-              <styled.LandingHuge>
+              <styled.LandingHuge href={`mailto:${email}`}>
                 {email}
               </styled.LandingHuge>
             </div>

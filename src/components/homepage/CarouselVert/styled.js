@@ -209,6 +209,7 @@ export const CarouselDot = styled.button`
   align-items: center;
   background-color: transparent;
   border: 0;
+  cursor: pointer;
   display: flex;
   height: 2.25rem;
   justify-content: center;

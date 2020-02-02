@@ -56,7 +56,7 @@ const Carousel = ({
                 {...background}
               />
               <div className='container'>
-                <Parallax y={[-20, 20]}>
+                <Parallax y={[-40, 40]}>
                   <styled.CarouselItemText>
                     <styled.CarouselControls>
                       <styled.CarouselArrowLeft onClick={scrollPrev} />

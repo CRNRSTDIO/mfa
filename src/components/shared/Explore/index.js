@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Parallax } from 'react-scroll-parallax'
 import Label from '../Label'
 
 import * as styled from './styled'
@@ -9,7 +10,9 @@ const Explore = ({ edges: pages }) => (
     <div className='container'>
       <div className='grid-noBottom-middle'>
         <div className='col-12'>
-          <Label>NASZA OFERTA</Label>
+          <Parallax y={[-100, 100]}>
+            <Label>NASZA OFERTA</Label>
+          </Parallax>
         </div>
         <div className='col-4_xs-8' data-push-left='off-2_xs-0'>
           <styled.ExploreHeading>Przeglądaj z kategorii</styled.ExploreHeading>

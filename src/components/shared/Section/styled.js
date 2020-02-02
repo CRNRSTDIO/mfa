@@ -55,3 +55,7 @@ export const SectionImage = styled(BackgroundImg)`
     margin: 8.5rem 0;
   }
 `
+
+export const SectionSpacer = styled.div`
+  margin: 3.125rem;
+`

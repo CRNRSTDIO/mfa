@@ -86,6 +86,7 @@ export const CarouselThumbs = styled.div`
 `
 
 export const CarouselThumb = styled.div`
+  cursor: pointer;
   flex-basis: 25%;
   flex-shrink: 0;
   height: 3.125rem;
@@ -105,6 +106,7 @@ const CarouselArrow = styled.button`
   background: transparent;
   border: 0;
   color: currentColor;
+  cursor: pointer;
   outline: 0;
   padding: 1.5rem;
   position: absolute;

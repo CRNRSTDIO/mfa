@@ -52,6 +52,7 @@ export const CarouselDots = styled.div`
 
 export const CarouselDot = styled.div`
   align-items: center;
+  cursor: pointer;
   display: flex;
   height: 3.75rem;
   justify-content: center;

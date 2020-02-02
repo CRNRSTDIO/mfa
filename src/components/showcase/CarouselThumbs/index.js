@@ -67,7 +67,7 @@ const Carousel = ({
             options={options}
           >
             <styled.CarouselContainer>
-              {[...slides, ...slides, ...slides, ...slides].map(({ image }, index) => (
+              {slides.map(({ image }, index) => (
                 <styled.CarouselItem key={index}>
                   <Img fluid={image.childImageSharp.fluid} />
                 </styled.CarouselItem>
@@ -77,7 +77,7 @@ const Carousel = ({
           <styled.CarouselCounter>
             <styled.CarouselCounterIcon />
             <styled.CarouselCounterText>
-              {currIndex + 1} z {[...slides, ...slides, ...slides, ...slides].length}
+              {currIndex + 1} z {slides.length}
             </styled.CarouselCounterText>
           </styled.CarouselCounter>
           <styled.CarouselArrowRight onClick={scrollNext} />
@@ -88,7 +88,7 @@ const Carousel = ({
             options={options}
           >
             <styled.CarouselContainer>
-              {[...slides, ...slides, ...slides, ...slides].map(({ image }, index) => (
+              {slides.map(({ image }, index) => (
                 <styled.CarouselThumb key={index} onClick={() => goTo(index)}>
                   <Img fluid={image.childImageSharp.fluid} />
                 </styled.CarouselThumb>

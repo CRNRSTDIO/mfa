@@ -1,6 +1,14 @@
 import styled from 'styled-components'
 import * as colors from '../../../global/variables.module.scss'
 
+export const CarouselHeader = styled.div`
+  margin: 6rem 0 1rem;
+
+  @media (min-width: 48rem) {
+    margin: 8.25rem 0 3rem;
+  }
+`
+
 export const Carousel = styled.div`
   background-color: ${colors.white};
   color: ${colors.dark};
@@ -19,6 +27,7 @@ const CarouselArrow = styled.button`
   background: transparent;
   border: 0;
   color: currentColor;
+  cursor: pointer;
   outline: 0;
   padding: 1.5rem;
 
@@ -58,6 +67,7 @@ export const CarouselTabs = styled.div`
 export const CarouselTab = styled.button`
   background: transparent;
   border: 0;
+  cursor: pointer;
   font-size: .625rem;
   letter-spacing: .125rem;
   outline: 0;
