@@ -1,8 +1,10 @@
 ---
 template: contact
 seo:
-  title: Kontakt
-  descr: ''
+  descr: >-
+    Projektujemy nowoczesne domy i mieszkania. Skontaktuj się z nami, a chętnie
+    dowiemy się, co możemy dla Ciebie zrobić! 
+  title: Kontakt - MFA Poznań
 title: Kontakt
 order: 6
 contact_section_0:
@@ -15,3 +17,4 @@ contact_section_0:
   heading: Skontaktuj się z nami
   phone: 'T:+ 48 510 375 473'
 ---
+
