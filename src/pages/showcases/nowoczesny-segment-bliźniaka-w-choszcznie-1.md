@@ -58,14 +58,8 @@ showcase_section_landscape:
   heading: Rzut terenu
   image: /img/Rzut terenu0.jpg
   legend_items:
-    - item: Jodły kaukaskie
-    - item: Oświetlenie
-    - item: Jodły kaukaskie
-    - item: Oświetlenie
-    - item: Jodły kaukaskie
-    - item: Oświetlenie
-    - item: Jodły kaukaskie
-    - item: Oświetlenie
+    - item: Działka 1 - 434 m2
+    - item: Działka 2 - 397 m2
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
     Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
@@ -99,25 +93,25 @@ showcase_section_building:
 
           PARTER
           A1/B1|WIATROŁAP|6,99 M2
-          A2/B2 POM. TECHNICZNE – 3,11 M2
-          A3/B3 GARAŻ – 19,98 M2 ( GARAŻ NIE WLICZAMY W POWIERZCHNIĘ UŻYTKOWĄ)
-          A4/B4 KORYTARZ – 1,92 M2
-          A5/B5 TOALETA - 3,30 M2
-          A6/B6 SALON + KUCHNIA – 36,81 M2
-          A7/B7 SCHODY - 1,03 M2
-          A8/B8 POM. GOSPODARCZE – 0,93 M2
+          A2/B2|POM. TECHNICZNE|3,11 M2
+          A3/B3|GARAŻ|19,98 M2
+          A4/B4|KORYTARZ|1,92 M2
+          A5/B5|TOALETA|3,30 M2
+          A6/B6|SALON + KUCHNIA|36,81 M2
+          A7/B7|SCHODY|1,03 M2
+          A8/B8|POM. GOSPODARCZE|0,93 M2
 
           PIĘTRO
-          A9/B9 – SCHODY – 3,46 M2
-          A10/B10 – KORYTARZ – 5,60 M2
-          A11/B11 – POKÓJ 1 – 11,60 M2
-          A12/B12 – TOALETA – 8,86 M2
-          A13/B13 – POKÓJ 2 – 12,80 M2
-          A14/B14 – GARDEROBA – 2,90 M2
-          A15/B15 – POKÓJ 3 – 10,90 M2
+          A9/B9|SCHODY|3,46 M2
+          A10/B10|KORYTARZ|5,60 M2
+          A11/B11|POKÓJ 1|11,60 M2
+          A12/B12|TOALETA|8,86 M2
+          A13/B13|POKÓJ 2|12,80 M2
+          A14/B14|GARDEROBA|2,90 M2
+          A15/B15|POKÓJ 3|10,90 M2
 
-          SUMA POWIERZCHNI UŻYTKOWEJ - 109,85 M2
-          SUMA POWIERZCHNI CAŁKOWITEJ – 129,83 M2
+          A|SUMA POWIERZCHNI UŻYTKOWEJ|109,85 M2
+          B|SUMA POWIERZCHNI CAŁKOWITEJ|129,83 M2
   heading: Rzuty Parteru / Piętra
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
