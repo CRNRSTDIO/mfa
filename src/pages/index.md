@@ -24,8 +24,7 @@ homepage_section_0:
         Nowoczesny Dom
         we Wronkach
       image: /img/Wronki - Header.jpg
-      link: >-
-        https://www.mfa.com.pl/showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie/
+      link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie/
       subheading: Segmnet Bliźniaka
       tags:
         - tag: Metraż - 180 m2
