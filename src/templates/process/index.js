@@ -14,8 +14,8 @@ const Process = ({
   <Layout>
     <SEO {...seo} />
     <Landing {...section0} {...sections} />
-    {sections.map((section, key) => (
-      <Section key={key} index={key} {...section} />
+    {sections.map((section, key, { length }) => (
+      <Section key={key} index={key} isLast={length - 1 === key} {...section} />
     ))}
     <Listing excludeId={id} />
     <Explore />
