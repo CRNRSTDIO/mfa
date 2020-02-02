@@ -9,6 +9,10 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 collections:
   - name: showcases
     label: Showcases
