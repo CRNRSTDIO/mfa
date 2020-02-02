@@ -1,8 +1,11 @@
 ---
 template: standard
 seo:
-  title: Standard
-  descr: ''
+  descr: >-
+    W naszym biurze architektonicznym oferujemy wyłącznie najwyższy standard.
+    Współpracujemy ze specjalistami, którzy korzystają z najlepszej jakości
+    materiałów
+  title: Najwyższy standard - MFA Poznań
 title: Standard
 order: 3
 metadata:
@@ -59,3 +62,4 @@ standard_sections:
       przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
       niezbędne media.
 ---
+
