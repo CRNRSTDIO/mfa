@@ -118,10 +118,17 @@ showcase_gallery_bottom:
 showcase_section_contact:
   contact:
     details:
-      - data: Test
-        heading: Test
-    heading: Test
-  heading: Test
+      - data: + 48 510 375 473
+        heading: Zadzwoń
+      - data: michal.filipczuk@mfa.com.pl
+        heading: Napisz
+    heading: |-
+      Uzyskaj więcej szczegółów
+      na temat projektów indywidualnych
+  heading: |-
+    Zbudujemy Twój 
+    wymarzony, nowy 
+    dom pod klucz
   price: Test
   price_new: Test
 ---
