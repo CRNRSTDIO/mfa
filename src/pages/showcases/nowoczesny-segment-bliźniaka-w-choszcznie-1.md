@@ -1,17 +1,18 @@
 ---
 template: showcase
 seo:
-  descr: Zapoznaj się z ofertą nowoczesnego domu w Choszcznie.
-  title: Nowoczesny Segment Bliźniaka w Choszcznie
+  descr: Zapoznaj się z ofertą nowoczesnych domów w Choszcznie.
+  title: Nowoczesne Segmenty Bliźniaka w Choszcznie
 showcase_label: Dom na sprzedaż
 showcase_title: |
-  Nowoczesny
-  Segment
+  Nowoczesne
+  Segmenty
   bliźniaka
   w Choszcznie
 showcase_tags:
   - tag: Metraż - 130 m2
   - tag: Cena - 432 000 zł
+  - tag: Metraż - 110 m2
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
