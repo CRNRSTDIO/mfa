@@ -1,7 +1,9 @@
 ---
 template: project
 seo:
-  descr: Test
+  descr: >-
+    Projekt domu parterowego indywidualny wykonany dla prywatnego inwestora w
+    malowniczych Klukach.
   title: Dom parterowy w Klukach
 showcase_label: 'Projekt indywidualny '
 showcase_title: Dom parterowy w Klukach
