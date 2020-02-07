@@ -129,7 +129,7 @@ showcase_section_contact:
     Zbudujemy Twój 
     wymarzony, nowy 
     dom pod klucz
-  price: Test
-  price_new: Test
+  price: ' '
+  price_new: ' '
 ---
 
