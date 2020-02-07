@@ -68,7 +68,7 @@ projects_section_5:
   details:
     - data: + 48 510 375 473
       heading: zadzwoń
-    - data: michal@mfa.com.pl
+    - data: michal.filipczuk@mfa.com.pl
       heading: Napisz
   heading: |-
     Dołącz do grona
