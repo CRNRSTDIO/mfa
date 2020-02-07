@@ -207,7 +207,7 @@ showcase_section_contact:
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
-  price: 480 579 zł
+  price: ' '
   price_new: 460 799 zł
 ---
 
