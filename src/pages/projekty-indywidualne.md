@@ -14,7 +14,7 @@ projects_section_0:
   heading: |-
     Zrealizujemy budowę
     Twojego nowego domu
-  image: /img/Group 102.jpg
+  image: /img/Mfa-Nowy-Standard-Życia.jpg
 projects_section_1:
   heading: |-
     Kompleksowa realizacja projektu,
