@@ -43,9 +43,9 @@ projects_section_2:
   heading: Nasze realizacje
 projects_section_3:
   heading: |-
-    Obserwuj proces powstawania
-    Twojego domu w pełni
-    kontrolowanym procesie
+    Poznaj proces powstawania 
+    Twojego nowego domu 
+    w pełni kontrolowanym procesie
   steps:
     - step: projekt
     - step: budowa
@@ -56,8 +56,9 @@ projects_section_3:
 projects_section_4:
   alt: Opis zdjęcia
   heading: |-
-    Nasz standard
-    budowy domu pod klucz
+    Odkryj standard 
+    w jakim powstanie
+    Twój nowy dom
   image: /img/arrangement-color-colors-1.png
   text: >-
     Each client searches for a unique solution catered to their personal style,
@@ -94,3 +95,4 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
+
