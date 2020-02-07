@@ -26,7 +26,7 @@ metadata:
 process_section_0:
   alt: Opis zdjęcia
   image: /img/Group 94.png
-  text: Jak wygląda nasz proces
+  text: Poznaj proces budowy Twojego nowego domu
 process_sections:
   - alt: Opis zdjęcia
     heading: Szersza Koncpecja

@@ -12,8 +12,8 @@ metadata:
     title: Kup dom
 offer_section_0:
   heading: |-
-    Nowoczesne Domy
-    Funkcjonalna Przestrzeń
-    Wysoki standard
+    Zapoznaj się
+    z naszą ofertą
+    deweloperską
 ---
 

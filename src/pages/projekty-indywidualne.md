@@ -14,7 +14,7 @@ projects_section_0:
   heading: |-
     Zrealizujemy budowę
     Twojego nowego domu
-  image: /img/Group 102.jpg
+  image: /img/Mfa-Nowy-Standard-Życia.jpg
 projects_section_1:
   heading: |-
     Kompleksowa realizacja projektu,
@@ -68,7 +68,7 @@ projects_section_5:
   details:
     - data: + 48 510 375 473
       heading: zadzwoń
-    - data: michal@mfa.com.pl
+    - data: michal.filipczuk@mfa.com.pl
       heading: Napisz
   heading: |-
     Dołącz do grona

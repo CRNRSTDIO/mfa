@@ -199,7 +199,7 @@ showcase_section_contact:
     details:
       - data: + 48 510 375 473
         heading: zadzwoń
-      - data: michal@mfa.com.pl
+      - data: michal.filipczuk@mfa.com.pl
         heading: Napisz
     heading: |-
       Uzyskaj więcej szczegółów
@@ -207,7 +207,7 @@ showcase_section_contact:
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
-  price: 480 579 zł
+  price: ' '
   price_new: 460 799 zł
 ---
 
