@@ -12,7 +12,7 @@ showcase_title: |
 showcase_tags:
   - tag: Metraż - 168 m2
   - tag: Cena - 432 000 zł
-showcase_isSold: false
+showcase_isSold: true
 showcase_year: '2019'
 showcase_main_image:
   alt: Opis zdjęcia
