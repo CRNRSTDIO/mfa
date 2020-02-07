@@ -9,7 +9,7 @@ title: Projekty indywidualne
 order: 2
 metadata:
   metadata_offer:
-    title: BUDOWA DOMU pod klucz
+    title: Zamów dom
 projects_section_0:
   heading: |-
     Zrealizujemy budowę
