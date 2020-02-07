@@ -2,13 +2,13 @@
 template: project
 seo:
   descr: Test
-  title: Test
-showcase_label: Test
-showcase_title: Test
+  title: Dom parterowy w malowniczych Klukach
+showcase_label: 'Projekt indywidualny '
+showcase_title: Dom parterowy w malowniczych Klukach
 showcase_tags:
-  - tag: Test
+  - tag: Metraż - 138 m2
 showcase_isSold: false
-showcase_year: Test
+showcase_year: '2019'
 showcase_main_image:
   alt: Test
   image: /img/Group 102.jpg
@@ -67,3 +67,4 @@ showcase_section_contact:
   price: Test
   price_new: Test
 ---
+
