@@ -421,7 +421,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: descr, widget: text}
-          - {label: Title, name: title, widget: hidden, value: Projekty indywidualne}
+          - {label: Title, name: title, widget: hidden, value: Projekty}
           - {label: Order, name: order, widget: hidden, value: 2}
           - label: Metadata
             name: metadata

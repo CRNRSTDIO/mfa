@@ -3,8 +3,6 @@ import * as colors from '../../../global/variables.module.scss'
 
 export const Landing = styled.section`
   align-items: flex-end;
-  background-color: ${colors.grey1};
-  background-image: radial-gradient(circle, ${colors.white} 50%, transparent 100%);
   display: flex;
   height: 100vh;
 `

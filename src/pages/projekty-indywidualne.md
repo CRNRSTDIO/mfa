@@ -5,7 +5,7 @@ seo:
     MFA to biuro architektoniczne z Poznania. Realizujemy kompleksowe budowy
     domów i mieszkań pod klucz. Od projektu do wykończenia.
   title: Dom pod klucz - MFA Poznań
-title: Projekty indywidualne
+title: Projekty
 order: 2
 metadata:
   metadata_offer:
@@ -94,4 +94,3 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
-
