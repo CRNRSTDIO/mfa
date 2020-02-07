@@ -14,10 +14,10 @@ const Explore = ({ edges: pages = [] }) => (
             <Label>NASZA OFERTA</Label>
           </Parallax>
         </div>
-        <div className='col-4_xs-8' data-push-left='off-2_xs-0'>
-          <styled.ExploreHeading>Przeglądaj z kategorii</styled.ExploreHeading>
+        <div className='col-5_xs-8' data-push-left='off-2_xs-0'>
+          <styled.ExploreHeading>Kup lub<br /> zamów dom</styled.ExploreHeading>
         </div>
-        <div className='col-4_xs-12' data-push-left='off-2_xs-0'>
+        <div className='col-4_xs-12' data-push-left='off-1_xs-0'>
           <styled.ExploreLinks>
             {pages && pages.map(({ node: { fields: { slug }, frontmatter: { metadata: { metadata_offer: { title } } } } }, key) => (
               <styled.ExploreLinkWrapper key={key}>
