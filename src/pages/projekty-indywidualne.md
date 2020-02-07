@@ -49,7 +49,7 @@ projects_section_3:
   steps:
     - step: projekt
     - step: budowa
-    - step: odbiór budynku pod klucz
+    - step: odbiór domu
   text: >-
     Zajmujemy się całym procesem od załatwieni wszelkich formalności  do oddania
     urządzonego już domu pod klucz
