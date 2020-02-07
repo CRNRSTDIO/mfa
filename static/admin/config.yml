@@ -167,6 +167,159 @@ collections:
                 fields:
                   - {label: Heading, name: heading, widget: string}
                   - {label: Data, name: data, widget: string}
+  - name: projects
+    label: Projects
+    label_singular: Project
+    description: >
+      Descr
+    folder: src/pages/projects
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    identifier_field: showcase_title
+    fields:
+      - {label: Template, name: template, required: true, widget: hidden, default: showcase}
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: descr, widget: text}
+      - {label: Label, name: showcase_label, widget: string}
+      - {label: Title, name: showcase_title, widget: text}
+      - label: Tags
+        label_singular: Tag
+        name: showcase_tags
+        widget: list
+        fields:
+          - {label: Text, name: tag, widget: string}
+      - {label: Sold, name: showcase_isSold, widget: boolean, default: false}
+      - {label: Year, name: showcase_year, widget: string}
+      - label: Main image
+        name: showcase_main_image
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Gallery
+        name: showcase_gallery_top
+        widget: object
+        fields:
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Opis inwestycji' section"
+        name: showcase_section_descr
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+      - label: Image section
+        name: showcase_section_image
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Rzut terenu' section"
+        name: showcase_section_landscape
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - label: Legend items
+            label_singular: Legend item
+            name: legend_items
+            widget: list
+            fields:
+              - {label: Text, name: item, widget: string}
+      - label: "'Rzut budynku' section"
+        name: showcase_section_building
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - label: Blueprints
+            label_singular: Blueprint
+            name: blueprints
+            widget: list
+            fields:
+              - label: Blueprint
+                name: blueprint
+                widget: object
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Legend, name: legend, widget: text}
+      - label: "'Użyte materiały' section"
+        name: showcase_section_materials_used
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Text, name: text, widget: markdown}
+          - label: Logos
+            label_singular: Logo
+            name: logos
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Image section
+        name: showcase_section_image_2
+        widget: object
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Zastosowane technologie' section"
+        name: showcase_section_tech_used
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: Gallery
+        name: showcase_gallery_bottom
+        widget: object
+        fields:
+          - label: Slides
+            label_singular: Slide
+            name: slides
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Image alternative text, name: alt, widget: string, required: false}
+      - label: "'Kontakt' section"
+        name: showcase_section_contact
+        widget: object
+        fields:
+          - {label: Heading, name: heading, widget: text}
+          - {label: Price, name: price, widget: string, required: false}
+          - {label: New price, name: price_new, widget: string, required: false}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Heading, name: heading, widget: text}
+              - label: Contact details
+                label_singular: Contact detail
+                name: details
+                widget: list
+                fields:
+                  - {label: Heading, name: heading, widget: string}
+                  - {label: Data, name: data, widget: string}
   - name: pages
     label: Pages
     label_singular: page
