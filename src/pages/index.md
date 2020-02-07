@@ -27,8 +27,8 @@ homepage_section_0:
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie/
       subheading: Segmnet Bliźniaka
       tags:
-        - tag: Metraż - 180 m2
-        - tag: Cena - 450 000 zł
+        - tag: SPRZEDAŻ ZAKOŃCZONA
+        - tag: Październik 2019
 homepage_section_1:
   aside: >-
     Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
