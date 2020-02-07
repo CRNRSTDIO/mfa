@@ -5,6 +5,8 @@ seo:
   title: Test
 showcase_label: Test
 showcase_title: Test
+showcase_tags:
+  - tag: Test
 showcase_isSold: false
 showcase_year: Test
 showcase_main_image:
