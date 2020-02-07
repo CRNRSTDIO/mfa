@@ -56,6 +56,6 @@ homepage_section_3:
   heading: |-
     Twoja idealna
     przestrzeń
-  image: /img/daria-nepriakhina-qem-3.png
+  image: /img/Mfa-Nowy-Standard-Życia.jpg
 ---
 
