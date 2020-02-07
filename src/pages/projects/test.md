@@ -4,7 +4,7 @@ seo:
   descr: Test
   title: Dom parterowy w Klukach
 showcase_label: 'Projekt indywidualny '
-showcase_title: Dom parterowy w malowniczych Klukach
+showcase_title: Dom parterowy w Klukach
 showcase_tags:
   - tag: Metraż - 128 m2
 showcase_isSold: false
