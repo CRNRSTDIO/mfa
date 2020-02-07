@@ -8,7 +8,7 @@ import * as styled from './styled'
 const Blueprints = ({
   heading,
   text,
-  blueprints
+  blueprints = []
 }) => (
   <styled.Blueprints>
     <div className='container'>
@@ -20,7 +20,7 @@ const Blueprints = ({
       </Body>
       <div className='grid-noBottom'>
         <div className='col grid-noBottom' data-push-left='off-2_xs-0'>
-          {blueprints.map(({
+          {blueprints && blueprints.map(({
             blueprint: {
               alt,
               image: {
@@ -34,9 +34,9 @@ const Blueprints = ({
             <div className={`col-${blueprints.length > 1 ? 6 : 12}_xs-12`} key={index}>
               <Img fluid={fluid} alt={alt} />
               <styled.Legend>
-                {legend.split('\n').map((row, index) => (
+                {legend && legend.split('\n').map((row, index) => (
                   <styled.LegendRow key={index}>
-                    {row.split('|').map((column, index) => (
+                    {row && row.split('|').map((column, index) => (
                       <styled.LegendColumn key={index}>
                         {column.trim()}
                       </styled.LegendColumn>

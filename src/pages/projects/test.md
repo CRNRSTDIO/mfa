@@ -1,5 +1,5 @@
 ---
-template: showcase
+template: project
 seo:
   descr: Test
   title: Test
@@ -41,4 +41,3 @@ showcase_section_contact:
   price: Test
   price_new: Test
 ---
-

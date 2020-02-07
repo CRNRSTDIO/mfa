@@ -48,7 +48,7 @@ collections:
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: Gallery
         name: showcase_gallery_top
         widget: object
@@ -59,7 +59,7 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: "'Opis inwestycji' section"
         name: showcase_section_descr
         widget: object
@@ -71,7 +71,7 @@ collections:
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: "'Rzut terenu' section"
         name: showcase_section_landscape
         widget: object
@@ -79,7 +79,7 @@ collections:
           - {label: Heading, name: heading, widget: text}
           - {label: Text, name: text, widget: markdown}
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
           - label: Legend items
             label_singular: Legend item
             name: legend_items
@@ -102,7 +102,7 @@ collections:
                 widget: object
                 fields:
                   - {label: Image, name: image, widget: image}
-                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Image alternative text, name: alt, widget: string}
                   - {label: Legend, name: legend, widget: text}
       - label: "'Użyte materiały' section"
         name: showcase_section_materials_used
@@ -116,13 +116,13 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: Image section
         name: showcase_section_image_2
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: "'Zastosowane technologie' section"
         name: showcase_section_tech_used
         widget: object
@@ -136,7 +136,7 @@ collections:
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: markdown}
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: Gallery
         name: showcase_gallery_bottom
         widget: object
@@ -147,14 +147,14 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: "'Kontakt' section"
         name: showcase_section_contact
         widget: object
         fields:
           - {label: Heading, name: heading, widget: text}
-          - {label: Price, name: price, widget: string, required: false}
-          - {label: New price, name: price_new, widget: string, required: false}
+          - {label: Price, name: price, widget: string}
+          - {label: New price, name: price_new, widget: string}
           - label: Contact
             name: contact
             widget: object
@@ -171,7 +171,7 @@ collections:
     label: Projects
     label_singular: Project
     description: >
-      Descr
+      Description
     folder: src/pages/projects
     create: true
     editor:
@@ -179,7 +179,7 @@ collections:
     slug: "{{slug}}"
     identifier_field: showcase_title
     fields:
-      - {label: Template, name: template, required: true, widget: hidden, default: showcase}
+      - {label: Template, name: template, required: true, widget: hidden, default: project}
       - label: SEO
         name: seo
         widget: object
@@ -201,7 +201,7 @@ collections:
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: Gallery
         name: showcase_gallery_top
         widget: object
@@ -212,7 +212,7 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: "'Opis inwestycji' section"
         name: showcase_section_descr
         widget: object
@@ -224,7 +224,7 @@ collections:
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: "'Rzut terenu' section"
         name: showcase_section_landscape
         widget: object
@@ -232,7 +232,7 @@ collections:
           - {label: Heading, name: heading, widget: text}
           - {label: Text, name: text, widget: markdown}
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
           - label: Legend items
             label_singular: Legend item
             name: legend_items
@@ -255,7 +255,7 @@ collections:
                 widget: object
                 fields:
                   - {label: Image, name: image, widget: image}
-                  - {label: Image alternative text, name: alt, widget: string, required: false}
+                  - {label: Image alternative text, name: alt, widget: string}
                   - {label: Legend, name: legend, widget: text}
       - label: "'Użyte materiały' section"
         name: showcase_section_materials_used
@@ -269,13 +269,13 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: Image section
         name: showcase_section_image_2
         widget: object
         fields:
           - {label: Image, name: image, widget: image}
-          - {label: Image alternative text, name: alt, widget: string, required: false}
+          - {label: Image alternative text, name: alt, widget: string}
       - label: "'Zastosowane technologie' section"
         name: showcase_section_tech_used
         widget: object
@@ -289,7 +289,7 @@ collections:
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: markdown}
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: Gallery
         name: showcase_gallery_bottom
         widget: object
@@ -300,14 +300,14 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
-              - {label: Image alternative text, name: alt, widget: string, required: false}
+              - {label: Image alternative text, name: alt, widget: string}
       - label: "'Kontakt' section"
         name: showcase_section_contact
         widget: object
         fields:
           - {label: Heading, name: heading, widget: text}
-          - {label: Price, name: price, widget: string, required: false}
-          - {label: New price, name: price_new, widget: string, required: false}
+          - {label: Price, name: price, widget: string}
+          - {label: New price, name: price_new, widget: string}
           - label: Contact
             name: contact
             widget: object

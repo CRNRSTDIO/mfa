@@ -29,7 +29,7 @@ const Landing = ({
             </div>
             <div className='col-3_xs-12'>
               <styled.LandingData>
-                {address.split('\n').map((line, index) => (
+                {address && address.split('\n').map((line, index) => (
                   <styled.LandingDataLine key={index}>
                     {line}
                   </styled.LandingDataLine>)

@@ -8,7 +8,7 @@ import * as styled from '../../shared/Carousel/styled'
 
 const Carousel = ({
   heading,
-  slides
+  slides = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -47,7 +47,7 @@ const Carousel = ({
           <div className='container'>
             <div className='grid-noBottom'>
               <div className='col grid-noBottom' data-push-left='off-1_xs-0'>
-                {slides.map(({ heading }, index) => (
+                {slides && slides.map(({ heading }, index) => (
                   <div key={index} className='col-1_xs-4' data-push-left='off-1_xs-0'>
                     <styled.CarouselTab
                       onClick={() => scrollTo(index)}
@@ -66,7 +66,7 @@ const Carousel = ({
             emblaRef={setCarousel}
           >
             <styled.CarouselContainer>
-              {slides.map(({
+              {slides ? slides.map(({
                 alt,
                 heading,
                 text,
@@ -99,7 +99,7 @@ const Carousel = ({
                     </div>
                   </div>
                 </styled.CarouselItem>
-              ))}
+              )) : []}
             </styled.CarouselContainer>
           </CarouselPlugin>
         </styled.CarouselItems>

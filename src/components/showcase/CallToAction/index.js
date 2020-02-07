@@ -6,7 +6,7 @@ import * as styled from './styled'
 
 const CallToAction = ({
   contact: {
-    details,
+    details = [],
     heading: contactHeading
   },
   heading,
@@ -61,7 +61,7 @@ const CallToAction = ({
             <styled.CallToActionSubheading>
               {contactHeading}
             </styled.CallToActionSubheading>
-            {details.map(({ heading, data }, index) => (
+            {details && details.map(({ heading, data }, index) => (
               <styled.CallToActionItem key={index}>
                 <styled.CallToActionLabel>
                   {heading}

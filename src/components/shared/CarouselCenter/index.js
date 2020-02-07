@@ -38,7 +38,7 @@ const Carousel = ({
           <div className='col-9_xs-12' data-push-left='off-2_xs-0'>
             <CarouselPlugin emblaRef={setCarousel} className='wrap'>
               <styled.CarouselContainer>
-                {showcases.map(({
+                {showcases ? showcases.map(({
                   node: {
                     fields: {
                       slug
@@ -64,7 +64,7 @@ const Carousel = ({
                       <styled.CarouselHoverState>
                         {tags && tags.map(({ tag }, index) => (
                           <styled.CarouselTagLine key={index}>
-                            {tag.split('-').map((tagPart, index) => (
+                            {tag && tag.split('-').map((tagPart, index) => (
                               <styled.CarouselTagPart key={index}>
                                 {tagPart.trim()}
                               </styled.CarouselTagPart>
@@ -81,7 +81,7 @@ const Carousel = ({
                       <styled.CarouselItemDate>{year}</styled.CarouselItemDate>
                     </styled.CarouselItemText>
                   </styled.CarouselItem>
-                ))}
+                )) : []}
               </styled.CarouselContainer>
             </CarouselPlugin>
           </div>
@@ -93,7 +93,7 @@ const Carousel = ({
             <styled.CarouselControls>
               <styled.CarouselArrowLeft onClick={scrollPrev} />
               <styled.CarouselDots>
-                {showcases.map((_, index) => (
+                {showcases && showcases.map((_, index) => (
                   <styled.CarouselDot
                     key={index}
                     onClick={() => scrollTo(index)}

@@ -36,23 +36,23 @@ const Carousel = ({
     <styled.Carousel>
       <CarouselPlugin emblaRef={setCarousel}>
         <styled.CarouselContainer>
-          {chunkedEdges.map((edges, index) => (
+          {chunkedEdges && chunkedEdges.map((edges, index) => (
             <styled.CarouselItem key={index}>
               <div className='container'>
                 <div className='grid-noBottom'>
                   <div className='grid-noBottom-middle col-12'>
                     <div className='col-7 xs-hidden'>
-                      <styled.CarouselItemImageBig as={Link} to={edges[0].node.fields.slug}>
-                        {edges[0].node.frontmatter.showcase_isSold && (
+                      <styled.CarouselItemImageBig as={Link} to={edges[0] && edges[0].node.fields.slug}>
+                        {edges[0] && edges[0].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
                             Sprzedane
                           </styled.CarouselItemSoldTag>
                         )}
-                        <Img fluid={edges[0].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
+                        <Img fluid={edges[0] && edges[0].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                         <styled.CarouselHoverState>
-                          {edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
+                          {edges[0] && edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
                             <styled.CarouselTagLine key={index}>
-                              {tag.split('-').map((tagPart, index) => (
+                              {tag && tag.split('-').map((tagPart, index) => (
                                 <styled.CarouselTagPart key={index}>
                                   {tagPart.trim()}
                                 </styled.CarouselTagPart>
@@ -67,17 +67,17 @@ const Carousel = ({
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
-                      <styled.CarouselItemImage as={Link} to={edges[0].node.fields.slug}>
-                        {edges[1].node.frontmatter.showcase_isSold && (
+                      <styled.CarouselItemImage as={Link} to={edges[0] && edges[0].node.fields.slug}>
+                        {edges[1] && edges[1].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
                             Sprzedane
                           </styled.CarouselItemSoldTag>
                         )}
-                        <Img fluid={edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
+                        <Img fluid={edges[1] && edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                         <styled.CarouselHoverState>
-                          {edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
+                          {edges[0] && edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
                             <styled.CarouselTagLine key={index}>
-                              {tag.split('-').map((tagPart, index) => (
+                              {tag && tag.split('-').map((tagPart, index) => (
                                 <styled.CarouselTagPart key={index}>
                                   {tagPart.trim()}
                                 </styled.CarouselTagPart>
@@ -89,14 +89,14 @@ const Carousel = ({
                           </styled.CarouselItemLink>
                         </styled.CarouselHoverState>
                       </styled.CarouselItemImage>
-                      <styled.CarouselItemHeading>{edges[1].node.frontmatter.showcase_title}</styled.CarouselItemHeading>
-                      <styled.CarouselItemDate>{edges[1].node.frontmatter.showcase_year}</styled.CarouselItemDate>
+                      <styled.CarouselItemHeading>{edges[1] && edges[1].node.frontmatter.showcase_title}</styled.CarouselItemHeading>
+                      <styled.CarouselItemDate>{edges[1] && edges[1].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
                   </div>
                   <div className='grid-noBottom col-12'>
                     <div className='col-7 xs-hidden'>
-                      <styled.CarouselItemHeadingBig>{edges[0].node.frontmatter.showcase_title}</styled.CarouselItemHeadingBig>
-                      <styled.CarouselItemDate>{edges[0].node.frontmatter.showcase_year}</styled.CarouselItemDate>
+                      <styled.CarouselItemHeadingBig>{edges[0] && edges[0].node.frontmatter.showcase_title}</styled.CarouselItemHeadingBig>
+                      <styled.CarouselItemDate>{edges[0] && edges[0].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <Button as={Link} to='/oferta'>Więcej</Button>
@@ -109,7 +109,7 @@ const Carousel = ({
         </styled.CarouselContainer>
       </CarouselPlugin>
       <styled.CarouselDots>
-        {chunkedEdges.map((_, index) => (
+        {chunkedEdges && chunkedEdges.map((_, index) => (
           <styled.CarouselDot
             key={index}
             onClick={() => scrollTo(index)}

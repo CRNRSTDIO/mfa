@@ -7,7 +7,7 @@ import options from './settings'
 import * as styled from './styled'
 
 const Carousel = ({
-  slides
+  slides = []
 }) => {
   const [carousel, setCarousel] = useState(null)
   const [thumbs, setThumbs] = useState(null)
@@ -67,11 +67,11 @@ const Carousel = ({
             options={options}
           >
             <styled.CarouselContainer>
-              {slides.map(({ image }, index) => (
+              {slides ? slides.map(({ image }, index) => (
                 <styled.CarouselItem key={index}>
                   <Img fluid={image.childImageSharp.fluid} />
                 </styled.CarouselItem>
-              ))}
+              )) : []}
             </styled.CarouselContainer>
           </CarouselPlugin>
           <styled.CarouselCounter>
@@ -88,11 +88,11 @@ const Carousel = ({
             options={options}
           >
             <styled.CarouselContainer>
-              {slides.map(({ image }, index) => (
+              {slides ? slides.map(({ image }, index) => (
                 <styled.CarouselThumb key={index} onClick={() => goTo(index)}>
                   <Img fluid={image.childImageSharp.fluid} />
                 </styled.CarouselThumb>
-              ))}
+              )) : []}
             </styled.CarouselContainer>
           </CarouselPlugin>
         </styled.CarouselThumbs>

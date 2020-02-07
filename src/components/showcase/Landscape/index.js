@@ -15,7 +15,7 @@ const Landscape = ({
     }
   },
   alt,
-  legend_items: items
+  legend_items: items = []
 }) => (
   <styled.Landscape>
     <div className='container'>
@@ -38,7 +38,7 @@ const Landscape = ({
                 Legenda
               </styled.LegendLabel>
             </div>
-            {chunk(items, 2).map((chunk, index) => (
+            {chunk(items, 2).map((chunk = [], index) => (
               <div key={index} className='col-2_xs-12'>
                 {chunk.map(({ item }, index) => (
                   <styled.LegendItem key={index}>

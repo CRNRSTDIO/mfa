@@ -83,7 +83,7 @@ const inputRange = [0, 1]
 const outputRange = [0, 1]
 
 const Header = ({
-  edges: pages
+  edges: pages = []
 }) => {
   const [homepage, ...menu] = pages
 
@@ -129,7 +129,7 @@ const Header = ({
           </styled.HeaderLogo>
           <styled.HeaderSpacer variants={spacer} />
           <styled.HeaderList variants={nav}>
-            {menu.map(({
+            {menu && menu.map(({
               node: {
                 id,
                 fields: {

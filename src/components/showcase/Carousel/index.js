@@ -5,7 +5,7 @@ import CarouselPlugin from 'embla-carousel-react'
 import * as styled from './styled'
 
 const Carousel = ({
-  slides
+  slides = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -34,7 +34,7 @@ const Carousel = ({
         emblaRef={setCarousel}
       >
         <styled.CarouselContainer>
-          {slides.map(({ alt, image: { childImageSharp: { fluid } } }, index) => (
+          {slides ? slides.map(({ alt, image: { childImageSharp: { fluid } } }, index) => (
             <styled.CarouselItem key={index}>
               <styled.CarouselImage
                 fluid={fluid}
@@ -42,11 +42,11 @@ const Carousel = ({
                 style={{ position: 'absolute' }}
               />
             </styled.CarouselItem>
-          ))}
+          )) : []}
         </styled.CarouselContainer>
       </CarouselPlugin>
       <styled.CarouselDots>
-        {slides.map((_, index) => (
+        {slides && slides.map((_, index) => (
           <styled.CarouselDot
             key={index}
             onClick={() => scrollTo(index)}

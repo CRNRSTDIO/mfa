@@ -9,8 +9,8 @@ import * as styled from './styled'
 const Reviews = ({
   heading,
   text,
-  details,
-  opinions
+  details = [],
+  opinions = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -44,7 +44,7 @@ const Reviews = ({
             <div className='col-3_xs-12' data-push-left='off-2_xs-0'>
               {text}
             </div>
-            {details.map(({ heading, data }, index) => (
+            {details && details.map(({ heading, data }, index) => (
               <div key={index} className='col-1_xs-12' data-push-left='off-1_xs-0'>
                 <styled.ReviewDetailsHeading>
                   {heading}
@@ -60,7 +60,7 @@ const Reviews = ({
       <styled.Carousel>
         <CarouselPlugin emblaRef={setCarousel}>
           <styled.CarouselContainer>
-            {opinions.map(({
+            {opinions ? opinions.map(({
               alt,
               image: {
                 childImageSharp: {
@@ -87,7 +87,7 @@ const Reviews = ({
                   </div>
                 </div>
               </styled.CarouselItem>
-            ))}
+            )) : []}
           </styled.CarouselContainer>
         </CarouselPlugin>
         <div className='grid-noBottom-noGutter'>
@@ -95,7 +95,7 @@ const Reviews = ({
             <styled.CarouselControls>
               <styled.CarouselArrowLeft onClick={scrollPrev} />
               <styled.CarouselDots>
-                {opinions.map((_, index) => (
+                {opinions && opinions.map((_, index) => (
                   <styled.CarouselDot
                     key={index}
                     onClick={() => scrollTo(index)}

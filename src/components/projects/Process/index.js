@@ -8,7 +8,7 @@ import * as styled from './styled'
 
 const Process = ({
   heading,
-  steps,
+  steps = [],
   text,
   fields: {
     slug
@@ -20,7 +20,7 @@ const Process = ({
       <styled.ProcessSteps>
         <div className='grid-noBottom'>
           <div className='col-12 grid-noBottom' data-push-left='off-1_xs-0'>
-            {steps.map(({ step }, key) => (
+            {steps && steps.map(({ step }, key) => (
               <div key={key} className='col-1_xs-12' data-push-left='off-1_xs-0'>
                 <styled.ProcessStep>
                   {step}

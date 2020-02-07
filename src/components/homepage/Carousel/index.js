@@ -8,7 +8,7 @@ import { background } from './settings'
 import * as styled from './styled'
 
 const Carousel = ({
-  slide
+  slide = []
 }) => {
   const [carousel, setCarousel] = useState(null)
 
@@ -37,11 +37,11 @@ const Carousel = ({
     <styled.Carousel>
       <CarouselPlugin emblaRef={setCarousel}>
         <styled.CarouselContainer>
-          {slide.map(({
+          {slide ? slide.map(({
             heading,
             subheading,
             link,
-            tags,
+            tags = [],
             image: {
               childImageSharp: {
                 fluid
@@ -65,7 +65,7 @@ const Carousel = ({
                     <styled.CarouselItemHeading as={link && Link} to={link}>{heading}</styled.CarouselItemHeading>
                     <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
                     <styled.CarouselItemTags>
-                      {tags.map(({ tag }, key) => (
+                      {tags && tags.map(({ tag }, key) => (
                         <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
                       ))}
                     </styled.CarouselItemTags>
@@ -73,12 +73,12 @@ const Carousel = ({
                 </Parallax>
               </div>
             </styled.CarouselItem>
-          ))}
+          )) : []}
         </styled.CarouselContainer>
       </CarouselPlugin>
       <div className='container'>
         <styled.CarouselDots>
-          {slide.map((_, index) => (
+          {slide && slide.map((_, index) => (
             <styled.CarouselDot
               key={index}
               onClick={() => scrollTo(index)}

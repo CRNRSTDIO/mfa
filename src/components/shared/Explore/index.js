@@ -5,7 +5,7 @@ import Label from '../Label'
 
 import * as styled from './styled'
 
-const Explore = ({ edges: pages }) => (
+const Explore = ({ edges: pages = [] }) => (
   <styled.Explore>
     <div className='container'>
       <div className='grid-noBottom-middle'>
@@ -19,7 +19,7 @@ const Explore = ({ edges: pages }) => (
         </div>
         <div className='col-4_xs-12' data-push-left='off-2_xs-0'>
           <styled.ExploreLinks>
-            {pages.map(({ node: { fields: { slug }, frontmatter: { metadata: { metadata_offer: { title } } } } }, key) => (
+            {pages && pages.map(({ node: { fields: { slug }, frontmatter: { metadata: { metadata_offer: { title } } } } }, key) => (
               <styled.ExploreLinkWrapper key={key}>
                 <styled.ExploreLink to={slug}>{title}</styled.ExploreLink>
               </styled.ExploreLinkWrapper>

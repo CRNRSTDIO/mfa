@@ -5,7 +5,7 @@ import * as styled from './styled'
 
 const Landing = ({
   showcase_label: label,
-  showcase_tags: tags,
+  showcase_tags: tags = [],
   showcase_title: title,
   children
 }) => (
@@ -20,9 +20,9 @@ const Landing = ({
             {title}
           </styled.LandingHeading>
           <styled.LandingTags>
-            {tags.map(({ tag }, index) => (
+            {tags && tags.map(({ tag }, index) => (
               <styled.LadingTagLine key={index}>
-                {tag.split('-').map((tagPart, index) => (
+                {tag && tag.split('-').map((tagPart, index) => (
                   <styled.LandingTag key={index}>
                     {tagPart.trim()}
                   </styled.LandingTag>

@@ -8,12 +8,12 @@ import * as styled from './styled'
 
 const Listing = ({
   excludeId,
-  edges: pages
+  edges: pages = []
 }) => (
   <styled.Listing>
     <div className='container'>
       <div className='grid-noBottom-noGutter-spaceBetween'>
-        {pages.filter(({
+        {pages && pages.filter(({
           node: {
             id
           }
