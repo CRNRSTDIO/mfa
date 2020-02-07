@@ -18,7 +18,7 @@ metadata:
       Idealna harmonia pomiędzy
       rodziną, a jej domem
       i otaczającym go środowiskiem
-    image: /img/Nasza-Wizja.jpg
+    image: /img/Mfa-basic-red.png
     text: >-
       Twoje potrzeby, przestrzeń i Twój dom. Te trzy elementy zawsze powinny ze
       sobą współgrać i oddziaływać na siebie, by dawać Ci spokój.
