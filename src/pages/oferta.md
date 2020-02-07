@@ -9,7 +9,7 @@ title: Oferta
 order: 1
 metadata:
   metadata_offer:
-    title: DOMY NA SPRZEDAŻ
+    title: Kup dom
 offer_section_0:
   heading: |-
     Nowoczesne Domy
