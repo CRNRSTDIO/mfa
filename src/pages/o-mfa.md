@@ -3,8 +3,8 @@ template: about
 seo:
   descr: >-
     Funkcjonalne, designerskie domy i inwestycje mieszkalne o zrównoważonym
-    koszcie budowy. Wszystkie realizowane pod ścisłym nadzorem architekta i
-    menadżera budowy.
+    koszcie. Wszystkie realizowane pod ścisłym nadzorem architekta i menadżera
+    budowy.
   title: MFA - Nowy Standard Życia
 title: O MFA
 order: 5
