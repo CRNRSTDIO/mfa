@@ -2,9 +2,10 @@
 template: about
 seo:
   descr: >-
-    W naszym biurze architektonicznym, zależy nam przede wszystkim na tym, byś
-    czuł się dobrze w swoim nowym domu. Dowiedz się więcej o MFA Poznań.
-  title: 'Dowiedz się, kim jesteśmy - MFA Poznań'
+    Funkcjonalne, designerskie domy i inwestycje mieszkalne o zrównoważonym
+    koszcie budowy. Wszystkie realizowane pod ścisłym nadzorem architekta i
+    menadżera budowy.
+  title: MFA - Nowy Standard Życia
 title: O MFA
 order: 5
 metadata:
