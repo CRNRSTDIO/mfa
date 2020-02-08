@@ -2,9 +2,10 @@
 template: process
 seo:
   descr: >-
-    Poznaj proces, według którego działamy projektując i budując Twój przyszły
-    dom.
-  title: Proces MFA Poznań
+    Jesteśmy generalnym wykonawcą inwestycji mieszkalnych. Nasza usługa obejmuje
+    wszystkie etapy procesu budowlanego: od stworzenia koncepcji, po wykonawstwo
+    i oddanie budynku do użyteczności.
+  title: MFA - Proces Budowy Prywatnej Inwestycji
 title: Proces
 order: 4
 metadata:
