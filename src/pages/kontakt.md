@@ -3,7 +3,7 @@ template: contact
 seo:
   descr: >-
     Projektujemy nowoczesne i funkcjonalne przestrzenie. Skontaktuj się z nami i
-    dokonaj swojego pierwszego kroku w realizacji swojego nowego domu.
+    dokonaj pierwszego kroku w realizacji swojego nowego domu.
   title: MFA - Skontaktuj Się
 title: Kontakt
 order: 6
