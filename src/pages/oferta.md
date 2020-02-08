@@ -2,9 +2,11 @@
 template: offer
 seo:
   descr: >
-    Poznaj ofertę biura architektonicznego MFA z Poznania. Projektujemy
-    nowoczesne i funkcjonalne domy i mieszkania o wysokim standardzie.
-  title: Oferta biura architektonicznego z Poznania MFA
+    Poznaj naszą ofertę deweloperską nowoczesnych domów wielokondygnacyjnych,
+    parterowych i segmentów bliźniaków. Każda inwestycja w naszej ofercie to
+    unikalny projekt, który zapewni lepszy standard życia Tobie i Twojej
+    rodzinie.
+  title: MFA - Oferta Deweloperska
 title: Oferta
 order: 1
 metadata:
