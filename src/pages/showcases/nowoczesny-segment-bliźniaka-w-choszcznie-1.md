@@ -11,8 +11,8 @@ showcase_title: |
   w Choszcznie
 showcase_tags:
   - tag: Metraż - 130 m2
-  - tag: Cena - 432 000 zł
   - tag: Metraż - 110 m2
+  - tag: Cena - 432 000 zł
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
