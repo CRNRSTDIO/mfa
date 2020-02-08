@@ -2,10 +2,9 @@
 template: standard
 seo:
   descr: >-
-    W naszym biurze architektonicznym oferujemy wyłącznie najwyższy standard.
-    Współpracujemy ze specjalistami, którzy korzystają z najlepszej jakości
-    materiałów
-  title: Najwyższy standard - MFA Poznań
+    Jesteśmy biurem deweloperskim, który kładzie szczególny nacisk na
+    funkcjonalność, design i zrównoważony koszt budowy.
+  title: MFA - Standard Wykończenia Inwestycji Mieszkalnych
 title: Standard
 order: 3
 metadata:
