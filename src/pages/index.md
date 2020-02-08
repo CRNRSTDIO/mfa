@@ -2,9 +2,11 @@
 template: homepage
 seo:
   descr: >-
-    MFA to biuro architektoniczne z Poznania. Projektujemy nowoczesne
-    rozwiązania, które w pełni wykorzystują potencjał każdej przestrzeni.
-  title: MFA - biuro architektoniczne Poznań
+    Jesteśmy biurem deweloperskim i generalnym wykonawcą z Poznania.
+    Projektujemy i realizujemy każdy etap budowy nowoczesnych inwestycji dla
+    prywatnych inwestorów, które w pełni wykorzystują potencjał zastanej
+    przestrzeni.
+  title: MFA - Deweloper •  Generalne Wykonawstwo • Architektura
 title: Strona główna
 order: 0
 homepage_section_0:
