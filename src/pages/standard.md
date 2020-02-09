@@ -28,6 +28,13 @@ standard_section_0:
   image: /img/group-93.png
   text: Nasz standard
 standard_sections:
+  - heading: Architektura
+    image: /img/Etap-Projektowy.jpg
+    text: >-
+      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
+      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
+      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
+      niezbędne media.
   - alt: Opis zdjęcia
     heading: Konstrukcja
     image: /img/warstwa-1-kopia.png
@@ -36,6 +43,14 @@ standard_sections:
       spokoju na długie lata. Dlatego wszystkie projektowane przez nas
       rozwiązania są zawsze zgodne z wszelkimi normami dotyczącymi
       bezpieczeństwa.
+  - alt: Opis zdjęcia
+    heading: Media
+    image: /img/rectangle-177.png
+    text: >-
+      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
+      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
+      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
+      niezbędne media.
   - alt: Opis zdjęcia
     heading: Izolacja
     image: /img/tło.png
@@ -52,13 +67,14 @@ standard_sections:
       usługi. Stolarze, z którymi łączymy siły, to niekwestionowani fachowcy.
       Dbamy, aby każdy etap pracy nad Twoją przestrzenią był w najlepszych
       rękach.
-  - alt: Opis zdjęcia
-    heading: Media
-    image: /img/rectangle-177.png
+  - alt: Wykoćzenia
+    heading: |
+      Wykończenia
+    image: /img/Etap-Projektowy.jpg
     text: >-
-      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
-      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
-      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
-      niezbędne media.
+      Współpraca z najwyższej klasy specjalistami gwarantuje najwyższej jakości
+      usługi. Stolarze, z którymi łączymy siły, to niekwestionowani fachowcy.
+      Dbamy, aby każdy etap pracy nad Twoją przestrzenią był w najlepszych
+      rękach.
 ---
 
