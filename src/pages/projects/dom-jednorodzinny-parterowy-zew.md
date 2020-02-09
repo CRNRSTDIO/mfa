@@ -59,7 +59,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Zew - Rzut terenu
   heading: Rzut terenu
-  image: /img/Zew - Rzut-100.jpg
+  image: /img/Zew - Rzut Terenu.png
   legend_items:
     - item: Test
   text: >-
