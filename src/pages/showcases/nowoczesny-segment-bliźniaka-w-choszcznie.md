@@ -2,16 +2,14 @@
 template: showcase
 seo:
   descr: Zapoznaj się z ofertą nowoczesnego domu we Wronkach.
-  title: Nowoczesny Segment Bliźniaka we Wronkach
+  title: Segmenty Bliźniaka we Wronkach
 showcase_label: Dom na sprzedaż
-showcase_title: |
-  Nowoczesny
-  Segment
-  Bliźniaka
-  we Wronkach
+showcase_title: Segmenty Bliźniaka we Wronkach
 showcase_tags:
   - tag: Metraż - 168 m2
-  - tag: Cena - 432 000 zł
+  - tag: Sprzedane
+  - tag: Metraż - 168 m2
+  - tag: Sprzedane
 showcase_isSold: true
 showcase_year: '2019'
 showcase_main_image:
@@ -194,7 +192,7 @@ showcase_section_contact:
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
-  price: 480 579 zł
-  price_new: 460 799 zł
+  price: ' '
+  price_new: Sprzedaż zakończona
 ---
 
