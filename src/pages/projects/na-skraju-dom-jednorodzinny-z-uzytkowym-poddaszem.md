@@ -16,7 +16,7 @@ showcase_main_image:
 showcase_gallery_top:
   slides:
     - alt: Chwaszczyno - wejście do domu
-      image: /img/Chwaszczyno---Prywatna-Inwestycja---Wejście.jpg
+      image: /img/wiz10.jpg
     - alt: Chwaszczyno - patio
       image: /img/Chwaszczyno---Prywatna-Inwestycja---Garaż.jpg
     - alt: Chwaszczyno - ogród
