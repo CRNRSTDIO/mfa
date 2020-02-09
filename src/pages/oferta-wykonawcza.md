@@ -48,12 +48,12 @@ projects_section_3:
     Twojego nowego domu
     w pełni kontrolowanym procesie
   steps:
-    - step: projekt
-    - step: budowa
-    - step: odbiór domu
-  text: >-
-    Zajmujemy się całym procesem od załatwieni wszelkich formalności  do oddania
-    urządzonego już domu pod klucz
+    - step: Projekt
+      text: Projekt
+    - step: Budowa
+      text: Budowa
+    - step: Odbiór domu
+      text: Odbiór domu
 projects_section_4:
   alt: Opis zdjęcia
   heading: |-
@@ -96,3 +96,4 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
+
