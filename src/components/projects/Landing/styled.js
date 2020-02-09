@@ -6,7 +6,7 @@ export const Landing = styled.section`
   margin: 7.25rem 0 3.5rem;
 
   @media (min-width: 48rem) {
-    margin: 7.375rem 0 9rem;
+    margin: 7.375rem 0 6.25rem;
   }
 `
 

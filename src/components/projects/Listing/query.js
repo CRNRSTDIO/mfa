@@ -6,7 +6,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       {
-        allMarkdownRemark(filter: {frontmatter: {template: {eq: "showcase"}}}) {
+        allMarkdownRemark(filter: {frontmatter: {template: {eq: "project"}}}) {
           edges {
             node {
               id

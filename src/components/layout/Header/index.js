@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useLayoutEffect } from 'react'
 import PropTypes from 'prop-types'
 import { transform } from 'framer-motion'
 import useScroll from '@react-hook/window-scroll'
@@ -82,6 +82,26 @@ const inputRange = [0, 1]
 
 const outputRange = [0, 1]
 
+const Logo = () => {
+  const width = useWindowWidth(typeof window === 'undefined' && 1280)
+
+  const [fill, setFill] = useState(width >= 768 ? '#e7354f' : '#fff')
+
+  useLayoutEffect(() => {
+    setFill(width >= 768 ? '#e7354f' : '#fff')
+  }, [
+    width,
+    setFill
+  ])
+
+  return (
+    <svg width='42' height='42' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 234.09 280.97'>
+      <path fill={fill} d='M234.09 86.99v94.65l-119.6 99.33-60.05-44.78 67.81-56.31h20.21l26.86-39.1.7-.58 27.26 39.68h20.86l-34.73-50.8 50.68-42.09zM181.31 46l-78.21 65v68.82H89.59V141.5l-28.5 23.37-28.5-23.37v38.27H20.27L.62 196.06 52.79 235l72.08-59.86 45-65.81 12.41 18.13 51.2-42.52zm-34.24 81.22H125v15.1h11.76l-25.41 37.39v-.19l-.31.42v-68.42h46.79z' />
+      <path fill={fill} d='M179.66 44.78L60.29 143.9l-41.21-34.25v68.51L0 193.98V99.32L119.6 0l60.06 44.78z' />
+    </svg>
+  )
+}
+
 const Header = ({
   edges: pages = []
 }) => {
@@ -89,7 +109,7 @@ const Header = ({
 
   const width = useWindowWidth(1280)
 
-  const [fill, setFill] = useState(width >= 768 ? '#e7354f' : '#fff')
+  const [showLogo, setShowLogo] = useState(false)
 
   const [isOpen, setIsOpen] = useState(() => width >= 768)
 
@@ -102,12 +122,12 @@ const Header = ({
   const output = transform(scrollY, inputRange, outputRange)
 
   useEffect(() => {
-    width >= 768 && setIsOpen(!output)
-  }, [output, width])
+    setShowLogo(true)
+  }, [])
 
   useEffect(() => {
-    setFill(width >= 768 ? '#e7354f' : '#fff')
-  })
+    width >= 768 && setIsOpen(!output)
+  }, [output, width])
 
   return (
     <styled.Header
@@ -122,10 +142,7 @@ const Header = ({
             to={homepage.node.fields.slug}
             variants={logo}
           >
-            <svg width='42' height='42' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 234.09 280.97'>
-              <path fill={fill} d='M234.09 86.99v94.65l-119.6 99.33-60.05-44.78 67.81-56.31h20.21l26.86-39.1.7-.58 27.26 39.68h20.86l-34.73-50.8 50.68-42.09zM181.31 46l-78.21 65v68.82H89.59V141.5l-28.5 23.37-28.5-23.37v38.27H20.27L.62 196.06 52.79 235l72.08-59.86 45-65.81 12.41 18.13 51.2-42.52zm-34.24 81.22H125v15.1h11.76l-25.41 37.39v-.19l-.31.42v-68.42h46.79z' />
-              <path fill={fill} d='M179.66 44.78L60.29 143.9l-41.21-34.25v68.51L0 193.98V99.32L119.6 0l60.06 44.78z' />
-            </svg>
+            {showLogo && <Logo />}
           </styled.HeaderLogo>
           <styled.HeaderSpacer variants={spacer} />
           <styled.HeaderList variants={nav}>

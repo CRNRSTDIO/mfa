@@ -18,12 +18,12 @@ export default ({
   <Layout>
     <SEO {...seo} />
     <Landing {...section0} contents={section1} />
+    <Process {...section3} />
+    <Standard {...section4} />
     <div className='container'>
       <Heading>{section2.heading}</Heading>
     </div>
     <Listing />
-    <Process {...section3} />
-    <Standard {...section4} />
     <Reviews {...section5} />
   </Layout>
 )

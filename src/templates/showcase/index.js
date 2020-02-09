@@ -10,7 +10,7 @@ import {
   CarouselThumbs
 } from '../../components/showcase'
 import { CallToAction } from '../../containers/showcase'
-import { Description, Explore, CarouselCenter } from '../../components/shared'
+import { Description, Explore } from '../../components/shared'
 import Layout from '../../components/layout'
 import SEO from '../../components/SEO'
 
@@ -42,6 +42,5 @@ export default ({
     <CarouselThumbs {...galleryBottom} />
     <CallToAction {...sectionContact} />
     <Explore />
-    <CarouselCenter />
   </Layout>
 )

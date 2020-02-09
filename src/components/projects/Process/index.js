@@ -11,6 +11,13 @@ const Process = ({
   currentTab,
   setCurrentTab
 }) => {
+  useEffect(() => {
+    steps && setCurrentTab(steps[0].step)
+  }, [
+    steps,
+    setCurrentTab
+  ])
+
   return (
     <styled.Process>
       <div className='container'>

@@ -4,10 +4,10 @@ import * as colors from '../../../global/variables.module.scss'
 import { Button } from '../../shared/Button/styled'
 
 export const Standard = styled.section`
-  margin: 8.5rem 0 0;
+  margin: 6.25rem 0 5rem;
 
   @media (min-width: 48rem) {
-    margin: 5.625rem 0 0;
+    margin: 5.625rem 0 7.375rem;
   }
 
   ${Button} {

@@ -1,5 +1,5 @@
 export { default as Carousel } from './Carousel'
-export { default as CarouselCenter } from './CarouselCenter/query'
+// export { default as CarouselCenter } from './CarouselCenter/query'
 export { default as Button } from './Button'
 export { default as Heading } from './Heading'
 export { default as Label } from './Label'
