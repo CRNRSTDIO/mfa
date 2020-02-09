@@ -57,7 +57,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Test
   heading: Rzut terenu
-  image: /img/Na skraju - rzut terenu.jpg
+  image: /img/Na Skraju - teren.png
   legend_items:
     - item: Test
   text: >-
