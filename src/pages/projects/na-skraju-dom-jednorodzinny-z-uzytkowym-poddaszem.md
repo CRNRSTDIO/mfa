@@ -87,8 +87,8 @@ showcase_section_building:
   blueprints:
     - blueprint:
         alt: Chwaszczyno - rzut terenu
-        image: /img/Kulki---rzut-budynku.jpg
-        legend: Powierzchnia użytkowa|128 M2
+        image: /img/Na skraju - rzut-100.jpg
+        legend: Powierzchnia użytkowa|118 M2
   heading: Rzut budynku
   text: >-
     <!--StartFragment-->
