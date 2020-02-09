@@ -4,7 +4,7 @@ seo:
   descr: >-
     Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
     prywatnego inwestora.
-  title: Zew - Dom jednorodzinny parterowy
+  title: Zew - Jednorodzinny dom parterowy
 showcase_label: 'Projekt indywidualny '
 showcase_title: Zew - Dom jednorodzinny parterowy
 showcase_tags:
