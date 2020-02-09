@@ -89,7 +89,7 @@ projects_section_5:
       link: 'https://mfa.com.pl'
       subtext: Projekt Ani i Michała
       text: |
-        "Pan Michał i reszta specjalistów zrealizowała nasz wymarzony dom"
+        "Ekipa MFA zrealizowała nasz wymarzony dom"
   text: |-
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
