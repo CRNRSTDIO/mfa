@@ -2,8 +2,8 @@
 template: project
 seo:
   descr: >-
-    Projekt domu parterowego indywidualny wykonany dla prywatnego inwestora w
-    malowniczych Klukach.
+    Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
+    prywatnego inwestora.
   title: Dom jednorodzinny parterowy „ZEW”
 showcase_label: 'Projekt indywidualny '
 showcase_title: Dom jednorodzinny parterowy „ZEW”
