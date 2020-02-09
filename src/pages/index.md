@@ -15,7 +15,7 @@ homepage_section_0:
       heading: Nowoczesne Domy w Choszcznie
       image: /img/Group 107.jpg
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
-      subheading: Segmenty Bliźniaka
+      subheading: Segment A | Segment B
       tags:
         - tag: Metraż z garażem - 130 m2
         - tag: Metraż użytkowy - 110 m2
