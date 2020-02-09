@@ -57,9 +57,9 @@ showcase_section_image:
   alt: Kluki - połączenie z naturą
   image: /img/Kluki---unikalne-połączenie-z-naturą.jpg
 showcase_section_landscape:
-  alt: Test
+  alt: Zew - Rzut terenu
   heading: Rzut terenu
-  image: /img/Group 102.jpg
+  image: /img/Zew - Rzut-100.jpg
   legend_items:
     - item: Test
   text: >-
@@ -88,8 +88,8 @@ showcase_section_landscape:
 showcase_section_building:
   blueprints:
     - blueprint:
-        alt: Kluki - rzut terenu
-        image: /img/Kulki---rzut-budynku.jpg
+        alt: Zew - Rzut terenu
+        image: /img/Rzut Zew-100.jpg
         legend: Powierzchnia użytkowa|128 M2
   heading: Rzut budynku
   text: >-
