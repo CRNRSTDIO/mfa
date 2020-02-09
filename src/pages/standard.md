@@ -45,7 +45,7 @@ standard_sections:
       bezpieczeństwa.
   - alt: Standard - Media
     heading: Media
-    image: /img/Standard---MEdia.jpg
+    image: /img/Hard helmet.png
     text: >-
       Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
       możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
