@@ -7,7 +7,7 @@ showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesne
   Segmenty
-  bliźniaka
+  Bliźniaka
   w Choszcznie
 showcase_tags:
   - tag: M2 z garażem - 130 m2
