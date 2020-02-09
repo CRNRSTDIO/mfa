@@ -6,7 +6,7 @@ seo:
     prywatnego inwestora.
   title: Zew - Jednorodzinny dom parterowy
 showcase_label: 'Projekt indywidualny '
-showcase_title: Zew - Dom jednorodzinny parterowy
+showcase_title: Zew - Jednorodzinny dom parterowy
 showcase_tags:
   - tag: Metraż - 118 m2
 showcase_isSold: false
