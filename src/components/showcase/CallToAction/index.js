@@ -10,41 +10,43 @@ const CallToAction = ({
     heading: contactHeading
   },
   heading,
-  price,
-  price_new: priceNew
+  resolvedPrice,
+  resolvedPriceNew
 }) => (
   <styled.CallToAction>
     <div className='container'>
       <div className='grid-noBottom'>
         <div className='col-6_xs-12'>
           <styled.CallToActionBox className='grid-noBottom'>
-            <styled.CallToActionImage src={image} />
+            {(resolvedPrice || resolvedPriceNew) && (
+              <styled.CallToActionImage src={image} />
+            )}
             <div className='col-6_xs-12' data-push-left='off-4_xs-0'>
-              {priceNew
+              {resolvedPriceNew
                 ? (
                   <>
                     <styled.CallToActionHeading>
                       {heading}
                     </styled.CallToActionHeading>
                     <styled.CallToActionPrice strikethrough>
-                      {price}
+                      {resolvedPrice}
                     </styled.CallToActionPrice>
                     <styled.CallToActionLabel>
                       Nowa cena
                     </styled.CallToActionLabel>
                     <styled.CallToActionPriceNew>
-                      {priceNew}
+                      {resolvedPriceNew}
                     </styled.CallToActionPriceNew>
                   </>
                 )
-                : price
+                : resolvedPrice
                   ? (
                     <>
                       <styled.CallToActionHeading>
                         {heading}
                       </styled.CallToActionHeading>
                       <styled.CallToActionPrice>
-                        {price}
+                        {resolvedPrice}
                       </styled.CallToActionPrice>
                     </>
                   )
@@ -66,7 +68,13 @@ const CallToAction = ({
                 <styled.CallToActionLabel>
                   {heading}
                 </styled.CallToActionLabel>
-                <styled.CallToActionBody>
+                <styled.CallToActionBody
+                  href={
+                    data.includes('@')
+                      ? `mailto:${data}`
+                      : data.includes('+') && `tel:${data}`
+                  }
+                >
                   {data}
                 </styled.CallToActionBody>
               </styled.CallToActionItem>

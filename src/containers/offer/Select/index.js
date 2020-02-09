@@ -6,12 +6,7 @@ const mapStateToProps = ({ selectOffers: { selectedOption } }) => ({
   selectedOption
 })
 
-const mapDispatchToProps = {
-  setSelectToAll,
-  setSelectToSell
-}
-
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  { setSelectToAll, setSelectToSell }
 )(Select)

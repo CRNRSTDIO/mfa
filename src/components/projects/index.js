@@ -1,5 +1,5 @@
 export { default as Landing } from './Landing'
 export { default as Listing } from './Listing/query'
-export { default as Process } from './Process/query'
-export { default as Standard } from './Standard/query'
+export { default as Process } from './Process'
+export { default as Standard } from './Standard'
 export { default as Reviews } from './Reviews'

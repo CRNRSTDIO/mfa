@@ -27,21 +27,48 @@ export const Process = styled.section`
 
 export const ProcessSteps = styled.ul`
   color: ${colors.dark};
-  counter-reset: counter;
   list-style: none;
-  margin: 0;
+  margin: 2.25rem 0 0;
 `
 
 export const ProcessStep = styled.li`
-  counter-increment: counter;
   font-size: .625rem;
   font-weight: 500;
   letter-spacing: .1875rem;
-  margin: .75rem 0;
+  margin: 0;
   text-transform: uppercase;
   white-space: nowrap;
+`
 
-  ::before {
-    content: counter(counter, upper-roman) '. ';
+export const ProcessStepButton = styled.button`
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 1.125rem 0;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+
+  ::after {
+    background-color: ${colors.red};
+    bottom: 0;
+    content: '';
+    height: 0.125rem;
+    left: 0;
+    opacity: ${({ isActive }) => isActive ? '1' : '0'};
+    position: absolute;
+    transition: opacity .15s linear;
+    width: 100%;
   }
+`
+
+export const ProcessStepText = styled.div`
+  display: ${({ isActive }) => isActive ? 'block' : 'none'};
 `

@@ -7,9 +7,9 @@ import {
   Landscape,
   Blueprints,
   CarouselTabs,
-  CarouselThumbs,
-  CallToAction
+  CarouselThumbs
 } from '../../components/showcase'
+import { CallToAction } from '../../containers/showcase'
 import { Description, Explore, CarouselCenter } from '../../components/shared'
 import Layout from '../../components/layout'
 import SEO from '../../components/SEO'

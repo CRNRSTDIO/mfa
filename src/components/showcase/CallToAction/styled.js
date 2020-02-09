@@ -104,9 +104,16 @@ export const CallToActionPriceNew = styled(CallToActionPrice)`
   margin: 0;
 `
 
-export const CallToActionBody = styled.p`
+export const CallToActionBody = styled.a`
+  color: inherit;
   font-size: .9375rem;
   margin: 0;
+  text-decoration: none;
+
+  :hover,
+  :focus {
+    text-decoration: underline;
+  }
 `
 
 export const CallToActionItem = styled.div`

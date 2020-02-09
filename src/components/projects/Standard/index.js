@@ -1,9 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
-import { Link } from 'gatsby'
-
-import { Button } from '../../shared'
 
 import * as styled from './styled'
 
@@ -15,9 +12,6 @@ const Standard = ({
     childImageSharp: {
       fluid
     }
-  },
-  fields: {
-    slug
   }
 }) => (
   <styled.Standard>
@@ -31,7 +25,6 @@ const Standard = ({
             <styled.StandardTextWrap>
               <styled.StandardHeading>{heading}</styled.StandardHeading>
               <styled.StandardText>{text}</styled.StandardText>
-              <Button as={Link} to={slug}>Więcej</Button>
             </styled.StandardTextWrap>
           </styled.StandardInner>
         </div>
@@ -41,7 +34,6 @@ const Standard = ({
 )
 
 Standard.propTypes = {
-  fields: PropTypes.object.isRequired,
   heading: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,

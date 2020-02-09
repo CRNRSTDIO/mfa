@@ -178,10 +178,17 @@ export const ReviewDetailsHeading = styled.span`
   }
 `
 
-export const ReviewDetailsData = styled.span`
+export const ReviewDetailsData = styled.a`
+  color: inherit;
   display: block;
   font-size: .9375rem;
   line-height: 1;
   margin: .9375rem 0 0;
+  text-decoration: none;
   white-space: nowrap;
+
+  :hover,
+  :focus {
+    text-decoration: underline;
+  }
 `

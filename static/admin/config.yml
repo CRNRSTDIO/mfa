@@ -460,7 +460,7 @@ collections:
                 widget: list
                 fields:
                   - {label: Step, name: step, widget: string}
-              - {label: Text, name: text, widget: text}
+                  - {label: Text, name: text, widget: text}
           - label: "'Nasz standard' section"
             name: projects_section_4
             widget: object

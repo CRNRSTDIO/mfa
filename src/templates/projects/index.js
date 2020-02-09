@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { Heading } from '../../components/shared'
-import { Landing, Listing, Process, Standard, Reviews } from '../../components/projects'
+import { Landing, Listing, Standard, Reviews } from '../../components/projects'
+import { Process } from '../../containers/projects'
 import Layout from '../../components/layout'
 import SEO from '../../components/SEO'
 

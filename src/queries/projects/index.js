@@ -33,8 +33,8 @@ export const query = graphql`
           heading
           steps {
             step
+            text
           }
-          text
         }
         projects_section_4 {
           alt

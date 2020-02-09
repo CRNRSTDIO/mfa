@@ -49,7 +49,13 @@ const Reviews = ({
                 <styled.ReviewDetailsHeading>
                   {heading}
                 </styled.ReviewDetailsHeading>
-                <styled.ReviewDetailsData>
+                <styled.ReviewDetailsData
+                  href={
+                    data.includes('@')
+                      ? `mailto:${data}`
+                      : data.includes('+') && `tel:${data}`
+                  }
+                >
                   {data}
                 </styled.ReviewDetailsData>
               </div>
