@@ -7,6 +7,7 @@ showcase_label: 'Projekt indywidualny '
 showcase_title: Na Skraju - Dom z użytkowym poddaszem
 showcase_tags:
   - tag: Metraż - 118 m2
+  - tag: Lokalizacja - Chwaszczyno
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
