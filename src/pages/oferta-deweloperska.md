@@ -7,7 +7,7 @@ seo:
     unikalny projekt, który zapewni lepszy standard życia Tobie i Twojej
     rodzinie.
   title: MFA - Oferta Deweloperska
-title: Oferta
+title: Oferta deweloperska
 order: 1
 metadata:
   metadata_offer:
@@ -18,4 +18,3 @@ offer_section_0:
     z naszą ofertą
     deweloperską
 ---
-

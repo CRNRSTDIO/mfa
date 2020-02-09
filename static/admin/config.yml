@@ -339,7 +339,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: descr, widget: text}
-          - {label: Title, name: title, widget: hidden, value: "Strona głowna"}
+          - {label: Title, name: title, widget: hidden, value: "Strona główna"}
           - {label: Order, name: order, widget: hidden, value: 0}
           - label: Slider
             name: homepage_section_0
@@ -383,7 +383,7 @@ collections:
               - {label: Heading, name: heading, widget: text}
               - {label: Image, name: image, widget: image}
               - {label: Image alternative text, name: alt, widget: string, required: false}
-      - file: src/pages/oferta.md
+      - file: src/pages/oferta-deweloperska.md
         label: Oferta
         name: oferta
         fields:
@@ -394,7 +394,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: descr, widget: text}
-          - {label: Title, name: title, widget: hidden, value: Oferta}
+          - {label: Title, name: title, widget: hidden, value: Oferta deweloperska}
           - {label: Order, name: order, widget: hidden, value: 1}
           - label: Metadata
             name: metadata
@@ -410,7 +410,7 @@ collections:
             widget: object
             fields:
               - {label: Heading, name: heading, widget: text}
-      - file: src/pages/projekty-indywidualne.md
+      - file: src/pages/oferta-wykonawcza.md
         label: "Projekty indywidualne"
         name: projekty-indywidualne
         fields:
@@ -421,7 +421,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: descr, widget: text}
-          - {label: Title, name: title, widget: hidden, value: Projekty}
+          - {label: Title, name: title, widget: hidden, value: Oferta wykonawcza}
           - {label: Order, name: order, widget: hidden, value: 2}
           - label: Metadata
             name: metadata

@@ -6,7 +6,7 @@ export const Landing = styled.section`
   margin: 7.25rem 0 3.5rem;
 
   @media (min-width: 48rem) {
-    margin: 11.625rem 0 9rem;
+    margin: 7.375rem 0 9rem;
   }
 `
 
@@ -19,6 +19,7 @@ export const LandingHeaderWrap = styled.header`
 
   @media (min-width: 48rem) {
     background-color: transparent;
+    transform: translateY(40%);
   }
 `
 
@@ -48,8 +49,8 @@ export const LandingBackgroundWrap = styled.div`
   position: relative;
 
   @media (min-width: 48rem) {
-    height: calc(100vh - 8.75rem - 11.625rem);
-    margin: 0 0 8.75rem;
+    height: calc(100vh - 7.375rem - 7.375rem);
+    margin: 0 0 11rem;
   }
 `
 

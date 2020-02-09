@@ -107,7 +107,7 @@ const Header = ({
 
   useEffect(() => {
     setFill(width >= 768 ? '#e7354f' : '#fff')
-  }, [width])
+  })
 
   return (
     <styled.Header

@@ -153,11 +153,14 @@ export const HeaderList = styled(motion.ul)`
     margin: 0;
     overflow: hidden;
     position: relative;
+    transform: translateY(.375rem);
     width: auto;
   }
 `
 
 export const HeaderItem = styled(motion.li)`
+  display: flex;
+  flex: 1;
   margin: 1.25rem 0 0;
 
   & + & {

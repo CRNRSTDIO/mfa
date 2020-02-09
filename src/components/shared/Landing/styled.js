@@ -48,7 +48,7 @@ export const LandingBackgroundImage = styled(BackgroundImg)`
   z-index: -1;
 
   @media (min-width: 48rem) {
-    height: calc(100vh - 5.125rem - 11.875rem);
-    top: 11.875rem;
+    height: calc(100vh - 7.375rem - 7.375rem);
+    top: 7.375rem;
   }
 `

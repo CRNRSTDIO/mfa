@@ -6,7 +6,7 @@ seo:
     zaczynając od koncepcji architektonicznej po wykonawstwo i oddanie budynku
     do użyteczności.
   title: MFA - Oferta Wykonawcza
-title: Projekty
+title: Oferta wykonawcza
 order: 2
 metadata:
   metadata_offer:
@@ -44,8 +44,8 @@ projects_section_2:
   heading: Nasze realizacje
 projects_section_3:
   heading: |-
-    Poznaj proces powstawania 
-    Twojego nowego domu 
+    Poznaj proces powstawania
+    Twojego nowego domu
     w pełni kontrolowanym procesie
   steps:
     - step: projekt
@@ -57,7 +57,7 @@ projects_section_3:
 projects_section_4:
   alt: Opis zdjęcia
   heading: |-
-    Odkryj standard 
+    Odkryj standard
     w jakim powstanie
     Twój nowy dom
   image: /img/arrangement-color-colors-1.png
@@ -96,4 +96,3 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
-
