@@ -55,7 +55,7 @@ showcase_section_image:
   alt: Chwaszczyno - połączenie z naturą
   image: /img/Chwaszczyno---Ogród.jpg
 showcase_section_landscape:
-  alt: Test
+  alt: Na skraju - Rzut terenu
   heading: Rzut terenu
   image: /img/Na Skraju - teren.png
   legend_items:
