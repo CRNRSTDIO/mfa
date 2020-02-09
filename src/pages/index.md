@@ -17,9 +17,10 @@ homepage_section_0:
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Segment A | Segment B
       tags:
-        - tag: Metraż z garażem - 130 m2
-        - tag: Metraż użytkowy - 110 m2
+        - tag: Segment A - 110 m2 + Garaż
         - tag: Cena - 350 000 zł
+        - tag: Segment B - 110 m2 + Garaż
+        - tag: Cena - 340 000 zł
     - alt: Opis zdjęcia
       heading: |-
         Nowoczesny Dom
