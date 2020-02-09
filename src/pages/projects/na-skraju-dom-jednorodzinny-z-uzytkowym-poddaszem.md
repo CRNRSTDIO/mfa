@@ -4,7 +4,7 @@ seo:
   descr: Projekt jednorodzinnego domu z użytkowym poddaszem w Chwaszczynie
   title: Na Skraju - Jednorodzinny dom z użytkowym poddaszem
 showcase_label: 'Projekt indywidualny '
-showcase_title: Na Skraju - Jednorodzinny dom z użytkowym poddaszem
+showcase_title: Na Skraju - Dom z użytkowym poddaszem
 showcase_tags:
   - tag: Metraż - 118 m2
 showcase_isSold: false
