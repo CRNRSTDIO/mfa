@@ -84,14 +84,12 @@ projects_section_5:
         "Nie wierzyliśmy,
         że nasz dom powstanie
         w jeden sezon"
-    - alt: Opis zdjęcia
-      image: /img/james-baldwin-wuimyu2x6w4-unsplash-2x.png
+    - alt: Port - Oferta Wykonawcza
+      image: /img/Chwaszczyno---Galeria-1.jpg
       link: 'https://mfa.com.pl'
       subtext: Projekt Ani i Michała
       text: |
-        "Nie wierzyliśmy,
-        że nasz dom powstanie
-        w jeden sezon"
+        "Pan Michał i reszta specjalistów zrealizowała nasz wymarzony dom"
   text: |-
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
