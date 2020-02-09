@@ -39,7 +39,7 @@ process_sections:
       modyfikacje
   - alt: Etap II - Projekt
     heading: Etap II - Projekt budowlany
-    image: /img/Etap-Projektowy.jpg
+    image: /img/Etap-III---Budowa.jpg
     text: >-
       Ponieważ chcemy mieć pewność, że Twój wymarzony dom powstanie z
       zachowaniem najwyższej jakości usług, nadzorujemy każdy etap powstawania
@@ -47,7 +47,7 @@ process_sections:
       przeprowadzana ściśle w oparciu o plan.
   - alt: Etap III - Budowa
     heading: "Etap III - Budowa\_\n"
-    image: /img/Etap-III---Budowa.jpg
+    image: /img/Odbiór-budynku-pod-klucz.jpg
     text: >-
       Nie obawiaj się, że nie wystarczy Ci czasu, aby dopełniać wszelkich
       formalności związanych z powstawaniem nieruchomości. Kiedy zaakceptujesz
