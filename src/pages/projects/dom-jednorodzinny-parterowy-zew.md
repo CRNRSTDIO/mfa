@@ -12,15 +12,15 @@ showcase_tags:
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
-  alt: Kluki - wejście do domu
+  alt: Zew - wejście do domu
   image: /img/Kluki - wejście.png
 showcase_gallery_top:
   slides:
-    - alt: Kluki - wejście do domu
+    - alt: Zew - wejście do domu
       image: /img/Kluki - wejście.png
-    - alt: Kluki - patio
+    - alt: Zew - patio
       image: /img/Kluki - patio.png
-    - alt: Kluki - ogród
+    - alt: Zew - ogród
       image: /img/Kluki - ogród.png
 showcase_section_descr:
   heading: Opis inwestycji
@@ -54,7 +54,7 @@ showcase_section_descr:
 
     <!--EndFragment-->
 showcase_section_image:
-  alt: Kluki - połączenie z naturą
+  alt: Zew - połączenie z naturą
   image: /img/Kluki---unikalne-połączenie-z-naturą.jpg
 showcase_section_landscape:
   alt: Zew - Rzut terenu
@@ -130,7 +130,7 @@ showcase_section_materials_used:
     klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
     mieszkania jak i domy zgodnie z poniższym opisem.
 showcase_section_image_2:
-  alt: Kluki - dom w lesie
+  alt: Zew - dom w lesie
   image: /img/Kluki---dom-w-lesie.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie - do skasowania
@@ -145,15 +145,15 @@ showcase_gallery_bottom:
       image: /img/Kluki - całość.png
     - alt: Kluki - ogród
       image: /img/Kluki - ogród.png
-    - alt: Kluki - ogród-1
+    - alt: Zew - ogród-1
       image: /img/Kluki - ogród-1.png
-    - alt: Kluki - ogród-2
+    - alt: Zew - ogród-2
       image: /img/Kluki - ogród-2.png
-    - alt: Kluki - całość 2
+    - alt: Zew - całość 2
       image: /img/Kluki - ogród-3.png
-    - alt: Kluki - patio
+    - alt: Zew - patio
       image: /img/Kluki - patio.png
-    - alt: Kluki - wejście
+    - alt: Zew - wejście
       image: /img/Kluki - wejście.png
 showcase_section_contact:
   contact:
