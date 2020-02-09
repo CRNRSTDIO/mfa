@@ -57,7 +57,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Test
   heading: Rzut terenu
-  image: /img/Group 102.jpg
+  image: /img/Na skraju - rzut terenu.jpg
   legend_items:
     - item: Test
   text: >-
@@ -87,7 +87,7 @@ showcase_section_building:
   blueprints:
     - blueprint:
         alt: Chwaszczyno - rzut terenu
-        image: /img/Na skraju - rzut-100.jpg
+        image: /img/Na skraju rzuty budynku_1-100.jpg
         legend: Powierzchnia użytkowa|118 M2
   heading: Rzut budynku
   text: >-
