@@ -54,7 +54,7 @@ showcase_section_descr:
     <!--EndFragment-->
 showcase_section_image:
   alt: Chwaszczyno - połączenie z naturą
-  image: /img/Chwaszczyno---Ogród.jpg
+  image: /img/wiz8.jpg
 showcase_section_landscape:
   alt: Na skraju - Rzut terenu
   heading: Rzut terenu
@@ -130,7 +130,7 @@ showcase_section_materials_used:
     mieszkania jak i domy zgodnie z poniższym opisem.
 showcase_section_image_2:
   alt: Chwaszczyno - dom w lesie
-  image: /img/Chwaszczyno---Garaż.jpg
+  image: /img/wiz7.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie - do skasowania
   slides:
