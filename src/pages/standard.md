@@ -43,9 +43,9 @@ standard_sections:
       spokoju na długie lata. Dlatego wszystkie projektowane przez nas
       rozwiązania są zawsze zgodne z wszelkimi normami dotyczącymi
       bezpieczeństwa.
-  - alt: Opis zdjęcia
+  - alt: Standard - Media
     heading: Media
-    image: /img/rectangle-177.png
+    image: /img/Standard---MEdia.jpg
     text: >-
       Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
       możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
