@@ -6,8 +6,8 @@ seo:
 showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesny
-  segment
-  bliźniaka
+  Segment
+  Bliźniaka
   we Wronkach
 showcase_tags:
   - tag: Metraż - 168 m2
