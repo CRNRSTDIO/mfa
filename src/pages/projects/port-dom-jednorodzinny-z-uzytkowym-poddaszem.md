@@ -57,7 +57,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Test
   heading: Rzut terenu
-  image: /img/Group 102.jpg
+  image: /img/Port - Rzut-100.jpg
   legend_items:
     - item: Test
   text: >-
@@ -87,7 +87,7 @@ showcase_section_building:
   blueprints:
     - blueprint:
         alt: Chwaszczyno - rzut terenu
-        image: /img/Kulki---rzut-budynku.jpg
+        image: /img/Port - Rzut budynku-100.jpg
         legend: Powierzchnia użytkowa|128 M2
   heading: Rzut budynku
   text: >-
