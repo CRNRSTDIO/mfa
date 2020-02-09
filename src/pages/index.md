@@ -17,9 +17,9 @@ homepage_section_0:
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Segmenty Bliźniaka
       tags:
-        - tag: Metraż - 130 m2
-        - tag: Metraż - 110 m2
-        - tag: Cena - 450 000 zł
+        - tag: Metraż z garażem - 130 m2
+        - tag: Metraż użytkowy - 110 m2
+        - tag: Cena - 350 000 zł
     - alt: Opis zdjęcia
       heading: |-
         Nowoczesny Dom
