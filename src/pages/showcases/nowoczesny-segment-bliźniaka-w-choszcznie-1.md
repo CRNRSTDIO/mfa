@@ -12,7 +12,8 @@ showcase_title: |
 showcase_tags:
   - tag: Metraż - 130 m2
   - tag: Metraż - 110 m2
-  - tag: Cena - 432 000 zł
+  - tag: 'Cena - 350 000 zł '
+  - tag: Cena - 340 000 zł
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
@@ -139,16 +140,58 @@ showcase_section_building:
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_materials_used:
   heading: Użyte materiały
+  logos:
+    - alt: ytong logo
+      image: /img/ytong logo.png
+    - alt: silka logo
+      image: /img/silka logo.png
+    - alt: swisspor logo
+      image: /img/swisspor logo.jpg
+    - alt: libet logo
+      image: /img/libet logo.png
   text: >-
-    Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG ENERGA 24 z
-    wysokim współczynnikiem przenikania ciepła U=0,19 W/(m2K)
 
 
-    Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, REI 240, o
-    wysokim współczyniku izolacji akustycznej R’A1 \[dB] 50
+    Budynek wzniesiony w technice tradycyjnej, murowanej. Ściany
+    zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT z wysokim
+    współczynnikiem przenikania ciepła λ 0.11 W/(mK). 
+
+    Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI 60,
+    o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 Ściany działowe,
+    murowane wykonane z bloczków YTONG 12.
 
 
-    Ściany działowe, murowane wykonane z bloczków YTONG 12
+    * Izolacje: Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA
+    040, 20, o współczynniku przenikania ciepła 0,040 W/mK
+      Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
+    * Stolarka okienna/drzwiowa: Okna PCV otwieralno-uchylne oraz przesuwne o
+    profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz
+    współczynnikiem przenikania ciepła Uw 0,93 W/m2K. 
+
+      \- Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
+      - Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
+      - Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
+    * Instalacja WOD/KAN/GAZ: Ogrzewanie podłogowe na całej powierzchni domu
+      Kocioł gazowy kondensacyjny dwu-funkcyjny
+    * Podejścia pod toaletę, umywalki/zlewy, prysznice (wykonane z możliwością
+    zamontowania odpływów liniowych), wyposażenia kuchni.
+
+    * Osobne przyłącza WOD/KAN.
+
+    * Instalacja elektryczna: Rozprowadzona pełna instalacja elektryczna po
+    całej powierzchni domu
+      Gniazda TV/SAT/INTERNET w każdym pokoju użytkowym.
+    * Wykończenia: 
+
+      \- Tynki gipsowe
+      - Wylewka posadzkowa cementowa zatarta
+      - Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
+    * Elementy zagospodarowania terenu: 
+
+      \- Utwardzenie podjazdu kostką granitową LIBET
+      - Utwardzenie podjazdu kostką ażurową
+      - Taras wykonany z kostki graniotwej LIBET
+      - Działka ogrodzona płotem systemowym
 showcase_section_image_2:
   alt: Opis zdjęcia
   image: /img/wizualizacja 03.png
@@ -208,7 +251,7 @@ showcase_section_contact:
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
-  price: ' '
-  price_new: 460 799 zł
+  price: ' 460 799 zł'
+  price_new: '350 000 zł '
 ---
 
