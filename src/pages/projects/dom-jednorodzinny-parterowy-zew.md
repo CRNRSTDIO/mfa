@@ -4,9 +4,9 @@ seo:
   descr: >-
     Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
     prywatnego inwestora.
-  title: Dom jednorodzinny parterowy „ZEW”
+  title: Zew - Dom jednorodzinny parterowy
 showcase_label: 'Projekt indywidualny '
-showcase_title: Dom jednorodzinny parterowy „ZEW”
+showcase_title: Zew - Dom jednorodzinny parterowy
 showcase_tags:
   - tag: Metraż - 118 m2
 showcase_isSold: false
