@@ -4,7 +4,7 @@ seo:
   descr: Projekt jednorodzinnego domu z użytkowym poddaszem
   title: Port - Jednorodzinny dom z użytkowym poddaszem
 showcase_label: 'Projekt indywidualny '
-showcase_title: Port - Jednorodzinny dom z użytkowym poddaszem
+showcase_title: Port - Dom z użytkowym poddaszem
 showcase_tags:
   - tag: Metraż - 144 m2
 showcase_isSold: false
