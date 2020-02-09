@@ -10,8 +10,8 @@ showcase_title: |
   bliźniaka
   w Choszcznie
 showcase_tags:
-  - tag: Metraż z garażem - 130 m2
-  - tag: Metraż użytkowy - 110 m2
+  - tag: M2 z garażem - 130 m2
+  - tag: M2 użytkowe - 110 m2
   - tag: 'Cena - 350 000 zł '
 showcase_isSold: false
 showcase_year: '2019'
