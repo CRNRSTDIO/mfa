@@ -100,6 +100,15 @@ projects_section_4:
     w jakim powstanie
     Twój nowy dom
   image: /img/arrangement-color-colors-1.png
+  logos:
+    - alt: Ytong logo
+      image: /img/ytong logo.png
+    - alt: Silka logo
+      image: /img/silka logo.png
+    - alt: Swisspor logo
+      image: /img/swisspor logo.jpg
+    - alt: Libet logo
+      image: /img/libet logo.png
   text: >-
     Each client searches for a unique solution catered to their personal style,
     budget, and specific needs. The challenge and pleasure for us is finding a
