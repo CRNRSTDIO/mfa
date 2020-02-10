@@ -48,7 +48,7 @@ projects_section_3:
     Twojego nowego domu
     w pełni kontrolowanym procesie
   steps:
-    - step: I Etap - koncepcja
+    - step: Koncepcja
       text: >-
         W pierwszym etapie zapoznajemy się z zapisami warunków zabudowy bądź
         miejscowego planu, poznajemy potrzeby inwestora oraz jego pomysł na
@@ -58,9 +58,9 @@ projects_section_3:
         ze specyfikacją materiałową budynku. Oczywiście specyfikacja (materiały
         z jakich powstanie budynek) jest ściśle opracowywana pomiędzy
         projektantem a inwestorem
-    - step: II Etap - Projekt budowlany
+    - step: Projekt budowlany
       text: "Po zatwierdzeniu koncepcji przystępujemy do sporządzenia dokumentacji na pozwolenie na budowę. Uzyskujemy wszystkie warunki w zakresie mediów, w przypadku alternatywnych sposobów pozyskania prądu bądź odprowadzania ścieków itd sporządzamy odpowiednie badania np. geotechniczne itd.\nProjekt uzgadniamy w Starostwie Powiatowym i uzyskujemy pozwolenie na budowę.\nWszystkie prace uzgodnieniowe leżą po stronie MFA dlatego inwestor nie musi martwić się o pozyskanie map, warunków zabudowy, warunków technicznych oraz pozwolenie na budowę. Jest to bardzo wygodne dla osób nie mających czasu na jeżdżenie po Urzędach i nie znających się na procesie uzgodnieniowym projektów.\_\n\nNa tym etapie kończą się prace projektowe. Do projektu budowlanego załączamy Państwu również ofertę wykonawczą. Podczas procesu projektowanego opracowujemy kosztorys kwoty wybudowania domu. Jeżeli cena wybudowania przez nas domu współgra z Państwa budżetem, zaraz po uzyskaniu pozwolenia na budowę przyjeżdżamy i zaczynamy budować Państwa dom.\nJest to bardzo wygodny system ponieważ już na etapie procesu projektowego znają Państwo finalną cenę domu i nie muszą się niczym martwić. Podpisujemy wspólną umowę w której zawieramy specyfikację budynku (materiały z jakich zostanie on wybudowany), termin realizacji oraz finalną kwotę. Cała reszta leży po stronie MFA, inwestor nie musi się niczym martwić dogląda tylko powstający budynek.\n"
-    - step: "III Etap - budowa\_"
+    - step: "Budowa\_"
       text: >
         Kompleksowo wykonujemy prace budowlane zaczynając od fundamentów po
         ostatnie tynkowanie ścian wewnętrznych. Budynek oddajemy w stanie
@@ -81,7 +81,7 @@ projects_section_3:
         codziennych problemów budowy, może codziennie doglądać budujący się
         budynek bez zawracania sobie głowy problematycznym procesem
         inwestycyjnym.
-    - step: IV Etap - odbiory
+    - step: Odbiór pod klucz
       text: >
         Po wykonaniu prac budowlanych przystępujemy do odbiorów budynku.
         Zapewniamy profesjonalny przebieg prac odbiorowych budunku, sporządzenia
