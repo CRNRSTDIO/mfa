@@ -7,9 +7,9 @@ showcase_label: Dom na sprzedaż
 showcase_title: Segmenty Bliźniaka we Wronkach
 showcase_tags:
   - tag: Metraż - 168 m2
-  - tag: Sprzedane
+  - tag: Sprzedaż - Zakończona
   - tag: Metraż - 168 m2
-  - tag: Sprzedane
+  - tag: Sprzedaż - Zakończona
 showcase_isSold: true
 showcase_year: '2019'
 showcase_main_image:
