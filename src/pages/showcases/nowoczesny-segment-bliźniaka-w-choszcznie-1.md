@@ -58,7 +58,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Opis zdjęcia
   heading: Rzut terenu
-  image: /img/Rzut terenu0.jpg
+  image: /img/Rzut-terenu---Choszczno.jpg
   legend_items:
     - item: Działka 1 - 434 m2
     - item: Działka 2 - 397 m2
