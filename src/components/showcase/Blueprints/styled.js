@@ -33,10 +33,18 @@ export const LegendRow = styled.div`
 `
 
 export const LegendColumn = styled.div`
-  flex-basis: 20%;
+  flex-basis: 33%;
+
+  @media (min-width: 48rem) {
+    flex-basis: 20%;
+  }
 
   :nth-child(1) {
-    flex-basis: 60%;
+    flex-basis: 33%;
     flex-shrink: 0;
+
+    @media (min-width: 48rem) {
+      flex-basis: 60%;
+    }
   }
 `

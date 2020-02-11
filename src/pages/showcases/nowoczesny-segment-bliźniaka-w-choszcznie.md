@@ -118,6 +118,7 @@ showcase_section_building:
     domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_materials_used:
+  isEnabled: false
   heading: Użyte materiały
   text: >-
     Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG ENERGA 24 z
@@ -133,6 +134,7 @@ showcase_section_image_2:
   alt: Opis zdjęcia
   image: /img/Wronki - full 2.jpg
 showcase_section_tech_used:
+  isEnabled: false
   heading: Zastosowane technologie
   slides:
     - alt: Opis zdjęcia
@@ -195,4 +197,3 @@ showcase_section_contact:
   price: ' '
   price_new: Sprzedaż zakończona
 ---
-

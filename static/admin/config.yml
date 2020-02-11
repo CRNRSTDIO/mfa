@@ -108,6 +108,7 @@ collections:
         name: showcase_section_materials_used
         widget: object
         fields:
+          - {label: Enable, name: isEnabled, widget: boolean, default: false}
           - {label: Heading, name: heading, widget: text}
           - {label: Text, name: text, widget: markdown}
           - label: Logos
@@ -127,6 +128,7 @@ collections:
         name: showcase_section_tech_used
         widget: object
         fields:
+          - {label: Enable, name: isEnabled, widget: boolean, default: false}
           - {label: Heading, name: heading, widget: string}
           - label: Slides
             label_singular: Slide
@@ -261,6 +263,7 @@ collections:
         name: showcase_section_materials_used
         widget: object
         fields:
+          - {label: Enable, name: isEnabled, widget: boolean, default: false}
           - {label: Heading, name: heading, widget: text}
           - {label: Text, name: text, widget: markdown}
           - label: Logos
@@ -280,6 +283,7 @@ collections:
         name: showcase_section_tech_used
         widget: object
         fields:
+          - {label: Enable, name: isEnabled, widget: boolean, default: false}
           - {label: Heading, name: heading, widget: string}
           - label: Slides
             label_singular: Slide

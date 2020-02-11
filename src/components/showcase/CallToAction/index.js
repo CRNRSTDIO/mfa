@@ -35,7 +35,14 @@ const CallToAction = ({
                       Nowa cena
                     </styled.CallToActionLabel>
                     <styled.CallToActionPriceNew>
-                      {resolvedPriceNew}
+                      {resolvedPriceNew
+                        .split('|')
+                        .map((part, key) => (
+                          <styled.CallToActionPricePart key={key}>
+                            {part}
+                          </styled.CallToActionPricePart>
+                        ))
+                      }
                     </styled.CallToActionPriceNew>
                   </>
                 )

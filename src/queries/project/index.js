@@ -117,10 +117,22 @@ export const query = graphql`
           text
         }
         showcase_section_materials_used {
+          isEnabled
           heading
           text
+          logos {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 400) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            alt
+          }
         }
         showcase_section_tech_used {
+          isEnabled
           heading
           slides {
             alt

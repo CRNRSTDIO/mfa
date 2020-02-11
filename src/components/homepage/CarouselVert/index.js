@@ -67,7 +67,7 @@ const Carousel = ({
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
-                      <styled.CarouselItemImage as={Link} to={edges[0] && edges[0].node.fields.slug}>
+                      <styled.CarouselItemImage as={Link} to={edges[1] && edges[1].node.fields.slug}>
                         {edges[1] && edges[1].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
                             Sprzedane
@@ -75,7 +75,7 @@ const Carousel = ({
                         )}
                         <Img fluid={edges[1] && edges[1].node.frontmatter.showcase_main_image.image.childImageSharp.fluid} />
                         <styled.CarouselHoverState>
-                          {edges[0] && edges[0].node.frontmatter.showcase_tags.map(({ tag }, index) => (
+                          {edges[1] && edges[1].node.frontmatter.showcase_tags.map(({ tag }, index) => (
                             <styled.CarouselTagLine key={index}>
                               {tag && tag.split('-').map((tagPart, index) => (
                                 <styled.CarouselTagPart key={index}>

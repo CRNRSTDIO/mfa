@@ -7,7 +7,8 @@ import {
   Landscape,
   Blueprints,
   CarouselTabs,
-  CarouselThumbs
+  CarouselThumbs,
+  Materials
 } from '../../components/showcase'
 import { CallToAction } from '../../containers/showcase'
 import { Description, Explore } from '../../components/shared'
@@ -37,6 +38,7 @@ export default ({
     <Img fluid={sectionImage0.image.childImageSharp.fluid} />
     <Landscape {...sectionLandscape} />
     <Blueprints {...sectionBuilding} />
+    <Materials {...sectionMaterials} />
     <Img fluid={sectionImage1.image.childImageSharp.fluid} />
     <CarouselTabs {...sectionTech} />
     <CarouselThumbs {...galleryBottom} />

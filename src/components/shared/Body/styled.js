@@ -6,5 +6,5 @@ export const Body = styled.div`
   font-size: .9375rem;
   line-height: 2rem;
   margin: 0;
-  white-space: pre-line;
+  ${'' /* white-space: pre-line; */}
 `

@@ -120,6 +120,7 @@ showcase_section_building:
 
     <!--EndFragment-->
 showcase_section_materials_used:
+  isEnabled: false
   heading: Użyte materiały - sekcja do skasowania
   logos: []
   text: >-
@@ -131,6 +132,7 @@ showcase_section_image_2:
   alt: Port - podjazd
   image: /img/Port---Big-2.jpg
 showcase_section_tech_used:
+  isEnabled: false
   heading: Zastosowane technologie - do skasowania
   slides:
     - alt: Test
@@ -158,10 +160,9 @@ showcase_section_contact:
       Uzyskaj więcej szczegółów
       na temat projektów indywidualnych
   heading: |-
-    Zbudujemy Twój 
-    wymarzony, nowy 
+    Zbudujemy Twój
+    wymarzony, nowy
     dom pod klucz
   price: ' '
   price_new: '  '
 ---
-

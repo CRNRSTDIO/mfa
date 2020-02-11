@@ -104,6 +104,18 @@ export const CallToActionPriceNew = styled(CallToActionPrice)`
   margin: 0;
 `
 
+export const CallToActionPricePart = styled.p`
+  margin: 0;
+
+  :nth-child(2n) {
+    margin-top: .5rem;
+  }
+
+  :nth-child(2n + 1) {
+    margin-top: 1rem;
+  }
+`
+
 export const CallToActionBody = styled.a`
   color: inherit;
   font-size: .9375rem;

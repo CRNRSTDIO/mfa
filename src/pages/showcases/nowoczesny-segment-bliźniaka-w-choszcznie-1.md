@@ -139,6 +139,7 @@ showcase_section_building:
     domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_materials_used:
+  isEnabled: false
   heading: Użyte materiały
   logos:
     - alt: ytong logo
@@ -154,7 +155,7 @@ showcase_section_materials_used:
 
     Budynek wzniesiony w technice tradycyjnej, murowanej. Ściany
     zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT z wysokim
-    współczynnikiem przenikania ciepła λ 0.11 W/(mK). 
+    współczynnikiem przenikania ciepła λ 0.11 W/(mK).
 
     Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI 60,
     o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 Ściany działowe,
@@ -166,7 +167,7 @@ showcase_section_materials_used:
       Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
     * Stolarka okienna/drzwiowa: Okna PCV otwieralno-uchylne oraz przesuwne o
     profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz
-    współczynnikiem przenikania ciepła Uw 0,93 W/m2K. 
+    współczynnikiem przenikania ciepła Uw 0,93 W/m2K.
 
       \- Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
       - Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
@@ -181,12 +182,12 @@ showcase_section_materials_used:
     * Instalacja elektryczna: Rozprowadzona pełna instalacja elektryczna po
     całej powierzchni domu
       Gniazda TV/SAT/INTERNET w każdym pokoju użytkowym.
-    * Wykończenia: 
+    * Wykończenia:
 
       \- Tynki gipsowe
       - Wylewka posadzkowa cementowa zatarta
       - Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
-    * Elementy zagospodarowania terenu: 
+    * Elementy zagospodarowania terenu:
 
       \- Utwardzenie podjazdu kostką granitową LIBET
       - Utwardzenie podjazdu kostką ażurową
@@ -196,6 +197,7 @@ showcase_section_image_2:
   alt: Opis zdjęcia
   image: /img/wizualizacja 03.png
 showcase_section_tech_used:
+  isEnabled: false
   heading: Zastosowane technologie
   slides:
     - alt: Opis zdjęcia
@@ -254,4 +256,3 @@ showcase_section_contact:
   price: 365 000 zł
   price_new: Segment A|350 000 zł|Segment B|340 000 zł
 ---
-
