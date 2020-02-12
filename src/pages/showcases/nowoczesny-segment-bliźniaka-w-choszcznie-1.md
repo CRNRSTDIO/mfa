@@ -17,7 +17,7 @@ showcase_tags:
 showcase_isSold: false
 showcase_year: '2019'
 showcase_main_image:
-  alt: Opis zdjęcia
+  alt: Segment Bliźniaka Choszczno
   image: /img/Group 103.png
 showcase_gallery_top:
   slides:
@@ -30,66 +30,38 @@ showcase_gallery_top:
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z  8  budynków mieszkalnych
-    dwulokalowych w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej.
-    Droga osiedlowa połączona jest na obu końcach z utwardzonymi kostką i
-    asfaltem drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita
-    każdego budynku –  **219m2**
+    <!--StartFragment-->
 
 
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+    Nowoczesne segmenty bliźniaka w Choszcznie będą się mieścić tuż przy granicy
+    z Sołectwem Koplin. **Inwestycja rozpocznie się w czerwcu 2020 roku** i
+    oddana zostanie (w stanie deweloperskim) w marcu 2021 roku. Powierzchnia
+    segmentów będzie wynosić po **110m2 każdy**, a łączne powierzchnie działek,
+    na których mieścić się będzie budynek to: A - 434m2 i B - 397m2.
+    Doprowadzone zostaną media takie jak: prąd, gaz, instalacja
+    wodno-kanalizacyjna. Na każdy z segmentów przypadają **dwa miejsca
+    parkingowe** + **jednostanowiskowy garaż**.
+
+
+    <!--EndFragment-->
 showcase_section_image:
-  alt: Opis zdjęcia
+  alt: Segment bliźniaka Choszczno
   image: /img/wizualizacja 06.jpg
 showcase_section_landscape:
-  alt: Opis zdjęcia
+  alt: Rzut terenu - segmenty bliźniaka w Choszcznie
   heading: Rzut terenu
-  image: /img/Rzut-terenu---Choszczno.jpg
+  image: /img/Rzut terenu - segmenty bliźniaka Choszczno.png
   legend_items:
     - item: Działka 1 - 434 m2
     - item: Działka 2 - 397 m2
   text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z  8  budynków mieszkalnych
-    dwulokalowych w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej.
-    Droga osiedlowa połączona jest na obu końcach z utwardzonymi kostką i
-    asfaltem drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita
-    każdego budynku –  219m2
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+    Rzut terenu z oznaczenie umiejscowienia segmentów na działkach o wielkości
+    434 m2 i 397 m2.
 showcase_section_building:
   blueprints:
     - blueprint:
-        alt: Opis zdjęcia
-        image: /img/Rzut0.jpg
+        alt: Rzut parteru i piętra - segmenty bliźniaka w Choszcznie
+        image: /img/Rzut piętra i rzut parteru - segmenty blizniaka Choszczno MFA.png
         legend: |-
           ZESTAWIENIE POWIERZCHNI ( UŻYTKOWA)
 
@@ -116,28 +88,30 @@ showcase_section_building:
           B|SUMA POWIERZCHNI CAŁKOWITEJ|129,83 M2
   heading: Rzuty Parteru / Piętra
   text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z  8  budynków mieszkalnych
-    dwulokalowych w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej.
-    Droga osiedlowa połączona jest na obu końcach z utwardzonymi kostką i
-    asfaltem drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita
-    każdego budynku –  219m2
+    <!--StartFragment-->
 
 
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+    Piętrowy budynek w zabudowie bliźniaczej, połączony wspólnymi ścianami
+    przeciwpożarowymi w garażu. Ściany oddzielenia pożarowego zdylatowane, z
+    zachowaniem wszystkich standardów warunków technicznych, jakim powinny
+    odpowiadać tego typu budynki. Dach płaski, a w samym domu zostały ściśle
+    oddzielone strefy dzienne i sypialnianie. Segmenty charakteryzują się przede
+    wszystkim dużymi, dobrze doświetlonymi wnętrzami. Sypialnie znajdują się
+    zarówno we wschodnich, jak i zachodnich częściach, wejście zaś od wschodu.
+    Salon i kuchnię znajdzie po stronie zachodniej. Łazienki zlokalizowane są na
+    piętrze i na parterze. Pomieszczenie techniczne z piecem gazowym umieszczono
+    przy jednostanowiskowym garażu.
+
+
+    Abyś mógł na bieżąco kontrolować, czy dom powstaje przy użyciu wcześniej
+    zadeklarowanych materiałów, dostaniesz specjalny wykaz. Dzięki temu,
+    sprawdzając i doglądając swoją nieruchomość w trakcie budowy, będziesz miał
+    pewność wyłącznie najwyższej jakości wykonania.
+
+
+
+
+    <!--EndFragment-->
 showcase_section_materials_used:
   heading: Użyte materiały
   isEnabled: true
@@ -151,50 +125,49 @@ showcase_section_materials_used:
     - alt: libet logo
       image: /img/libet logo.png
   text: >-
-
-
     Budynek wzniesiony w technice tradycyjnej, murowanej. Ściany
     zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT z wysokim
-    współczynnikiem przenikania ciepła λ 0.11 W/(mK).
-
-    Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI 60,
-    o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 Ściany działowe,
-    murowane wykonane z bloczków YTONG 12.
+    współczynnikiem przenikania ciepła λ 0.11 W/(mK). Ściany oddzielenia
+    pożarowego wzniesione bloczkami SILKA 25, minimum REI 60, o wysokim
+    współczynniku izolacji akustycznej R’A1 \[dB] 50 Ściany działowe, murowane
+    wykonane z bloczków YTONG 12.
 
 
     * Izolacje: Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA
-    040, 20, o współczynniku przenikania ciepła 0,040 W/mK
-      Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
+    040, 20, o współczynniku przenikania ciepła 0,040 W/mK Dach ocieplony
+    styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
+
     * Stolarka okienna/drzwiowa: Okna PCV otwieralno-uchylne oraz przesuwne o
     profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz
     współczynnikiem przenikania ciepła Uw 0,93 W/m2K.
 
-      \- Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
-      - Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
-      - Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
+      * Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
+      * Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
+      * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
     * Instalacja WOD/KAN/GAZ: Ogrzewanie podłogowe na całej powierzchni domu
-      Kocioł gazowy kondensacyjny dwu-funkcyjny
+    Kocioł gazowy kondensacyjny dwu-funkcyjny
+
     * Podejścia pod toaletę, umywalki/zlewy, prysznice (wykonane z możliwością
     zamontowania odpływów liniowych), wyposażenia kuchni.
 
     * Osobne przyłącza WOD/KAN.
 
     * Instalacja elektryczna: Rozprowadzona pełna instalacja elektryczna po
-    całej powierzchni domu
-      Gniazda TV/SAT/INTERNET w każdym pokoju użytkowym.
+    całej powierzchni domu Gniazda TV/SAT/INTERNET w każdym pokoju użytkowym.
+
     * Wykończenia:
 
-      \- Tynki gipsowe
-      - Wylewka posadzkowa cementowa zatarta
-      - Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
+      * Tynki gipsowe
+      * Wylewka posadzkowa cementowa zatarta
+      * Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
     * Elementy zagospodarowania terenu:
 
-      \- Utwardzenie podjazdu kostką granitową LIBET
-      - Utwardzenie podjazdu kostką ażurową
-      - Taras wykonany z kostki graniotwej LIBET
-      - Działka ogrodzona płotem systemowym
+      * Utwardzenie podjazdu kostką granitową LIBET
+      * Utwardzenie podjazdu kostką ażurową
+      * Taras wykonany z kostki graniotwej LIBET
+      * Działka ogrodzona płotem systemowym
 showcase_section_image_2:
-  alt: Opis zdjęcia
+  alt: Segment bliźniaka Choszczno
   image: /img/wizualizacja 03.png
 showcase_section_tech_used:
   heading: Zastosowane technologie
@@ -232,13 +205,13 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - alt: Opis zdjęcia
+    - alt: Segment bliźniaka Choszczno
       image: /img/wizualizacja 01.png
-    - alt: Opis zdjęcia
+    - alt: Segment bliźniaka Choszczno
       image: /img/wizualizacja -2.png
-    - alt: Opis zdjęcia
+    - alt: Segment bliźniaka Choszczno
       image: /img/wizualizacja 07.png
-    - alt: Opis zdjęcia
+    - alt: Segment bliźniaka Choszczno
       image: /img/wizualizacja 08.png
 showcase_section_contact:
   contact:
