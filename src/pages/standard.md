@@ -28,53 +28,50 @@ standard_section_0:
   image: /img/group-93.png
   text: Nasz standard
 standard_sections:
-  - heading: Architektura
+  - alt: Architektura - MFA
+    heading: Architektura
     image: /img/Etap-Projektowy.jpg
     text: >-
-      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
-      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
-      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
-      niezbędne media.
-  - alt: Opis zdjęcia
+      Podczas projektowania dbamy o przeznaczenie każdego m2. Zależy nam przede
+      wszystkim na wysokiej funkcjonalności, która idealnie wkomponuje się w
+      otaczającą przestrzeń.
+  - alt: Konstrukcja - MFA
     heading: Konstrukcja
     image: /img/warstwa-1-kopia.png
     text: >-
-      Dom w którym mieszkać, powinien dawać Ci poczucie pewności, stabilności i
-      spokoju na długie lata. Dlatego wszystkie projektowane przez nas
-      rozwiązania są zawsze zgodne z wszelkimi normami dotyczącymi
-      bezpieczeństwa.
+      Budynki wykonujemy w technologii tradycyjnej murowanej. Rzetelne podejście
+      oraz wykorzystanie najlepszych materiałów dają nam pewność najwyższej
+      jakości. Dlatego udzielamy 5 letniej gwarancji na naszą pracę.
   - alt: Standard - Media
     heading: Media
     image: /img/Hard helmet.png
     text: >-
-      Nasza kompleksowa usługa zapewnia dostarczenie Ci domu, do którego od razu
-      możesz się wprowadzać i przy którym nic więcej nie musisz robić. Dlatego
-      przygotowując Twoją nieruchomość, nasi specjaliście doprowadzą wszystkie
-      niezbędne media.
+      Wszystkie instalacje wewnętrzne wykonujemy w oparciu o wcześniej
+      przygotowane projekty branż sanitarnych oraz elektrycznych. Ponieważ
+      chcemy, aby czuli się Państwo bezpiecznie w swoim domu, przestrzegamy
+      wszelkie normy i warunki techniczne.
   - alt: Opis zdjęcia
     heading: Izolacja
     image: /img/tło.png
     text: >-
-      Nowoczesne materiały izolujące najwyższej jakości sprawią, że zapomnisz o
-      mrozach i niepogodzie panującej na zewnątrz, jednocześnie zachowując
-      właściwości oddychające. Wszystko po to, abyś czuł się w swoim domu jak
-      najlepiej.
+      Dom to świątynia. Materiały izolacyjne, z których korzystamy, zapewniają
+      najlepszą szczelność termiczną i akustyczną, dzięki czemu skutecznie
+      zadbamy o idealną charakterystykę energetyczną budynku.
   - alt: Opis zdjęcia
     heading: Stolarka
     image: /img/building-construction-industry-p7jdz7z.png
     text: >-
-      Współpraca z najwyższej klasy specjalistami gwarantuje najwyższej jakości
-      usługi. Stolarze, z którymi łączymy siły, to niekwestionowani fachowcy.
-      Dbamy, aby każdy etap pracy nad Twoją przestrzenią był w najlepszych
-      rękach.
+      Okna to niezwykle ważny element domu. Dlatego również i tutaj stawiamy na
+      najwyższą jakość. Podczas prac nad Twoim nowym domem przedstawimy Państwu
+      wykaz okien wraz z ich parametrami, aby mogli wybrać Państwo najlepsze
+      rozwiązanie.
   - alt: Wykoćzenia
     heading: |
       Wykończenia
     image: /img/Etap-Projektowy.jpg
     text: >-
-      Współpraca z najwyższej klasy specjalistami gwarantuje najwyższej jakości
-      usługi. Stolarze, z którymi łączymy siły, to niekwestionowani fachowcy.
-      Dbamy, aby każdy etap pracy nad Twoją przestrzenią był w najlepszych
-      rękach.
+      Dostarczamy nieruchomości w stanie deweloperskim+. Oznacza to, że
+      otrzymują Państwo dom “pod klucz”, który jest już gotowy do malowania,
+      urządzania i wprowadzania. Gotowy, by w nim zamieszkać.
 ---
 
