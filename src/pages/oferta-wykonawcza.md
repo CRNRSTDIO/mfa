@@ -110,10 +110,11 @@ projects_section_4:
     - alt: Libet logo
       image: /img/libet logo.png
   text: >-
-    Each client searches for a unique solution catered to their personal style,
-    budget, and specific needs. The challenge and pleasure for us is finding a
-    way to marry the competing impulses between what is necessary and what is
-    desired.
+    Duży nacisk kładziemy nie tylko na funkcjonalność i design, ale również
+    koszt budowy. Dlatego przez cały proces projektowania pracujemy z
+    kosztorysantami, aby inwestor znał szczegółowe koszty powstania jego
+    wymarzonego domu. Projektujemy estetyczne, harmonijne i nowoczesne
+    rozwiązania, które w pełni wykorzystują potencjał każdej przestrzeni.
 projects_section_5:
   details:
     - data: + 48 510 375 473
