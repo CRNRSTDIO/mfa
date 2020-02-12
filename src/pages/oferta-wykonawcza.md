@@ -21,25 +21,7 @@ projects_section_1:
     Kompleksowa realizacja projektu,
     która pozwoli Tobie zaoszczędzić
     czas, pieniądze … i nerwy
-  text: >-
-    Wiele osób zwleka z realizacją swojego marzenia o budowie domu według
-    indywidualnego projektu. Powodów może być wiele - od braku pomysłu, po obawy
-    związane z dodatkowym obciążeniem czasowym, bieganiem po urzędach,
-    uzyskiwaniem pozwoleń.
-
-
-    A co gdybyś mógł zlecić wszystkie obowiązki osobie, która zadba o Twój
-    projekt, przez wszystkie etapy jego realizacji? Rozumiejąc obawy klientów i
-    wychodząc im naprzeciw oferujemy usługę realizacji domu pod klucz. Dzięki
-    temu zyskasz przede wszystkim spokój. Będziesz wiedział, że nad projektem
-    czuwa specjalista, dzięki któremu powstały już dziesiątki domów. Doskonała
-    znajomość charakterystyki tej pracy nie tylko pozwoli Ci oszczędzić nerwy,
-    ale też znacznie usprawni przebieg całego procesu. Decydując się bowiem na
-    usługę domu pod klucz, zajmujemy się wszystkim - od pracy związanej z
-    dokumentacją, przez projekt i budowę, po wykończenie i doprowadzenie mediów.
-    To oznacza, że Twoje marzenie będzie realizowane, lecz nie obciąży Cię to w
-    żaden sposób żadnymi dodatkowymi obowiązkami. Tobie zostanie już tylko
-    wprowadzić się i cieszyć wspólnymi chwilami w gronie najbliższych.
+  text: "Wiele osób zwleka z realizacją swojego marzenia o budowie domu według indywidualnego projektu. Powodów może być wiele - od braku pomysłu, po obawy związane z dodatkowym obciążeniem czasowym, po obawy przed skomplikowanymi procedurami urzędniczymi. \tA co gdyby mogli Państwo powierzyć wszystkie obowiązki osobie, która zadba o Państwa projekt, przez wszystkie etapy jego realizacji? Rozumiejąc obawy klientów i wychodząc im naprzeciw oferujemy usługę realizacji domu pod klucz. Dzięki temu zyskają Państwo przede wszystkim spokój. Będą wiedzieli Państwo, że nad projektem czuwa specjalista, dzięki któremu powstały już dziesiątki domów. Doskonała znajomość charakterystyki tej pracy nie tylko pozwoli oszczędzić nerwy, ale też znacznie usprawni przebieg całego procesu. Decydując się bowiem na usługę domu pod klucz, zajmujemy się wszystkim - od pracy związanej z dokumentacją, przez projekt i budowę, po wykończenie i doprowadzenie mediów. To oznacza, że Państwa marzenie będzie realizowane, lecz nie obciąży w żaden sposób żadnymi dodatkowymi obowiązkami. Państwu zostanie już tylko wprowadzić się i cieszyć wspólnymi chwilami w gronie najbliższych."
 projects_section_2:
   heading: Nasze realizacje
 projects_section_3:
