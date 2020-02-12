@@ -37,23 +37,19 @@ mfa_sections:
     text: >-
       Jesteśmy biurem architektoniczno-deweloperskim działającym na terenie
       całej Polski. Naszym głównym obszarem działań są inwestycje deweloperskie
-      oraz projektowanie i generalne wykonawstwo dla klientów indywidualnych.
-      Prowadzimy kompleksową usługę w zakresie inwestycji w nieruchomości,
-      zaczynając od koncepcji architektonicznej, przez przygotowanie koniecznej
-      dokumentacji i uzyskanie pozwoleń, po wykonawstwo i oddanie budynku do
-      użyteczności. Szczególnie szanujemy  czas naszych inwestorów - zajmujemy
-      się całkowicie całym procesem, ograniczając ich udział do niezbędnego
-      minimum.
+      oraz projektowanie i generalne wykonawstwo dla klientów indywidualnych. 
   - alt: Opis zdjęcia
     heading: |-
       Dom skrojony
       na Twoje potrzeby
     image: /img/rustic-vegan-qzg3gtdjtam-unsplash.png
     text: >-
-      Duży nacisk kładziemy nie tylko na funkcjonalność i design, ale również
-      koszt budowy. Dlatego przez cały proces projektowania pracujemy z
-      kosztorysantami, aby inwestor znał szczegółowe koszty powstania jego
-      wymarzonego domu. 
+      Prowadzimy kompleksową usługę w zakresie inwestycji w nieruchomości,
+      zaczynając od koncepcji architektonicznej, przez przygotowanie koniecznej
+      dokumentacji i uzyskanie pozwoleń, po wykonawstwo i oddanie budynku do
+      użyteczności. Szczególnie szanujemy  czas naszych inwestorów - zajmujemy
+      się całkowicie całym procesem, ograniczając ich udział do niezbędnego
+      minimum.
   - alt: Opis zdjęcia
     heading: Przestrzeń
     image: /img/rectangle-177.png
