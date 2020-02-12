@@ -139,8 +139,8 @@ showcase_section_building:
     domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
     przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
 showcase_section_materials_used:
-  isEnabled: false
   heading: Użyte materiały
+  isEnabled: true
   logos:
     - alt: ytong logo
       image: /img/ytong logo.png
@@ -197,8 +197,8 @@ showcase_section_image_2:
   alt: Opis zdjęcia
   image: /img/wizualizacja 03.png
 showcase_section_tech_used:
-  isEnabled: false
   heading: Zastosowane technologie
+  isEnabled: false
   slides:
     - alt: Opis zdjęcia
       heading: Konstrukcja
@@ -256,3 +256,4 @@ showcase_section_contact:
   price: 365 000 zł
   price_new: Segment A|350 000 zł|Segment B|340 000 zł
 ---
+
