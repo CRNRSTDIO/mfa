@@ -30,38 +30,48 @@ process_section_0:
   text: Poznaj proces budowy Twojego nowego domu
 process_sections:
   - alt: Etap I - Koncepcja
-    heading: Etap I - Koncepcja
+    heading: Koncepcja
     image: /img/mens-hands-with-architectural-tools-48FZN5L.png
-    text: >
-      Projektujemy rozwiązania, które współgrają z otoczeniem. Ponadto, planując
-      skupiamy się nie tylko na Twoich obecnych potrzebach, ale też uwzględniamy
-      Twoją przyszłość. Otwarta furtka rozwoju pozwoli nam na ewentualne
-      modyfikacje
+    text: >-
+      Koncepcja Twojego domu powstaje w oparciu o Państwa potrzeby i pomysły.
+      Podczas konsultacji z architektem opowiesz o swoich inspiracjach i
+      marzeniach, a on sporządzi  wstępne rysunki architektoniczne i
+      wizualizacje. 
   - alt: Etap II - Projekt
-    heading: Etap II - Projekt budowlany
+    heading: Projekt budowlany
     image: /img/Etap-III---Budowa.jpg
     text: >-
-      Ponieważ chcemy mieć pewność, że Twój wymarzony dom powstanie z
-      zachowaniem najwyższej jakości usług, nadzorujemy każdy etap powstawania
-      nieruchomości. Architekt będzie kontrolował, czy budowa jest
-      przeprowadzana ściśle w oparciu o plan.
+      Nie muszą Państwo martwić się pozyskaniem map, warunków zabudowy, warunków
+      technicznych, czy pozwolenia na budowę. Sporządzeniem odpowiedniej
+      dokumentacji oraz przygotowaniem do przystąpienie do budowy zajmiemy się
+      my.
   - alt: Etap III - Budowa
-    heading: "Etap III - Budowa\_\n"
+    heading: |
+      Generalne wykonawstwo
     image: /img/Odbiór-budynku-pod-klucz.jpg
     text: >-
-      Nie obawiaj się, że nie wystarczy Ci czasu, aby dopełniać wszelkich
-      formalności związanych z powstawaniem nieruchomości. Kiedy zaakceptujesz
-      projekt, wystarczy, że poczekasz, a my zajmiemy się całą resztą. Tobie
-      pozostanie już tylko się wprowadzić.
+      Generalne wykonawstwo będzie leżało w naszych rękach. Przeprowadzimy
+      budowę Państwa nieruchomości i zajmiemy się współpracą z podwykonawcami,
+      zapewnieniem właściwych materiałów na czas oraz nadzorem budowlanym.
+      Państwu pozostanie doglądanie budowy i sprawdzanie, jak realizuje się
+      marzenie o nowym domu.
   - alt: Etap IV - Odbiór
-    heading: Etap IV - Odbiór
+    heading: Odbiory
     image: /img/Odbiór-budynku-pod-klucz.jpg
     text: >
-      Po wykonaniu prac budowlanych przystępujemy do odbiorów budynku.
-      Zapewniamy profesjonalny przebieg prac odbiorowych budynku, sporządzenia
-      umów z dostawcami mediów, odbiory kierownika budowy oraz uzgodnienie
-      pozwolenia na użytkowanie w Starostwie. Na koniec budowy sporządzamy
-      wewnętrzną kartę odbioru z której inwestor nas rozlicza. Przekazujemy
-      klucze i opuszczamy plac budowy zostawiając go w idealnym stanie.
+      My rozliczymy się z podwykonawcami i dostawcami mediów, a Państwo z nami.
+      Sporządzimy wszelkie konieczne umowy oraz sprawdzimy, czy na każdym etapie
+      budowy Państwa nowego domu zachowano najwyższą jakość usług.
+  - alt: Proces - Manager Budowy
+    heading: Manager budowy
+    image: /img/Proces - Manager Budowy.png
+    text: >-
+      Ponieważ chcemy mieć pewność, że Państwa wymarzony dom powstanie z
+      zachowaniem najwyższej jakości usług, nadzorujemy każdy etap powstawania
+      nieruchomości. Manager budowy będzie kontrolował, czy dom powstaje ściśle
+      w oparciu o plan. Dodatkowo, manager budując systemem kontraktowym, może
+      wybudować dom taniej od cen rynkowych i przyjętego budżetu. Dzięki temu
+      zyskują Państwo gwarancję, że dom nie tylko zostanie wykonany rzetelnie,
+      ale i taniej.
 ---
 
