@@ -126,27 +126,47 @@ showcase_section_materials_used:
     - alt: libet logo
       image: /img/libet logo.png
   text: >-
-    Budynek wzniesiony w technice tradycyjnej, murowanej. Ściany
-    zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT z wysokim
-    współczynnikiem przenikania ciepła λ 0.11 W/(mK). Ściany oddzielenia
-    pożarowego wzniesione bloczkami SILKA 25, minimum REI 60, o wysokim
-    współczynniku izolacji akustycznej R’A1 \[dB] 50 Ściany działowe, murowane
-    wykonane z bloczków YTONG 12.
+    * Budynek wzniesiony w technice tradycyjnej, murowanej. 
+
+    * Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT
+    z wysokim współczynnikiem przenikania ciepła λ 0.11 W/(mK). 
+
+    * Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI
+    60, o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 
+
+    * Ściany działowe, murowane wykonane z bloczków YTONG 12.
 
 
-    * Izolacje: Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA
-    040, 20, o współczynniku przenikania ciepła 0,040 W/mK Dach ocieplony
-    styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
+    **Izolacje:** 
 
-    * Stolarka okienna/drzwiowa: Okna PCV otwieralno-uchylne oraz przesuwne o
-    profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz
-    współczynnikiem przenikania ciepła Uw 0,93 W/m2K.
 
-      1. Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
-      2. Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
-      3. Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
-    * Instalacja WOD/KAN/GAZ: Ogrzewanie podłogowe na całej powierzchni domu
-    Kocioł gazowy kondensacyjny dwu-funkcyjny
+    * Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA 040, 20, o
+    współczynniku przenikania ciepła 0,040 W/mK 
+
+    * Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością
+    20 cm
+
+
+    **Stolarka okienna/drzwiowa:**
+
+
+    * Okna PCV otwieralno-uchylne oraz przesuwne o profilu 82, trzyszybowe, z
+    parametrem redukcji hałasu do Rw=34db oraz współczynnikiem przenikania
+    ciepła Uw 0,93 W/m2K.
+
+    * Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
+
+    * Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
+
+    * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z
+    wnętrza domu.
+
+
+    **Instalacja WOD/KAN/GAZ:** 
+
+
+    * Ogrzewanie podłogowe na całej powierzchni domu Kocioł gazowy kondensacyjny
+    dwu-funkcyjny
 
     * Podejścia pod toaletę, umywalki/zlewy, prysznice (wykonane z możliwością
     zamontowania odpływów liniowych), wyposażenia kuchni.
