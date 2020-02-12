@@ -63,7 +63,7 @@ showcase_section_building:
         alt: Rzut parteru i piętra - segmenty bliźniaka w Choszcznie
         image: /img/Rzut piętra i rzut parteru - segmenty blizniaka Choszczno MFA.png
         legend: |-
-          ZESTAWIENIE POWIERZCHNI ( UŻYTKOWA)
+          ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
           A1/B1|WIATROŁAP|6,99 M2
