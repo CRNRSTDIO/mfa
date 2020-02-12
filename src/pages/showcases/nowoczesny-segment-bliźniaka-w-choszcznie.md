@@ -82,6 +82,7 @@ showcase_section_building:
           04  SALON + KUCHNIA|40,05 M2
           05  POM. TECHNICZNE|0,9 M2
           06  SCHODY|1,40 M2
+          -
 
           PIĘTRO
           07  SCHODY|3,80 M2
