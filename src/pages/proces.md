@@ -57,7 +57,7 @@ process_sections:
       marzenie o nowym domu.
   - alt: Etap IV - Odbiór
     heading: Odbiory
-    image: /img/Odbiór-budynku-pod-klucz.jpg
+    image: /img/Proces - Manager Budowy.png
     text: >
       My rozliczymy się z podwykonawcami i dostawcami mediów, a Państwo z nami.
       Sporządzimy wszelkie konieczne umowy oraz sprawdzimy, czy na każdym etapie
