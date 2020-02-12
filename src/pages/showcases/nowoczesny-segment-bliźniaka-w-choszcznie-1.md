@@ -55,7 +55,7 @@ showcase_section_landscape:
     - item: Działka 1 - 434 m2
     - item: Działka 2 - 397 m2
   text: >-
-    Rzut terenu z oznaczenie umiejscowienia segmentów na działkach o wielkości
+    Rzut terenu z oznaczeniem umiejscowienia segmentów na działkach o wielkości
     434 m2 i 397 m2.
 showcase_section_building:
   blueprints:
@@ -95,7 +95,7 @@ showcase_section_building:
     przeciwpożarowymi w garażu. Ściany oddzielenia pożarowego zdylatowane, z
     zachowaniem wszystkich standardów warunków technicznych, jakim powinny
     odpowiadać tego typu budynki. Dach płaski, a w samym domu zostały ściśle
-    oddzielone strefy dzienne i sypialnianie. Segmenty charakteryzują się przede
+    oddzielone strefy dzienne i sypialniane. Segmenty charakteryzują się przede
     wszystkim dużymi, dobrze doświetlonymi wnętrzami. Sypialnie znajdują się
     zarówno we wschodnich, jak i zachodnich częściach, wejście zaś od wschodu.
     Salon i kuchnię znajdzie po stronie zachodniej. Łazienki zlokalizowane są na
@@ -103,10 +103,11 @@ showcase_section_building:
     przy jednostanowiskowym garażu.
 
 
-    Abyś mógł na bieżąco kontrolować, czy dom powstaje przy użyciu wcześniej
-    zadeklarowanych materiałów, dostaniesz specjalny wykaz. Dzięki temu,
-    sprawdzając i doglądając swoją nieruchomość w trakcie budowy, będziesz miał
-    pewność wyłącznie najwyższej jakości wykonania.
+    Aby mogli Państwo na bieżąco kontrolować, czy dom powstaje przy użyciu
+    wcześniej zadeklarowanych materiałów, dostaną Państwo specyfikację
+    materiałową budynku. Dzięki temu, sprawdzając i doglądając swoją
+    nieruchomość w trakcie budowy, będziesz miał pewność wyłącznie najwyższej
+    jakości wykonania.
 
 
 
@@ -141,9 +142,9 @@ showcase_section_materials_used:
     profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz
     współczynnikiem przenikania ciepła Uw 0,93 W/m2K.
 
-      * Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
-      * Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
-      * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
+      1. Kolor ram zewnętrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
+      2. Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
+      3. Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
     * Instalacja WOD/KAN/GAZ: Ogrzewanie podłogowe na całej powierzchni domu
     Kocioł gazowy kondensacyjny dwu-funkcyjny
 
@@ -155,17 +156,28 @@ showcase_section_materials_used:
     * Instalacja elektryczna: Rozprowadzona pełna instalacja elektryczna po
     całej powierzchni domu Gniazda TV/SAT/INTERNET w każdym pokoju użytkowym.
 
-    * Wykończenia:
 
-      * Tynki gipsowe
-      * Wylewka posadzkowa cementowa zatarta
-      * Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
-    * Elementy zagospodarowania terenu:
+    **Wykończenia:**
 
-      * Utwardzenie podjazdu kostką granitową LIBET
-      * Utwardzenie podjazdu kostką ażurową
-      * Taras wykonany z kostki graniotwej LIBET
-      * Działka ogrodzona płotem systemowym
+
+    * Tynki gipsowe
+
+    * Wylewka posadzkowa cementowa zatarta
+
+    * Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z
+    inwestorem)
+
+
+    **Elementy zagospodarowania terenu:**
+
+
+    * Utwardzenie podjazdu kostką granitową LIBET
+
+    * Utwardzenie podjazdu kostką ażurową
+
+    * Taras wykonany z kostki graniotwej LIBET
+
+    * Działka ogrodzona płotem systemowym
 showcase_section_image_2:
   alt: Segment bliźniaka Choszczno
   image: /img/wizualizacja 03.png
