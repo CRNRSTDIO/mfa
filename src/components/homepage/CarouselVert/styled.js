@@ -65,8 +65,11 @@ export const CarouselItemImage = styled.div`
 
 export const CarouselItemImageBig = styled.div`
   display: block;
-  margin: 0 0 3.625rem;
   position: relative;
+
+  @media (min-width: 48rem) {
+    margin: 0 0 3.625rem;
+  }
 
   :hover,
   :focus {
@@ -166,6 +169,12 @@ export const CarouselItemLabel = styled.span`
   }
 `
 
+export const CarouselItemLabelBig = styled(CarouselItemLabel)`
+  @media (min-width: 48rem) {
+    display: none;
+  }
+`
+
 export const CarouselItemHeading = styled.h3`
   font-size: .6875rem;
   font-weight: 500;
@@ -178,9 +187,14 @@ export const CarouselItemHeading = styled.h3`
 `
 
 export const CarouselItemHeadingBig = styled.h2`
-  font-size: 1.4375rem;
+  font-size: .6875rem;
   font-weight: 500;
-  margin: 0 0 .875rem;
+  margin: 1.5rem 0 .75rem;
+
+  @media (min-width: 48rem) {
+    font-size: 1.4375rem;
+    margin: 0 0 .875rem;
+  }
 `
 
 export const CarouselItemDate = styled.p`

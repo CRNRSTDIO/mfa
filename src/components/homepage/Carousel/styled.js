@@ -118,6 +118,7 @@ export const CarouselItemSubheading = styled.h3`
 
 export const CarouselItemTags = styled.div`
   margin-top: 1.75rem;
+  text-shadow: 0 0 .5rem ${colors.dark};
 
   @media (min-width: 48rem) {
     margin-top: 1rem;
@@ -125,11 +126,20 @@ export const CarouselItemTags = styled.div`
 `
 
 export const CarouselItemTag = styled.span`
+  display: block;
   font-size: .75rem;
   font-weight: 300;
 
+  @media (min-width: 48rem) {
+    display: inline-block;
+  }
+
   & + & {
-    margin-left: 2.625rem;
+    margin: .5rem 0 0 0;
+
+    @media (min-width: 48rem) {
+      margin: 0 0 0 2.625rem;
+    }
   }
 `
 

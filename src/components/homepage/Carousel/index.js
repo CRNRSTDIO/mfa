@@ -56,21 +56,19 @@ const Carousel = ({
                 {...background}
               />
               <div className='container'>
-                <Parallax y={[-40, 40]}>
-                  <styled.CarouselItemText>
-                    <styled.CarouselControls>
-                      <styled.CarouselArrowLeft onClick={scrollPrev} />
-                      <styled.CarouselArrowRight onClick={scrollNext} />
-                    </styled.CarouselControls>
-                    <styled.CarouselItemHeading as={link && Link} to={link}>{heading}</styled.CarouselItemHeading>
-                    <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
-                    <styled.CarouselItemTags>
-                      {tags && tags.map(({ tag }, key) => (
-                        <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
-                      ))}
-                    </styled.CarouselItemTags>
-                  </styled.CarouselItemText>
-                </Parallax>
+                <styled.CarouselItemText>
+                  <styled.CarouselControls>
+                    <styled.CarouselArrowLeft onClick={scrollPrev} />
+                    <styled.CarouselArrowRight onClick={scrollNext} />
+                  </styled.CarouselControls>
+                  <styled.CarouselItemHeading as={link && Link} to={link}>{heading}</styled.CarouselItemHeading>
+                  <styled.CarouselItemSubheading>{subheading}</styled.CarouselItemSubheading>
+                  <styled.CarouselItemTags>
+                    {tags && tags.map(({ tag }, key) => (
+                      <styled.CarouselItemTag key={key}>{tag}</styled.CarouselItemTag>
+                    ))}
+                  </styled.CarouselItemTags>
+                </styled.CarouselItemText>
               </div>
             </styled.CarouselItem>
           )) : []}

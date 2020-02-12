@@ -41,7 +41,12 @@ const Carousel = ({
               <div className='container'>
                 <div className='grid-noBottom'>
                   <div className='grid-noBottom-middle col-12'>
-                    <div className='col-7 xs-hidden'>
+                    <div className='col-7_xs-10' data-push-left='off-0_xs-1'>
+                      <div className='grid-noBottom'>
+                        <div className='col-12'>
+                          <styled.CarouselItemLabelBig>Domy na sprzedaż</styled.CarouselItemLabelBig>
+                        </div>
+                      </div>
                       <styled.CarouselItemImageBig as={Link} to={edges[0] && edges[0].node.fields.slug}>
                         {edges[0] && edges[0].node.frontmatter.showcase_isSold && (
                           <styled.CarouselItemSoldTag>
@@ -65,7 +70,7 @@ const Carousel = ({
                         </styled.CarouselHoverState>
                       </styled.CarouselItemImageBig>
                     </div>
-                    <div className='col-4_xs-10' data-push-left='off-1'>
+                    <div className='col-4_xs-10 xs-hidden' data-push-left='off-1'>
                       <styled.CarouselItemLabel>Domy na sprzedaż</styled.CarouselItemLabel>
                       <styled.CarouselItemImage as={Link} to={edges[1] && edges[1].node.fields.slug}>
                         {edges[1] && edges[1].node.frontmatter.showcase_isSold && (
@@ -94,7 +99,7 @@ const Carousel = ({
                     </div>
                   </div>
                   <div className='grid-noBottom col-12'>
-                    <div className='col-7 xs-hidden'>
+                    <div className='col-7_xs-10' data-push-left='off-0_xs-1'>
                       <styled.CarouselItemHeadingBig>{edges[0] && edges[0].node.frontmatter.showcase_title}</styled.CarouselItemHeadingBig>
                       <styled.CarouselItemDate>{edges[0] && edges[0].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
