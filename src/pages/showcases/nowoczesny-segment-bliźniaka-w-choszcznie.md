@@ -51,24 +51,24 @@ showcase_section_building:
            ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
-          01|WIATROŁAP|5,90 M2
-          02|KORYTARZ|4,80 M2
-          03|BIURO|14,40 M2
-          04|SCHODY|1,10 M2
-          05|POM. GOSPODARCZE|0,9 M2
-          06|TOALETA|3,10 M2
-          07|SALON + KUCHNIA|30,10 M2
+          01  WIATROŁAP|5,90 M2
+          02  KORYTARZ|4,80 M2
+          03  BIURO|14,40 M2
+          04  SCHODY|1,10 M2
+          05  POM. GOSPODARCZE|0,9 M2
+          06  TOALETA|3,10 M2
+          07  SALON + KUCHNIA|30,10 M2
 
           PIĘTRO
-          1.1|SCHODY|3,80 M2
-          1.2|KORYTARZ|4,10 M2
-          1.3|POKÓJ 1|11,40 M2
-          1.4|ŁAZIENKA|10,40 M2
-          1.5|GARDEROBA|4,60 M2
-          1.6|POM. TECHNICZNE|2,40 M2
-          1.7|POKÓJ 3|16,20 M2
+          1.1  SCHODY|3,80 M2
+          1.2  KORYTARZ|4,10 M2
+          1.3  POKÓJ 1|11,40 M2
+          1.4  ŁAZIENKA|10,40 M2
+          1.5  GARDEROBA|4,60 M2
+          1.6  POM. TECHNICZNE|2,40 M2
+          1.7  POKÓJ 3|16,20 M2
 
-          A|SUMA POWIERZCHNI UŻYTKOWEJ|126,06 M2
+          A  SUMA POWIERZCHNI UŻYTKOWEJ|126,06 M2
     - blueprint:
         alt: Rzut piętra i parteru - Segment B Wronki MFA
         image: /img/Rzut Segmentu B - Wronki MFA.png
@@ -76,23 +76,23 @@ showcase_section_building:
            ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
-          01|WIATROŁAP|5,12 M2
-          02|BIURO|15,11 M2
-          03|ŁAZIENKA|5,48M2
-          04|SALON + KUCHNIA|40,05 M2
-          05|POM. TECHNICZNE|0,9 M2
-          06|SCHODY|1,40 M2
+          01  WIATROŁAP|5,12 M2
+          02  BIURO|15,11 M2
+          03  ŁAZIENKA|5,48M2
+          04  SALON + KUCHNIA|40,05 M2
+          05  POM. TECHNICZNE|0,9 M2
+          06  SCHODY|1,40 M2
 
           PIĘTRO
-          07|SCHODY|3,80 M2
-          08|KORYTARZ|7,27 M2
-          09|POKÓJ 1|11,40 M2
-          10|ŁAZIENKA|8,45 M2
-          11|POKÓJ 2|9,65 M2
-          12|POM. TECHNICZNE|3,95 M2
-          13|POKÓJ 3|14,97 M2
+          07  SCHODY|3,80 M2
+          08  KORYTARZ|7,27 M2
+          09  POKÓJ 1|11,40 M2
+          10  ŁAZIENKA|8,45 M2
+          11  POKÓJ 2|9,65 M2
+          12  POM. TECHNICZNE|3,95 M2
+          13  POKÓJ 3|14,97 M2
 
-          A|SUMA POWIERZCHNI UŻYTKOWEJ|126,06 M2
+          A  SUMA POWIERZCHNI UŻYTKOWEJ|126,06 M2
   heading: Rzuty Parteru / Piętra
   text: >-
     Budynek w zabudowie bliźniaczej z użytkowym poddaszem, połączony wspólnymi
