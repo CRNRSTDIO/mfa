@@ -39,7 +39,7 @@ process_sections:
       wizualizacje. 
   - alt: Etap II - Projekt
     heading: Projekt budowlany
-    image: /img/Etap-III---Budowa.jpg
+    image: /img/Proces - Projekt Budowlany.png
     text: >-
       Nie muszą Państwo martwić się pozyskaniem map, warunków zabudowy, warunków
       technicznych, czy pozwolenia na budowę. Sporządzeniem odpowiedniej
@@ -48,7 +48,7 @@ process_sections:
   - alt: Etap III - Budowa
     heading: |
       Generalne wykonawstwo
-    image: /img/Odbiór-budynku-pod-klucz.jpg
+    image: /img/Proces - Generalne Wykonastwo.png
     text: >-
       Generalne wykonawstwo będzie leżało w naszych rękach. Przeprowadzimy
       budowę Państwa nieruchomości i zajmiemy się współpracą z podwykonawcami,
