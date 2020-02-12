@@ -23,105 +23,37 @@ showcase_gallery_top:
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+    Podział na strefę sypialnianą i strefę dzienną jest niezwykle przydatny.
+    Podczas projektowania tej inwestycji zwrócono szczególną uwagę na to, aby
+    prywatność pozostała zachowana w najwyższym możliwym stopniu. Na bryłę
+    budynku składają się dwa osobne budynku, pomiędzy którymi znajduje się
+    łącznik. W jednym z nich znajduje się strefa prywatna, sypialniana, a w
+    drugim dzienna, ogólnodostępna. Jest to bardzo praktyczne rozwiązanie, które
+    pozwala na zachowanie ciszy i atmosfery relaksu, w czasie kiedy inni
+    domownicy zajmują się swoimi obowiązkami. Dodatkowo, w strefie dziennej
+    znajduje się antresola, która służy jako biblioteka. Pomiędzy dwoma
+    budynkami znajduje się patio z drzewem, które stanowi detal. Elewacja jest
+    wykończona wysokiej jakości drewnem z cedru kanadyjskiego oraz blachy rąbek.
 showcase_section_image:
   alt: Port - Zagospodarowanie przestrzeni
   image: /img/Port---Big-1.jpg
 showcase_section_landscape:
-  alt: Test
+  alt: Rzut terenu
   heading: Rzut terenu
   image: /img/Port - Rzut-100.jpg
-  legend_items:
-    - item: Test
-  text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+  legend_items: []
+  text: Rzut terenu projektu wykonanego dla prywatnego inwestora - "Port"
 showcase_section_building:
   blueprints:
     - blueprint:
         alt: Chwaszczyno - rzut terenu
         image: /img/Port - Rzut budynku-100.jpg
-        legend: Powierzchnia użytkowa|128 M2
+        legend: Powierzchnia użytkowa - 128 M2
   heading: Rzut budynku
-  text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – 219m2
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+  text: Rzut budynku projektu wykonanego dla prywatnego inwestora - "Port"
 showcase_section_materials_used:
-  isEnabled: false
   heading: Użyte materiały - sekcja do skasowania
+  isEnabled: false
   logos: []
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
@@ -132,8 +64,8 @@ showcase_section_image_2:
   alt: Port - podjazd
   image: /img/Port---Big-2.jpg
 showcase_section_tech_used:
-  isEnabled: false
   heading: Zastosowane technologie - do skasowania
+  isEnabled: false
   slides:
     - alt: Test
       heading: Test
@@ -166,3 +98,4 @@ showcase_section_contact:
   price: ' '
   price_new: '  '
 ---
+
