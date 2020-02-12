@@ -127,16 +127,16 @@ projects_section_5:
   opinions:
     - alt: Opis zdjęcia
       image: /img/modern-house-with-garden-swimming-pool-and-wooden-WKEPMZY.jpg
-      link: 'https://mfa.com.pl'
-      subtext: Projekt Ani i Michała
+      link: /port-dom-jednorodzinny-z-uzytkowym-poddaszem/
+      subtext: Projekt Pauliny i Damiana
       text: |
         "Nie wierzyliśmy,
         że nasz dom powstanie
         w jeden sezon"
-    - alt: Port - Oferta Wykonawcza
+    - alt: Na skraju - Oferta Wykonawcza
       image: /img/Chwaszczyno---Galeria-1.jpg
-      link: 'https://mfa.com.pl'
-      subtext: Projekt Ani i Michała
+      link: /projects/na-skraju-dom-jednorodzinny-z-uzytkowym-poddaszem/
+      subtext: Dom Katarzyny i Bartłomieja
       text: |
         "Ekipa MFA zrealizowała nasz wymarzony dom"
   text: |-
