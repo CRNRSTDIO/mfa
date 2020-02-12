@@ -25,34 +25,15 @@ showcase_gallery_top:
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+    Nazwa “Zew” budzi właściwe skojarzenia. Głównym założeniem projektu jest
+    wkomponowanie domu w otaczającą naturę. Podczas jego powstawania, to właśnie
+    ona dyktowała warunki. Każdy detal został przemyślany w taki sposób, aby
+    uszanować każde z drzew znajdujących się na działce (z tego powodu powstało
+    wewnętrzne patio). Dom charakteryzuje się otwartym planem, a jego zewnętrzne
+    ściany zostały zostały tak wydłużone, aby horyzontalnie powiększyć budynek.
+    Wejście do budynku znajduje się od strony północnego-wschodu. Natomiast całe
+    życie domu zostało przekierowane na południowo-zachodnią stronę działki z
+    widokiem na istniejący las - po to, by być jeszcze bliżej natury.
 showcase_section_image:
   alt: Zew - połączenie z naturą
   image: /img/Kluki---unikalne-połączenie-z-naturą.jpg
@@ -60,31 +41,8 @@ showcase_section_landscape:
   alt: Zew - Rzut terenu
   heading: Rzut terenu
   image: /img/Zew - Rzut Terenu.png
-  legend_items:
-    - item: Test
-  text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+  legend_items: []
+  text: Rzut terenu projektu dla inwestora prywatnego - "Zew"
 showcase_section_building:
   blueprints:
     - blueprint:
@@ -92,38 +50,10 @@ showcase_section_building:
         image: /img/Rzut Zew-100.jpg
         legend: Powierzchnia użytkowa|128 M2
   heading: Rzut budynku
-  text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – 219m2
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+  text: Rzut budynku projektu dla inwestora prywatnego - "Zew"
 showcase_section_materials_used:
-  isEnabled: false
   heading: Użyte materiały - sekcja do skasowania
+  isEnabled: false
   logos: []
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
@@ -134,8 +64,8 @@ showcase_section_image_2:
   alt: Zew - dom w lesie
   image: /img/Kluki---dom-w-lesie.jpg
 showcase_section_tech_used:
-  isEnabled: false
   heading: Zastosowane technologie - do skasowania
+  isEnabled: false
   slides:
     - alt: Test
       heading: Test
@@ -174,3 +104,4 @@ showcase_section_contact:
   price: ' '
   price_new: '  '
 ---
+
