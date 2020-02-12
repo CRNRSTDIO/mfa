@@ -24,34 +24,17 @@ showcase_gallery_top:
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+    Domy w których ma zamieszkać cała rodzina, powinny uwzględniać wiele
+    potrzeb,. Projekt domu jednorodzinnego “NA SKRAJU” powstawał właśnie w
+    takiej intencji i idealnie nadaje się jako dom pełen rodzinnego ciepła.
+    Powierzchnia została rozplanowana w taki sposób, aby życie było jak
+    najbardziej komfortowe, lecz z zachowaniem najlepszych walorów estetycznych
+    działki. Budynek został usytuowany wzdłuż linii granicy działki, dzięki
+    czemu możliwe było umiejscowienie stref życia codziennego zwróconych ku
+    lasu. To pozwala na odcięcie się sąsiadów po północnej stronie i zwiększenie
+    poziomu prywatności. Elewację wykończono wysokiej jakości drewnem z cedru
+    kanadyjskiego oraz blachy na rąbek. Detal tworzy zagłębione wejście do domu
+    oraz zadaszenie tarasu
 showcase_section_image:
   alt: Chwaszczyno - połączenie z naturą
   image: /img/wiz8.jpg
@@ -59,31 +42,8 @@ showcase_section_landscape:
   alt: Na skraju - Rzut terenu
   heading: Rzut terenu
   image: /img/Na Skraju - teren.png
-  legend_items:
-    - item: Test
-  text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – **219m2**
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
+  legend_items: []
+  text: Rzut terenu projektu dla prywatnego inwestora - "Na skraju"
 showcase_section_building:
   blueprints:
     - blueprint:
@@ -91,38 +51,10 @@ showcase_section_building:
         image: /img/Na skraju rzuty budynku_1-100.jpg
         legend: Powierzchnia użytkowa|118 M2
   heading: Rzut budynku
-  text: >-
-    <!--StartFragment-->
-
-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
-    klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem. Budynki są wznoszone od
-    sierpnia 2015. Inwestycja składa się z 8 budynków mieszkalnych dwulokalowych
-    w zabudowie bliźniaczej usytuowanych wzdłuż drogi osiedlowej. Droga
-    osiedlowa połączona jest na obu końcach z utwardzonymi kostką i asfaltem
-    drogami gminnymi (osiedle ma 2 wjazdy). Powierzchnia całkowita każdego
-    budynku – 219m2
-
-
-    Mieszkania mają przypisane po 2 stanowiska parkingowe przy budynku natomiast
-    dom możemy wykonać również w wariancie z garażem wbudowanym o powierzchni
-    27m2 oraz 4 stanowiskami parkingowymi na zewnątrz. Każde mieszkanie ma
-    wyjście do własnego ogrodu, na parterze poprzez taras a na piętrze -
-    schodami z dużego balkonu. Poddasza są wykonane w wersji bez ścian
-    działowych, z ociepleniem wełną mineralną na stropie, oddzielone termicznie
-    od piętra. Kupujący decyduje o ich otwarciu i aranżacji w trakcie lub po
-    zakończeniu inwestycji. Proponowany układ domów pozwala kupującym na
-    elastyczną, zgodną z bieżącym zapotrzebowaniem gospodarkę przestrzenią. Z
-    domu mogą Państwo np. zrobić 2 niezależne mieszkania i rozwiązać w
-    przyszłości, bez kosztów kwestię mieszkaniową dorastającego dziecka
-
-
-    <!--EndFragment-->
+  text: Rzut budynku projektu dla prywatnego inwestora - "Na skraju"
 showcase_section_materials_used:
-  isEnabled: false
   heading: Użyte materiały - sekcja do skasowania
+  isEnabled: false
   logos: []
   text: >-
     Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
@@ -133,8 +65,8 @@ showcase_section_image_2:
   alt: Chwaszczyno - dom w lesie
   image: /img/wiz7.jpg
 showcase_section_tech_used:
-  isEnabled: false
   heading: Zastosowane technologie - do skasowania
+  isEnabled: false
   slides:
     - alt: Test
       heading: Test
@@ -175,3 +107,4 @@ showcase_section_contact:
   price: ' '
   price_new: '  '
 ---
+
