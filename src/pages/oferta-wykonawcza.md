@@ -109,7 +109,7 @@ projects_section_5:
   opinions:
     - alt: Opis zdjęcia
       image: /img/modern-house-with-garden-swimming-pool-and-wooden-WKEPMZY.jpg
-      link: /port-dom-jednorodzinny-z-uzytkowym-poddaszem/
+      link: www.mfa.com.pl/projects/port-dom-jednorodzinny-z-uzytkowym-poddaszem/
       subtext: Projekt Pauliny i Damiana
       text: |
         "Nie wierzyliśmy,
@@ -117,7 +117,8 @@ projects_section_5:
         w jeden sezon"
     - alt: Na skraju - Oferta Wykonawcza
       image: /img/Chwaszczyno---Galeria-1.jpg
-      link: /projects/na-skraju-dom-jednorodzinny-z-uzytkowym-poddaszem/
+      link: >-
+        https://www.mfa.com.pl/projects/na-skraju-dom-jednorodzinny-z-uzytkowym-poddaszem/
       subtext: Dom Katarzyny i Bartłomieja
       text: |
         "Ekipa MFA zrealizowała nasz wymarzony dom"
