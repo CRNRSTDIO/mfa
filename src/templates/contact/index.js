@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Landing } from '../../components/contact'
+import { Form } from '../../containers/contact'
 import Layout from '../../components/layout'
 import SEO from '../../components/SEO'
 
@@ -11,5 +12,6 @@ export default ({
   <Layout>
     <SEO {...seo} />
     <Landing {...section00} />
+    <Form />
   </Layout>
 )
