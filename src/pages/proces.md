@@ -42,9 +42,8 @@ process_sections:
     image: /img/Proces - Projekt Budowlany.png
     text: >-
       Nie muszą Państwo martwić się pozyskaniem map, warunków zabudowy, warunków
-      technicznych, czy pozwolenia na budowę. Sporządzeniem odpowiedniej
-      dokumentacji oraz przygotowaniem do przystąpienie do budowy zajmiemy się
-      my.
+      technicznych, czy pozwolenia na budowę. Sporządzamy pełnobranżową
+      dokumentację projektową i uzyskujemy pozwolenie na budowę.
   - alt: Etap III - Budowa
     heading: |
       Generalne wykonawstwo
