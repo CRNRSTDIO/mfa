@@ -161,6 +161,8 @@ showcase_section_materials_used:
     * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z
     wnętrza domu.
 
+    * Brama garażowa
+
 
     **Instalacja WOD/KAN/GAZ:** 
 
