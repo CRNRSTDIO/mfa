@@ -104,7 +104,7 @@ const Carousel = ({
                       <styled.CarouselItemDate>{edges[0] && edges[0].node.frontmatter.showcase_year}</styled.CarouselItemDate>
                     </div>
                     <div className='col-4_xs-10' data-push-left='off-1'>
-                      <Button as={Link} to='/oferta'>Więcej</Button>
+                      <Button as={Link} to='/oferta-deweloperska'>Więcej</Button>
                     </div>
                   </div>
                 </div>

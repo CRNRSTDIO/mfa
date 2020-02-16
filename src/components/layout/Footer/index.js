@@ -21,7 +21,7 @@ const Footer = () => (
           <styled.FooterDetails>
             Michał Filipczuk Architektura
             <br />
-            <a href='mailto:michal@mfa.com.pl'>michal@mfa.com.pl</a>
+            <a href='mailto:michal.filipczuk@mfa.com.pl'>michal.filipczuk@mfa.com.pl</a>
             <br />
             <a href='tel:+ 48 510 375 473'>+ 48 510 375 473</a>
           </styled.FooterDetails>

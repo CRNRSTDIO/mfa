@@ -671,3 +671,6 @@ collections:
               - {label: Phone, name: phone, widget: string}
               - {label: E-mail, name: email, widget: string}
               - {label: Address, name: address, widget: text}
+          - label: Privacy policy
+            name: contact_privacy_policy
+            widget: markdown

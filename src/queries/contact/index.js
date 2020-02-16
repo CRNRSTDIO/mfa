@@ -18,6 +18,7 @@ export const query = graphql`
           email
           address
         }
+        contact_privacy_policy
       }
     }
   }

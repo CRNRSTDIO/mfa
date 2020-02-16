@@ -28,6 +28,7 @@ export const LandingHuge = styled.a`
   font-weight: 500;
   margin: 0;
   text-decoration: none;
+  word-break: break-word;
 
   :hover,
   :focus {
