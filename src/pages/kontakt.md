@@ -16,5 +16,6 @@ contact_section_0:
   email: michal.filipczuk@mfa.com.pl
   heading: Skontaktuj się z nami
   phone: 'T:+ 48 510 375 473'
+contact_privacy_policy: Informacje o prywatności
 ---
 
