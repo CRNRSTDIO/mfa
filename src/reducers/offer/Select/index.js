@@ -6,12 +6,10 @@ const initVal = {
 }
 
 export default typeToReducer({
-  [SELECT_ALL]: state => ({
-    ...state,
+  [SELECT_ALL]: () => ({
     selectedOption: 1
   }),
-  [SELECT_TO_SELL]: state => ({
-    ...state,
+  [SELECT_TO_SELL]: () => ({
     selectedOption: 0
   })
 }, initVal)

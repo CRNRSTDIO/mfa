@@ -1,8 +1,9 @@
 import { connect } from 'react-redux'
 import { Form } from '../../../components/contact'
-import { onSubmit } from '../../../actions/contact/Form'
+import { clearContactSubmission, onSubmit } from '../../../actions/contact/Form'
+import { contactForm } from '../../../selectors/contact/Form'
 
 export default connect(
-  null,
-  { onSubmit }
+  contactForm,
+  { clearContactSubmission, onSubmit }
 )(Form)

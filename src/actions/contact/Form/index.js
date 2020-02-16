@@ -1,10 +1,25 @@
 /* global fetch */
+export const CONTACT_SUBMISSION = 'CONTACT_SUBMISSION'
 
 const encode = data => Object.keys(data)
   .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
   .join('&')
 
-export const onSubmit = (data) => async () => {
+const contactSubmissionPending = () => ({
+  type: `${CONTACT_SUBMISSION}_PENDING`
+})
+
+const contactSubmissionSuccess = () => ({
+  type: `${CONTACT_SUBMISSION}_SUCCESS`
+})
+
+export const clearContactSubmission = () => ({
+  type: `${CONTACT_SUBMISSION}_CLEAR`
+})
+
+export const onSubmit = (data) => async (dispatch) => {
+  dispatch(contactSubmissionPending())
+
   await fetch('/', {
     method: 'POST',
     headers: {
@@ -15,4 +30,6 @@ export const onSubmit = (data) => async () => {
       ...data
     })
   })
+
+  dispatch(contactSubmissionSuccess())
 }

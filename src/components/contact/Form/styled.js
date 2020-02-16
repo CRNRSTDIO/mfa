@@ -20,6 +20,51 @@ export const Heading = styled.h2`
   }
 `
 
+export const Success = styled.h2`
+  color: ${colors.red};
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 0;
+  text-decoration: none;
+  word-break: break-word;
+
+  @media (min-width: 48rem) {
+    font-size: 5.125rem;
+    line-height: 5.125rem;
+
+    :last-child {
+      margin-bottom: 20vh;
+    }
+  }
+`
+
+export const SuccessConfirmation = styled.button.attrs({
+  type: 'button'
+})`
+  background-color: transparent;
+  border: 0;
+  color: ${colors.grey3};
+  cursor: pointer;
+  font-size: .5rem;
+  letter-spacing: .125rem;
+  margin: 0;
+  outline: 0;
+  padding: 0 0 .25rem;
+  position: relative;
+  text-transform: uppercase;
+
+  ::after {
+    background-color: ${colors.grey3};
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+`
+
 export const Input = styled.input`
   background-color: ${colors.white};
   border: 1px solid ${colors.grey};
@@ -110,10 +155,10 @@ export const Checkbox = styled.input.attrs({
   }
 `
 
-export const Submit = styled.input.attrs({
+export const Submit = styled.input.attrs(({ isPending }) => ({
   type: 'submit',
-  value: 'Wyślij'
-})`
+  value: isPending ? 'Wysyłanie' : 'Wyślij'
+}))`
   background-color: ${colors.red};
   border: 0;
   color: ${colors.white};
@@ -171,6 +216,7 @@ export const TextToggler = styled.button.attrs({
   background-color: transparent;
   border: 0;
   color: ${colors.grey3};
+  cursor: pointer;
   font-size: .5rem;
   letter-spacing: .125rem;
   margin: 0;
