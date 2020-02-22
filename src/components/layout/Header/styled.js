@@ -191,6 +191,7 @@ export const HeaderLink = styled(Link)`
   padding: 0 1.875rem;
   text-decoration: none;
   text-transform: capitalize;
+  word-wrap: initial;
 
   @media (min-width: 48rem) {
     color: ${colors.dark};

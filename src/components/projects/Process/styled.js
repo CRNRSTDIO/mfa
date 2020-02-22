@@ -54,7 +54,6 @@ export const ProcessStepButton = styled.button`
   position: relative;
   text-align: left;
   text-transform: uppercase;
-  width: 100%;
 
   ::after {
     background-color: ${colors.red};

@@ -119,6 +119,7 @@ export const CarouselItemSubheading = styled.h3`
 export const CarouselItemTags = styled.div`
   margin-top: 1.75rem;
   text-shadow: 0 0 .5rem ${colors.dark};
+  white-space: pre-wrap;
 
   @media (min-width: 48rem) {
     margin-top: 1rem;

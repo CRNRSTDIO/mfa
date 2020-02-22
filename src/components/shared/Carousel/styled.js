@@ -79,7 +79,7 @@ export const CarouselTab = styled.button`
   @media (min-width: 48rem) {
     padding: 0 0 1.125rem;
     text-align: left;
-    width: 100%;
+    ${'' /* width: 100%; */}
   }
 
   ::after {
