@@ -1,11 +1,9 @@
 ---
 template: homepage
 seo:
-  descr: >-
-    Jesteśmy biurem deweloperskim i generalnym wykonawcą z Poznania.
-    Projektujemy i realizujemy każdy etap budowy nowoczesnych inwestycji dla
-    prywatnych inwestorów, które w pełni wykorzystują potencjał zastanej
-    przestrzeni.
+  descr: >
+    Zapewniamy projekt i pełną realizację budowy | Wysokiej jakości wykonawstwo
+    | Zapraszamy do zapoznania się ofertą
   title: MFA - Deweloper •  Generalne Wykonawstwo • Architektura
 title: Strona główna
 order: 0
@@ -21,7 +19,7 @@ homepage_section_0:
         - tag: Cena - 350 000 zł
         - tag: Segment B - 110 m2 + Garaż
         - tag: Cena - 340 000 zł
-    - alt: Opis zdjęcia
+    - alt: dom bliźniak - segment
       heading: |-
         Nowoczesny Dom
         we Wronkach
@@ -54,7 +52,7 @@ homepage_section_2:
     motywację i komfort. Zadbaj więc o jakość przestrzeni, która należy do
     Ciebie.
 homepage_section_3:
-  alt: Opis zdjęcia
+  alt: działka pod budowę
   heading: |-
     Twoja idealna
     przestrzeń
