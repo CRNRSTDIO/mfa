@@ -2,14 +2,14 @@
 template: standard
 seo:
   descr: >-
-    Jesteśmy biurem deweloperskim, który kładzie szczególny nacisk na
-    funkcjonalność, design i zrównoważony koszt budowy.
+    Przedstawiamy najwyższe standardy wykończenia mieszkań |  Wysokiej jakości
+    wykonawstwo | Zapraszamy do zapoznania się ofertą
   title: MFA - Standard Wykończenia Inwestycji Mieszkalnych
 title: Standard
 order: 3
 metadata:
   metadata_listing:
-    alt: Opis zdjęcia
+    alt: standardy kolorystyczne
     image: /img/arrangement-color-colors-159045.png
     title: Poznaj standard używanych materiałów
   metadata_standard:
@@ -24,7 +24,7 @@ metadata:
       naszego projektu przebiegało tak, jak planowaliśmy.
     title: materiały
 standard_section_0:
-  alt: Opis zdjęcia
+  alt: wzorniki kolorów
   image: /img/group-93.png
   text: Nasz standard
 standard_sections:
@@ -50,14 +50,14 @@ standard_sections:
       przygotowane projekty branż sanitarnych oraz elektrycznych. Ponieważ
       chcemy, aby czuli się Państwo bezpiecznie w swoim domu, przestrzegamy
       wszelkie normy i warunki techniczne.
-  - alt: Opis zdjęcia
+  - alt: Proces budowy
     heading: Izolacja
     image: /img/tło.png
     text: >-
       Dom to świątynia. Materiały izolacyjne, z których korzystamy, zapewniają
       najlepszą szczelność termiczną i akustyczną, dzięki czemu skutecznie
       zadbamy o idealną charakterystykę energetyczną budynku.
-  - alt: Opis zdjęcia
+  - alt: budowa domu
     heading: Stolarka
     image: /img/building-construction-industry-p7jdz7z.png
     text: >-
@@ -65,7 +65,7 @@ standard_sections:
       najwyższą jakość. Podczas prac nad Twoim nowym domem przedstawimy Państwu
       wykaz okien wraz z ich parametrami, aby mogli wybrać Państwo najlepsze
       rozwiązanie.
-  - alt: Wykoćzenia
+  - alt: Wykończenia
     heading: |
       Wykończenia
     image: /img/Etap-Projektowy.jpg
