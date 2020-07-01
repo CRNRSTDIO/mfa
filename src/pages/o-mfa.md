@@ -2,19 +2,18 @@
 template: about
 seo:
   descr: >-
-    Funkcjonalne, designerskie domy i inwestycje mieszkalne o zrównoważonym
-    koszcie. Wszystkie realizowane pod ścisłym nadzorem architekta i menadżera
-    budowy.
-  title: MFA - Nowy Standard Życia
+    Funkcjonalne, designerskie domy i inwestycje mieszkalne | Ścisły nadzór
+    architekta i menadżera budowy | Skontaktuj się z nami
+  title: MFA - Nowy Standard Życia | O nas
 title: O MFA
 order: 5
 metadata:
   metadata_listing:
-    alt: Opis zdjęcia
+    alt: Plany architektoniczne
     image: /img/sergey-zolkin-m9qMoh-scfE-unsplash.png
     title: MFA - Nowoczesny standard życia
   metadata_standard:
-    alt: Opis zdjęcia
+    alt: logo MFA
     heading: |-
       Idealna harmonia pomiędzy
       rodziną, a jej domem
@@ -25,7 +24,7 @@ metadata:
       sobą współgrać i oddziaływać na siebie, by dawać Ci spokój.
     title: wizja
 mfa_section_0:
-  alt: Opis zdjęcia
+  alt: Nowe mieszkanie
   image: /img/group-101.png
   text: |-
     Architektura dla

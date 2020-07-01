@@ -2,19 +2,18 @@
 template: process
 seo:
   descr: >-
-    Jesteśmy generalnym wykonawcą inwestycji mieszkalnych. Nasza usługa obejmuje
-    wszystkie etapy procesu budowlanego: od stworzenia koncepcji, po wykonawstwo
-    i oddanie budynku do użyteczności.
+    Przedstawiamy nasz proces budowy domu |  Wysokiej jakości wykonawstwo |
+    Zapraszamy do zapoznania się ofertą
   title: MFA - Proces Budowy Prywatnej Inwestycji
 title: Proces
 order: 4
 metadata:
   metadata_listing:
-    alt: Opis zdjęcia
+    alt: Proces budowy domu
     image: /img/Warstwa 3 kopia.png
     title: Zobacz jak wygląda nasz proces realizacji
   metadata_standard:
-    alt: Opis zdjęcia
+    alt: Ustalanie szczegółów
     heading: |-
       Wspaniałe domy
       zaczynają się od
@@ -25,7 +24,7 @@ metadata:
       że będzie miało ono gdzie zagościć.
     title: Proces
 process_section_0:
-  alt: Opis zdjęcia
+  alt: Budowa domu
   image: /img/Group 94.png
   text: Poznaj proces budowy Twojego nowego domu
 process_sections:

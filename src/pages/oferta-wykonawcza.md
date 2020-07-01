@@ -1,11 +1,10 @@
 ---
 template: projects
 seo:
-  descr: >-
-    Zrealizujemy budowę domu Twoich marzeń. Prowadzimy kompleksową usługę
-    zaczynając od koncepcji architektonicznej po wykonawstwo i oddanie budynku
-    do użyteczności.
-  title: MFA - Oferta Wykonawcza
+  descr: >
+    Realizujemy każdy etap budowy nowoczesnych przestrzeni | Wysokiej jakości
+    wykonawstwo | Zapraszamy do zapoznania się z ofertą
+  title: MFA | Oferta Wykonawcza
 title: Oferta wykonawcza
 order: 2
 metadata:
@@ -76,7 +75,7 @@ projects_section_3:
         Przekazujemy klucze i opuszczamy plac budowy zostawiając go w idealnym
         stanie.
 projects_section_4:
-  alt: Opis zdjęcia
+  alt: wzorniki kolorów
   heading: |-
     Odkryj standard
     w jakim powstanie
@@ -107,7 +106,7 @@ projects_section_5:
     Dołącz do grona
     naszych klientów
   opinions:
-    - alt: Opis zdjęcia
+    - alt: taras widokowy
       image: /img/modern-house-with-garden-swimming-pool-and-wooden-WKEPMZY.jpg
       link: /port-dom-jednorodzinny-z-uzytkowym-poddaszem/
       subtext: Projekt Pauliny i Damiana

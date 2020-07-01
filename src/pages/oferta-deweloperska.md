@@ -1,12 +1,10 @@
 ---
 template: offer
 seo:
-  descr: >
-    Poznaj naszą ofertę deweloperską nowoczesnych domów wielokondygnacyjnych,
-    parterowych i segmentów bliźniaków. Każda inwestycja w naszej ofercie to
-    unikalny projekt, który zapewni lepszy standard życia Tobie i Twojej
-    rodzinie.
-  title: MFA - Oferta Deweloperska
+  descr: |
+    Szeroka oferta deweloperska nowoczesnych domów | Wysokiej jakości
+    wykonawstwo | Zapraszamy do zapoznania się ofertą
+  title: 'MFA Deweloper | Oferta Deweloperska '
 title: Oferta deweloperska
 order: 1
 metadata:
@@ -18,3 +16,4 @@ offer_section_0:
     z naszą ofertą
     deweloperską
 ---
+

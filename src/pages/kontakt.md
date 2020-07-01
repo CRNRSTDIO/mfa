@@ -2,9 +2,9 @@
 template: contact
 seo:
   descr: >-
-    Projektujemy nowoczesne i funkcjonalne przestrzenie. Skontaktuj się z nami i
-    dokonaj pierwszego kroku w realizacji swojego nowego domu.
-  title: MFA - Skontaktuj Się
+    Projektujemy nowoczesne i funkcjonalne przestrzenie | Wysokiej jakości
+    wykonawstwo | Skontaktuj się z nami 
+  title: 'MFA - Kontakt | Deweloper| Wykonawca | Architekt '
 title: Kontakt
 order: 6
 contact_section_0:
