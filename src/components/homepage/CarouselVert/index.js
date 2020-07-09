@@ -29,7 +29,7 @@ const Carousel = ({
       onSelect()
     }
 
-    return () => carousel && carousel.destroy()
+    // return () => carousel && carousel.destroy()
   }, [carousel])
 
   return (

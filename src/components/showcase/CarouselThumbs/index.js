@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from 'react'
-import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
-import CarouselPlugin from 'embla-carousel-react'
+import React, { useState, useEffect } from "react"
+import PropTypes from "prop-types"
+import Img from "gatsby-image"
+import CarouselPlugin from "embla-carousel-react"
 
-import options from './settings'
-import * as styled from './styled'
+import options from "./settings"
+import * as styled from "./styled"
 
-const Carousel = ({
-  slides = []
-}) => {
+const Carousel = ({ slides = [] }) => {
   const [carousel, setCarousel] = useState(null)
   const [thumbs, setThumbs] = useState(null)
 
@@ -41,37 +39,36 @@ const Carousel = ({
 
     if (carousel) {
       setScrollSnaps(carousel.scrollSnapList())
-      carousel.on('select', onSelect)
+      carousel.on("select", onSelect)
       onSelect()
     }
 
     if (thumbs) {
       setScrollSnaps(thumbs.scrollSnapList())
-      thumbs.on('select', onSelect)
+      thumbs.on("select", onSelect)
       onSelect()
     }
 
     return () => {
-      carousel && carousel.destroy()
-      thumbs && thumbs.destroy()
+      // carousel && carousel.destroy()
+      // thumbs && thumbs.destroy()
     }
   }, [carousel, thumbs])
 
   return (
-    <div className='container'>
+    <div className="container">
       <styled.Carousel>
         <styled.CarouselItems>
           <styled.CarouselArrowLeft onClick={scrollPrev} />
-          <CarouselPlugin
-            emblaRef={setCarousel}
-            options={options}
-          >
+          <CarouselPlugin emblaRef={setCarousel} options={options}>
             <styled.CarouselContainer>
-              {slides ? slides.map(({ image }, index) => (
-                <styled.CarouselItem key={index}>
-                  <Img fluid={image.childImageSharp.fluid} />
-                </styled.CarouselItem>
-              )) : []}
+              {slides
+                ? slides.map(({ image }, index) => (
+                    <styled.CarouselItem key={index}>
+                      <Img fluid={image.childImageSharp.fluid} />
+                    </styled.CarouselItem>
+                  ))
+                : []}
             </styled.CarouselContainer>
           </CarouselPlugin>
           <styled.CarouselCounter>
@@ -83,16 +80,18 @@ const Carousel = ({
           <styled.CarouselArrowRight onClick={scrollNext} />
         </styled.CarouselItems>
         <styled.CarouselThumbs>
-          <CarouselPlugin
-            emblaRef={setThumbs}
-            options={options}
-          >
+          <CarouselPlugin emblaRef={setThumbs} options={options}>
             <styled.CarouselContainer>
-              {slides ? slides.map(({ image }, index) => (
-                <styled.CarouselThumb key={index} onClick={() => goTo(index)}>
-                  <Img fluid={image.childImageSharp.fluid} />
-                </styled.CarouselThumb>
-              )) : []}
+              {slides
+                ? slides.map(({ image }, index) => (
+                    <styled.CarouselThumb
+                      key={index}
+                      onClick={() => goTo(index)}
+                    >
+                      <Img fluid={image.childImageSharp.fluid} />
+                    </styled.CarouselThumb>
+                  ))
+                : []}
             </styled.CarouselContainer>
           </CarouselPlugin>
         </styled.CarouselThumbs>
@@ -102,7 +101,7 @@ const Carousel = ({
 }
 
 Carousel.propTypes = {
-  slides: PropTypes.array
+  slides: PropTypes.array,
 }
 
 export default Carousel
