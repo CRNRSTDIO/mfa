@@ -34,7 +34,7 @@ showcase_section_descr:
     <!--StartFragment-->
 
 
-    Nowoczesne segmenty bliźniaka w Choszcznie będą się mieścić tuż przy granicy z Sołectwem Koplin. **Inwestycja rozpocznie się w czerwcu 2020 roku** i oddana zostanie (w stanie deweloperskim) w marcu 2021 roku. Powierzchnia segmentów będzie wynosić po **110m2 każdy**, a łączne powierzchnie działek, na których mieścić się będzie budynek to: A - 434m2 i B - 397m2. Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają **dwa miejsca parkingowe** + **jednostanowiskowy garaż**.
+    Nowoczesne segmenty bliźniaka w Choszcznie będą się mieścić tuż przy granicy z Sołectwem Koplin. **Inwestycja rozpocznie się w czerwcu 2020 roku** i oddana zostanie (w stanie deweloperskim) w marcu 2021 roku. Powierzchnia segmentów będzie wynosić po **110m2 każdy**, a łączne powierzchnie działek, na których mieścić się będzie budynek to: A - 434m2 i B - 397m2. Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają **dwa miejsca parkingowe** + **jednostanowiskowy garaż**. Jeżeli szukasz nowoczesnego **domu** w województwie **zachodniopomorskim** koniecznie skontaktuj się z nami.
 
 
     <!--EndFragment-->
@@ -87,9 +87,7 @@ showcase_section_building:
     Piętrowy budynek w zabudowie bliźniaczej, połączony wspólnymi ścianami przeciwpożarowymi w garażu. Ściany oddzielenia pożarowego zdylatowane, z zachowaniem wszystkich standardów warunków technicznych, jakim powinny odpowiadać tego typu budynki. Dach płaski, a w samym domu zostały ściśle oddzielone strefy dzienne i sypialniane. Segmenty charakteryzują się przede wszystkim dużymi, dobrze doświetlonymi wnętrzami. Sypialnie znajdują się zarówno we wschodnich, jak i zachodnich częściach, wejście zaś od wschodu. Salon i kuchnię znajdzie po stronie zachodniej. Łazienki zlokalizowane są na piętrze i na parterze. Pomieszczenie techniczne z piecem gazowym umieszczono przy jednostanowiskowym garażu.
 
 
-    Aby mogli Państwo na bieżąco kontrolować, czy dom powstaje przy użyciu wcześniej zadeklarowanych materiałów, dostaną Państwo specyfikację materiałową budynku. Dzięki temu, sprawdzając i doglądając swoją nieruchomość w trakcie budowy, będziesz miał pewność wyłącznie najwyższej jakości wykonania.
-
-
+    Aby mogli Państwo na bieżąco kontrolować, czy **dom** powstaje przy użyciu wcześniej zadeklarowanych materiałów, dostaną Państwo specyfikację materiałową budynku. Dzięki temu, sprawdzając i doglądając swoją **nieruchomość** w trakcie budowy, będziesz miał pewność wyłącznie najwyższej jakości wykonania.
 
 
     <!--EndFragment-->
@@ -223,7 +221,7 @@ showcase_section_contact:
         heading: Napisz
     heading: |-
       Uzyskaj więcej szczegółów
-      na temat tego domu
+      na temat tego domu w województwie zachodniopomorskim
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
