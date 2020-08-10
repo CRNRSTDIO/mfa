@@ -1,8 +1,9 @@
 ---
 template: showcase
 seo:
-  descr: Zapoznaj się z ofertą nowoczesnych domów w Choszcznie.
-  title: Nowoczesne Segmenty Bliźniaka w Choszcznie
+  descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka w Choszcznie Odbiór wiosną
+    2021, atrakcyjne ceny. Zapraszamy do kontaktu 510 375 473
+  title: Nowoczesne domy na sprzedaż Choszczno | MFA Architekt
 showcase_label: Dom na sprzedaż
 showcase_title: |
   Nowoczesne
