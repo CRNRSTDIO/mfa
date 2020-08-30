@@ -10,15 +10,13 @@ order: 0
 homepage_section_0:
   slide:
     - alt: Segmenty Bliźniaka - Choszczno
-      heading: Nowoczesne Domy w Choszcznie
-      image: /img/Group 107.jpg
+      heading: Nowoczesne Osiedle w Choszcznie
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa.jpg
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
-      subheading: Segment A | Segment B
+      subheading: 3 Domy teraz w limitowanej ofercie
       tags:
-        - tag: Segment A - 110 m2 + Garaż
-        - tag: Cena - 350 000 zł
-        - tag: Segment B - 110 m2 + Garaż
-        - tag: Cena - 340 000 zł
+        - tag: Nowoczesny Segment Bliźniaka
+        - tag: Cena już od - 360 000 zł nettto
     - alt: dom bliźniak - segment
       heading: |-
         Nowoczesny Dom
@@ -30,12 +28,10 @@ homepage_section_0:
         - tag: SPRZEDAŻ ZAKOŃCZONA
         - tag: Październik 2019
 homepage_section_1:
-  aside: >-
-    Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
+  aside: Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
     nam zaplanować i stworzyć miejsce, w którym zawsze będziesz się dobrze czuł.
-  heading: >-
-    Projektujemy estetyczne, harmonijne i nowoczesne rozwiązania, które w pełni
-    wykorzystują potencjał każdej przestrzeni
+  heading: Projektujemy estetyczne, harmonijne i nowoczesne rozwiązania, które w
+    pełni wykorzystują potencjał każdej przestrzeni
   label: nowy STANDARD
   text: >
     Wychodzimy z założenia, że każde otoczenie to szansa na nowe, niespotykane
@@ -58,4 +54,3 @@ homepage_section_3:
     przestrzeń
   image: /img/Mfa-Nowy-Standard-Życia.jpg
 ---
-
