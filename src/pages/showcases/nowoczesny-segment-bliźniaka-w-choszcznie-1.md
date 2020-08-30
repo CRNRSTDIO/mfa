@@ -35,13 +35,10 @@ showcase_section_descr:
     Osiedle nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej **w Choszcznie** będą się mieścić tuż przy granicy z Sołectwem Koplin **przy ulicy Fabrycznej**.
 
 
-    Inwestycja rozpocznie się w czerwcu 2020 roku i  całość oddana zostanie (w stanie deweloperskim) z początkiem  2022 zgodnie z harmonogramem powstawania osiedla. Powierzchnia użytkowa segmentów będzie wynosić po 110m2 każdy, a całkowita 130m2.  
+    Inwestycja rozpocznie się w czerwcu 2020 roku i  całość oddana zostanie (w stanie deweloperskim) z początkiem 2022 zgodnie z harmonogramem powstawania osiedla. **Powierzchnia użytkowa segmentów będzie wynosić po 110m2 każdy, a całkowita 130m2**.  
 
 
-    Działki wydzielone zostaną w granicach od 397m2 nawet do 521m2. Komunikacja z drogą publiczną (ul. Fabryczna) poprzez wykonanie utwardzonej drogi wewnętrznej.
-
-
-    \
+    Działki wydzielone zostaną w granicach **od 397m2 nawet do 521m2**. Komunikacja z drogą publiczną (ul. Fabryczna) poprzez wykonanie utwardzonej drogi wewnętrznej.\
 
     Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają dwa miejsca parkingowe + jednostanowiskowy garaż. 
 
