@@ -42,6 +42,9 @@ showcase_section_descr:
     Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają dwa miejsca parkingowe + jednostanowiskowy garaż. 
 
 
+    Zobacz miejsce inwestycji na [Google Maps](https://www.google.com/maps/dir//53.1614603,15.4033109/@53.1618771,15.410825,758m/data=!3m1!1e3!4m2!4m1!3e0)
+
+
     <!--EndFragment-->
 showcase_section_image:
   alt: Nowoczesne Domy w Choszcznie
