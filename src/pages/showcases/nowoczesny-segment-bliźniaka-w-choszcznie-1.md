@@ -3,22 +3,20 @@ template: showcase
 seo:
   descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka w Choszcznie Odbiór wiosną
     2021, atrakcyjne ceny. Zapraszamy do kontaktu 510 375 473
-  title: Nowoczesne domy na sprzedaż Choszczno | MFA Architekt
-showcase_label: Dom na sprzedaż
+  title: Oferta nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej w
+    Choszcznie | MFA Architekt
+showcase_label: Domy na sprzedaż
 showcase_title: |
   Nowoczesne
-  Segmenty
-  Bliźniaka
+  Osiedle
   w Choszcznie
 showcase_tags:
-  - tag: Segment A - 110 m2 + Garaż
-  - tag: "Cena - 350 000 zł "
-  - tag: Segment B - 110 m2 + Garaż
-  - tag: Cena - 340 000 zł
+  - tag: Segment Bliźniaka - 110 m2 + Garaż
+  - tag: Już od 360 000 zł netto
 showcase_isSold: false
-showcase_year: "2019"
+showcase_year: 2020-2021
 showcase_main_image:
-  alt: dom stargard
+  alt: Nowoczesne Osiedle Choszczno
   image: /img/Group 103.png
 showcase_gallery_top:
   slides:
@@ -34,22 +32,38 @@ showcase_section_descr:
     <!--StartFragment-->
 
 
-    Nowoczesne segmenty bliźniaka w Choszcznie będą się mieścić tuż przy granicy z Sołectwem Koplin. **Inwestycja rozpocznie się w czerwcu 2020 roku** i oddana zostanie (w stanie deweloperskim) w marcu 2021 roku. Powierzchnia segmentów będzie wynosić po **110m2 każdy**, a łączne powierzchnie działek, na których mieścić się będzie budynek to: A - 434m2 i B - 397m2. Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają **dwa miejsca parkingowe** + **jednostanowiskowy garaż**. Jeżeli szukasz nowoczesnego **domu** w województwie **zachodniopomorskim** koniecznie skontaktuj się z nami.
+    Osiedle nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej **w Choszcznie** będą się mieścić tuż przy granicy z Sołectwem Koplin **przy ulicy Fabrycznej**.
+
+
+    Inwestycja rozpocznie się w czerwcu 2020 roku i  całość oddana zostanie (w stanie deweloperskim) z początkiem  2022 zgodnie z harmonogramem powstawania osiedla. Powierzchnia użytkowa segmentów będzie wynosić po 110m2 każdy, a całkowita 130m2.  
+
+
+    Działki wydzielone zostaną w granicach od 397m2 nawet do 521m2. Komunikacja z drogą publiczną (ul. Fabryczna) poprzez wykonanie utwardzonej drogi wewnętrznej.
+
+
+    \
+
+    Doprowadzone zostaną media takie jak: prąd, gaz, instalacja wodno-kanalizacyjna. Na każdy z segmentów przypadają dwa miejsca parkingowe + jednostanowiskowy garaż. 
 
 
     <!--EndFragment-->
 showcase_section_image:
-  alt: dom choszczno
+  alt: Nowoczesne Domy w Choszcznie
   image: /img/wizualizacja 06.jpg
 showcase_section_landscape:
-  alt: domy choszczno
-  heading: Rzut terenu
-  image: /img/Rzut terenu - segmenty bliźniaka Choszczno.png
+  alt: Rzut zagospodarowania inwestycji - Nowoczesne Osiedle Choszczno
+  heading: Plan zagospodarowania inwestycji
+  image: /img/ruzt-zagospodarowania-terenu-choszczno.jpg
   legend_items:
-    - item: Działka 1 - 434 m2
-    - item: Działka 2 - 397 m2
-  text: Rzut terenu z oznaczeniem umiejscowienia segmentów na działkach o
-    wielkości 434 m2 i 397 m2.
+    - item: Segment 1 DO 5 - SPRZEDANY/REZERWACJA
+    - item: Segment 6 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 7 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 8 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 9 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 10 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 11 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 12 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
+  text: Rzut terenu z oznaczeniem umiejscowienia segmentów do sprzedaży.
 showcase_section_building:
   blueprints:
     - blueprint:
@@ -95,30 +109,30 @@ showcase_section_materials_used:
   heading: Użyte materiały
   isEnabled: true
   logos:
-    - alt: ytong logo
-      image: /img/ytong logo.png
     - alt: silka logo
       image: /img/silka logo.png
     - alt: swisspor logo
       image: /img/swisspor logo.jpg
     - alt: libet logo
       image: /img/libet logo.png
+    - image: /img/logo-solbet.png
+      alt: Solbet
   text: >-
     * Budynek wzniesiony w technice tradycyjnej, murowanej. 
 
-    * Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG PP4/0,6 S+GT z wysokim współczynnikiem przenikania ciepła λ 0.11 W/(mK). 
+    * Ściany nośne - Bloczek betonowy Solbet Optimal 240  kl. Gęstości 500, U- 0,52 W/(m2.K) ciepła.
 
-    * Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI 60, o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 
+    * Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, minimum REI 60, o wysokim współczynniku izolacji akustycznej R’A1 \[dB] 50 .
 
-    * Ściany działowe, murowane wykonane z bloczków YTONG 12.
+    * Ściany działowe – Solbet.
 
 
     **Izolacje:** 
 
 
-    * Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA 040, 20, o współczynniku przenikania ciepła 0,040 W/mK 
+    * Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA 040, 20, o współczynniku przenikania ciepła 0,040 W/mK.
 
-    * Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm
+    * Dach ocieplony styropianem EPS 036, płyty spadkowe z minimalną grubością 20 cm.
 
 
     **Stolarka okienna/drzwiowa:**
@@ -130,15 +144,15 @@ showcase_section_materials_used:
 
     * Drzwi wejściowe aluminiowe z naświetlem na profilu 75mm z pochwytem.
 
-    * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
+    * Rolety antywłamaniowe na parterze, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
 
-    * Brama garażowa
+    * Brama garażowa.
 
 
     **Instalacja WOD/KAN/GAZ:** 
 
 
-    * Ogrzewanie podłogowe na całej powierzchni domu Kocioł gazowy kondensacyjny dwu-funkcyjny
+    * Ogrzewanie podłogowe na całej powierzchni domu Kocioł gazowy kondensacyjny dwu-funkcyjny.
 
     * Podejścia pod toaletę, umywalki/zlewy, prysznice (wykonane z możliwością zamontowania odpływów liniowych), wyposażenia kuchni.
 
@@ -150,23 +164,23 @@ showcase_section_materials_used:
     **Wykończenia:**
 
 
-    * Tynki gipsowe
+    * Tynki gipsowe.
 
-    * Wylewka posadzkowa cementowa zatarta
+    * Wylewka posadzkowa cementowa zatarta.
 
-    * Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem)
+    * Balkon wykończony płytami ceramicznymi/kamiennymi (do ustalenia z inwestorem).
 
 
     **Elementy zagospodarowania terenu:**
 
 
-    * Utwardzenie podjazdu kostką granitową LIBET
+    * Utwardzenie podjazdu kostką granitową LIBET.
 
-    * Utwardzenie podjazdu kostką ażurową
+    * Utwardzenie podjazdu kostką ażurową.
 
-    * Taras wykonany z kostki graniotwej LIBET
+    * Taras wykonany z kostki graniotwej LIBET.
 
-    * Działka ogrodzona płotem systemowym
+    * Działka ogrodzona płotem systemowym.
 showcase_section_image_2:
   alt: dom Choszczno
   image: /img/wizualizacja 03.png
@@ -223,8 +237,8 @@ showcase_section_contact:
       Uzyskaj więcej szczegółów
       na temat tego domu w województwie zachodniopomorskim
   heading: |-
-    Segment bliźniaka
+    Segmenty bliźniaka
     w specjalnej cenie
-  price: 365 000 zł
-  price_new: Segment A|350 000 zł|Segment B|340 000 zł
+  price: 390 000 zł netto
+  price_new: Już od 360 000 zł netto|+8% VAT
 ---
