@@ -48,7 +48,7 @@ showcase_section_image:
 showcase_section_landscape:
   alt: Rzut zagospodarowania inwestycji - Nowoczesne Osiedle Choszczno
   heading: Plan zagospodarowania inwestycji
-  image: /img/ruzt-zagospodarowania-terenu-choszczno.jpg
+  image: /img/rzut-zagospodarowania-terenu-choszczno-1-.jpg
   legend_items:
     - item: Segment 1 DO 5 - SPRZEDANY/REZERWACJA
     - item: Segment 6 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
