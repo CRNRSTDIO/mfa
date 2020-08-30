@@ -15,15 +15,15 @@ showcase_isSold: false
 showcase_year: 2020-2021
 showcase_main_image:
   alt: Nowoczesne Osiedle Choszczno
-  image: /img/Group 103.png
+  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay.jpg
 showcase_gallery_top:
   slides:
+    - alt: Nowoczesne Osiedle w Choszcznie
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
     - alt: Opis zdjęcia
-      image: /img/Group 103.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-2.jpg
     - alt: Opis zdjęcia
-      image: /img/Group 104.png
-    - alt: Opis zdjęcia
-      image: /img/Group 105.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-3.jpg
 showcase_section_descr:
   heading: Opis inwestycji
   text: >-
@@ -44,7 +44,7 @@ showcase_section_descr:
     <!--EndFragment-->
 showcase_section_image:
   alt: Nowoczesne Domy w Choszcznie
-  image: /img/wizualizacja 06.jpg
+  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-big-2.jpg
 showcase_section_landscape:
   alt: Rzut zagospodarowania inwestycji - Nowoczesne Osiedle Choszczno
   heading: Plan zagospodarowania inwestycji
@@ -178,7 +178,7 @@ showcase_section_materials_used:
     * Działka ogrodzona płotem systemowym.
 showcase_section_image_2:
   alt: dom Choszczno
-  image: /img/wizualizacja 03.png
+  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-big-1.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie
   isEnabled: false
@@ -214,13 +214,17 @@ showcase_section_tech_used:
 showcase_gallery_bottom:
   slides:
     - alt: Segment bliźniaka Choszczno
-      image: /img/wizualizacja 01.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
     - alt: Segment bliźniaka Choszczno
-      image: /img/wizualizacja -2.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-2.jpg
     - alt: Segment bliźniaka Choszczno
-      image: /img/wizualizacja 07.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-3.jpg
     - alt: Segment bliźniaka Choszczno
-      image: /img/wizualizacja 08.png
+      image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-5.jpg
+    - image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-6.jpg
+      alt: Segment bliźniaka Choszczno
+    - image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-8.jpg
+      alt: Segment bliźniaka Choszczno
 showcase_section_contact:
   contact:
     details:
