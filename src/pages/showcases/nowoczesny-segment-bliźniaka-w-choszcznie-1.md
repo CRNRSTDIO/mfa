@@ -50,7 +50,7 @@ showcase_section_landscape:
   heading: Plan zagospodarowania inwestycji
   image: /img/rzut-zagospodarowania-terenu-choszczno-1-.jpg
   legend_items:
-    - item: Segment 1 DO 5 - SPRZEDANY/REZERWACJA
+    - item: Segment od 1 do 5 - SPRZEDANY/REZERWACJA
     - item: Segment 6 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
     - item: Segment 7 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
     - item: Segment 8 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
