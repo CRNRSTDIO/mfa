@@ -8,10 +8,8 @@ showcase_title: Segmenty Bliźniaka we Wronkach
 showcase_tags:
   - tag: Metraż - 168 m2
   - tag: Sprzedaż - Zakończona
-  - tag: Metraż - 168 m2
-  - tag: Sprzedaż - Zakończona
 showcase_isSold: true
-showcase_year: '2019'
+showcase_year: "2019"
 showcase_main_image:
   alt: Opis zdjęcia
   image: /img/Wronki - Thumbnali.jpg
@@ -25,8 +23,7 @@ showcase_gallery_top:
       image: /img/Wronki - Galeria 3.jpg
 showcase_section_descr:
   heading: Opis inwestycji
-  text: >-
-    Segmenty bliźniaka wzniesione w technice tradycyjnej, murowanej, znajdują
+  text: Segmenty bliźniaka wzniesione w technice tradycyjnej, murowanej, znajdują
     się we Wronkach, w obrębie Nowej Wsi. Znajdują się na działkach o
     powierzchniach 650m2 oraz 430 m2, a ich powierzchnia to kolejno 126 m2 i
     127,5 m2. Doprowadzone zostały media, takie jak prąd, gaz, instalacja
@@ -47,7 +44,7 @@ showcase_section_building:
     - blueprint:
         alt: Rzut piętra i parteru Segment A
         image: /img/Rzut Segmentu A - Wronki MFA.png
-        legend: |2-
+        legend: |-2
            ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
@@ -72,7 +69,7 @@ showcase_section_building:
     - blueprint:
         alt: Rzut piętra i parteru - Segment B Wronki MFA
         image: /img/Rzut Segmentu B - Wronki MFA.png
-        legend: |2-
+        legend: |-2
            ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
@@ -95,8 +92,7 @@ showcase_section_building:
 
           A  SUMA POWIERZCHNI UŻYTKOWEJ|126,06 M2
   heading: Rzuty Parteru / Piętra
-  text: >-
-    Budynek w zabudowie bliźniaczej z użytkowym poddaszem, połączony wspólnymi
+  text: Budynek w zabudowie bliźniaczej z użytkowym poddaszem, połączony wspólnymi
     ścianami p. poż. Ściany oddzielenia pożarowego zdylatowane, z zachowaniem
     wszystkich standardów warunków technicznych, jakim powinny tego typu
     budynki. Dach dwuspadowy. W domu ściśle oddzielono strefy dzienne i
@@ -119,15 +115,13 @@ showcase_section_materials_used:
     - alt: libet logo
       image: /img/libet logo.png
   text: >-
-
+    
 
     * Budynek wzniesiony w technice tradycyjnej, murowanej. 
 
-    * Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG ENERGA 24 z
-    wysokim współczynnikiem przenikania ciepła U=0,19 W/(m2K)
+    * Ściany zewnętrzne/nośne wykonane z bloczków betonowych YTONG ENERGA 24 z wysokim współczynnikiem przenikania ciepła U=0,19 W/(m2K)
 
-    * Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, REI 240, o
-    wysokim współczyniku izolacji akustycznej R’A1 \[dB] 50 
+    * Ściany oddzielenia pożarowego wzniesione bloczkami SILKA 25, REI 240, o wysokim współczyniku izolacji akustycznej R’A1 \[dB] 50 
 
     * Ściany działowe, murowane wykonane z bloczków YTONG 12
 
@@ -135,28 +129,21 @@ showcase_section_materials_used:
     **Izolacje:** 
 
 
-    * Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA 040, 20, o
-    współczynniku przenikania ciepła 0,040 W/mK
+    * Ściany zewnętrzne wykończone styropianem SWISSPOR MAX FASADA 040, 20, o współczynniku przenikania ciepła 0,040 W/mK
 
-    * Dach ocieplony pianą poliuretanową Synthesia 22 cm co daje nam idealną i
-    dokładna izolację połaci dachowej. Piana o współczynniku przenikania ciepła
-    0,036 W/mK
+    * Dach ocieplony pianą poliuretanową Synthesia 22 cm co daje nam idealną i dokładna izolację połaci dachowej. Piana o współczynniku przenikania ciepła 0,036 W/mK
 
 
     **Stolarka okienna/drzwiowa:**
 
 
-    * Okna PCV otwieralno-uchylne oraz przesuwne o profilu 82, trzyszybowe, z
-    parametrem redukcji hałasu do Rw=34db oraz współczynnikiem przenikania
-    ciepła Uw 0,93 W/m2K. 
+    * Okna PCV otwieralno-uchylne oraz przesuwne o profilu 82, trzyszybowe, z parametrem redukcji hałasu do Rw=34db oraz współczynnikiem przenikania ciepła Uw 0,93 W/m2K. 
 
     * Kolor ram zewnetrznych - ciemny antracyt, kolor ram wewnętrznych - biały.
       Okna połaciowe - uchylne, na profilu drewnianym 72, trzyszybowe z parametrem redukcji hałasu Rw = 37dB. oraz współczynnikiem przenikania ciepła 0,9 W/m2K
-    * Drzwi wejściowe aluminiowe dwuskrzydłowe z naświetlem na profilu 75mm z
-    pochwytem z przyciskiem.
+    * Drzwi wejściowe aluminiowe dwuskrzydłowe z naświetlem na profilu 75mm z pochwytem z przyciskiem.
 
-    * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z
-    wnętrza domu.
+    * Rolety antywłamaniowe, kolor ciemny antracyt sterowane automatycznie z wnętrza domu.
 
 
     **Instalacja WOD/KAN/GAZ:** 
@@ -166,8 +153,7 @@ showcase_section_materials_used:
 
     * Kocioł gazowy kondensacyjny dwufunkcyjny
 
-    * Podejścia pod toaletę,umywalki/zlewy, prysznice ( wykonane z możliwością
-    zamontowania odpływów liniowych), wyposażenia kuchni.
+    * Podejścia pod toaletę,umywalki/zlewy, prysznice ( wykonane z możliwością zamontowania odpływów liniowych), wyposażenia kuchni.
 
     * Zmiękczacz wody
 
@@ -205,8 +191,7 @@ showcase_section_materials_used:
 
     * Utwardzenie podjazdu kostką granitową LIBET
 
-    * Chodniki wykonane z płyt chodnikowych z betonu architektonicznego
-    wykończone kamieniem ozdobnym
+    * Chodniki wykonane z płyt chodnikowych z betonu architektonicznego wykończone kamieniem ozdobnym
 
     * Taras wykonany z płyt tarasowych LIBET
 
@@ -234,8 +219,7 @@ showcase_section_tech_used:
         współczyniku izolacji akustycznej R’A1 \[dB] 50.
 
 
-        Ściany działowe, murowane wykonane z bloczków YTONG 12Poddasze
-        wykończone płytami GK
+        Ściany działowe, murowane wykonane z bloczków YTONG 12Poddasze wykończone płytami GK
 
 
         Wylewka posadzkowa cementowa zatarta
@@ -249,8 +233,7 @@ showcase_section_tech_used:
         współczyniku izolacji akustycznej R’A1 \[dB] 50.
 
 
-        Ściany działowe, murowane wykonane z bloczków YTONG 12Poddasze
-        wykończone płytami GK
+        Ściany działowe, murowane wykonane z bloczków YTONG 12Poddasze wykończone płytami GK
 
 
         Wylewka posadzkowa cementowa zatarta
@@ -281,7 +264,6 @@ showcase_section_contact:
   heading: |-
     Segment bliźniaka
     w specjalnej cenie
-  price: ' '
+  price: " "
   price_new: Inwestycja Sprzedana
 ---
-
