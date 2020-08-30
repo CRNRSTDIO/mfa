@@ -7,12 +7,10 @@ seo:
     Choszcznie | MFA Architekt
 showcase_label: Domy na sprzedaż
 showcase_title: |
-  Nowoczesne
-  Osiedle
-  w Choszcznie
+  Nowoczesne Osiedle w Choszcznie
 showcase_tags:
-  - tag: Segment Bliźniaka - 110 m2 + Garaż
-  - tag: Już od 360 000 zł netto
+  - tag: Metraż - 130 m2
+  - tag: Sprzedaż - 3 Wolne Segmenty
 showcase_isSold: false
 showcase_year: 2020-2021
 showcase_main_image:
