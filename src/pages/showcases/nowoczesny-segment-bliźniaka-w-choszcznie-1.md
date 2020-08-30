@@ -51,13 +51,13 @@ showcase_section_landscape:
   image: /img/rzut-zagospodarowania-terenu-choszczno-1-.jpg
   legend_items:
     - item: Segment od 1 do 5 - SPRZEDANY/REZERWACJA
-    - item: Segment 6 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 7 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 8 - WOLNY – CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 9 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 10 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 11 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 12 - WOLNY – SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 9 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 6 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 10 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 7 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 11 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment 8 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
+    - item: Segment 12 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
   text: Rzut terenu z oznaczeniem umiejscowienia segmentów do sprzedaży.
 showcase_section_building:
   blueprints:
