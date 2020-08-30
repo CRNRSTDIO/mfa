@@ -103,7 +103,7 @@ showcase_section_building:
     Aby mogli Państwo na bieżąco kontrolować, czy **dom** powstaje przy użyciu wcześniej zadeklarowanych materiałów, dostaną Państwo specyfikację materiałową budynku. Dzięki temu, sprawdzając i doglądając swoją **nieruchomość** w trakcie budowy, będziesz miał pewność wyłącznie najwyższej jakości wykonania.
 
 
-    Zobacz miejsce inwestycji na [Google Maps](https://www.google.com/maps/dir//53.1614603,15.4033109/@53.1653996,15.4054193,1855m/data=!3m1!1e3!4m2!4m1!3e0)
+    Zobacz miejsce inwestycji na [Google Maps](https://www.google.com/maps/dir//53.1633618,15.397036/@53.1626734,15.3977025,672m/data=!3m1!1e3)
 
 
     <!--EndFragment-->
@@ -185,12 +185,10 @@ showcase_section_materials_used:
     * Działka ogrodzona płotem systemowym.
 
 
-
-
-    Zobacz miejsce inwestycji na [Google Maps](https://www.google.com/maps/dir//53.1614603,15.4033109/@53.1653996,15.4054193,1855m/data=!3m1!1e3!4m2!4m1!3e0)
+    Zobacz miejsce inwestycji na [Google Maps](https://www.google.com/maps/dir//53.1633618,15.397036/@53.1626734,15.3977025,672m/data=!3m1!1e3)
 showcase_section_image_2:
   alt: dom Choszczno
-  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-mapa.jpg
+  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-mapa-2.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie
   isEnabled: false
