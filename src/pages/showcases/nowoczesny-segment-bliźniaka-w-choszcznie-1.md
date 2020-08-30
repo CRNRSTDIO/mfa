@@ -16,7 +16,7 @@ showcase_isSold: false
 showcase_year: 2020-2021
 showcase_main_image:
   alt: Nowoczesne Osiedle Choszczno
-  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay.jpg
+  image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
 showcase_gallery_top:
   slides:
     - alt: Nowoczesne Osiedle w Choszcznie
