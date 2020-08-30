@@ -237,5 +237,5 @@ showcase_section_contact:
     Segmenty bliźniaka
     w specjalnej cenie
   price: 390 000 zł netto
-  price_new: Już od 360 000 zł netto|+8% VAT
+  price_new: 360 000 zł netto|+8% VAT
 ---
