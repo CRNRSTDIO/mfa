@@ -11,6 +11,7 @@ showcase_title: |
 showcase_tags:
   - tag: Metraż - 130 m2
   - tag: Sprzedaż - 3 Wolne Segmenty
+  - tag: Cena - Od 360 000 zł
 showcase_isSold: false
 showcase_year: 2020-2021
 showcase_main_image:
