@@ -3,8 +3,7 @@ template: showcase
 seo:
   descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka w Choszcznie Odbiór wiosną
     2021, atrakcyjne ceny. Zapraszamy do kontaktu 510 375 473
-  title: Oferta nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej w
-    Choszcznie | MFA Architekt
+  title: Nowoczesne domy w Choszcznie | Zachodniopomorskie | MFA Architekt
 showcase_label: Domy na sprzedaż
 showcase_title: |
   Nowoczesne Osiedle w Choszcznie
@@ -15,7 +14,7 @@ showcase_tags:
 showcase_isSold: false
 showcase_year: 2020-2021
 showcase_main_image:
-  alt: Nowoczesne Osiedle Choszczno
+  alt: domy na wsi zachodniopomorskie
   image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
 showcase_gallery_top:
   slides:
@@ -47,10 +46,10 @@ showcase_section_descr:
 
     <!--EndFragment-->
 showcase_section_image:
-  alt: Nowoczesne Domy w Choszcznie
+  alt: domy choszczno
   image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-big-1.jpg
 showcase_section_landscape:
-  alt: Rzut zagospodarowania inwestycji - Nowoczesne Osiedle Choszczno
+  alt: domy choszczno
   heading: Plan zagospodarowania inwestycji
   image: /img/rzut-zagospodarowania-terenu-choszczno-1-.jpg
   legend_items:
@@ -223,18 +222,18 @@ showcase_section_tech_used:
         Wylewka posadzkowa cementowa zatarta
 showcase_gallery_bottom:
   slides:
-    - alt: Segment bliźniaka Choszczno
+    - alt: domy Choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
-    - alt: Segment bliźniaka Choszczno
+    - alt: domy choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-2.jpg
-    - alt: Segment bliźniaka Choszczno
+    - alt: domy choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-3.jpg
-    - alt: Segment bliźniaka Choszczno
+    - alt: domy choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-5.jpg
     - image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-6.jpg
-      alt: Segment bliźniaka Choszczno
+      alt: domy choszczno
     - image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-8.jpg
-      alt: Segment bliźniaka Choszczno
+      alt: domy choszczno
 showcase_section_contact:
   contact:
     details:
