@@ -59,7 +59,8 @@ showcase_section_materials_used:
   text: Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów
     w Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
     klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
-    mieszkania jak i domy zgodnie z poniższym opisem.
+    mieszkania jak i domy zgodnie z poniższym opisem. Zapraszamy do naszego
+    biura w Poznaniu.
 showcase_section_image_2:
   alt: budowa domów wielkopolska
   image: /img/Port---Big-2.jpg
