@@ -29,9 +29,9 @@ standard_sections:
   - alt: domy pod klucz poznań
     heading: Architektura
     image: /img/Etap-Projektowy.jpg
-    text: Podczas projektowania dbamy o przeznaczenie każdego m2. Zależy nam przede
+    text: "Podczas projektowania dbamy o przeznaczenie każdego m2. Zależy nam przede
       wszystkim na wysokiej funkcjonalności, która idealnie wkomponuje się w
-      otaczającą przestrzeń.
+      otaczającą przestrzeń. "
   - alt: budowa domu poznań
     heading: Konstrukcja
     image: /img/warstwa-1-kopia.png
@@ -64,5 +64,7 @@ standard_sections:
     image: /img/Etap-Projektowy.jpg
     text: Dostarczamy nieruchomości w stanie deweloperskim+. Oznacza to, że
       otrzymują Państwo dom “pod klucz”, który jest już gotowy do malowania,
-      urządzania i wprowadzania. Gotowy, by w nim zamieszkać.
+      urządzania i wprowadzania. Gotowy, by w nim zamieszkać. Serdecznie
+      zapraszamy do naszego biura w Poznaniu, z chęcią odpowiemy na wszystkie
+      pytania.
 ---
