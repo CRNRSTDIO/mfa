@@ -52,7 +52,7 @@ projects_section_3:
         Po zaakceptowaniu koncepcji przedstawiamy wstępny kosztorys budowy wraz
         ze specyfikacją materiałową budynku. Oczywiście specyfikacja (materiały
         z jakich powstanie budynek) jest ściśle opracowywana pomiędzy
-        projektantem a inwestorem
+        projektantem a inwestorem.
     - step: Projekt bud.
       text: >
         Po zatwierdzeniu koncepcji przystępujemy do sporządzenia dokumentacji na
