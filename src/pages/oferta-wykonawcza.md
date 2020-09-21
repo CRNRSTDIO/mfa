@@ -20,7 +20,22 @@ projects_section_1:
     Kompleksowa realizacja projektu,
     która pozwoli Tobie zaoszczędzić
     czas, pieniądze … i nerwy
-  text: "Wiele osób zwleka z realizacją swojego marzenia o budowie domu według indywidualnego projektu. Powodów może być wiele - od braku pomysłu, po obawy związane z dodatkowym obciążeniem czasowym, po obawy przed skomplikowanymi procedurami urzędniczymi. \tA co gdyby mogli Państwo powierzyć wszystkie obowiązki osobie, która zadba o Państwa projekt, przez wszystkie etapy jego realizacji? Rozumiejąc obawy klientów i wychodząc im naprzeciw oferujemy usługę realizacji domu pod klucz. Dzięki temu zyskają Państwo przede wszystkim spokój. Będą wiedzieli Państwo, że nad projektem czuwa specjalista, dzięki któremu powstały już dziesiątki domów. Doskonała znajomość charakterystyki tej pracy nie tylko pozwoli oszczędzić nerwy, ale też znacznie usprawni przebieg całego procesu. Decydując się bowiem na usługę domu pod klucz, zajmujemy się wszystkim - od pracy związanej z dokumentacją, przez projekt i budowę, po wykończenie i doprowadzenie mediów. To oznacza, że Państwa marzenie będzie realizowane, lecz nie obciąży w żaden sposób żadnymi dodatkowymi obowiązkami. Państwu zostanie już tylko wprowadzić się i cieszyć wspólnymi chwilami w gronie najbliższych."
+  text: Wiele osób zwleka z realizacją swojego marzenia o budowie domu według
+    indywidualnego projektu. Powodów może być wiele - od braku pomysłu, po obawy
+    związane z dodatkowym obciążeniem czasowym, po obawy przed skomplikowanymi
+    procedurami urzędniczymi. 	A co gdyby mogli Państwo powierzyć wszystkie
+    obowiązki osobie, która zadba o Państwa projekt, przez wszystkie etapy jego
+    realizacji? Rozumiejąc obawy klientów i wychodząc im naprzeciw oferujemy
+    usługę realizacji domu pod klucz. Dzięki temu zyskają Państwo przede
+    wszystkim spokój. Będą wiedzieli Państwo, że nad projektem czuwa
+    specjalista, dzięki któremu powstały już dziesiątki domów. Doskonała
+    znajomość charakterystyki tej pracy nie tylko pozwoli oszczędzić nerwy, ale
+    też znacznie usprawni przebieg całego procesu. Decydując się bowiem na
+    usługę domu pod klucz, zajmujemy się wszystkim - od pracy związanej z
+    dokumentacją, przez projekt i budowę, po wykończenie i doprowadzenie mediów.
+    To oznacza, że Państwa marzenie będzie realizowane, lecz nie obciąży w żaden
+    sposób żadnymi dodatkowymi obowiązkami. Państwu zostanie już tylko
+    wprowadzić się i cieszyć wspólnymi chwilami w gronie najbliższych.
 projects_section_2:
   heading: Nasze projekty
 projects_section_3:
@@ -30,8 +45,7 @@ projects_section_3:
     w pełni kontrolowanym procesie
   steps:
     - step: Koncepcja
-      text: >-
-        W pierwszym etapie zapoznajemy się z zapisami warunków zabudowy bądź
+      text: W pierwszym etapie zapoznajemy się z zapisami warunków zabudowy bądź
         miejscowego planu, poznajemy potrzeby inwestora oraz jego pomysł na
         wymarzony dom. Sporządzamy wstępne rysunki architektoniczne wraz z
         wizualizacjami które będą stanowiły wstęp do dalszych prac projektowych.
@@ -40,8 +54,22 @@ projects_section_3:
         z jakich powstanie budynek) jest ściśle opracowywana pomiędzy
         projektantem a inwestorem
     - step: Projekt bud.
-      text: "Po zatwierdzeniu koncepcji przystępujemy do sporządzenia dokumentacji na pozwolenie na budowę. Uzyskujemy wszystkie warunki w zakresie mediów, w przypadku alternatywnych sposobów pozyskania prądu bądź odprowadzania ścieków itd sporządzamy odpowiednie badania np. geotechniczne itd.\n\nProjekt uzgadniamy w Starostwie Powiatowym i uzyskujemy pozwolenie na budowę.\nWszystkie prace uzgodnieniowe leżą po stronie MFA dlatego inwestor nie musi martwić się o pozyskanie map, warunków zabudowy, warunków technicznych oraz pozwolenie na budowę. Jest to bardzo wygodne dla osób nie mających czasu na jeżdżenie po Urzędach i nie znających się na procesie uzgodnieniowym projektów.\_\n\nNa tym etapie kończą się prace projektowe. Do projektu budowlanego załączamy Państwu również ofertę wykonawczą. Podczas procesu projektowanego opracowujemy kosztorys kwoty wybudowania domu. Jeżeli cena wybudowania przez nas domu współgra z Państwa budżetem, zaraz po uzyskaniu pozwolenia na budowę przyjeżdżamy i zaczynamy budować Państwa dom.\nJest to bardzo wygodny system ponieważ już na etapie procesu projektowego znają Państwo finalną cenę domu i nie muszą się niczym martwić. Podpisujemy wspólną umowę w której zawieramy specyfikację budynku (materiały z jakich zostanie on wybudowany), termin realizacji oraz finalną kwotę. Cała reszta leży po stronie MFA, inwestor nie musi się niczym martwić dogląda tylko powstający budynek.\n"
-    - step: "Budowa\_"
+      text: >
+        Po zatwierdzeniu koncepcji przystępujemy do sporządzenia dokumentacji na
+        pozwolenie na budowę. Uzyskujemy wszystkie warunki w zakresie mediów, w
+        przypadku alternatywnych sposobów pozyskania prądu bądź odprowadzania
+        ścieków itd sporządzamy odpowiednie badania np. geotechniczne itd.
+
+
+        Projekt uzgadniamy w Starostwie Powiatowym i uzyskujemy pozwolenie na budowę.
+
+        Wszystkie prace uzgodnieniowe leżą po stronie MFA dlatego inwestor nie musi martwić się o pozyskanie map, warunków zabudowy, warunków technicznych oraz pozwolenie na budowę. Jest to bardzo wygodne dla osób nie mających czasu na jeżdżenie po Urzędach i nie znających się na procesie uzgodnieniowym projektów. 
+
+
+        Na tym etapie kończą się prace projektowe. Do projektu budowlanego załączamy Państwu również ofertę wykonawczą. Podczas procesu projektowanego opracowujemy kosztorys kwoty wybudowania domu. Jeżeli cena wybudowania przez nas domu współgra z Państwa budżetem, zaraz po uzyskaniu pozwolenia na budowę przyjeżdżamy i zaczynamy budować Państwa dom.
+
+        Jest to bardzo wygodny system ponieważ już na etapie procesu projektowego znają Państwo finalną cenę domu i nie muszą się niczym martwić. Podpisujemy wspólną umowę w której zawieramy specyfikację budynku (materiały z jakich zostanie on wybudowany), termin realizacji oraz finalną kwotę. Cała reszta leży po stronie MFA, inwestor nie musi się niczym martwić dogląda tylko powstający budynek.
+    - step: Budowa 
       text: >
         Kompleksowo wykonujemy prace budowlane zaczynając od fundamentów po
         ostatnie tynkowanie ścian wewnętrznych. Budynek oddajemy w stanie
@@ -57,11 +85,7 @@ projects_section_3:
 
 
 
-        Jest to bardzo wygodna usługa zapewniająca dokładne odzwierciedlenie
-        projektu budowlanego w rzeczywistości. Inwestor jest zwolniony z
-        codziennych problemów budowy, może codziennie doglądać budujący się
-        budynek bez zawracania sobie głowy problematycznym procesem
-        inwestycyjnym.
+        Jest to bardzo wygodna usługa zapewniająca dokładne odzwierciedlenie projektu budowlanego w rzeczywistości. Inwestor jest zwolniony z codziennych problemów budowy, może codziennie doglądać budujący się budynek bez zawracania sobie głowy problematycznym procesem inwestycyjnym.
     - step: Odbiór pod klucz
       text: >
         Po wykonaniu prac budowlanych przystępujemy do odbiorów budynku.
@@ -69,13 +93,11 @@ projects_section_3:
         umów z dostawcami mediów, odbiory kierownika budowy oraz uzgodnienie
         pozwolenia na użytkowanie w Starostwie.
 
-        Na koniec budowy sporządzamy wewnętrzną kartę odbioru z której inwestor
-        nas rozlicza.
+        Na koniec budowy sporządzamy wewnętrzną kartę odbioru z której inwestor nas rozlicza.
 
-        Przekazujemy klucze i opuszczamy plac budowy zostawiając go w idealnym
-        stanie.
+        Przekazujemy klucze i opuszczamy plac budowy zostawiając go w idealnym stanie.
 projects_section_4:
-  alt: wzorniki kolorów
+  alt: budowa domów poznań
   heading: |-
     Odkryj standard
     w jakim powstanie
@@ -90,12 +112,13 @@ projects_section_4:
       image: /img/swisspor logo.jpg
     - alt: Libet logo
       image: /img/libet logo.png
-  text: >-
-    Duży nacisk kładziemy nie tylko na funkcjonalność i design, ale również
+  text: Duży nacisk kładziemy nie tylko na funkcjonalność i design, ale również
     koszt budowy. Dlatego przez cały proces projektowania pracujemy z
     kosztorysantami, aby inwestor znał szczegółowe koszty powstania jego
     wymarzonego domu. Projektujemy estetyczne, harmonijne i nowoczesne
-    rozwiązania, które w pełni wykorzystują potencjał każdej przestrzeni.
+    rozwiązania, które w pełni wykorzystują potencjał każdej przestrzeni. Nasza
+    siedziba mieści się na terenie Poznania, ale wykonujemy usługi na terenie
+    całej Polski.
 projects_section_5:
   details:
     - data: + 48 510 375 473
@@ -106,7 +129,7 @@ projects_section_5:
     Dołącz do grona
     naszych klientów
   opinions:
-    - alt: taras widokowy
+    - alt: budowa domu poznań
       image: /img/modern-house-with-garden-swimming-pool-and-wooden-WKEPMZY.jpg
       link: /port-dom-jednorodzinny-z-uzytkowym-poddaszem/
       subtext: Projekt Pauliny i Damiana
@@ -114,7 +137,7 @@ projects_section_5:
         "Nie wierzyliśmy,
         że nasz dom powstanie
         w jeden sezon"
-    - alt: Na skraju - Oferta Wykonawcza
+    - alt: projekt domu poznań
       image: /img/Chwaszczyno---Galeria-1.jpg
       link: /na-skraju-dom-jednorodzinny-z-uzytkowym-poddaszem/
       subtext: Dom Katarzyny i Bartłomieja
@@ -124,4 +147,3 @@ projects_section_5:
     Zacznijmy wspólnie projekt
     Twojego wymarzonego domu
 ---
-
