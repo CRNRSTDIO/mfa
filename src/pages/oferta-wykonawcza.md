@@ -4,7 +4,7 @@ seo:
   descr: >
     Realizujemy każdy etap budowy nowoczesnych przestrzeni | Wysokiej jakości
     wykonawstwo | Zapraszamy do zapoznania się z ofertą
-  title: MFA | Oferta Wykonawcza
+  title: Budowa domów Poznań | MFA | Oferta Wykonawcza
 title: Oferta wykonawcza
 order: 2
 metadata:
