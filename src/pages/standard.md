@@ -2,8 +2,8 @@
 template: standard
 seo:
   descr: Przedstawiamy najwyższe standardy wykończenia mieszkań |  Wysokiej
-    jakości wykonawstwo | Zapraszamy do zapoznania się ofertą
-  title: MFA - Standard Wykończenia Inwestycji Mieszkalnych
+    jakości wykonawstwo | Zapraszamy do zapoznania się ofertą.
+  title: Standard Wykończenia Mieszkań | MFA Poznań
 title: Standard
 order: 3
 metadata:
