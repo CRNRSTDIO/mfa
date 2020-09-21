@@ -31,7 +31,8 @@ showcase_section_descr:
     ściany zostały zostały tak wydłużone, aby horyzontalnie powiększyć budynek.
     Wejście do budynku znajduje się od strony północnego-wschodu. Natomiast całe
     życie domu zostało przekierowane na południowo-zachodnią stronę działki z
-    widokiem na istniejący las - po to, by być jeszcze bliżej natury.
+    widokiem na istniejący las - po to, by być jeszcze bliżej natury. Oferujemy
+    kompleksową budowę domu pod klucz.
 showcase_section_image:
   alt: kompleksowa budowa domu
   image: /img/Kluki---unikalne-połączenie-z-naturą.jpg
