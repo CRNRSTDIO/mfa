@@ -1,31 +1,29 @@
 ---
 template: project
 seo:
-  descr: >-
-    Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
+  descr: Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
     prywatnego inwestora.
   title: Zew - Jednorodzinny dom parterowy
-showcase_label: 'Projekt indywidualny '
+showcase_label: "Projekt indywidualny "
 showcase_title: Zew - Dom Parterowy
 showcase_tags:
   - tag: Metraż - 118 m2
 showcase_isSold: false
-showcase_year: '2019'
+showcase_year: "2019"
 showcase_main_image:
-  alt: Zew - wejście do domu
+  alt: kompleksowa budowa domu
   image: /img/Kluki - wejście.png
 showcase_gallery_top:
   slides:
-    - alt: Zew - wejście do domu
+    - alt: kompleksowa budowa domu
       image: /img/Kluki - wejście.png
-    - alt: Zew - patio
+    - alt: kompleksowa budowa domu
       image: /img/Kluki - patio.png
-    - alt: Zew - ogród
+    - alt: kompleksowa budowa domu
       image: /img/Kluki - ogród.png
 showcase_section_descr:
   heading: Opis inwestycji
-  text: >-
-    Nazwa “Zew” budzi właściwe skojarzenia. Głównym założeniem projektu jest
+  text: Nazwa “Zew” budzi właściwe skojarzenia. Głównym założeniem projektu jest
     wkomponowanie domu w otaczającą naturę. Podczas jego powstawania, to właśnie
     ona dyktowała warunki. Każdy detal został przemyślany w taki sposób, aby
     uszanować każde z drzew znajdujących się na działce (z tego powodu powstało
@@ -35,10 +33,10 @@ showcase_section_descr:
     życie domu zostało przekierowane na południowo-zachodnią stronę działki z
     widokiem na istniejący las - po to, by być jeszcze bliżej natury.
 showcase_section_image:
-  alt: Zew - połączenie z naturą
+  alt: kompleksowa budowa domu
   image: /img/Kluki---unikalne-połączenie-z-naturą.jpg
 showcase_section_landscape:
-  alt: Zew - Rzut terenu
+  alt: kompleksowa budowa domu
   heading: Rzut terenu
   image: /img/Zew - Rzut Terenu.png
   legend_items: []
@@ -55,13 +53,12 @@ showcase_section_materials_used:
   heading: Użyte materiały - sekcja do skasowania
   isEnabled: false
   logos: []
-  text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
+  text: Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów
+    w Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
     klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
     mieszkania jak i domy zgodnie z poniższym opisem.
 showcase_section_image_2:
-  alt: Zew - dom w lesie
+  alt: kompleksowa budowa domu
   image: /img/Kluki---dom-w-lesie.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie - do skasowania
@@ -73,19 +70,19 @@ showcase_section_tech_used:
       text: Test
 showcase_gallery_bottom:
   slides:
-    - alt: Kluki - całość
+    - alt: projekty domów poznań
       image: /img/Kluki - całość.png
-    - alt: Kluki - ogród
+    - alt: projekty domów poznań
       image: /img/Kluki - ogród.png
-    - alt: Zew - ogród-1
+    - alt: projekty domów poznań
       image: /img/Kluki - ogród-1.png
-    - alt: Zew - ogród-2
+    - alt: projekty domów poznań
       image: /img/Kluki - ogród-2.png
-    - alt: Zew - całość 2
+    - alt: projekty domów poznań
       image: /img/Kluki - ogród-3.png
-    - alt: Zew - patio
+    - alt: projekty domów poznań
       image: /img/Kluki - patio.png
-    - alt: Zew - wejście
+    - alt: projekty domów poznań
       image: /img/Kluki - wejście.png
 showcase_section_contact:
   contact:
@@ -101,7 +98,6 @@ showcase_section_contact:
     Zbudujemy Twój
     wymarzony, nowy
     dom pod klucz
-  price: ' '
-  price_new: '  '
+  price: " "
+  price_new: "  "
 ---
-
