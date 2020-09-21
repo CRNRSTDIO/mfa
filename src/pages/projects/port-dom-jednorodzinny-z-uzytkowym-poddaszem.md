@@ -3,27 +3,26 @@ template: project
 seo:
   descr: Projekt jednorodzinnego domu z użytkowym poddaszem
   title: Port - Jednorodzinny dom z użytkowym poddaszem
-showcase_label: 'Projekt indywidualny '
+showcase_label: "Projekt indywidualny "
 showcase_title: Port - Dom z użytkowym poddaszem
 showcase_tags:
   - tag: Metraż - 144 m2
 showcase_isSold: false
-showcase_year: '2019'
+showcase_year: "2019"
 showcase_main_image:
-  alt: Chwaszczyno - wejście do domu
+  alt: budowa domów poznań
   image: /img/Port---Projekt-indywidualny.jpg
 showcase_gallery_top:
   slides:
-    - alt: Port - Ogród
+    - alt: budowa domów wielkopolska
       image: /img/Port---Slider-1.jpg
-    - alt: Port - Wejście i podjazd
+    - alt: budowa domów pod klucz poznań
       image: /img/Port---Slider-2.jpg
-    - alt: Port - Wejście na posesje
+    - alt: budowa domów pod klucz poznań
       image: /img/Port---Slider-3.jpg
 showcase_section_descr:
   heading: Opis inwestycji
-  text: >-
-    Podział na strefę sypialnianą i strefę dzienną jest niezwykle przydatny.
+  text: Podział na strefę sypialnianą i strefę dzienną jest niezwykle przydatny.
     Podczas projektowania tej inwestycji zwrócono szczególną uwagę na to, aby
     prywatność pozostała zachowana w najwyższym możliwym stopniu. Na bryłę
     budynku składają się dwa osobne budynku, pomiędzy którymi znajduje się
@@ -34,11 +33,13 @@ showcase_section_descr:
     znajduje się antresola, która służy jako biblioteka. Pomiędzy dwoma
     budynkami znajduje się patio z drzewem, które stanowi detal. Elewacja jest
     wykończona wysokiej jakości drewnem z cedru kanadyjskiego oraz blachy rąbek.
+    Nasze biuro mieści się w Poznaniu, natomiast usługi świadczymy na terenie ca
+    lego kraju. Zapraszamy do kontaktu.
 showcase_section_image:
-  alt: Port - Zagospodarowanie przestrzeni
+  alt: budowa domów poznań
   image: /img/Port---Big-1.jpg
 showcase_section_landscape:
-  alt: Rzut terenu
+  alt: budowa domów poznań
   heading: Rzut terenu
   image: /img/Port - Rzut-100.jpg
   legend_items: []
@@ -55,13 +56,12 @@ showcase_section_materials_used:
   heading: Użyte materiały - sekcja do skasowania
   isEnabled: false
   logos: []
-  text: >-
-    Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów w
-    Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
+  text: Z satysfakcją informujemy o rozpoczęciu nowej inwestycji mieszkań i domów
+    w Nowej Woli w gminie Lesznowola. Dostosowując ofertę do wymagań naszych
     klientów, zaprojektowaliśmy budynki, w których kupić mogą Państwo zarówno
     mieszkania jak i domy zgodnie z poniższym opisem.
 showcase_section_image_2:
-  alt: Port - podjazd
+  alt: budowa domów wielkopolska
   image: /img/Port---Big-2.jpg
 showcase_section_tech_used:
   heading: Zastosowane technologie - do skasowania
@@ -73,13 +73,13 @@ showcase_section_tech_used:
       text: Test
 showcase_gallery_bottom:
   slides:
-    - alt: Port---Galeria-1
+    - alt: budowa domów wielkopolska
       image: /img/Port---Galeria-1.jpg
-    - alt: Port---Galeria-2
+    - alt: budowa domów wielkopolska
       image: /img/Port---Galeria-2.jpg
-    - alt: Port---Galeria-3
+    - alt: budowa domów poznań
       image: /img/Port---Galeria-3.jpg
-    - alt: Port---Galeria-4
+    - alt: budowa domów poznań
       image: /img/Port---Galeria-4.jpg
 showcase_section_contact:
   contact:
@@ -95,7 +95,6 @@ showcase_section_contact:
     Zbudujemy Twój
     wymarzony, nowy
     dom pod klucz
-  price: ' '
-  price_new: '  '
+  price: " "
+  price_new: "  "
 ---
-
