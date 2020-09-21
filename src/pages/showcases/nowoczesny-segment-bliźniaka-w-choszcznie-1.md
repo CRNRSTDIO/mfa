@@ -18,11 +18,11 @@ showcase_main_image:
   image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
 showcase_gallery_top:
   slides:
-    - alt: Nowoczesne Osiedle w Choszcznie
+    - alt: dom choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
-    - alt: Opis zdjęcia
+    - alt: dom choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-2.jpg
-    - alt: Opis zdjęcia
+    - alt: dom choszczno
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider-3.jpg
 showcase_section_descr:
   heading: Opis inwestycji
@@ -30,10 +30,10 @@ showcase_section_descr:
     <!--StartFragment-->
 
 
-    Osiedle nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej **w Choszcznie** będą się mieścić tuż przy granicy z Sołectwem Koplin **przy ulicy Fabrycznej**.
+    Osiedle nowoczesnych budynków mieszkalnych w zabudowie bliźniaczej **w Choszcznie** w województwie zachodniopomorskim i będą się mieścić tuż przy granicy z Sołectwem Koplin **przy ulicy Fabrycznej**.
 
 
-    Inwestycja rozpocznie się w czerwcu 2020 roku i  całość oddana zostanie (w stanie deweloperskim) z początkiem 2022 zgodnie z harmonogramem powstawania osiedla. **Powierzchnia użytkowa segmentów będzie wynosić po 110m2 każdy, a całkowita 130m2**.  
+    Inwestycja rozpocznie się w czerwcu 2020 roku i całość oddana zostanie (w stanie deweloperskim) z początkiem 2022 zgodnie z harmonogramem powstawania osiedla. **Powierzchnia użytkowa segmentów będzie wynosić po 110m2 każdy, a całkowita 130m2**.  
 
 
     Działki wydzielone zostaną w granicach **od 397m2 nawet do 521m2**. Komunikacja z drogą publiczną (ul. Fabryczna) poprzez wykonanie utwardzonej drogi wewnętrznej.\
