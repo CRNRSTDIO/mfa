@@ -1,7 +1,8 @@
 ---
 template: project
 seo:
-  descr: Projekt jednorodzinnego domu z użytkowym poddaszem w Chwaszczynie
+  descr: Projekt jednorodzinnego domu z użytkowym poddaszem w Chwaszczynie |
+    Deweloper Poznań | MFA
   title: Na Skraju - Jednorodzinny dom z użytkowym poddaszem
 showcase_label: "Projekt indywidualny "
 showcase_title: Na Skraju - Dom z użytkowym poddaszem
