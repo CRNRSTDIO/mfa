@@ -1,8 +1,9 @@
 ---
 template: contact
 seo:
-  descr: "Projektujemy nowoczesne i funkcjonalne przestrzenie | Wysokiej jakości
-    wykonawstwo | Skontaktuj się z nami "
+  descr: Kontakt do Dewelopera | Architekta ➤budowa domów ➤budowa domów pod klucz➤
+    budowa domów jednorodzinnych ➤projekty domów ➤nowoczesne segmenty bliźniaka
+    ☎ tel. 500 640 206 | Poznań
   title: "MFA - Kontakt | Deweloper| Wykonawca | Architekt "
 title: Kontakt
 order: 6
