@@ -1,7 +1,7 @@
 ---
 template: homepage
 seo:
-  descr: Developer | Architekt  ➤budowa domów ➤budowa domów pod klucz➤ budowa
+  descr: Deweloper | Architekt  ➤budowa domów ➤budowa domów pod klucz➤ budowa
     domów jednorodzinnych ➤projekty domów ➤nowoczesne segmenty bliźniaka ☎ tel.
     500 640 206 | Poznań
   title: MFA - Deweloper •  Generalne Wykonawstwo • Architektura | Poznań
