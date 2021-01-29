@@ -1,8 +1,9 @@
 ---
 template: showcase
 seo:
-  descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka w Choszcznie Odbiór wiosną
-    2021, atrakcyjne ceny. Zapraszamy do kontaktu 510 375 473
+  descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka w Choszcznie ➤budowa domów
+    ➤budowa domów pod klucz➤ budowa domów jednorodzinnych ☎ tel. 500 640 206 |
+    Poznań
   title: Nowoczesne domy w Choszcznie | Zachodniopomorskie | MFA Architekt
 showcase_label: Domy na sprzedaż
 showcase_title: |
