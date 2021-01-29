@@ -1,10 +1,10 @@
 ---
 template: homepage
 seo:
-  descr: >
-    Zapewniamy projekt i pełną realizację budowy | Wysokiej jakości wykonawstwo
-    | Zapraszamy do zapoznania się ofertą
-  title: MFA - Deweloper •  Generalne Wykonawstwo • Architektura
+  descr: Developer | Architekt  ➤budowa domów ➤budowa domów pod klucz➤ budowa
+    domów jednorodzinnych ➤projekty domów ➤nowoczesne segmenty bliźniaka ☎ tel.
+    500 640 206 | Poznań
+  title: MFA - Deweloper •  Generalne Wykonawstwo • Architektura | Poznań
 title: Strona główna
 order: 0
 homepage_section_0:
