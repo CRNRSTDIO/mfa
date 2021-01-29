@@ -1,9 +1,10 @@
 ---
 template: process
 seo:
-  descr: Przedstawiamy nasz proces budowy domu |  Wysokiej jakości wykonawstwo |
-    Zapraszamy do zapoznania się ofertą
-  title: MFA - Proces Budowy Prywatnej Inwestycji
+  descr: Przedstawiamy nasz proces budowy domu |  Deweloper | Architekt  ➤budowa
+    domów ➤budowa domów pod klucz➤ budowa domów jednorodzinnych  ☎ tel. 500 640
+    206 | Poznań
+  title: Proces Budowy Prywatnej Inwestycji | MFA | Poznań
 title: Proces
 order: 4
 metadata:
