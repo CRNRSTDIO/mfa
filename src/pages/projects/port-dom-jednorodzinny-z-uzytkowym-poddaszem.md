@@ -1,8 +1,9 @@
 ---
 template: project
 seo:
-  descr: Projekt jednorodzinnego domu z użytkowym poddaszem
-  title: Port - Jednorodzinny dom z użytkowym poddaszem
+  descr: Projekt jednorodzinnego domu z użytkowym poddaszem | Deweloper |
+    Architekt ☎ tel. 500 640 206 | Poznań
+  title: Port - Jednorodzinny dom | MFA | Poznań
 showcase_label: "Projekt indywidualny "
 showcase_title: Port - Dom z użytkowym poddaszem
 showcase_tags:
