@@ -1,7 +1,7 @@
 ---
 template: about
 seo:
-  descr: O nas  ➤budowa domów ➤budowa domów pod klucz➤ budowa domów
+  descr: O MFA  ➤budowa domów ➤budowa domów pod klucz➤ budowa domów
     jednorodzinnych ➤projekty domów ➤nowoczesne segmenty bliźniaka ☎ tel. 500
     640 206 | Poznań
   title: O nas | MFA | Poznań
