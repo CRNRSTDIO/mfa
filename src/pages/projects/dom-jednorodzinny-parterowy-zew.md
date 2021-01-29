@@ -2,8 +2,8 @@
 template: project
 seo:
   descr: Projekt jednorodzinnego domu parterowego indywidualny wykonany dla
-    prywatnego inwestora.
-  title: Zew - Jednorodzinny dom parterowy
+    prywatnego inwestora | Deweloper | Architekt ☎ tel. 500 640 206 | Poznań
+  title: Zew - Jednorodzinny dom parterowy | MFA | Poznań
 showcase_label: "Projekt indywidualny "
 showcase_title: Zew - Dom Parterowy
 showcase_tags:
