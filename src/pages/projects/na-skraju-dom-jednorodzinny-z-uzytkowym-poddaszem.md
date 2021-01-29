@@ -2,8 +2,8 @@
 template: project
 seo:
   descr: Projekt jednorodzinnego domu z użytkowym poddaszem w Chwaszczynie |
-    Deweloper Poznań | MFA
-  title: Na Skraju - Jednorodzinny dom z użytkowym poddaszem
+    Deweloper | Architekt ☎ tel. 500 640 206 | Poznań
+  title: Na Skraju - Jednorodzinny dom | MFA | Poznań
 showcase_label: "Projekt indywidualny "
 showcase_title: Na Skraju - Dom z użytkowym poddaszem
 showcase_tags:
