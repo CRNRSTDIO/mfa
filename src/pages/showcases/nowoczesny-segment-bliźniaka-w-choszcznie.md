@@ -1,8 +1,9 @@
 ---
 template: showcase
 seo:
-  descr: Zapoznaj się z ofertą nowoczesnego domu we Wronkach.
-  title: Segmenty Bliźniaka we Wronkach
+  descr: Zapoznaj się z ofertą nowoczesnego domu we Wronkach ➤budowa domów ➤budowa
+    domów pod klucz➤ budowa domów jednorodzinnych ☎ tel. 500 640 206 | Poznań
+  title: Segmenty Bliźniaka we Wronkach | MFA Architekt
 showcase_label: Dom na sprzedaż
 showcase_title: Segmenty Bliźniaka we Wronkach
 showcase_tags:
