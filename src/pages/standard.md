@@ -2,8 +2,9 @@
 template: standard
 seo:
   descr: Przedstawiamy najwyższe standardy wykończenia mieszkań |  Wysokiej
-    jakości wykonawstwo | Zapraszamy do zapoznania się ofertą.
-  title: Standard Wykończenia Mieszkań | MFA Poznań
+    jakości wykonawstwo | Zapraszamy do zapoznania się ofertą ☎ tel. 500 640 206
+    | Poznań
+  title: Standard Wykończenia Mieszkań | MFA | Poznań
 title: Standard
 order: 3
 metadata:
