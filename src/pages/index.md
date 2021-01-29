@@ -48,7 +48,7 @@ homepage_section_2:
     motywację i komfort. Zadbaj więc o jakość przestrzeni, która należy do
     Ciebie.
 homepage_section_3:
-  alt: działka pod budowę
+  alt: działka pod budowę | MFA | Poznań
   heading: |-
     Twoja idealna
     przestrzeń
