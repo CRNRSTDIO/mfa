@@ -12,7 +12,7 @@ showcase_tags:
   - tag: Metraż - 130 m2
   - tag: Sprzedaż - 3 Wolne Segmenty
   - tag: Cena - Od 360 000 zł
-showcase_isSold: false
+showcase_isSold: true
 showcase_year: 2020-2021
 showcase_main_image:
   alt: domy na wsi zachodniopomorskie
@@ -52,16 +52,16 @@ showcase_section_image:
 showcase_section_landscape:
   alt: domy choszczno
   heading: Plan zagospodarowania inwestycji
-  image: /img/rzut-zagospodarowania-terenu-choszczno-1-.jpg
+  image: /img/choszczno-pzt.jpg
   legend_items:
-    - item: Segment od 1 do 5 - SPRZEDANY/REZERWACJA
-    - item: Segment 9 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 6 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 10 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 7 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 11 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
-    - item: Segment 8 - WOLNY   CENA 360 000 ZŁ NETTO + 8% VAT
-    - item: Segment 12 - WOLNY   SPRZEDAŻ OD 1 STYCZNIA 2021
+    - item: Segment od 1 do 5 - SPRZEDANY
+    - item: Segment 9 - SPRZEDANY
+    - item: Segment 6 - SPRZEDANY
+    - item: Segment 10 - SPRZEDANY
+    - item: Segment 7 - SPRZEDANY
+    - item: Segment 11 - REZERWACJA
+    - item: Segment 8 - SPRZEDANY
+    - item: Segment 12 - REZERWACJA
   text: Rzut terenu z oznaczeniem umiejscowienia segmentów do sprzedaży.
 showcase_section_building:
   blueprints:
