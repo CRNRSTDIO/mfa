@@ -13,10 +13,8 @@ homepage_section_0:
       heading: Nowoczesne Osiedle w Choszcznie
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa.jpg
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
-      subheading: 3 Domy teraz w limitowanej ofercie
-      tags:
-        - tag: Nowoczesny Segment Bliźniaka
-        - tag: Cena już od - 360 000 zł nettto
+      subheading: Sprzedane
+      tags: []
     - alt: dom bliźniak - segment
       heading: |-
         Nowoczesny Dom
