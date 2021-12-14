@@ -13,7 +13,7 @@ homepage_section_0:
       subheading: "Cena 460 000 zł "
       image: /img/wizualizacje-8.jpg
       alt: dom bliźniak - segment
-      link: /showcases/entries/nowoczesne-osiedle-we-wronkach
+      link: /showcases/nowoczesne-osiedle-we-wronkach/
       tags:
         - tag: kwiecień 2022
     - alt: Segmenty Bliźniaka - Choszczno
