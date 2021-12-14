@@ -21,10 +21,17 @@ homepage_section_0:
         we Wronkach
       image: /img/Wronki - Header.jpg
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie/
-      subheading: Segmnet Bliźniaka
+      subheading: Segment Bliźniaka
       tags:
         - tag: SPRZEDAŻ ZAKOŃCZONA
         - tag: Październik 2019
+    - heading: "Nowoczesne Osiedle we Wronkach "
+      subheading: "Cena 460 000 zł "
+      image: /img/wizualizacje-8.jpg
+      alt: dom bliźniak - segment
+      link: https://www.mfa.com.pl/admin/#/collections/showcases/entries/nowoczesne-osiedle-we-wronkach
+      tags:
+        - tag: kwiecień 2022
 homepage_section_1:
   aside: Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
     nam zaplanować i stworzyć miejsce, w którym zawsze będziesz się dobrze czuł.
