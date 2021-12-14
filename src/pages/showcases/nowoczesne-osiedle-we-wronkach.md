@@ -55,12 +55,12 @@ showcase_section_landscape:
   image: /img/pzt.jpg
   alt: dom Wronki
   legend_items:
-    - item: "Segment 1 - WOLNY - cena 460 000 zł "
-    - item: "Segment 2 - WOLNY - cena 460 000 zł "
-    - item: "Segment 3 - WOLNY - cena 460 000 zł "
-    - item: "Segment 4 - WOLNY - cena 460 000 zł "
-    - item: "Segment 5 - WOLNY - cena 460 000 zł "
-    - item: "Segment 6 - WOLNY - cena 460 000 zł "
+    - item: Segment 1 - WOLNY
+    - item: "Segment 2 - WOLNY "
+    - item: Segment 3 - WOLNY
+    - item: "Segment 4 - WOLNY "
+    - item: Segment 5 - WOLNY
+    - item: "Segment 6 - WOLNY "
 showcase_section_building:
   heading: Rzuty Parteru / Piętra
   text: >-
@@ -203,7 +203,7 @@ showcase_section_materials_used:
 
     <!--EndFragment-->
 showcase_section_image_2:
-  image: /img/apple-touch-icon.png
+  image: /img/Proces - Projekt Budowlany.png
   alt: "dom Wronki "
 showcase_section_tech_used:
   isEnabled: false
@@ -241,8 +241,8 @@ showcase_section_contact:
   heading: |-
     Segmenty 
     w specjalnej cenie
-  price: 490 000
-  price_new: 460 000
+  price: "490 000 zł brutto "
+  price_new: "460 000 zł brutto "
   contact:
     heading: |-
       Uzyskaj więcej szczegółów
