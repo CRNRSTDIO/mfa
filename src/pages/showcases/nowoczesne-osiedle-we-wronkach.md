@@ -52,7 +52,7 @@ showcase_section_image:
 showcase_section_landscape:
   heading: Plan zagospodarowania inwestycji
   text: Rzut terenu z oznaczeniem umiejscowienia segmentów do sprzedaży.
-  image: /img/pzt.jpg
+  image: /img/3.jpg
   alt: dom Wronki
   legend_items:
     - item: Segment 1 - WOLNY
