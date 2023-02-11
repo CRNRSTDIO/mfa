@@ -47,7 +47,7 @@ showcase_section_landscape:
   heading: Plan zagospodarowania inwestycji
   image: /img/pzt-osiedle-wysoka.jpg
   legend_items:
-    - item: SKONTAKTUJ SIĘ I DOWIEDŹ KTÓRY SEGMENT JEST JESZCZE WOLNY
+    - item: "SKONTAKTUJ SIĘ TEL: 693 557 583"
   text: RZUT OSIEDLA WYSOKA
 showcase_section_building:
   blueprints:
@@ -58,12 +58,12 @@ showcase_section_building:
           ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
 
           PARTER
-          A1|WIATROŁAP|1,97 M2
+          A1|WIATROŁAP| 1,97 M2
           A2|POM. TECHNICZNE|1,79 M2
-          A3|TOALETA|2,26 M2
+          A3|TOALETA| 2,26 M2
           A4|KOMUNIKACJA|8,45 M2
-          A5|SALON + KUCHNIA|16,97 M2
-          A6|JADALNIA|7,90 M2
+          A5|SALON + KUCHNIA|  16,97 M2
+          A6|JADALNIA| 7,90 M2
 
           SUMA POWIERZCHNI UŻYTKOWEJ| 91 M2
     - blueprint:
