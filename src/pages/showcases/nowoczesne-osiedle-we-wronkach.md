@@ -9,7 +9,7 @@ showcase_title: "Domy jednorodzinne w wysokim standardzie "
 showcase_tags:
   - tag: Metraż - 117 m2 + 20 m2
   - tag: "Sprzedaż - 2 domów "
-  - tag: Cena (A)-950 000 zł (B)-1 000 000 zł
+  - tag: Cena 950 000 zł
 showcase_isSold: false
 showcase_year: "2023"
 showcase_main_image:
