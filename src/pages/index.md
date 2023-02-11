@@ -9,15 +9,6 @@ title: Strona główna
 order: 0
 homepage_section_0:
   slide:
-    - heading: OSIEDLE WYSOKA w Choszcznie
-      link: /showcases/osiedle-wysoka/
-      image: /img/1.jpg
-      subheading: |-
-        Cena segment zewnętrzny - 540 000 zł //
-        segment wewnętrzny  - 500 000 zł
-      alt: Budynki w zabudowie szeregowej
-      tags:
-        - tag: kwiecień 2023
     - heading: DOMY W JASINIE KOŁO POZNANIA
       subheading: |-
         Cena budynek A - 950 000 zł //
@@ -33,6 +24,15 @@ homepage_section_0:
       link: /showcases/nowoczesny-segment-bli%C5%BAniaka-w-choszcznie-1/
       subheading: Sprzedane
       tags: []
+    - heading: OSIEDLE WYSOKA w Choszcznie
+      link: /showcases/osiedle-wysoka/
+      image: /img/1.jpg
+      subheading: |-
+        Cena segment zewnętrzny - 540 000 zł //
+        segment wewnętrzny  - 500 000 zł
+      alt: Budynki w zabudowie szeregowej
+      tags:
+        - tag: kwiecień 2023
     - alt: dom bliźniak - segment
       heading: |-
         Nowoczesny Dom
