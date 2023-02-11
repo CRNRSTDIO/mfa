@@ -10,8 +10,7 @@ showcase_title: |
   Nowoczesne Osiedle w Choszcznie
 showcase_tags:
   - tag: Metraż - 130 m2
-  - tag: Sprzedaż - 3 Wolne Segmenty
-  - tag: Cena - Od 360 000 zł
+  - tag: Sprzedaż - Zakończona
 showcase_isSold: true
 showcase_year: 2020-2021
 showcase_main_image:
