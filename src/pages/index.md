@@ -9,13 +9,15 @@ title: Strona główna
 order: 0
 homepage_section_0:
   slide:
-    - heading: "Nowoczesne Osiedle we Wronkach "
-      subheading: "Cena 460 000 zł "
-      image: /img/wizualizacje-8.jpg
+    - heading: DOMY W JASINIE KOŁO POZNANIA
+      subheading: |-
+        Cena budynek A 950 000 zł 
+        Cena budynek B 1 000 000 zł
+      image: /img/1.1.jpg
       alt: dom bliźniak - segment
       link: /showcases/nowoczesne-osiedle-we-wronkach/
       tags:
-        - tag: kwiecień 2022
+        - tag: lipiec 2023
     - alt: Segmenty Bliźniaka - Choszczno
       heading: Nowoczesne Osiedle w Choszcznie
       image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa.jpg
