@@ -11,8 +11,8 @@ homepage_section_0:
   slide:
     - heading: DOMY W JASINIE KOŁO POZNANIA
       subheading: |-
-        Cena budynek A 950 000 zł 
-        Cena budynek B 1 000 000 zł
+        Cena budynek A - 950 000 zł //
+        Cena budynek B  - 1 000 000 zł
       image: /img/1.1.jpg
       alt: dom bliźniak - segment
       link: /showcases/nowoczesne-osiedle-we-wronkach/
@@ -34,6 +34,15 @@ homepage_section_0:
       tags:
         - tag: SPRZEDAŻ ZAKOŃCZONA
         - tag: Październik 2019
+    - heading: OSIEDLE WYSOKA w Choszcznie
+      link: /showcases/osiedle-wysoka/
+      image: /img/1.jpg
+      subheading: |-
+        Cena segment zewnętrzny - 540 000 zł //
+        segment wewnętrzny  - 500 000 zł
+      alt: Budynki w zabudowie szeregowej
+      tags:
+        - tag: kwiecień 2023
 homepage_section_1:
   aside: Do Ciebie należy pierwszy krok, aby odmienić jakość swojego życia. Pozwól
     nam zaplanować i stworzyć miejsce, w którym zawsze będziesz się dobrze czuł.
