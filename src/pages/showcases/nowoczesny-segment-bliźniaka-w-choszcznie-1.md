@@ -12,7 +12,7 @@ showcase_tags:
   - tag: Metraż - 130 m2
   - tag: Sprzedaż - Zakończona
 showcase_isSold: true
-showcase_year: 2020-2021
+showcase_year: 2020-2023
 showcase_main_image:
   alt: domy na wsi zachodniopomorskie
   image: /img/nowoczesne-osiedle-domow-w-choszcznie-mfa-no-overlay-slider.jpg
