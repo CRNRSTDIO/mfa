@@ -69,9 +69,6 @@ showcase_section_building:
     <!--StartFragment-->
 
 
-    Piętrowy dwulokalowy budynek mieszkalny w zabudowie wolnostojącej. Wejście zlokalizowane jest od boku budynku, które zostało zadaszone. Dach stromy o kącie nachylenia 32o  ,w samym wnętrzu zostały ściśle oddzielone strefy dzienne i prywatne. Lokalizacja klatki schodowej od strony wewnętrznej, pozwoliła zlokalizować pomieszczenia w taki sposób by każde z nich było doświetlone. Łazienki zlokalizowane są na piętrze i parterze. Pomieszczenie techniczne z piecem gazowym umieszczone jest przy łazience na dole. Wyjście na taras znajduję się od strony północnej, które również zostało zadaszone, jednocześnie tworząc taras w sypialni na piętrze.
-
-
     Aby mogli Państwo na bieżąco kontrolować, czy dom powstaje przy użyciu wcześniej zadeklarowanych materiałów, dostaną Państwo specyfikację materiałową budynku. Dzięki temu, sprawdzając i doglądając swoją nieruchomość  w trakcie budowy, będziecie mieli pewność wyłącznie najwyższej jakości wykonania.
 
 
