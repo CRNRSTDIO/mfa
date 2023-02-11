@@ -1,66 +1,68 @@
 ---
 template: showcase
 seo:
-  title: Nowoczesne domy we Wronkach | Wielkopolska | MFA Architekt
-  descr: Oferujemy nowe - nowoczesne Segmenty Bliźniaka we Wronkach ➤budowa domów
-    ➤budowa domów pod klucz➤ budowa domów jednorodzinnych ☎ tel. 510 375 473 |
-    Poznań
-showcase_label: Domy na sprzedaż
-showcase_title: Nowoczesne Osiedle we Wronkach
+  title: Domy jednorodzinne w wysokim standardzie Jasin
+  descr: Oferujemy nowe domy na sprzedaż w Jasinie  ➤budowa domów ➤budowa domów
+    pod klucz➤ budowa domów jednorodzinnych ☎ tel. 577 437 477 | Poznań
+showcase_label: Domy na sprzedaż w Jasinie koło Poznania
+showcase_title: "Domy jednorodzinne w wysokim standardzie "
 showcase_tags:
-  - tag: Metraż - 112,51 m2
-  - tag: "Sprzedaż - 6 wolnych segmentów "
-  - tag: "Cena - od 460 000 zł "
+  - tag: Metraż - 117 m2 + garaż 20 m2
+  - tag: "Sprzedaż - 2 domów "
+  - tag: Cena Dom A - 950 000 zł // Dom B - 1 000 000 zł
 showcase_isSold: false
-showcase_year: 2022-2023
+showcase_year: "2023"
 showcase_main_image:
-  image: /img/wizualizacje-8.jpg
-  alt: dom w miejscowości Wronki Wielkopolska
+  image: /img/1.1.jpg
+  alt: DOM W JASINIE
 showcase_gallery_top:
   slides:
-    - image: /img/wizualizacje-1.jpg
-      alt: "dom Wronki "
-    - image: /img/wizualizacje-2.jpg
-      alt: "dom Wronki "
-    - image: /img/wizualizacje-6.jpg
-      alt: dom Wronki
+    - image: /img/1.3.jpg
+      alt: "dom Jasin "
+    - image: /img/1.2.jpg
+      alt: dom Jasin
+    - image: /img/1.4.jpg
+      alt: dom Jasin
+    - image: /img/1.5.jpg
+      alt: dom Jasin
+    - image: /img/1.6.jpg
+      alt: dom Jasin
 showcase_section_descr:
   heading: "Opis inwestycji "
   text: >-
     <!--StartFragment-->
 
 
-    Osiedle nowoczesnych  dwulokalowych budynków mieszkalnych w zabudowie wolnostojącej we Wronkach w województwie wielkopolskim przy ulicy Staromiejskiej.
+    Inwestycja dwóch domów w zabudowie bliźniaczej w Jasinie gmina Swarzędz koło Poznania przy ulicy Kmieca.
 
 
-    Inwestycja rozpocznie się w marcu 2022 roku i całość zostanie oddana (w stanie deweloperskim) w 2023 roku zgodnie z harmonogramem powstania osiedla.
+    Inwestycja rozpocznie się w lipcu 2023 roku i całość zostanie oddana (w stanie deweloperskim) w czerwcu 2024 roku zgodnie z harmonogramem.
 
 
-    Powierzchnia użytkowa lokalu będzie wynosić po 109m2 każdy, a całkowita 112 m2.
+    Powierzchnia użytkowa domu będzie wynosić  117 m2 każdy, a całkowita 137 m2.
 
 
-    Doprowadzone zostaną media takie jak: prąd, instalacje wodno-kanalizacyjnej w postacie zbiornika bezodpływowego. Na każdy z lokali mieszkalnych przypadają dwa niezadaszone miejsca parkingowe. Dodatkową  opcją jest montaż altany nad miejscami postojowymi.
+    Doprowadzone zostaną media takie jak: prąd, instalacje wodno-kanalizacyjnej, pompa ciepła, rekuperacja. Na każdy z lokali mieszkalnych przypada jedno niezadaszone miejsce parkingowe oraz garaż.
 
 
-    Zobacz miejsce inwestycji na [Google Maps](https://goo.gl/maps/264UyYJxjcbPZxFUA)
+    Z﻿agospodarowanie terenu: utwardzenia kostką brukową oraz ażurową, ogrodzenia, płoty, brama wjazdowa, wykończony taras kostką brukową, wykończony ogród, trawa, nasadzenia zieleni. 
+
+
+    W﻿ysoki standard wykończenia elewacji cegła klinkierowa, drewno, drewniane okna. 
 
 
     <!--EndFragment-->
 showcase_section_image:
-  image: /img/wizualizacje-2.jpg
-  alt: dom Wronki
+  image: /img/1.1.jpg
+  alt: dom Jasin
 showcase_section_landscape:
   heading: Plan zagospodarowania inwestycji
-  text: Rzut terenu z oznaczeniem umiejscowienia segmentów do sprzedaży.
-  image: /img/3.jpg
-  alt: dom Wronki
+  text: Rzut terenu z oznaczeniem umiejscowienia domów do sprzedaży.
+  image: /img/wizualizacja-jasin-10.jpg
+  alt: dom Jasin
   legend_items:
-    - item: Segment 1 - WOLNY
-    - item: "Segment 2 - WOLNY "
-    - item: Segment 3 - WOLNY
-    - item: "Segment 4 - WOLNY "
-    - item: Segment 5 - WOLNY
-    - item: "Segment 6 - WOLNY "
+    - item: DOM A - WOLNY
+    - item: "DOM B - WOLNY "
 showcase_section_building:
   heading: Rzuty Parteru / Piętra
   text: >-
@@ -76,29 +78,55 @@ showcase_section_building:
     <!--EndFragment-->
   blueprints:
     - blueprint:
-        image: /img/bez-nazwy-2.jpg
-        alt: Rzut parteru i piętra - segmenty we Wronkach
+        image: /img/wizualizacja-jasin-8.jpg
+        alt: "Rzut parteru i piętra - dom A w Jasinie "
         legend: |
-          ZESTAWIENIE POWIERZCHNI (UŻYTKOWA)
+          ZESTAWIENIE POWIERZCHNI DOM A (UŻYTKOWA)
           PARTER		m2
-          A1/B1	WIATROŁAP	3,27
-          A2/B2	HOL	5,59
-          A3/B3	SCHODY	4,44
-          A4/B4	GABINET	12,15
-          A5/B5	ŁAZIENKA	3,27
-          A6/B6	POM. TECH. 	2,16
-          A7/B7	STREFA DZIENNA	27,9
+          0.01 	PRZEDSIONEK 	 2,94
+          0.02 	TOALETA  	         2,90
+          0.03 	POM. TECHNICZNE  2,95
+          0.04 	KORYTARZ	         7,13
+          0.05 	POKÓJ DZIENNY	 38,13
+          0.06 	GARAŻ    	         20,38
+
           		
           PIĘTRO		
-          A8/B8	HOL	6,34
-          A9/B9	SYPIALNIA	14,83
-          A10/B10	GARDEROBA	4,39
-          A11/B11	POM. GOSP.	3,9
-          A12/B12	ŁAZIENKA	7,24
-          A13/B13	POKÓJ 1	13,69
+          1.01 	KORYTARZ	5,40
+          1.02 	POKÓJ 1  	10,80
+          1.03 	ŁAZIENKA	11,47
+          1.04 	PRALNIA  	4,56
+          1.05 	POKÓJ 2  	14,04
+          1.06 	SYPIALNIA	11,49
+          1.07 	GARDEROBA	5,37		
+
+          SUMA POWIERZCHNI UŻYTKOWEJ		117 m2
+          SUMA POWIERZCHNI CAŁKOWITEJ		137m2
+    - blueprint:
+        image: /img/wizualizacja-jasin-9.jpg
+        alt: "Rzut parteru i piętra - dom B w Jasinie "
+        legend: |-
+          ZESTAWIENIE POWIERZCHNI DOM B (UŻYTKOWA)
+          PARTER		m2
+          0.01 	PRZEDSIONEK 	 2,94
+          0.02 	TOALETA  	         2,90
+          0.03 	POM. TECHNICZNE  2,95
+          0.04 	KORYTARZ	         7,13
+          0.05 	POKÓJ DZIENNY	 38,13
+          0.06 	GARAŻ    	         20,38
+
           		
-          SUMA POWIERZCHNI UŻYTKOWEJ		109,17m2
-          SUMA POWIERZCHNI CAŁKOWITEJ		112,51m2
+          PIĘTRO		
+          1.01 	KORYTARZ	5,40
+          1.02 	POKÓJ 1  	10,80
+          1.03 	ŁAZIENKA	11,47
+          1.04 	PRALNIA  	4,56
+          1.05 	POKÓJ 2  	14,04
+          1.06 	SYPIALNIA	11,49
+          1.07 	GARDEROBA	5,37		
+
+          SUMA POWIERZCHNI UŻYTKOWEJ		117 m2
+          SUMA POWIERZCHNI CAŁKOWITEJ		137m2
 showcase_section_materials_used:
   isEnabled: true
   heading: Użyte materiały
@@ -109,144 +137,150 @@ showcase_section_materials_used:
     **Użyte materiały**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Budynek wzniesiony w technice tradycyjnej, murowanej.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Budynek wzniesiony w technice tradycyjnej, murowanej.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Ściany nośne – bloczek ceramiczny.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Ściany nośne – bloczek ceramiczny.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]--> Ściana oddzielająca segmenty użytkowe – Silka gr. 18cm.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]--> Ściana oddzielająca segmenty użytkowe – Silka gr. 18cm.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Ściany działowe – beton komórkowy.
-
-
-     
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Ściany działowe – beton komórkowy.
 
 
     **Izolacje:**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->ściany zewnętrzne wykończone styropianem gr. 15cm.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->ściany zewnętrzne wykończone styropianem gr. 15cm.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->dach ocieplony wełną mineralną.
-
-
-     
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->dach ocieplony pianą PUR
 
 
     **Stolarka okienna/ drzwiowa:**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Okna PCV otwieralno – uchylne oraz przesuwne o profilu 82, trzyszybowe ze współczynnikiem przenikania ciepła Uw= 0,93 w/m2K.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Okna drewniane otwieralno – uchylne oraz przesuwne w systemie HST o profilu 80, trzyszybowe
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Kolor ram zewnętrznych – ciemny antracyt, kolor ram wewnętrznych – biały.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Kolor ram naturalne drewno 
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Drzwi wejściowe aluminiowe z naświetleniem profilu 75mm z pochwytem.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Drzwi wejściowe drewniane
 
 
-     
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Brama garażowa z napędem 
 
 
     **Instalacja WOD/KAN/GAZ:**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Ogrzewanie podłogowe na całej powierzchni domu.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Ogrzewanie podłogowe na całej powierzchni domu.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Kocioł gazowy kondensacyjny dwu – funkcyjny.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Pompa ciepła.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Podejścia pod toalety, umywalki/zlew, prysznice (wykonane z możliwością zamontowania odpływów liniowych .
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Podejścia pod toalety, umywalki/zlew, prysznice (wykonane z możliwością zamontowania odpływów liniowych .
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Instalacja kanalizacyjna w postaci bezodpływowego zbiornika na nieczystości.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Instalacja kanalizacyjna wpięta do sieci
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Instalacja elektryczna rozprowadzona po całej powierzchni domu, gniazda w każdym pokoju użytkowym.
-
-
-     
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Instalacja elektryczna rozprowadzona po całej powierzchni domu, gniazda w każdym pokoju użytkowym.
 
 
     **Wykończenie:**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Tynki gipsowe.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Tynki gipsowe.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Wylewka posadzkowa cementowa zatarta.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Wylewka posadzkowa cementowa zatarta.
 
 
-     
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Rekuperacja
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Zabudowa sufitów płytą G-K na profilach aluminiowych
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Balustrady
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Dachówka płaska betonowa - antracyt
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Rynny oraz rury spustowe ukryte
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Cegła klinkierowa na elewacji 
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Drewno elewacyjne // płyty HPL
 
 
     **Elementy zagospodarowania terenu:**
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Utwardzenie podjazdu kostką granitową.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Utwardzenie podjazdu kostką betonową
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Utwardzenie podjazdu kostką ażurową.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Utwardzenie podjazdu kostką ażurową.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Taras wykonany z kostki granitowej.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Taras wykonany z kostki granitowej.
 
 
-    <!--\[if !supportLists]-->·         <!--\[endif]-->Działka ogrodzona płotem systemowym.
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Działka ogrodzona płotem systemowym.
 
 
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Płot 
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Brama wjazdowa
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Wykończony ogród: trawa, nasadzenia, opaska wokół domu
+
+
+    <!--\\[if !supportLists]-->·         <!--\\[endif]-->Zbiornik na deszczówkę 4m3 
 
 
     <!--EndFragment-->
+  logos:
+    - image: /img/apple-touch-icon.png
+      alt: logo MFA
 showcase_section_image_2:
-  image: /img/Proces - Projekt Budowlany.png
-  alt: "dom Wronki "
+  image: /img/1.7.jpg
+  alt: dom Jasin
 showcase_section_tech_used:
   isEnabled: false
-  heading: "Technologia "
-  slides:
-    - heading: Konstrukcja
-      text: >-
-        Ściany zewnętrzne/nośne murowane (24) z wysokim współczynnikiem
-        przenikania ciepła. Ściany oddzielenia wzniesione bloczkami SILKA 25, o
-        wysokim współczyniku izolacji akustycznej 
-
-
-        Ściany działowe, murowane 12 Poddasze wykończone płytami GK
-
-
-        Tynki gipsowe
-
-
-        Wylewka posadzkowa cementowa zatarta
-      image: /img/Group 94.png
-      alt: dom we Wronkach
+  heading: Technologia budowy tradycyjna murowana
+  slides: []
 showcase_gallery_bottom:
   slides:
-    - image: /img/wizualizacje-8.jpg
-      alt: "dom Wronki "
-    - image: /img/wizualizacje-6.jpg
-      alt: "dom Wronki "
-    - image: /img/wizualizacje-3.jpg
-      alt: "dom Wronki "
-    - image: /img/wizualizacje-2.jpg
-      alt: "dom Wronki "
-    - image: /img/9.jpg
-      alt: "dom Wronki "
+    - image: /img/1.1.jpg
+      alt: dom Jasin
+    - image: /img/1.2.jpg
+      alt: dom Jasin
+    - image: /img/1.3.jpg
+      alt: dom Jasin
+    - image: /img/1.4.jpg
+      alt: dom Jasin
+    - image: /img/1.5.jpg
+      alt: dom Jasin
 showcase_section_contact:
   heading: |-
-    Segmenty 
+    Domy 
     w specjalnej cenie
-  price: "490 000 zł brutto "
-  price_new: "460 000 zł brutto "
+  price: "1 000 000 zł brutto "
+  price_new: "950 000 zł brutto "
   contact:
     heading: |-
       Uzyskaj więcej szczegółów
-      na temat tego domu we Wronkach 
+      na temat tego domu w Jasinie
     details:
       - heading: zadzwoń
         data: + 48 510 375 473
